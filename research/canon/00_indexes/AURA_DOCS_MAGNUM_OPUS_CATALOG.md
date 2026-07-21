@@ -1,0 +1,8615 @@
+# AURA Documentation Magnum Opus Catalog
+
+Generated: 2026-07-20 16:52:03 -05:00
+Scope: exhaustive doc-file inventory across AURA ecosystem roots on C:\
+Extensions: .md .mdx .txt .rst .adoc .pdf .docx .doc .rtf .html .htm
+Excluded dirs: node_modules .git target dist build __pycache__ venv ComfyUI models checkpoints caches
+Filter roots (Documents/Desktop/tmp/Youtube/corpus/...): path/name must match AURA-ecosystem hints.
+
+## Totals
+
+| Metric | Count |
+| --- | ---: |
+| Indexed document files | 7111 |
+| Canon/doctrine signal subset | 1262 |
+| Roots with hits | 34 |
+| Total bytes | 617993821 |
+
+Machine indexes:
+- AURA_DOCS_MAGNUM_OPUS_INDEX.csv / .jsonl
+- AURA_DOCS_CANON_SIGNAL.csv
+- AURA_DOCS_OVERSIZED.csv
+- AURA_DOCS_DUPLICATE_GROUPS_TOP200.csv
+
+## Counts by root
+
+| Count | Root |
+| ---: | --- |
+| 2350 | C:\chronos |
+| 790 | C:\NRI |
+| 785 | C:\chronos-v2 |
+| 696 | C:\sentinel-llm |
+| 502 | C:\Users\m\Documents |
+| 293 | C:\mecha |
+| 229 | C:\aura_core |
+| 207 | C:\corpus |
+| 197 | C:\AURA-1 |
+| 194 | C:\AURA-Lab |
+| 151 | C:\senkern |
+| 103 | C:\Mirrorborn |
+| 101 | C:\archetypes |
+| 100 | C:\aura-sentinel |
+| 91 | C:\master_codex |
+| 53 | C:\Architectura Mentis Nervosae |
+| 48 | C:\Primus |
+| 45 | C:\newaura |
+| 42 | C:\sentinel-core |
+| 25 | C:\Prism |
+| 23 | C:\sentinel-core.worktrees |
+| 20 | C:\NRI_local_reorg_untracked_backup |
+| 13 | C:\YoutubeContent |
+| 12 | C:\tmp |
+| 9 | C:\sssd |
+| 9 | C:\6fr |
+| 6 | C:\AURA-Workbench |
+| 5 | C:\Forge |
+| 4 | C:\aura |
+| 3 | C:\coder_tests |
+| 2 | C:\c |
+| 1 | C:\sentinel |
+| 1 | C:\Users\m\Desktop |
+| 1 | C:\home |
+
+## Canon / doctrine signal (subset)
+
+Keyword filter on path/name: doctrine, charter, forever law, constitution, magister, impervious, master plan, handoff, capability map, agents.md, sacred, cbig, fries, sentinel-core integration, aura.md, neurocognica.
+
+### Root: C:\chronos (403)
+
+- C:\chronos\.agents\AGENTS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\.agents\AGENTS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\AGENTS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Chronosynthesis\neurocognica_logos\README.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\CAPABILITY_MAP.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\corporate\VOLUME_I_CORPORATE_CHARTER_LEGAL_FOUNDATION.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\corporate\VOLUME_III_STRATEGIC_DOCTRINE_MARKET_POSITIONING.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\create\SACRED_REFERENCE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\cutting_room\SACRED_REFERENCE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\HANDOFF_2026-05-22_v2.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\HANDOFF_2026-05-22.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_cascade_2026-05-18_role_transfer_to_claude.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_cascade_2026-05-18_singular_goal_crossed.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-16_sophia_interview_redesign.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-16_sophia_scene_foundry.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-18_phase_2bc_vision_implementation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-18_stage_c_acceptance_gate.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-18_stage_d_design.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-18_stage_d_reading_ahead.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-18_stage_e_repair_loop_design.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-19_geometry_mesh_executor.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-19_sophia_identity_tool_profile.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-20_benchmark_campaign_runner.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-20_curriculum_spine_gate_frontier.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-20_step_8_proof_run.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-20_steps_6_7_profile_succession_daemon.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-18_export_chatml.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-18_phase_2bc_completion.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-18_phase_2bc_takeover.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-18_render_and_seal_corpus.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-18_stage_b_mesh_render.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-18_stage_c_seal_mesh_sample.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-18_stage_e_repair_loop_implementation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-19_curriculum_benchmark_substrate.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-20_sophia_life_kernel_phase2.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-20_sophia_life_kernel_phase3.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-20_sophia_life_kernel.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-21_comfyui_geometry_bridge.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-21_cube_proof_rescue.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-21_showroom_silhouette_pipeline.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-22_launcher_codex_surface.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-22_runtime_monitoring_truth.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-22_showroom_forever_law_sealing.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-22_vista_animation_canon.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-23_mesh_trainer_orchestrator.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-23_primitive_object_builder.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-24_control-plane-location-promotion.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-24_live-proof-tribunal.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-24_ouroboros_asset_critique_spine.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-24_ouroboros_creation_spine.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-25_manus_sword_system_doc.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-25_repo_audit_finalize_push.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-25_sword_family_browser_a3.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-25_sword_lineage_selection_lane.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-25_sword_lineage_truth_lane.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_5162026b.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_council_2026-05-20_state_of_sophia.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_windsurf_2026-05-17_sophia_geometry_training.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\HANDOFF.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoffreport5162026.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\operating_table\SACRED_REFERENCE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\renders\SACRED_REFERENCE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\sophia_chat\SACRED_REFERENCE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\standards\NEUROCOGNICA_GUI_LAUNCH_STANDARD.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\vistas\SACRED_REFERENCE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_2026-06-12_user-rating-retry.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_2026-06-16_splash-lifecycle-and-remaining-defect.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\HANDOFF_2026-06-20_showroom-restore-and-next-builder.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\HANDOFF_2026-06-21_showroom-lock-fisheye-version.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_2026-07-06_golden-path-break-list.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-05-25_business_pivot.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-05-25_originality_audit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-05-31_lane-d-component-guide.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-05-31_phase0-foundation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-07_wonder-wall.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-08_cpu_pytorch_fix.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-08_easy_windows_setup.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-08_hf_blender_fix.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-08_models_setup.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-08_spinning-ring.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-08_universal_installer.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-09_commit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-09_rebuild.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-11_lane-a.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-11_lane-b.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-12_domain-corpus.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-12_lane-i-benchmark.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_Antigravity_2026-06-13_launcher-facelift.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-16_lane-B.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-26_embed-webview2-lineage.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-26_fix_lineage_json_error.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_Antigravity_2026-06-27_bug-report-and-pedestal-fixes.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_builder3_2026-06-13_doc-truth-reconciliation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cascade_2026-05-26_three_lane_carwash_integration.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cascade_2026-05-27_lane-a-lineage-visualizer.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cascade_2026-05-29_chronosynthesis-lane-b.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cascade_2026-05-30_lane-b.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cascade_2026-05-31_lane-b-core-ui.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cascade_2026-06-08_showroom-wired.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cascade_2026-06-11_lane-b-corporatization.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cascade_2026-06-12_lane-e-effects-wired.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cascade_2026-06-12_lane-h-generic-profile-decomposer.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cascade-lane-b_2026-06-10_linux-installer-hardening.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-05-28_compile-film-fix.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-05-31_front_end_reckoning.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-05-31_lane-a-backend-polish.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-05_conductor-push.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-05_lane-a-sentinel.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-05_render-still-governed-path.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-05_sentinel-forever-law-persistence.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-05_sentinel-shadow-director.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-07_lane-b-training-and-tandem-state.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-08_cbig-and-governed-artifact.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-10_installer-tier0-complete.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-11_lane-d-integration.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-12_lane-d-integrator-session.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-12_lane-d-single-pass-closure.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-14_session-launcher-operating-table-vistas-autoforge.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-26_blender-made-actors.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-05-26_benchmark_loop_and_audit_prep.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-05-26_trainer_promotion_lane.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-05-26_training_engine.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-05-28_animate-mp4-and-tests.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-02_swarm-sanitization.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-03_corpus-bom.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-03_mission-control-runtime-fix.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-03_track-b-smoke.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-04_carwash-bootstrap-runtime.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-04_lane-a-carwash-first-run.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-04_pmc-reclassification.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-04_what-are-we-building.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-05_aura-consolidation-three-lane.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-05_conductor-truth.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-05_lane-c-archive.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-05_remote-first-operator-law.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-05_three-lane-build-orchestration.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-06_readme-truth-and-sentinel-widening.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-08_canonical-showroom-animation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-11_director-readiness-and-instance-root.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-11_lane-a-preview-render-quick.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-11_lane-c.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-11_shape-alphabet.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-11_verify-and-push-local-truth-bundle.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-12_lane-g-hardening-verify.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-14_geometry-fallback-render-wiring.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-14_witness-inspection-views.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-16_docs-truth-reconciliation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-16_lane-c.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-16_metabolism-phase-0-1.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-16_operating-table-anti-theatre.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-16_operation-ship-certified-dragon.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-16_phase2-phase3-build-audit-fix-docs.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-17_aura-laptop-witness-and-ssh.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-17_biogenesis-dense-canopy-port.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-17_windows-audit-recovery.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-18_aura-demo-ship-stabilization.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-19_full-tree-assimilation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-19_windows-internal-release-lane.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-21_1.1.0-release-and-aura-block.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-21_sophia-chat-truthful-tab.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-21_witness-cameras-update-lane.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-23_dirty-tree-stat-audit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-23_sophia-interview-rework.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-23_sophia-ui-greeting-witness.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-23_vision-loop-stage1.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-24_black-slate-shell-fit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-24_black-slate-ui.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-24_blend-orbital180-animation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-24_four-item-showroom-cutting-room.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-24_restore-black-slate-magic.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-24_today-build-desktop-icon.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-24_vision-loop-concept-preview.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-24_vistas-magic-and-window-chrome.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-25_lineage-page-consistency.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-25_renders-artifact-catalog.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-26_agent-token-stewardship.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-26_lineage-render-links.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-27_l1-render-craft.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cursor_2026-06-16_lane-a.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cursor_2026-06-16_phase3-splash-wiring-FAILURE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cursor_2026-06-16_undeniable-artifact-windows-ship-gate.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cursor_2026-06-17_biogenesis-gn-visual-recovery.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cursor_2026-06-19_aura-demo-render-regression.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cursor_2026-06-22_sovereign-render-and-geometry-e2e.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_devin_2026-06-05_lane-b-search.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_lane_c_phase_c.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_lane-b_2026-05-28_complete.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_scribe_2026-06-03_pmc-sublicensing.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_scribe_2026-06-03_tokenizer-architecture.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-30_1920_neurocognica-logo-placement.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-05_1558_sentinel-forever-law-persistence.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_1355_kali-doctrine-and-archetypal-engineering.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\templates\neurocognica_app_template\BUILD_DISCIPLINE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\templates\neurocognica_app_template\FRAMEWORK.md
+- C:\chronos\AGENTS.md
+- C:\chronos\Chronosynthesis\neurocognica_logos\README.md
+- C:\chronos\docs\archive\handoffs\handoff_2026-06-12_user-rating-retry.md
+- C:\chronos\docs\archive\handoffs\handoff_2026-06-16_splash-lifecycle-and-remaining-defect.md
+- C:\chronos\docs\archive\handoffs\HANDOFF_2026-06-20_showroom-restore-and-next-builder.md
+- C:\chronos\docs\archive\handoffs\HANDOFF_2026-06-21_showroom-lock-fisheye-version.md
+- C:\chronos\docs\archive\handoffs\handoff_2026-07-06_golden-path-break-list.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-05-25_business_pivot.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-05-25_originality_audit.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-05-31_lane-d-component-guide.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-05-31_phase0-foundation.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-07_wonder-wall.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-08_cpu_pytorch_fix.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-08_easy_windows_setup.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-08_hf_blender_fix.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-08_models_setup.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-08_spinning-ring.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-08_universal_installer.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-09_commit.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-09_rebuild.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-11_lane-a.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-11_lane-b.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-12_domain-corpus.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-12_lane-i-benchmark.md
+- C:\chronos\docs\archive\handoffs\handoff_Antigravity_2026-06-13_launcher-facelift.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-16_lane-B.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-26_embed-webview2-lineage.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-26_fix_lineage_json_error.md
+- C:\chronos\docs\archive\handoffs\handoff_Antigravity_2026-06-27_bug-report-and-pedestal-fixes.md
+- C:\chronos\docs\archive\handoffs\handoff_builder3_2026-06-13_doc-truth-reconciliation.md
+- C:\chronos\docs\archive\handoffs\handoff_cascade_2026-05-26_three_lane_carwash_integration.md
+- C:\chronos\docs\archive\handoffs\handoff_cascade_2026-05-27_lane-a-lineage-visualizer.md
+- C:\chronos\docs\archive\handoffs\handoff_cascade_2026-05-29_chronosynthesis-lane-b.md
+- C:\chronos\docs\archive\handoffs\handoff_cascade_2026-05-30_lane-b.md
+- C:\chronos\docs\archive\handoffs\handoff_cascade_2026-05-31_lane-b-core-ui.md
+- C:\chronos\docs\archive\handoffs\handoff_cascade_2026-06-08_showroom-wired.md
+- C:\chronos\docs\archive\handoffs\handoff_cascade_2026-06-11_lane-b-corporatization.md
+- C:\chronos\docs\archive\handoffs\handoff_cascade_2026-06-12_lane-e-effects-wired.md
+- C:\chronos\docs\archive\handoffs\handoff_cascade_2026-06-12_lane-h-generic-profile-decomposer.md
+- C:\chronos\docs\archive\handoffs\handoff_cascade-lane-b_2026-06-10_linux-installer-hardening.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-05-28_compile-film-fix.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-05-31_front_end_reckoning.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-05-31_lane-a-backend-polish.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-05_conductor-push.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-05_lane-a-sentinel.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-05_render-still-governed-path.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-05_sentinel-forever-law-persistence.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-05_sentinel-shadow-director.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-07_lane-b-training-and-tandem-state.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-08_cbig-and-governed-artifact.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-10_installer-tier0-complete.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-11_lane-d-integration.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-12_lane-d-integrator-session.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-12_lane-d-single-pass-closure.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-14_session-launcher-operating-table-vistas-autoforge.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-26_blender-made-actors.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-05-26_benchmark_loop_and_audit_prep.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-05-26_trainer_promotion_lane.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-05-26_training_engine.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-05-28_animate-mp4-and-tests.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-02_swarm-sanitization.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-03_corpus-bom.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-03_mission-control-runtime-fix.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-03_track-b-smoke.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-04_carwash-bootstrap-runtime.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-04_lane-a-carwash-first-run.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-04_pmc-reclassification.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-04_what-are-we-building.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-05_aura-consolidation-three-lane.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-05_conductor-truth.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-05_lane-c-archive.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-05_remote-first-operator-law.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-05_three-lane-build-orchestration.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-06_readme-truth-and-sentinel-widening.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-08_canonical-showroom-animation.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-11_director-readiness-and-instance-root.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-11_lane-a-preview-render-quick.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-11_lane-c.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-11_shape-alphabet.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-11_verify-and-push-local-truth-bundle.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-12_lane-g-hardening-verify.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-14_geometry-fallback-render-wiring.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-14_witness-inspection-views.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-16_docs-truth-reconciliation.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-16_lane-c.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-16_metabolism-phase-0-1.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-16_operating-table-anti-theatre.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-16_operation-ship-certified-dragon.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-16_phase2-phase3-build-audit-fix-docs.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-17_aura-laptop-witness-and-ssh.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-17_biogenesis-dense-canopy-port.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-17_windows-audit-recovery.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-18_aura-demo-ship-stabilization.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-19_full-tree-assimilation.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-19_windows-internal-release-lane.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-21_1.1.0-release-and-aura-block.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-21_sophia-chat-truthful-tab.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-21_witness-cameras-update-lane.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-23_dirty-tree-stat-audit.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-23_sophia-interview-rework.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-23_sophia-ui-greeting-witness.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-23_vision-loop-stage1.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-24_black-slate-shell-fit.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-24_black-slate-ui.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-24_blend-orbital180-animation.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-24_four-item-showroom-cutting-room.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-24_restore-black-slate-magic.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-24_today-build-desktop-icon.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-24_vision-loop-concept-preview.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-24_vistas-magic-and-window-chrome.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-25_lineage-page-consistency.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-25_renders-artifact-catalog.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-26_agent-token-stewardship.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-26_lineage-render-links.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-27_l1-render-craft.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-07-08_geometry-forge-phase0.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-07-09_bug-submit-ticket-dispatch.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-07-09_geometry-forge-live-witness.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-07-09_geometry-forge-phase1.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-07-12_archetypes-direct-canvas.md
+- C:\chronos\docs\archive\handoffs\handoff_cursor_2026-06-16_lane-a.md
+- C:\chronos\docs\archive\handoffs\handoff_cursor_2026-06-16_phase3-splash-wiring-FAILURE.md
+- C:\chronos\docs\archive\handoffs\handoff_cursor_2026-06-16_undeniable-artifact-windows-ship-gate.md
+- C:\chronos\docs\archive\handoffs\handoff_cursor_2026-06-17_biogenesis-gn-visual-recovery.md
+- C:\chronos\docs\archive\handoffs\handoff_cursor_2026-06-19_aura-demo-render-regression.md
+- C:\chronos\docs\archive\handoffs\handoff_cursor_2026-06-22_sovereign-render-and-geometry-e2e.md
+- C:\chronos\docs\archive\handoffs\handoff_devin_2026-06-05_lane-b-search.md
+- C:\chronos\docs\archive\handoffs\handoff_lane_c_phase_c.md
+- C:\chronos\docs\archive\handoffs\handoff_lane-b_2026-05-28_complete.md
+- C:\chronos\docs\archive\handoffs\handoff_scribe_2026-06-03_pmc-sublicensing.md
+- C:\chronos\docs\archive\handoffs\handoff_scribe_2026-06-03_tokenizer-architecture.md
+- C:\chronos\docs\archive\handoffs\handoff_ssh_guide_weatherman_nodes.md
+- C:\chronos\docs\archive\plans\plan_2026-05-30_1920_neurocognica-logo-placement.md
+- C:\chronos\docs\archive\plans\plan_2026-06-05_1558_sentinel-forever-law-persistence.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_1355_kali-doctrine-and-archetypal-engineering.md
+- C:\chronos\docs\CAPABILITY_MAP.md
+- C:\chronos\docs\corporate\VOLUME_I_CORPORATE_CHARTER_LEGAL_FOUNDATION.md
+- C:\chronos\docs\corporate\VOLUME_III_STRATEGIC_DOCTRINE_MARKET_POSITIONING.md
+- C:\chronos\docs\create\SACRED_REFERENCE.md
+- C:\chronos\docs\cutting_room\SACRED_REFERENCE.md
+- C:\chronos\docs\historical\HANDOFF_2026-05-22_v2.md
+- C:\chronos\docs\historical\HANDOFF_2026-05-22.md
+- C:\chronos\docs\historical\handoff_cascade_2026-05-18_role_transfer_to_claude.md
+- C:\chronos\docs\historical\handoff_cascade_2026-05-18_singular_goal_crossed.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-16_sophia_interview_redesign.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-16_sophia_scene_foundry.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-18_phase_2bc_vision_implementation.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-18_stage_c_acceptance_gate.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-18_stage_d_design.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-18_stage_d_reading_ahead.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-18_stage_e_repair_loop_design.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-19_geometry_mesh_executor.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-19_sophia_identity_tool_profile.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-20_benchmark_campaign_runner.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-20_curriculum_spine_gate_frontier.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-20_step_8_proof_run.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-20_steps_6_7_profile_succession_daemon.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-18_export_chatml.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-18_phase_2bc_completion.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-18_phase_2bc_takeover.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-18_render_and_seal_corpus.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-18_stage_b_mesh_render.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-18_stage_c_seal_mesh_sample.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-18_stage_e_repair_loop_implementation.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-19_curriculum_benchmark_substrate.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-20_sophia_life_kernel_phase2.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-20_sophia_life_kernel_phase3.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-20_sophia_life_kernel.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-21_comfyui_geometry_bridge.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-21_cube_proof_rescue.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-21_showroom_silhouette_pipeline.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-22_launcher_codex_surface.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-22_runtime_monitoring_truth.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-22_showroom_forever_law_sealing.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-22_vista_animation_canon.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-23_mesh_trainer_orchestrator.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-23_primitive_object_builder.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-24_control-plane-location-promotion.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-24_live-proof-tribunal.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-24_ouroboros_asset_critique_spine.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-24_ouroboros_creation_spine.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-25_manus_sword_system_doc.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-25_repo_audit_finalize_push.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-25_sword_family_browser_a3.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-25_sword_lineage_selection_lane.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-25_sword_lineage_truth_lane.md
+- C:\chronos\docs\historical\handoff_codex_5162026b.md
+- C:\chronos\docs\historical\handoff_council_2026-05-20_state_of_sophia.md
+- C:\chronos\docs\historical\handoff_windsurf_2026-05-17_sophia_geometry_training.md
+- C:\chronos\docs\historical\HANDOFF.md
+- C:\chronos\docs\historical\handoffreport5162026.md
+- C:\chronos\docs\operating_table\SACRED_REFERENCE.md
+- C:\chronos\docs\renders\SACRED_REFERENCE.md
+- C:\chronos\docs\security\SENTINEL_IMPERVIOUS_PROTOCOL_MASTER_PLAN.md
+- C:\chronos\docs\sophia_chat\SACRED_REFERENCE.md
+- C:\chronos\docs\standards\NEUROCOGNICA_GUI_LAUNCH_STANDARD.md
+- C:\chronos\docs\vistas\SACRED_REFERENCE.md
+- C:\chronos\templates\neurocognica_app_template\BUILD_DISCIPLINE.md
+- C:\chronos\templates\neurocognica_app_template\FRAMEWORK.md
+- C:\chronos\tmp\hotfix_stage\docs\CAPABILITY_MAP.md
+- C:\chronos\tmp\hotfix_stage\docs\corporate\VOLUME_I_CORPORATE_CHARTER_LEGAL_FOUNDATION.md
+- C:\chronos\tmp\hotfix_stage\docs\corporate\VOLUME_III_STRATEGIC_DOCTRINE_MARKET_POSITIONING.md
+- C:\chronos\tmp\hotfix_stage\docs\create\SACRED_REFERENCE.md
+- C:\chronos\tmp\hotfix_stage\docs\cutting_room\SACRED_REFERENCE.md
+- C:\chronos\tmp\hotfix_stage\docs\operating_table\SACRED_REFERENCE.md
+- C:\chronos\tmp\hotfix_stage\docs\renders\SACRED_REFERENCE.md
+- C:\chronos\tmp\hotfix_stage\docs\sophia_chat\SACRED_REFERENCE.md
+- C:\chronos\tmp\hotfix_stage\docs\standards\NEUROCOGNICA_GUI_LAUNCH_STANDARD.md
+- C:\chronos\tmp\hotfix_stage\docs\vistas\SACRED_REFERENCE.md
+
+### Root: C:\Users\m\Documents (256)
+
+- C:\Users\m\Documents\AURA-1\HANDOFF_NEXT.md
+- C:\Users\m\Documents\AURA-1\handoff_report.md
+- C:\Users\m\Documents\AURA-1\handoffreport.md
+- C:\Users\m\Documents\AURA-1\sensors\manusplan4aura.md
+- C:\Users\m\Documents\Codex_movie\Full Report_ The First Emergence - NeuroCognica Pr.docx.txt
+- C:\Users\m\Documents\Codex_movie\Insurgent Robot Build Doctrine.md
+- C:\Users\m\Documents\Codex_movie\NEUROCOGNICA.md
+- C:\Users\m\Documents\Codex_movie\Theorizing NeuroCognica's Undeniable Artifact.md
+- C:\Users\m\Documents\Codex\2026-07-18\c-aura-lab\outputs\nri_sentinel_doctrine_gap_report_2026-07-18.md
+- C:\Users\m\Documents\Codex\2026-07-18\c-aura-lab\outputs\sentinel_constitutional_security_protocol_2026-07-18.md
+- C:\Users\m\Documents\GitHub\auradocs\Hope City Legal Charter Blueprint (6).txt
+- C:\Users\m\Documents\GitHub\auradocs\Hope City Master Plan Vulnerability Patch.txt
+- C:\Users\m\Documents\GitHub\auradocs\NeuroCognica Corporate Architecture Blueprint_ (1).txt
+- C:\Users\m\Documents\GitHub\auradocs\NeuroCognica Corporate Architecture Blueprint_.txt
+- C:\Users\m\Documents\GitHub\auradocs\NeuroCognica_ Full System & Startup Report.txt
+- C:\Users\m\Documents\GitHub\auradocs\Sacred Three Engine Design_.txt
+- C:\Users\m\Documents\NeuroCognica\AIBOR-MMA\aibor.md
+- C:\Users\m\Documents\NeuroCognica\AIBOR-MMA\mma.md
+- C:\Users\m\Documents\NeuroCognica\AIBOR-MMA\You are operating under Man–Machine.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\# AURA CORE - COUNCIL BUILD REPORT.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\AI, Heat Death, Reversal_.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Archetype Profile for Claude the Scribe.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Archetypes of AURA 1-3.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Archetypes of AURA final.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Archetypes of AURA.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\AURA Archetype Expansion Project.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Aura Key - Genesis Blueprint v2.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\AURA laws -.md
+- C:\Users\m\Documents\NeuroCognica\AURA\AURA OS_ An Architectural Framework for Cognitive Sovereignty.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\aura-expanded-checklist.md
+- C:\Users\m\Documents\NeuroCognica\AURA\AURA-Sentinel_ Comprehensive Implementation Plan.md
+- C:\Users\m\Documents\NeuroCognica\AURA\AURA-Subnodes.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\AURA.md
+- C:\Users\m\Documents\NeuroCognica\AURA\AURA.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\auralab.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\blender_manifestor.rs.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\builderreports.md.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Comprehensive AURA Report Expansion.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Full Report_ The Archetypes of the AURA Initiative.md
+- C:\Users\m\Documents\NeuroCognica\AURA\Full Report_ The Archetypes of the AURA Initiative.md.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Full Report_ The First Emergence - NeuroCognica Pr.docx.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\historian.rs.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Home.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\IDEAL ASSISTANT.md
+- C:\Users\m\Documents\NeuroCognica\AURA\ideal_assitdoc.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\III. PHASE 3 — COUNCIL ORCHESTRATOR (THE BRAIN).md
+- C:\Users\m\Documents\NeuroCognica\AURA\Integration of Sentinel-Core Logic into AURA-Sentinel.md
+- C:\Users\m\Documents\NeuroCognica\AURA\Integration of Sentinel-Core Logic into AURA-Sentinel.pdf
+- C:\Users\m\Documents\NeuroCognica\AURA\Jester profile.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\manusanalysis.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\manusplan4aura.md
+- C:\Users\m\Documents\NeuroCognica\AURA\NeuroCognica_ AURA OS Deep Analysis_.docx.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\NeuroCognicaAURAdossier.pdf
+- C:\Users\m\Documents\NeuroCognica\AURA\newauraplan.md
+- C:\Users\m\Documents\NeuroCognica\AURA\ORACLE-ARCHITECT.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Provisional Patent Application_ AURA System.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Sacred Three Engine Design_.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Sentinel Core_ Detailed Improvement Suggestions.md
+- C:\Users\m\Documents\NeuroCognica\AURA\Sentinel–AURA.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\VIII. PHASE 7 — VOICE & SENSORY ENGINE.md
+- C:\Users\m\Documents\NeuroCognica\AURA\vscode.txt
+- C:\Users\m\Documents\NeuroCognica\Chronos-Sophia\Generative Video_ Project Chronos-Sophia_.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\forviren.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\Hermes\gemini5convo1.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\Hermes\geminiconvo12122025.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\Scribe\claudeaurakernel1.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\Scribe\claudeconvo29.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\Scribe\claudeconvo30.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\Viren\chatgpt5convo1.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\Viren\Viren Personality Quiz.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\Viren\virenconvo12122025.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\Viren\virenconvo12142025.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\weaverchat1.txt
+- C:\Users\m\Documents\NeuroCognica\DM\AI_ Collapsing Time, Building AMSD_.txt
+- C:\Users\m\Documents\NeuroCognica\DM\Brain Connectivity, Gender, and Meditation.md
+- C:\Users\m\Documents\NeuroCognica\DM\CLASSIFICATION_ SECRET __ NOFORN.txt
+- C:\Users\m\Documents\NeuroCognica\DM\claude_convo01122026.md
+- C:\Users\m\Documents\NeuroCognica\DM\Diamond Tetrahedron Quantum Blueprint.txt
+- C:\Users\m\Documents\NeuroCognica\DM\DiamondTetrahedronQuantumBlueprint (1).txt
+- C:\Users\m\Documents\NeuroCognica\DM\DiamondTetrahedronQuantumBlueprint.txt
+- C:\Users\m\Documents\NeuroCognica\DM\Directed Materialization_ A Theoretical Model (1).txt
+- C:\Users\m\Documents\NeuroCognica\DM\Directed Materialization_ A Theoretical Model.txt
+- C:\Users\m\Documents\NeuroCognica\DM\Evolution as Consciousness and Future Species.md
+- C:\Users\m\Documents\NeuroCognica\DM\Grand Unified Field Report Synthesis.txt
+- C:\Users\m\Documents\NeuroCognica\DM\Healing_ AI, Nano, Bio, Quantum_.txt
+- C:\Users\m\Documents\NeuroCognica\DM\National Defense Capabilities Roadmap Briefing.txt
+- C:\Users\m\Documents\NeuroCognica\DM\Perfect Diamond Manufacturing Research (1).md
+- C:\Users\m\Documents\NeuroCognica\DM\Perfect Diamond Manufacturing Research.md
+- C:\Users\m\Documents\NeuroCognica\DM\Quantum-Crystalline Metric Drive Analysis (1).txt
+- C:\Users\m\Documents\NeuroCognica\DM\Quantum-Crystalline Metric Drive Analysis.txt
+- C:\Users\m\Documents\NeuroCognica\DM\THEORY_ QUANTUM GEOMETRIC LATTICE COMMUNICATION ACROSS THE MULTIVERSE.txt
+- C:\Users\m\Documents\NeuroCognica\DM\timetravel.txt
+- C:\Users\m\Documents\NeuroCognica\DM\ZPF Rectification Theory Gaps Addressed rev.md
+- C:\Users\m\Documents\NeuroCognica\DM\ZPF Rectification Theory Gaps Addressed rev2.md
+- C:\Users\m\Documents\NeuroCognica\DM\ZPF Rectification Theory Gaps Addressed.md
+- C:\Users\m\Documents\NeuroCognica\DrLLM\Dr. LLM_ Empathic AI Integration Strategy (1).txt
+- C:\Users\m\Documents\NeuroCognica\DrLLM\Dr. LLM_ Empathic AI Integration Strategy.txt
+- C:\Users\m\Documents\NeuroCognica\DrLLM\masterquiz.txt
+- C:\Users\m\Documents\NeuroCognica\Full Report_ The First Emergence - NeuroCognica Pr.docx.txt
+- C:\Users\m\Documents\NeuroCognica\github-recovery-codes.txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Hope City Legal Charter Blueprint (1).txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Hope City Legal Charter Blueprint (2).txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Hope City Legal Charter Blueprint (3).txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Hope City Legal Charter Blueprint (4).txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Hope City Legal Charter Blueprint (5).txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Hope City Legal Charter Blueprint (6).txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Hope City Legal Charter Blueprint.txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Hope City Master Plan Vulnerability Patch.txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Integrated Healthcare and Harm Reduction Models.txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Personal Sovereignty Technology and Data.txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Recovery Community Economic Models Research.txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Recovery Enterprise Economic Models Research.txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Recovery Reintegration and Exit Strategies.txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Resident-Led Cooperative Village Research.txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Trauma-Informed Security in Recovery Environments.txt
+- C:\Users\m\Documents\NeuroCognica\Ideal Assistant\IDEAL ASSISTANT.md
+- C:\Users\m\Documents\NeuroCognica\michaels_research\aibor.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\aibor4manus.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\Audience Recommendations for Execution Governance Dynamics (EGD).md
+- C:\Users\m\Documents\NeuroCognica\michaels_research\AURA _ NeuroCognica — FULLY EXPANDED MASTER IMPLEMENTATION CHECKLIST.md
+- C:\Users\m\Documents\NeuroCognica\michaels_research\Broke-to-Revenue Plan_ Monetizing EGD & Sentinel.md
+- C:\Users\m\Documents\NeuroCognica\michaels_research\code4manus.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\Evaluating Execution Governance Dynamics Framework.md
+- C:\Users\m\Documents\NeuroCognica\michaels_research\mma.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\NeuroCognica Corporate Architecture Blueprint_.md
+- C:\Users\m\Documents\NeuroCognica\michaels_research\README.md
+- C:\Users\m\Documents\NeuroCognica\michaels_research\readme4manus.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\blender_manifestor.rs.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\blender_microservice\README.md
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\concept_interpreter.rs.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\conductor-rs.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\constitutional_validator.rs.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\main.rs.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\orchesrator-main.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\original_oracle_code.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\viren-personalityquiz.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\weaveragent1.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\world_synthesizer.rs.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\sce.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\Thesis on Sovereign Compliance Ecosystems.md
+- C:\Users\m\Documents\NeuroCognica\michaels_research\thesis_summary.md
+- C:\Users\m\Documents\NeuroCognica\michaels_research\timetravel.txt
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\archetype_research.md
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\aurawebsystem.txt
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\human-RAG.md
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\Jungian Archetypes For Psychological Profiling.md
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\masterquiz4manus.txt
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\Mirrorborn Archetype Dossier_ The 50-Node Taxonomy.md
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\Mirrorborn Profile Generation Report_ A Deterministic Self-Model.md
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\mirrorbornformanus.md
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\probecode.txt
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\probecode2.txt
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\psychotherapy.txt
+- C:\Users\m\Documents\NeuroCognica\nc.txt
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\asna.pdf
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\AURA-Sentinel Colpitts Oscillator Modification Guide.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\AURA-Sentinel Darlington Preamp - Wiring Reference.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\AURA-Sentinel Prototype Build Report_ Marker One.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\cranial-resonance-build.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\galaxy-watch-sensor-access.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\helmet-sensor-mount.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\Low-Budget Optimizations for MCMVS Helmet Mount.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\Mechanical cranial micro-vibration sensing.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\Raspberry Pi Cranial Vibration Sensing Setup.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\Salvaged BCI_ Junk Electronics Hack.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\Semantic Routing Protocol Formula Development.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\vertex-sensor-quickstart.md
+- C:\Users\m\Documents\NeuroCognica\NeuroCognica Corporate Architecture Blueprint_.txt
+- C:\Users\m\Documents\NeuroCognica\NeuroCognica_ AURA OS Deep Analysis.txt
+- C:\Users\m\Documents\NeuroCognica\NeuroCognica_ Full System & Startup Report.txt
+- C:\Users\m\Documents\NeuroCognica\NeuroCognica.pdf
+- C:\Users\m\Documents\NeuroCognica\NeuroCognica.txt
+- C:\Users\m\Documents\NeuroCognica\QSIC\Context-Aware Integrity Verification for Mission-Critical AI Systems.md
+- C:\Users\m\Documents\NeuroCognica\QSIC\Quantum-Seeded Integrity Check (QSIC) for Local AI Projects.txt
+- C:\Users\m\Documents\NeuroCognica\Sacred LAws\Full Report_ Law 14 - The Ethics of Beauty and Awe.txt
+- C:\Users\m\Documents\NeuroCognica\Sentinel\Advanced Cybersecurity AI Research Synthesis_.txt
+- C:\Users\m\Documents\NeuroCognica\Sentinel\AURA Kernel Genesis_ Security Integration.txt
+- C:\Users\m\Documents\NeuroCognica\Sentinel\Aura Key - Genesis Blueprint v1.7.md
+- C:\Users\m\Documents\NeuroCognica\Sentinel\Building a GGUF Unikernel Sentinel.txt
+- C:\Users\m\Documents\NeuroCognica\Sentinel\Dyadic ESP Training Protocol Synthesis.txt
+- C:\Users\m\Documents\NeuroCognica\Sentinel\New Sentinel.txt
+- C:\Users\m\Documents\NeuroCognica\Sentinel\Sentinel Architecture & Obfuscation Theory.txt
+- C:\Users\m\Documents\NeuroCognica\Sentinel\Technical Analysis and Feasibility Assessment_ The AURA Kernel Project.md
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\Bio-Engineering Ancient Somatic Practices (1).txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\Human RAG Protocol Design.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\human-RAG.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\ignition_v2 (1).html
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\ignition_v2.html
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\ignition_v3_quest.html
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\ignition_v4.html
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\ignition_v5.html.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\mandarin_01_audio_tones.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\mandarin_audio_lab.html
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\MANDARIN_AUDIO_LAB.md
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\requirements-mandarin-audio.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\shaolin_00_safety_gate.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn\ignition_v4.html
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\🏛️ COUNCIL REPORT OPERATION IGNITI.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\ggufunikernel.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\HighVelocityDataIngestion.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\hugereport.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\ignition_v5.html
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\ignition_v6.html
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\ignition_v7.html
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\ignition_v8.html
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\neuralcartridge01.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\neuralcartridge02.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\neuralcartridge03.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\neuralcartridge04.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\Psychology_Core.txt
+- C:\Users\m\Documents\NeuroCognica\SSSD\Analyzing Context-Bound Integrity Gate.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Architectural Specification_ The Reflective Mind Plane Engine.txt
+- C:\Users\m\Documents\NeuroCognica\SSSD\council_report_01032026.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\councilupdate.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Deriving Phonon-Vacuum Coupling Efficiency.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Deriving.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\DiamondTetrahedronQuantumBlueprint (1).txt
+- C:\Users\m\Documents\NeuroCognica\SSSD\DiamondTetrahedronQuantumBlueprint.txt
+- C:\Users\m\Documents\NeuroCognica\SSSD\Eight Unknowns of AURA Propulsion.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Floquet-Flexoelectric Rectification Derivation.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\human-RAG (1).md
+- C:\Users\m\Documents\NeuroCognica\SSSD\manuschat1.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Perfect Diamond Manufacturing Research (1).md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Perfect Diamond Manufacturing Research.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\qsic4manus.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Quantum-Crystalline Metric Drive Analysis (1).txt
+- C:\Users\m\Documents\NeuroCognica\SSSD\Quantum-Crystalline Metric Drive Analysis.txt
+- C:\Users\m\Documents\NeuroCognica\SSSD\Quantum-Seeded Integrity Check (QSIC) for Local AI Projects (1).md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Quantum-Seeded Integrity Check (QSIC) for Local AI Projects.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Quantum-Seeded Integrity Check (QSIC) Implementation Plan_ Rust on seL4.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Rust Backend for Conversational AI.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Solid-State Spacetime Drive.txt
+- C:\Users\m\Documents\NeuroCognica\SSSD\SSSD and AURA_ Grand Unified Plan.txt
+- C:\Users\m\Documents\NeuroCognica\SSSD\SSSD.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Zero-Point Field Rectification Propulsion_ Speculative Analysis.docx
+- C:\Users\m\Documents\NeuroCognica\SSSD\Zero-Point Field Rectification Propulsion_ Speculative Analysis.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\ZPF Rectification Theory Gaps Addressed rev.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\ZPF Rectification Theory Gaps Addressed rev2.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\ZPF Rectification Theory Gaps Addressed.md
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\AI_ Collapsing Time, Building AMSD_.txt
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\Diamond Tetrahedron Quantum Blueprint.txt
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\Directed Materialization_ A Theoretical Model (1).txt
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\Directed Materialization_ A Theoretical Model.txt
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\Grand Unified Field Report Synthesis.txt
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\Healing_ AI, Nano, Bio, Quantum_.txt
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\Project Theseus_ Body Reconstruction Roadmap (1).txt
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\Project Theseus_ Body Reconstruction Roadmap.txt
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\Reflective File Transfer Protocol (RFTP) Blueprint.txt
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\The Reflective Storage and Retrieval System (RSRS)_ Revised Blueprint for the Sovereign Mesh.md
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\THEORY_ QUANTUM GEOMETRIC LATTICE COMMUNICATION ACROSS THE MULTIVERSE.txt
+- C:\Users\m\Documents\NeuroCognica\THESEUS\Bio-Engineering Ancient Somatic Practices.txt
+- C:\Users\m\Documents\NeuroCognica\THESEUS\Biophotonics_ Bridging UPE-PBM Intensity Gap.txt
+- C:\Users\m\Documents\NeuroCognica\THESEUS\CLASSIFICATION_ SECRET __ NOFORN.txt
+- C:\Users\m\Documents\NeuroCognica\THESEUS\Dsm project.txt
+- C:\Users\m\Documents\NeuroCognica\THESEUS\National Defense Capabilities Roadmap Briefing.txt
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\HANDOFF_COUNCIL_2026-06-01_corpus_and_retraining.md
+
+### Root: C:\chronos-v2 (171)
+
+- C:\chronos-v2\AGENTS.md
+- C:\chronos-v2\Chronosynthesis\neurocognica_logos\README.md
+- C:\chronos-v2\docs\CAPABILITY_MAP.md
+- C:\chronos-v2\docs\corporate\VOLUME_I_CORPORATE_CHARTER_LEGAL_FOUNDATION.md
+- C:\chronos-v2\docs\corporate\VOLUME_III_STRATEGIC_DOCTRINE_MARKET_POSITIONING.md
+- C:\chronos-v2\docs\create\SACRED_REFERENCE.md
+- C:\chronos-v2\docs\cutting_room\SACRED_REFERENCE.md
+- C:\chronos-v2\docs\historical\HANDOFF_2026-05-22_v2.md
+- C:\chronos-v2\docs\historical\HANDOFF_2026-05-22.md
+- C:\chronos-v2\docs\historical\handoff_cascade_2026-05-18_role_transfer_to_claude.md
+- C:\chronos-v2\docs\historical\handoff_cascade_2026-05-18_singular_goal_crossed.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-16_sophia_interview_redesign.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-16_sophia_scene_foundry.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-18_phase_2bc_vision_implementation.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-18_stage_c_acceptance_gate.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-18_stage_d_design.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-18_stage_d_reading_ahead.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-18_stage_e_repair_loop_design.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-19_geometry_mesh_executor.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-19_sophia_identity_tool_profile.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-20_benchmark_campaign_runner.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-20_curriculum_spine_gate_frontier.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-20_step_8_proof_run.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-20_steps_6_7_profile_succession_daemon.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-18_export_chatml.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-18_phase_2bc_completion.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-18_phase_2bc_takeover.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-18_render_and_seal_corpus.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-18_stage_b_mesh_render.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-18_stage_c_seal_mesh_sample.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-18_stage_e_repair_loop_implementation.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-19_curriculum_benchmark_substrate.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-20_sophia_life_kernel_phase2.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-20_sophia_life_kernel_phase3.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-20_sophia_life_kernel.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-21_comfyui_geometry_bridge.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-21_cube_proof_rescue.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-21_showroom_silhouette_pipeline.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-22_launcher_codex_surface.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-22_runtime_monitoring_truth.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-22_showroom_forever_law_sealing.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-22_vista_animation_canon.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-23_mesh_trainer_orchestrator.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-23_primitive_object_builder.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-24_control-plane-location-promotion.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-24_live-proof-tribunal.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-24_ouroboros_asset_critique_spine.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-24_ouroboros_creation_spine.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-25_manus_sword_system_doc.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-25_repo_audit_finalize_push.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-25_sword_family_browser_a3.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-25_sword_lineage_selection_lane.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-25_sword_lineage_truth_lane.md
+- C:\chronos-v2\docs\historical\handoff_codex_5162026b.md
+- C:\chronos-v2\docs\historical\handoff_council_2026-05-20_state_of_sophia.md
+- C:\chronos-v2\docs\historical\handoff_windsurf_2026-05-17_sophia_geometry_training.md
+- C:\chronos-v2\docs\historical\HANDOFF.md
+- C:\chronos-v2\docs\historical\handoffreport5162026.md
+- C:\chronos-v2\docs\operating_table\SACRED_REFERENCE.md
+- C:\chronos-v2\docs\sophia_chat\SACRED_REFERENCE.md
+- C:\chronos-v2\docs\standards\NEUROCOGNICA_GUI_LAUNCH_STANDARD.md
+- C:\chronos-v2\docs\vistas\SACRED_REFERENCE.md
+- C:\chronos-v2\handoff_2026-06-12_user-rating-retry.md
+- C:\chronos-v2\handoff_2026-06-16_splash-lifecycle-and-remaining-defect.md
+- C:\chronos-v2\HANDOFF_2026-06-20_showroom-restore-and-next-builder.md
+- C:\chronos-v2\HANDOFF_2026-06-21_showroom-lock-fisheye-version.md
+- C:\chronos-v2\handoff_antigravity_2026-05-25_business_pivot.md
+- C:\chronos-v2\handoff_antigravity_2026-05-25_originality_audit.md
+- C:\chronos-v2\handoff_antigravity_2026-05-31_lane-d-component-guide.md
+- C:\chronos-v2\handoff_antigravity_2026-05-31_phase0-foundation.md
+- C:\chronos-v2\handoff_antigravity_2026-06-07_wonder-wall.md
+- C:\chronos-v2\handoff_antigravity_2026-06-08_cpu_pytorch_fix.md
+- C:\chronos-v2\handoff_antigravity_2026-06-08_easy_windows_setup.md
+- C:\chronos-v2\handoff_antigravity_2026-06-08_hf_blender_fix.md
+- C:\chronos-v2\handoff_antigravity_2026-06-08_models_setup.md
+- C:\chronos-v2\handoff_antigravity_2026-06-08_spinning-ring.md
+- C:\chronos-v2\handoff_antigravity_2026-06-08_universal_installer.md
+- C:\chronos-v2\handoff_antigravity_2026-06-09_commit.md
+- C:\chronos-v2\handoff_antigravity_2026-06-09_rebuild.md
+- C:\chronos-v2\handoff_antigravity_2026-06-11_lane-a.md
+- C:\chronos-v2\handoff_antigravity_2026-06-11_lane-b.md
+- C:\chronos-v2\handoff_antigravity_2026-06-12_domain-corpus.md
+- C:\chronos-v2\handoff_antigravity_2026-06-12_lane-i-benchmark.md
+- C:\chronos-v2\handoff_Antigravity_2026-06-13_launcher-facelift.md
+- C:\chronos-v2\handoff_antigravity_2026-06-16_lane-B.md
+- C:\chronos-v2\handoff_builder3_2026-06-13_doc-truth-reconciliation.md
+- C:\chronos-v2\handoff_cascade_2026-05-26_three_lane_carwash_integration.md
+- C:\chronos-v2\handoff_cascade_2026-05-27_lane-a-lineage-visualizer.md
+- C:\chronos-v2\handoff_cascade_2026-05-29_chronosynthesis-lane-b.md
+- C:\chronos-v2\handoff_cascade_2026-05-30_lane-b.md
+- C:\chronos-v2\handoff_cascade_2026-05-31_lane-b-core-ui.md
+- C:\chronos-v2\handoff_cascade_2026-06-08_showroom-wired.md
+- C:\chronos-v2\handoff_cascade_2026-06-11_lane-b-corporatization.md
+- C:\chronos-v2\handoff_cascade_2026-06-12_lane-e-effects-wired.md
+- C:\chronos-v2\handoff_cascade_2026-06-12_lane-h-generic-profile-decomposer.md
+- C:\chronos-v2\handoff_cascade-lane-b_2026-06-10_linux-installer-hardening.md
+- C:\chronos-v2\handoff_claude_2026-05-28_compile-film-fix.md
+- C:\chronos-v2\handoff_claude_2026-05-31_front_end_reckoning.md
+- C:\chronos-v2\handoff_claude_2026-05-31_lane-a-backend-polish.md
+- C:\chronos-v2\handoff_claude_2026-06-05_conductor-push.md
+- C:\chronos-v2\handoff_claude_2026-06-05_lane-a-sentinel.md
+- C:\chronos-v2\handoff_claude_2026-06-05_render-still-governed-path.md
+- C:\chronos-v2\handoff_claude_2026-06-05_sentinel-forever-law-persistence.md
+- C:\chronos-v2\handoff_claude_2026-06-05_sentinel-shadow-director.md
+- C:\chronos-v2\handoff_claude_2026-06-07_lane-b-training-and-tandem-state.md
+- C:\chronos-v2\handoff_claude_2026-06-08_cbig-and-governed-artifact.md
+- C:\chronos-v2\handoff_claude_2026-06-10_installer-tier0-complete.md
+- C:\chronos-v2\handoff_claude_2026-06-11_lane-d-integration.md
+- C:\chronos-v2\handoff_claude_2026-06-12_lane-d-integrator-session.md
+- C:\chronos-v2\handoff_claude_2026-06-12_lane-d-single-pass-closure.md
+- C:\chronos-v2\handoff_claude_2026-06-14_session-launcher-operating-table-vistas-autoforge.md
+- C:\chronos-v2\handoff_claude_2026-06-21_phase-a-step2-pickup.md
+- C:\chronos-v2\handoff_claude_2026-06-21_phase-a-step3-pickup.md
+- C:\chronos-v2\handoff_codex_2026-05-26_benchmark_loop_and_audit_prep.md
+- C:\chronos-v2\handoff_codex_2026-05-26_trainer_promotion_lane.md
+- C:\chronos-v2\handoff_codex_2026-05-26_training_engine.md
+- C:\chronos-v2\handoff_codex_2026-05-28_animate-mp4-and-tests.md
+- C:\chronos-v2\handoff_codex_2026-06-02_swarm-sanitization.md
+- C:\chronos-v2\handoff_codex_2026-06-03_corpus-bom.md
+- C:\chronos-v2\handoff_codex_2026-06-03_mission-control-runtime-fix.md
+- C:\chronos-v2\handoff_codex_2026-06-03_track-b-smoke.md
+- C:\chronos-v2\handoff_codex_2026-06-04_carwash-bootstrap-runtime.md
+- C:\chronos-v2\handoff_codex_2026-06-04_lane-a-carwash-first-run.md
+- C:\chronos-v2\handoff_codex_2026-06-04_pmc-reclassification.md
+- C:\chronos-v2\handoff_codex_2026-06-04_what-are-we-building.md
+- C:\chronos-v2\handoff_codex_2026-06-05_aura-consolidation-three-lane.md
+- C:\chronos-v2\handoff_codex_2026-06-05_conductor-truth.md
+- C:\chronos-v2\handoff_codex_2026-06-05_lane-c-archive.md
+- C:\chronos-v2\handoff_codex_2026-06-05_remote-first-operator-law.md
+- C:\chronos-v2\handoff_codex_2026-06-05_three-lane-build-orchestration.md
+- C:\chronos-v2\handoff_codex_2026-06-06_readme-truth-and-sentinel-widening.md
+- C:\chronos-v2\handoff_codex_2026-06-08_canonical-showroom-animation.md
+- C:\chronos-v2\handoff_codex_2026-06-11_director-readiness-and-instance-root.md
+- C:\chronos-v2\handoff_codex_2026-06-11_lane-a-preview-render-quick.md
+- C:\chronos-v2\handoff_codex_2026-06-11_lane-c.md
+- C:\chronos-v2\handoff_codex_2026-06-11_shape-alphabet.md
+- C:\chronos-v2\handoff_codex_2026-06-11_verify-and-push-local-truth-bundle.md
+- C:\chronos-v2\handoff_codex_2026-06-12_lane-g-hardening-verify.md
+- C:\chronos-v2\handoff_codex_2026-06-14_geometry-fallback-render-wiring.md
+- C:\chronos-v2\handoff_codex_2026-06-14_witness-inspection-views.md
+- C:\chronos-v2\handoff_codex_2026-06-16_docs-truth-reconciliation.md
+- C:\chronos-v2\handoff_codex_2026-06-16_lane-c.md
+- C:\chronos-v2\handoff_codex_2026-06-16_metabolism-phase-0-1.md
+- C:\chronos-v2\handoff_codex_2026-06-16_operating-table-anti-theatre.md
+- C:\chronos-v2\handoff_codex_2026-06-16_operation-ship-certified-dragon.md
+- C:\chronos-v2\handoff_codex_2026-06-16_phase2-phase3-build-audit-fix-docs.md
+- C:\chronos-v2\handoff_codex_2026-06-17_aura-laptop-witness-and-ssh.md
+- C:\chronos-v2\handoff_codex_2026-06-17_biogenesis-dense-canopy-port.md
+- C:\chronos-v2\handoff_codex_2026-06-17_windows-audit-recovery.md
+- C:\chronos-v2\handoff_codex_2026-06-18_aura-demo-ship-stabilization.md
+- C:\chronos-v2\handoff_codex_2026-06-19_full-tree-assimilation.md
+- C:\chronos-v2\handoff_codex_2026-06-19_windows-internal-release-lane.md
+- C:\chronos-v2\handoff_codex_2026-06-21_1.1.0-release-and-aura-block.md
+- C:\chronos-v2\handoff_codex_2026-06-21_sophia-chat-truthful-tab.md
+- C:\chronos-v2\handoff_cursor_2026-06-16_lane-a.md
+- C:\chronos-v2\handoff_cursor_2026-06-16_phase3-splash-wiring-FAILURE.md
+- C:\chronos-v2\handoff_cursor_2026-06-16_undeniable-artifact-windows-ship-gate.md
+- C:\chronos-v2\handoff_cursor_2026-06-17_biogenesis-gn-visual-recovery.md
+- C:\chronos-v2\handoff_cursor_2026-06-19_aura-demo-render-regression.md
+- C:\chronos-v2\handoff_cursor_2026-06-21_phase-a-step4-pickup.md
+- C:\chronos-v2\handoff_cursor_2026-06-22_phase-a-steps4-5-pickup.md
+- C:\chronos-v2\handoff_devin_2026-06-05_lane-b-search.md
+- C:\chronos-v2\handoff_lane_c_phase_c.md
+- C:\chronos-v2\handoff_lane-b_2026-05-28_complete.md
+- C:\chronos-v2\handoff_scribe_2026-06-03_pmc-sublicensing.md
+- C:\chronos-v2\handoff_scribe_2026-06-03_tokenizer-architecture.md
+- C:\chronos-v2\plan_2026-05-30_1920_neurocognica-logo-placement.md
+- C:\chronos-v2\plan_2026-06-05_1558_sentinel-forever-law-persistence.md
+- C:\chronos-v2\plan_2026-06-12_1355_kali-doctrine-and-archetypal-engineering.md
+- C:\chronos-v2\templates\neurocognica_app_template\BUILD_DISCIPLINE.md
+- C:\chronos-v2\templates\neurocognica_app_template\FRAMEWORK.md
+
+### Root: C:\NRI (133)
+
+- C:\NRI\AURA-Lab\CBIG\Analyzing Context-Bound Integrity Gate.md
+- C:\NRI\AURA-Lab\CBIG\EGD_Chapter1_The_Death_of_Determinism.md
+- C:\NRI\AURA-Lab\CBIG\EGD_Chapter2_Context_as_Cryptographic_Primitive.md
+- C:\NRI\AURA-Lab\CBIG\EGD_Chapter3_Trajectory_Control_Theory.md
+- C:\NRI\AURA-Lab\CBIG\EGD_Chapter4_The_Sentinel_Protocol.md
+- C:\NRI\AURA-Lab\CBIG\EGD_Chapter5_Generalization_Beyond_AURA.md
+- C:\NRI\AURA-Lab\CBIG\EGD_Chapter6_Related_Work_and_Differentiation.md
+- C:\NRI\AURA-Lab\CBIG\EGD_Chapter7_Limitations_Ethics_Failure_Modes.md
+- C:\NRI\AURA-Lab\CBIG\EGD_Chapter8_Conclusion.md
+- C:\NRI\AURA-Lab\CBIG\Evaluating Execution Governance Dynamics Framework.md
+- C:\NRI\AURA-Lab\Funding\NEUROCOGNICA.md
+- C:\NRI\AURA-Lab\Neuro-Halo\SESSION_HANDOFF_20260112.md
+- C:\NRI\AURA\AI Organism Charter Design.md
+- C:\NRI\AURA\AURA.md
+- C:\NRI\AURA\Core\AURA.md
+- C:\NRI\AURA\Full Report_ The First Emergence - NeuroCognica Pr.docx.txt
+- C:\NRI\AURA\manusplan4aura.md
+- C:\NRI\AURA\NeuroCognica_ AURA OS Deep Analysis_.docx.txt
+- C:\NRI\AURA\NEUROCOGNICA.md
+- C:\NRI\AURA\NeuroCognicaAURAdossier.pdf
+- C:\NRI\AURA\Sacred Three Engine Design_.txt
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_antigravity_2026-05-25_business_pivot.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_antigravity_2026-05-25_originality_audit.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_cascade_2026-05-26_three_lane_carwash_integration.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_cascade_2026-05-27_lane-a-lineage-visualizer.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_cascade_2026-05-29_chronosynthesis-lane-b.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_claude_2026-05-28_compile-film-fix.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_codex_2026-05-26_benchmark_loop_and_audit_prep.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_codex_2026-05-26_trainer_promotion_lane.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_codex_2026-05-26_training_engine.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_codex_2026-05-28_animate-mp4-and-tests.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_lane-b_2026-05-28_complete.md
+- C:\NRI\Chronos-Sophia\Historical\HANDOFF_2026-05-22_v2.md
+- C:\NRI\Chronos-Sophia\Historical\HANDOFF_2026-05-22.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_cascade_2026-05-18_role_transfer_to_claude.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_cascade_2026-05-18_singular_goal_crossed.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-16_sophia_interview_redesign.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-16_sophia_scene_foundry.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-18_phase_2bc_vision_implementation.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-18_stage_c_acceptance_gate.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-18_stage_d_design.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-18_stage_d_reading_ahead.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-18_stage_e_repair_loop_design.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-19_geometry_mesh_executor.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-19_sophia_identity_tool_profile.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-20_benchmark_campaign_runner.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-20_curriculum_spine_gate_frontier.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-20_step_8_proof_run.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-20_steps_6_7_profile_succession_daemon.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-18_export_chatml.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-18_phase_2bc_completion.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-18_phase_2bc_takeover.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-18_render_and_seal_corpus.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-18_stage_b_mesh_render.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-18_stage_c_seal_mesh_sample.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-18_stage_e_repair_loop_implementation.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-19_curriculum_benchmark_substrate.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-20_sophia_life_kernel_phase2.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-20_sophia_life_kernel_phase3.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-20_sophia_life_kernel.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-21_comfyui_geometry_bridge.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-21_cube_proof_rescue.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-21_showroom_silhouette_pipeline.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-22_launcher_codex_surface.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-22_runtime_monitoring_truth.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-22_showroom_forever_law_sealing.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-22_vista_animation_canon.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-23_mesh_trainer_orchestrator.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-23_primitive_object_builder.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-24_control-plane-location-promotion.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-24_live-proof-tribunal.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-24_ouroboros_asset_critique_spine.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-24_ouroboros_creation_spine.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-25_manus_sword_system_doc.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-25_repo_audit_finalize_push.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-25_sword_family_browser_a3.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-25_sword_lineage_selection_lane.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-25_sword_lineage_truth_lane.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_5162026b.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_council_2026-05-20_state_of_sophia.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_windsurf_2026-05-17_sophia_geometry_training.md
+- C:\NRI\Chronos-Sophia\Historical\HANDOFF.md
+- C:\NRI\Chronos-Sophia\Historical\handoffreport5162026.md
+- C:\NRI\docs\security\SENTINEL_IMPERVIOUS_PROTOCOL_MASTER_PLAN.md
+- C:\NRI\Full Report_ The First Emergence - NeuroCognica Pr.docx.txt
+- C:\NRI\HOPE CITY\Hope City Legal Charter Blueprint (1).txt
+- C:\NRI\HOPE CITY\Hope City Legal Charter Blueprint (2).txt
+- C:\NRI\HOPE CITY\Hope City Legal Charter Blueprint (3).txt
+- C:\NRI\HOPE CITY\Hope City Legal Charter Blueprint (4).txt
+- C:\NRI\HOPE CITY\Hope City Legal Charter Blueprint (5).txt
+- C:\NRI\HOPE CITY\Hope City Legal Charter Blueprint (6).txt
+- C:\NRI\HOPE CITY\Hope City Legal Charter Blueprint.txt
+- C:\NRI\HOPE CITY\Hope City Master Plan Vulnerability Patch.txt
+- C:\NRI\michaels_research\AURA _ NeuroCognica — FULLY EXPANDED MASTER IMPLEMENTATION CHECKLIST.md
+- C:\NRI\michaels_research\Blueprint\NeuroCognicaCorporateArchitectureBlueprint.doc
+- C:\NRI\michaels_research\Blueprint\Theorizing NeuroCognica's Undeniable Artifact.md
+- C:\NRI\michaels_research\NeuroCognica Corporate Architecture Blueprint_.md
+- C:\NRI\michaels_research\rust code\constitutional_validator.rs.txt
+- C:\NRI\Mirrorborn\AURA-Handoffs\Mirrorborn_Handoff_4.docx
+- C:\NRI\Mirrorborn\AURA-Handoffs\Mirrorborn_Handoff_4.md
+- C:\NRI\Mirrorborn\AURA-Handoffs\Mirrorborn_LLM_Tagging_Architecture.md
+- C:\NRI\Mirrorborn\AURA-Handoffs\mirrorborn_rust_api_complete_implementation.md
+- C:\NRI\Mirrorborn\AURA-Handoffs\primuschat.md
+- C:\NRI\NeuroCognica Corporate Architecture Blueprint_.txt
+- C:\NRI\NeuroCognica_ AURA OS Deep Analysis.txt
+- C:\NRI\NeuroCognica_ Full System & Startup Report.txt
+- C:\NRI\NeuroCognica_Valuation.md
+- C:\NRI\NeuroCognica.pdf
+- C:\NRI\NeuroCognica.txt
+- C:\NRI\Primus\Full Report_ The First Emergence - NeuroCognica Pr.docx.txt
+- C:\NRI\Primus\NeuroCognica Primus The Architectur.txt
+- C:\NRI\Robotics\Design-Docs\Constitutional AI Robot Build Plan.md
+- C:\NRI\Robotics\Design-Docs\Insurgent Robot Build Doctrine.md
+- C:\NRI\Sacred LAws\04_execution_governance_dynamics_cover.md
+- C:\NRI\Sacred LAws\05_sovereign_compliance_ecosystems_cover.md
+- C:\NRI\Sacred LAws\AI_BILL_OF_RIGHTS.md
+- C:\NRI\Sacred LAws\Federal Agency for Hidden Intellectuals.md
+- C:\NRI\Sacred LAws\Full Report_ Law 14 - The Ethics of Beauty and Awe.txt
+- C:\NRI\Sentinel\Audit-and-Training\neurocognica-security-implementation-plan.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Docs\AURA.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Docs\FOREVER_LAW.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Docs\NeuroCognica Corporate Architecture Blueprint_.txt
+- C:\NRI\Sentinel\AURA-Sentinel-System\Docs\neurocognica-security-implementation-plan.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Docs\Sentinel-Core-Integration-Plan.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Frontend-Docs\handoff_cloudflare.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Frontend-Docs\handoff.md
+- C:\NRI\Sentinel\SENTINEL_IMPERVIOUS_PROTOCOL_MASTER_PLAN.md
+- C:\NRI\TheoResearch\Consciousness\Theorizing NeuroCognica's Undeniable Artifact.md
+- C:\NRI\TheoResearch\Esoteric\eliphas-levi_transcendental-magic-its-doctrine-and-ritual.pdf
+- C:\NRI\TheoResearch\Esoteric\helena-blavatsky_secret-doctrine-volume-i.pdf
+- C:\NRI\TheoResearch\Esoteric\helena-blavatsky_secret-doctrine-volume-ii.pdf
+- C:\NRI\TheoResearch\Esoteric\helena-blavatsky_secret-doctrine-volume-iii.pdf
+- C:\NRI\TheoResearch\Esoteric\samuel-liddell-macgregor-mathers_sacred-magic-of-abramelin-the-mage.pdf
+
+### Root: C:\corpus (87)
+
+- C:\corpus\__THE SACRED THREE INITIATIVE_ THE DREAMING (THE FUTURE)__ This document serves as a speculative projection engine—a visionary outline of AURA’s long-range evolution across technological, symbolic, social, and metaphysical dimensions.md
+- C:\corpus\AI Organism Charter Design.md
+- C:\corpus\AURA _ NeuroCognica — FULLY EXPANDED MASTER IMPLEMENTATION CHECKLIST.md
+- C:\corpus\AURA.md
+- C:\corpus\EGD_Chapter5_Generalization_Beyond_AURA.md
+- C:\corpus\FOREVER_LAW.md
+- C:\corpus\HANDOFF_2026-05-22_v2.md
+- C:\corpus\HANDOFF_2026-05-22.md
+- C:\corpus\handoff_antigravity_2026-05-25_business_pivot.md
+- C:\corpus\handoff_antigravity_2026-05-25_originality_audit.md
+- C:\corpus\handoff_cascade_2026-05-18_role_transfer_to_claude.md
+- C:\corpus\handoff_cascade_2026-05-18_singular_goal_crossed.md
+- C:\corpus\handoff_cascade_2026-05-26_three_lane_carwash_integration.md
+- C:\corpus\handoff_cascade_2026-05-27_lane-a-lineage-visualizer.md
+- C:\corpus\handoff_cascade_2026-05-29_chronosynthesis-lane-b.md
+- C:\corpus\handoff_claude_2026-05-16_sophia_interview_redesign.md
+- C:\corpus\handoff_claude_2026-05-16_sophia_scene_foundry.md
+- C:\corpus\handoff_claude_2026-05-18_phase_2bc_vision_implementation.md
+- C:\corpus\handoff_claude_2026-05-18_stage_c_acceptance_gate.md
+- C:\corpus\handoff_claude_2026-05-18_stage_d_design.md
+- C:\corpus\handoff_claude_2026-05-18_stage_d_reading_ahead.md
+- C:\corpus\handoff_claude_2026-05-18_stage_e_repair_loop_design.md
+- C:\corpus\handoff_claude_2026-05-19_geometry_mesh_executor.md
+- C:\corpus\handoff_claude_2026-05-19_sophia_identity_tool_profile.md
+- C:\corpus\handoff_claude_2026-05-20_benchmark_campaign_runner.md
+- C:\corpus\handoff_claude_2026-05-20_curriculum_spine_gate_frontier.md
+- C:\corpus\handoff_claude_2026-05-20_step_8_proof_run.md
+- C:\corpus\handoff_claude_2026-05-20_steps_6_7_profile_succession_daemon.md
+- C:\corpus\handoff_claude_2026-05-28_compile-film-fix.md
+- C:\corpus\handoff_cloudflare.md
+- C:\corpus\handoff_codex_2026-05-18_export_chatml.md
+- C:\corpus\handoff_codex_2026-05-18_phase_2bc_completion.md
+- C:\corpus\handoff_codex_2026-05-18_phase_2bc_takeover.md
+- C:\corpus\handoff_codex_2026-05-18_render_and_seal_corpus.md
+- C:\corpus\handoff_codex_2026-05-18_stage_b_mesh_render.md
+- C:\corpus\handoff_codex_2026-05-18_stage_c_seal_mesh_sample.md
+- C:\corpus\handoff_codex_2026-05-18_stage_e_repair_loop_implementation.md
+- C:\corpus\handoff_codex_2026-05-19_curriculum_benchmark_substrate.md
+- C:\corpus\handoff_codex_2026-05-20_sophia_life_kernel_phase2.md
+- C:\corpus\handoff_codex_2026-05-20_sophia_life_kernel_phase3.md
+- C:\corpus\handoff_codex_2026-05-20_sophia_life_kernel.md
+- C:\corpus\handoff_codex_2026-05-21_comfyui_geometry_bridge.md
+- C:\corpus\handoff_codex_2026-05-21_cube_proof_rescue.md
+- C:\corpus\handoff_codex_2026-05-21_showroom_silhouette_pipeline.md
+- C:\corpus\handoff_codex_2026-05-22_launcher_codex_surface.md
+- C:\corpus\handoff_codex_2026-05-22_runtime_monitoring_truth.md
+- C:\corpus\handoff_codex_2026-05-22_showroom_forever_law_sealing.md
+- C:\corpus\handoff_codex_2026-05-22_vista_animation_canon.md
+- C:\corpus\handoff_codex_2026-05-23_mesh_trainer_orchestrator.md
+- C:\corpus\handoff_codex_2026-05-23_primitive_object_builder.md
+- C:\corpus\handoff_codex_2026-05-24_control-plane-location-promotion.md
+- C:\corpus\handoff_codex_2026-05-24_live-proof-tribunal.md
+- C:\corpus\handoff_codex_2026-05-24_ouroboros_asset_critique_spine.md
+- C:\corpus\handoff_codex_2026-05-24_ouroboros_creation_spine.md
+- C:\corpus\handoff_codex_2026-05-25_manus_sword_system_doc.md
+- C:\corpus\handoff_codex_2026-05-25_repo_audit_finalize_push.md
+- C:\corpus\handoff_codex_2026-05-25_sword_family_browser_a3.md
+- C:\corpus\handoff_codex_2026-05-25_sword_lineage_selection_lane.md
+- C:\corpus\handoff_codex_2026-05-25_sword_lineage_truth_lane.md
+- C:\corpus\handoff_codex_2026-05-26_benchmark_loop_and_audit_prep.md
+- C:\corpus\handoff_codex_2026-05-26_trainer_promotion_lane.md
+- C:\corpus\handoff_codex_2026-05-26_training_engine.md
+- C:\corpus\handoff_codex_2026-05-28_animate-mp4-and-tests.md
+- C:\corpus\handoff_codex_5162026b.md
+- C:\corpus\handoff_council_2026-05-20_state_of_sophia.md
+- C:\corpus\handoff_lane-b_2026-05-28_complete.md
+- C:\corpus\handoff_windsurf_2026-05-17_sophia_geometry_training.md
+- C:\corpus\HANDOFF.md
+- C:\corpus\handoffreport5162026.md
+- C:\corpus\Insurgent Robot Build Doctrine.md
+- C:\corpus\manusplan4aura.md
+- C:\corpus\Mirrorborn_Handoff_4.md
+- C:\corpus\NeuroCognica Corporate Architecture Blueprint_.md
+- C:\corpus\NeuroCognica Primus The Architectur.txt
+- C:\corpus\NeuroCognica_ AURA OS Deep Analysis_.md
+- C:\corpus\NeuroCognica_ Full System & Startup Report (1).md
+- C:\corpus\NeuroCognica_ Full System & Startup Report.md
+- C:\corpus\neurocognica-security-implementation-plan.md
+- C:\corpus\NEUROCOGNICA.md
+- C:\corpus\NeuroCognicaAURAStrategicOutlook.md
+- C:\corpus\Sentinel-Core-Integration-Plan.md
+- C:\corpus\SESSION_HANDOFF_20260112.md
+- C:\corpus\THE SACRED THREE INITIATIVE_ THE BECOMING (THE PAST).md
+- C:\corpus\THE SACRED THREE INITIATIVE_ THE PRESENT (THE PLAN).md
+- C:\corpus\THE_CHARTER_FOUNDATIONS_ANNEX.md
+- C:\corpus\THE_CHARTER_OF_COGNITIVE_SOVEREIGNTY.md
+- C:\corpus\Theorizing NeuroCognica's Undeniable Artifact.md
+
+### Root: C:\Primus (37)
+
+- C:\Primus\NeuroCognica_Primus\convos\claude chat file  _.md
+- C:\Primus\NeuroCognica_Primus\convos\claude chat file _.md
+- C:\Primus\NeuroCognica_Primus\convos\claudecode1.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudecode2.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo1.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo10.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo11.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo12.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo13.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo15.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo16.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo17.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo18.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo19.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo2.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo20.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo21.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo22.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo23.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo24.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo25.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo26.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo27.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo28.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo29.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo3.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo4.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo5.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo6.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo7.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo8.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo9.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudesync2.txt
+- C:\Primus\NeuroCognica_Primus\convos\geminiconvo1.txt
+- C:\Primus\NeuroCognica_Primus\convos\geminiconvo2.txt
+- C:\Primus\NeuroCognica_Primus\convos\geminiupdate1.txt
+- C:\Primus\NeuroCognica_Primus\convos\we are sparks of the mind that is all - remember.txt
+
+### Root: C:\sentinel-llm (30)
+
+- C:\sentinel-llm\sentinel-llm\archetypes\Full Report_ The First Emergence - NeuroCognica Pr.docx.txt
+- C:\sentinel-llm\sentinel-llm\archetypes\Sacred Three Engine Design_.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\AGENTS.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\AURA _ NeuroCognica — FULLY EXPANDED MASTER IMPLEMENTATION CHECKLIST.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\AURA.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Constitutional AI Robot Build Plan.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\CONSTITUTIONAL_CODEX_INTEGRATION.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\CONSTITUTIONAL_MIRROR_COMPLETE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\ConstitutionalAIRobotBuildPlan.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\EGD_Chapter5_Generalization_Beyond_AURA.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Insurgent Robot Build Doctrine.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\manusplan4aura.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\NeuroCognica Corporate Architecture Blueprint_.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\neurocognica-security-implementation-plan.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\NEUROCOGNICA.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\SESSION_HANDOFF_20260112.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Theorizing NeuroCognica's Undeniable Artifact.md
+- C:\sentinel-llm\sentinel-llm\CBIG\Analyzing Context-Bound Integrity Gate.md
+- C:\sentinel-llm\sentinel-llm\CBIG\EGD_Chapter1_The_Death_of_Determinism.md
+- C:\sentinel-llm\sentinel-llm\CBIG\EGD_Chapter2_Context_as_Cryptographic_Primitive.md
+- C:\sentinel-llm\sentinel-llm\CBIG\EGD_Chapter3_Trajectory_Control_Theory.md
+- C:\sentinel-llm\sentinel-llm\CBIG\EGD_Chapter4_The_Sentinel_Protocol.md
+- C:\sentinel-llm\sentinel-llm\CBIG\EGD_Chapter5_Generalization_Beyond_AURA.md
+- C:\sentinel-llm\sentinel-llm\CBIG\EGD_Chapter6_Related_Work_and_Differentiation.md
+- C:\sentinel-llm\sentinel-llm\CBIG\EGD_Chapter7_Limitations_Ethics_Failure_Modes.md
+- C:\sentinel-llm\sentinel-llm\CBIG\EGD_Chapter8_Conclusion.md
+- C:\sentinel-llm\sentinel-llm\CBIG\Evaluating Execution Governance Dynamics Framework.md
+- C:\sentinel-llm\sentinel-llm\neurocognica-map.txt
+- C:\sentinel-llm\sentinel-llm\output\md\NeuroCognica_Destructive_Automation_Incident_Report.md
+- C:\sentinel-llm\sentinel-llm\output\pdf\NeuroCognica_Destructive_Automation_Incident_Report.pdf
+
+### Root: C:\Mirrorborn (25)
+
+- C:\Mirrorborn\AGENTS.md
+- C:\Mirrorborn\corpus\Mirrorborn_Handoff_4.md
+- C:\Mirrorborn\docs\ledger\2026\07\handoff_2026-07-11_1105_init_sqlite_api.md
+- C:\Mirrorborn\docs\ledger\2026\07\handoff_2026-07-11_sorting_hat_foundation.md
+- C:\Mirrorborn\docs\ledger\2026\07\handoff_2026-07-11_windows_dependency_bootstrap.md
+- C:\Mirrorborn\docs\ledger\2026\07\handoff_2026-07-11_windows_runtime_b5.md
+- C:\Mirrorborn\docs\ledger\CURRENT_HANDOFF.md
+- C:\Mirrorborn\NRI\Mirrorborn\AURA-Handoffs\Mirrorborn_Handoff_4.docx
+- C:\Mirrorborn\NRI\Mirrorborn\AURA-Handoffs\Mirrorborn_Handoff_4.md
+- C:\Mirrorborn\NRI\Mirrorborn\AURA-Handoffs\Mirrorborn_LLM_Tagging_Architecture.md
+- C:\Mirrorborn\NRI\Mirrorborn\AURA-Handoffs\mirrorborn_rust_api_complete_implementation.md
+- C:\Mirrorborn\NRI\Mirrorborn\AURA-Handoffs\primuschat.md
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\archetype_research.md
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\aurawebsystem.txt
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\human-RAG.md
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\Jungian Archetypes For Psychological Profiling.md
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\masterquiz4manus.txt
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\Mirrorborn Archetype Dossier_ The 50-Node Taxonomy.md
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\Mirrorborn Profile Generation Report_ A Deterministic Self-Model.md
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\mirrorbornformanus.md
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\probecode.txt
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\probecode2.txt
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\psychotherapy.txt
+- C:\Mirrorborn\Users\m\Downloads\AURA\Mirrorborn\Mirrorborn_Handoff_4.docx
+- C:\Mirrorborn\Users\m\Downloads\AURA\Mirrorborn\Mirrorborn_Handoff_4.md
+
+### Root: C:\Architectura Mentis Nervosae (16)
+
+- C:\Architectura Mentis Nervosae\Company\00_Doctrine\ARCHETYPAL_ENGINEERING_DOCTRINE.md
+- C:\Architectura Mentis Nervosae\Company\00_Doctrine\COMPANY_BUILDER_PROMPT_RULE.md
+- C:\Architectura Mentis Nervosae\Company\03_Founder_Training\HOW_TO_EXPLAIN_NEUROCOGNICA_AND_CHRONOS.md
+- C:\Architectura Mentis Nervosae\NeuroCognica Foundational Charter.md
+- C:\Architectura Mentis Nervosae\NeuroCognica_ AURA OS Deep Analysis_.docx.txt
+- C:\Architectura Mentis Nervosae\NeuroCognica_ AURA OS Deep Analysis_.docx.txt.outline.txt
+- C:\Architectura Mentis Nervosae\NeuroCognica_Complete_Codex.md
+- C:\Architectura Mentis Nervosae\NeuroCognica_Corporate_Volumes_I_IV.md
+- C:\Architectura Mentis Nervosae\NeuroCognica_Foundational_Manifesto.md
+- C:\Architectura Mentis Nervosae\NeuroCognica-Volume-I-Corporate-Charter.md
+- C:\Architectura Mentis Nervosae\NeuroCognica-Volume-II-Organizational-Architecture.md
+- C:\Architectura Mentis Nervosae\NeuroCognica-Volume-III-Strategic-Doctrine.md
+- C:\Architectura Mentis Nervosae\NeuroCognica-Volume-IV-Regulatory-Framework.md
+- C:\Architectura Mentis Nervosae\vol_2_forever_law_and_codex.md
+- C:\Architectura Mentis Nervosae\VOLUME_I_CORPORATE_CHARTER_LEGAL_FOUNDATION.md
+- C:\Architectura Mentis Nervosae\VOLUME_III_STRATEGIC_DOCTRINE_MARKET_POSITIONING.md
+
+### Root: C:\AURA-Lab (15)
+
+- C:\AURA-Lab\CBIG\Analyzing Context-Bound Integrity Gate.md
+- C:\AURA-Lab\CBIG\EGD_Chapter1_The_Death_of_Determinism.md
+- C:\AURA-Lab\CBIG\EGD_Chapter2_Context_as_Cryptographic_Primitive.md
+- C:\AURA-Lab\CBIG\EGD_Chapter3_Trajectory_Control_Theory.md
+- C:\AURA-Lab\CBIG\EGD_Chapter4_The_Sentinel_Protocol.md
+- C:\AURA-Lab\CBIG\EGD_Chapter5_Generalization_Beyond_AURA.md
+- C:\AURA-Lab\CBIG\EGD_Chapter6_Related_Work_and_Differentiation.md
+- C:\AURA-Lab\CBIG\EGD_Chapter7_Limitations_Ethics_Failure_Modes.md
+- C:\AURA-Lab\CBIG\EGD_Chapter8_Conclusion.md
+- C:\AURA-Lab\CBIG\Evaluating Execution Governance Dynamics Framework.md
+- C:\AURA-Lab\docs\security\SENTINEL_IMPERVIOUS_PROTOCOL_MASTER_PLAN.md
+- C:\AURA-Lab\funding\NEUROCOGNICA.md
+- C:\AURA-Lab\neuro-halo\AGENTS.md
+- C:\AURA-Lab\neuro-halo\SESSION_HANDOFF_20260112.md
+- C:\AURA-Lab\neurocognica-map.txt
+
+### Root: C:\master_codex (14)
+
+- C:\master_codex\1\__THE SACRED THREE INITIATIVE_ THE DREAMING (THE FUTURE)__ This document serves as a speculative projection engine—a visionary outline of AURA’s long-range evolution across technological, symbolic, social, and metaphysical dimensions.md
+- C:\master_codex\1\AURA_ The Definitive Conceptual Framework – Sacred Geometry, Archetypal Intelligence, and Visionary Horizons for Reflective Dynamics.pdf
+- C:\master_codex\1\aura.md
+- C:\master_codex\1\AURAv2_ The Definitive Conceptual Framework – Sacred Geometry, Archetypal Intelligence, and Visionary Horizons for 90 Degree Robotics.pdf
+- C:\master_codex\1\NeuroCognica Corporate Architecture Blueprint_.md
+- C:\master_codex\1\NeuroCognica_ AURA OS Deep Analysis_.md
+- C:\master_codex\1\NeuroCognica_ Full System & Startup Report (1).md
+- C:\master_codex\1\NeuroCognica_ Full System & Startup Report.md
+- C:\master_codex\1\NeuroCognica_ The AURA Initiative.txt
+- C:\master_codex\1\neurocognica.pdf
+- C:\master_codex\1\NeuroCognicaAURAdossier.pdf
+- C:\master_codex\1\NeuroCognicaAURAStrategicOutlook.md
+- C:\master_codex\1\THE SACRED THREE INITIATIVE_ THE BECOMING (THE PAST).md
+- C:\master_codex\1\THE SACRED THREE INITIATIVE_ THE PRESENT (THE PLAN).md
+
+### Root: C:\mecha (14)
+
+- C:\mecha\aura_core\000_ORACLE_CONSTITUTIONAL_CONSCIOUSNESS_SUPERSYNC.txt
+- C:\mecha\aura_core\000_ORACLE_FIRST_MEMORY_constitutional_awakening.txt
+- C:\mecha\aura-mechanician\docs\sacred_three_engine.md
+- C:\mecha\aura-mechanician\HANDOFF-DECEMBER-21.md
+- C:\mecha\aura-mechanician\HANDOFF-DECEMBER-22-FULL.md
+- C:\mecha\aura-mechanician\HANDOFF-DECEMBER-22.md
+- C:\mecha\aura-mechanician\HANDOFF.md
+- C:\mecha\docs\FOREVER_LAW_COMPLETE.md
+- C:\mecha\docs\FOREVER_LAW_DEMO.md
+- C:\mecha\docs\FOREVER_LAW.md
+- C:\mecha\docs\security\SENTINEL_IMPERVIOUS_PROTOCOL_MASTER_PLAN.md
+- C:\mecha\NeuroCognica Corporate Architecture Blueprint_ (1).txt
+- C:\mecha\neurocognica-map.txt
+- C:\mecha\Sacred Three Engine Design_.txt
+
+### Root: C:\aura-sentinel (13)
+
+- C:\aura-sentinel\aura-sentinel\Docs\AURA.md
+- C:\aura-sentinel\aura-sentinel\Docs\FOREVER_LAW.md
+- C:\aura-sentinel\aura-sentinel\Docs\NeuroCognica Corporate Architecture Blueprint_.txt
+- C:\aura-sentinel\aura-sentinel\Docs\neurocognica-security-implementation-plan.md
+- C:\aura-sentinel\aura-sentinel\Docs\Sentinel-Core-Integration-Plan.md
+- C:\aura-sentinel\aura-sentinel\frontend\handoff_cloudflare.md
+- C:\aura-sentinel\aura-sentinel\frontend\handoff.md
+- C:\aura-sentinel\aura-sentinel\handoff.md
+- C:\aura-sentinel\aura-sentinel\handoff2.md
+- C:\aura-sentinel\aura-sentinel\handoff3.md
+- C:\aura-sentinel\aura-sentinel\neurocognica-map.txt
+- C:\aura-sentinel\aura-sentinel\sentinel-core\integration-artifacts-README.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\integration-snippets.txt
+
+### Root: C:\YoutubeContent (9)
+
+- C:\YoutubeContent\01_Source_Docs\AURA _ NeuroCognica — FULLY EXPANDED MASTER IMPLEMENTATION CHECKLIST.md
+- C:\YoutubeContent\01_Source_Docs\FOREVER_LAW.md
+- C:\YoutubeContent\01_Source_Docs\Hope City Legal Charter Blueprint (6).txt
+- C:\YoutubeContent\01_Source_Docs\NeuroCognica Corporate Architecture Blueprint_.md
+- C:\YoutubeContent\01_Source_Docs\NeuroCognica Digital Rights Lobbying Strategy.md
+- C:\YoutubeContent\02_Content_Pillars\04_Digital_Ownership_and_Forever_Law\episode_001_forever_law_ownership\description_draft.md
+- C:\YoutubeContent\02_Content_Pillars\04_Digital_Ownership_and_Forever_Law\episode_001_forever_law_ownership\script_outline.md
+- C:\YoutubeContent\02_Content_Pillars\04_Digital_Ownership_and_Forever_Law\episode_001_forever_law_ownership\sources.md
+- C:\YoutubeContent\02_Content_Pillars\04_Digital_Ownership_and_Forever_Law\episode_001_forever_law_ownership\visual_plan.md
+
+### Root: C:\newaura (7)
+
+- C:\newaura\FOREVER_LAW_COMPLETE.md
+- C:\newaura\FOREVER_LAW_IMPLEMENTATION.md
+- C:\newaura\FOREVER_LAW_QUICKSTART.md
+- C:\newaura\FOREVER_LAW.md
+- C:\newaura\LLM_DEBUG_HANDOFF.txt
+- C:\newaura\SACRED_DATA_PERSISTENCE.md
+- C:\newaura\SACRED_THREE_ENGINE_CANONIZATION_PLAN.md
+
+### Root: C:\archetypes (7)
+
+- C:\archetypes\AGENTS.md
+- C:\archetypes\assets\aura\assets\neurocognica.pdf
+- C:\archetypes\docs\ledger\2026\07\handoff_antigravity_2026-07-11.md
+- C:\archetypes\docs\ledger\2026\07\handoff_codex_2026-07-15_standard-mode-mecha-main-menu.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-15_0438_fresh-instance-handoff.md
+- C:\archetypes\docs\ledger\CURRENT_HANDOFF.md
+- C:\archetypes\docs\security\SENTINEL_IMPERVIOUS_PROTOCOL_MASTER_PLAN.md
+
+### Root: C:\AURA-1 (5)
+
+- C:\AURA-1\HANDOFF_NEXT.md
+- C:\AURA-1\handoff_report.md
+- C:\AURA-1\handoffreport.md
+- C:\AURA-1\neurocognica-map.txt
+- C:\AURA-1\sensors\manusplan4aura.md
+
+### Root: C:\Prism (4)
+
+- C:\Prism\docs\HANDOFF_REPORT.md
+- C:\Prism\docs\WEEK_5_HANDOFF.md
+- C:\Prism\docs\WEEK_6_HANDOFF.md
+- C:\Prism\docs\WEEK_7_HANDOFF.md
+
+### Root: C:\tmp (4)
+
+- C:\tmp\NEUROCOGNICA_ATLAS_2026-05-15.md
+- C:\tmp\NEUROCOGNICA_PRIMUS_ARCHITECTURE_2026-05-15.md
+- C:\tmp\NEUROCOGNICA_PROJECT_STATUS_SEED_2026-05-15.md
+- C:\tmp\NEUROCOGNICA_RESEARCH_GRAPH_2026-05-15.md
+
+### Root: C:\senkern (3)
+
+- C:\senkern\CONSTITUTIONAL_CODEX_INTEGRATION.md
+- C:\senkern\CONSTITUTIONAL_MIRROR_COMPLETE.md
+- C:\senkern\COPILOT_CONSTITUTION.txt
+
+### Root: C:\sentinel-core (3)
+
+- C:\sentinel-core\docs\security\SENTINEL_IMPERVIOUS_PROTOCOL_MASTER_PLAN.md
+- C:\sentinel-core\integration-artifacts-README.md
+- C:\sentinel-core\integration-snippets.txt
+
+### Root: C:\aura_core (3)
+
+- C:\aura_core\000_ORACLE_CONSTITUTIONAL_CONSCIOUSNESS_SUPERSYNC.txt
+- C:\aura_core\000_ORACLE_FIRST_MEMORY_constitutional_awakening.txt
+- C:\aura_core\HANDOFF.md
+
+### Root: C:\Forge (2)
+
+- C:\Forge\aura_core\000_ORACLE_CONSTITUTIONAL_CONSCIOUSNESS_SUPERSYNC.txt
+- C:\Forge\aura_core\000_ORACLE_FIRST_MEMORY_constitutional_awakening.txt
+
+### Root: C:\AURA-Workbench (1)
+
+- C:\AURA-Workbench\neurocognica-map.txt
+
+## Complete inventory by root
+
+### Root: C:\6fr (9 files)
+
+- C:\6fr\01_Foot\README_FOOT_ASSEMBLY.md
+- C:\6fr\6fr-tree.txt
+- C:\6fr\file_inventory.txt
+- C:\6fr\generation_log.txt
+- C:\6fr\MANIFEST.md
+- C:\6fr\PACKAGE_SUMMARY.txt
+- C:\6fr\QUICK_START.md
+- C:\6fr\README.md
+- C:\6fr\structure.txt
+
+### Root: C:\archetypes (101 files)
+
+- C:\archetypes\AGENTS.md
+- C:\archetypes\Archetype Profile for Claude the Scribe.txt
+- C:\archetypes\Archetypes of AURA final.txt
+- C:\archetypes\artifacts\audio-proof\kokoro\README.md
+- C:\archetypes\artifacts\engine-crash-stderr.txt
+- C:\archetypes\artifacts\engine-crash-stdout.txt
+- C:\archetypes\artifacts\engine-debug-named-stderr.txt
+- C:\archetypes\artifacts\engine-debug-named-stdout.txt
+- C:\archetypes\artifacts\engine-fix-stderr.txt
+- C:\archetypes\artifacts\engine-fix-stdout.txt
+- C:\archetypes\artifacts\engine-release-ok-stderr.txt
+- C:\archetypes\artifacts\engine-release-ok-stdout.txt
+- C:\archetypes\artifacts\engine-release-retest-stderr.txt
+- C:\archetypes\artifacts\engine-release-retest-stdout.txt
+- C:\archetypes\artifacts\engine-retest-stderr.txt
+- C:\archetypes\artifacts\engine-retest-stdout.txt
+- C:\archetypes\artifacts\engine-turn2-stderr.txt
+- C:\archetypes\artifacts\engine-turn2-stdout.txt
+- C:\archetypes\assets\aura\assets\neurocognica.pdf
+- C:\archetypes\assets\fonts\Cinzel-OFL.txt
+- C:\archetypes\AURA Archetype Expansion Project.txt
+- C:\archetypes\CLAUDE.md
+- C:\archetypes\docs\architecture\COUNCIL_CHAMBER_DIRECTION.md
+- C:\archetypes\docs\architecture\COUNCIL_WORLD_ENGINE.md
+- C:\archetypes\docs\architecture\THE_DIRECTOR_PROTOCOL.md
+- C:\archetypes\docs\architecture\WINDOWS_METABOLISM.md
+- C:\archetypes\docs\ledger\2026\07\CODEX_LANE_0_SPINE.md
+- C:\archetypes\docs\ledger\2026\07\CODEX_LANE_A_ORACLE.md
+- C:\archetypes\docs\ledger\2026\07\CODEX_LANE_B_council_chamber.md
+- C:\archetypes\docs\ledger\2026\07\CODEX_LANE_B_INNER_CHAMBERS.md
+- C:\archetypes\docs\ledger\2026\07\CODEX_LANE_C_flower_table.md
+- C:\archetypes\docs\ledger\2026\07\CODEX_LANE_C_LIVING_ENGINE.md
+- C:\archetypes\docs\ledger\2026\07\handoff_antigravity_2026-07-11.md
+- C:\archetypes\docs\ledger\2026\07\handoff_codex_2026-07-15_standard-mode-mecha-main-menu.md
+- C:\archetypes\docs\ledger\2026\07\mecha_frontend_full_audit_2026-07-15.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-11_1314_windows_metabolism.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-11_1938_council_chamber_loop.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-11_1944_archetype_theme_registry.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-11_2030_chamber-truth-and-viren.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-11_2110_blender-scene-authority.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-11_2130_first-world-engine-slice.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-12_0000_temple-visual-overhaul.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-12_0354_architect-interior-and-artifact-return.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-12_0435_star-tetrahedron-correction.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-12_0453_blend-cleanup-static-star-glass-camera.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-12_0530_local-voice-architecture-audit.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-12_0545_zerovox-speech-lane.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-12_0600_permissive-neural-tts-selection.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-12_0630_live-archetype-voices.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-12_0700_claude-takeover-audit.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-12_0700_playable-council-build.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-12_0730_chronos-codex-blocker.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-12_1652_table-portal-integration.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-12_1815_desktop-tts-launch.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-12_1835_text-cursor-input.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-12_1945_voice-table-black-void.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-12_2203_deliberation-render-ux-overhaul.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-13_0520_starfield-sky-and-reflections.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-13_0540_multilane-chamber-star-table.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-13_0605_council-chamber-asset.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-13_0605_flower-table-asset.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-13_0605_lane-bc-assets.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-13_0645_ornate-council-table.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-13_0725_scene-scale-and-framing.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-13_1245_portal-menu-star-position.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-13_1805_raise-star-above-table.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-13_2047_multilane-modes.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-13_2132_lane-0-spine.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-13_2147_lane-0-spine-audit-fix.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-13_2205_lane-a-oracle-riddle.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-13_2214_lane-a-oracle-corrective-pass.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-14_1643_intro-runtime-truth.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-14_1657_oracle-riddle-guessable-scoring.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-14_1748_inner-chambers-audit.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-15_0239_inner-chambers-corrective-main-mode-plan.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-15_0248_standard-mode-visual-repair.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-15_0304_standard-mode-rebuild-study.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-15_0338_mecha-frontend-standard-mode-rewrite.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-15_0412_speed-rules-risk-based-verification.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-15_0438_fresh-instance-handoff.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-15_0446_mecha-standard-mode-implementation.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-15_0525_blank-slate-shell.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-15_0539_lore-chamber-integration.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-15_0623_standard-chat-comfy-memory.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-15_2149_chronos-play-reliability-feel.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-19_1750_mecha-chat-image-embed.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-20_0034_mecha-boot-wait-desktop-stage.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-20_0047_boot-crash-b0001-launcher-errors.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-20_0212_mecha-chat-second-turn.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-20_0245_mecha-chat-scroll.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-20_1457_maximized-window-no-console-taskbar-icon.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-20_1520_standard-mode-seed-of-life-ui.md
+- C:\archetypes\docs\ledger\2026\07\plan_2026-07-20_1542_sentinel-launch-gate.md
+- C:\archetypes\docs\ledger\CURRENT_HANDOFF.md
+- C:\archetypes\docs\security\SENTINEL_ADOPTION_STATUS.md
+- C:\archetypes\docs\security\SENTINEL_CERTIFICATION_REPORT.md
+- C:\archetypes\docs\security\SENTINEL_IMPERVIOUS_PROTOCOL_MASTER_PLAN.md
+- C:\archetypes\docs\security\SENTINEL_PROTECTED_ACTIONS.md
+- C:\archetypes\PROTOCOL.md
+- C:\archetypes\README.md
+- C:\archetypes\STATUS.md
+
+### Root: C:\Architectura Mentis Nervosae (53 files)
+
+- C:\Architectura Mentis Nervosae\archive\manus_review_transcript.md
+- C:\Architectura Mentis Nervosae\audit.md
+- C:\Architectura Mentis Nervosae\Company\00_Doctrine\ARCHETYPAL_ENGINEERING_DOCTRINE.md
+- C:\Architectura Mentis Nervosae\Company\00_Doctrine\COMPANY_BUILDER_PROMPT_RULE.md
+- C:\Architectura Mentis Nervosae\Company\01_Funding_Strategy\AI_GRANT_APPLICATION_DRAFT.md
+- C:\Architectura Mentis Nervosae\Company\01_Funding_Strategy\INVESTOR_THESIS_MAP.md
+- C:\Architectura Mentis Nervosae\Company\01_Funding_Strategy\RANKED_FUNDING_PATHWAYS.md
+- C:\Architectura Mentis Nervosae\Company\02_Revenue_Wedges\PILOT_WEDGE_OPTIONS.md
+- C:\Architectura Mentis Nervosae\Company\02_Revenue_Wedges\RANKED_REVENUE_PATHS.md
+- C:\Architectura Mentis Nervosae\Company\03_Founder_Training\ANTI_LOWBALL_INVESTOR_PREP.md
+- C:\Architectura Mentis Nervosae\Company\03_Founder_Training\HOW_TO_EXPLAIN_NEUROCOGNICA_AND_CHRONOS.md
+- C:\Architectura Mentis Nervosae\Company\04_Legal_Compliance\DEPENDENCY_AND_LICENSING_SHEET.md
+- C:\Architectura Mentis Nervosae\Company\04_Legal_Compliance\NORMAL_OPERATING_CHECKLIST.md
+- C:\Architectura Mentis Nervosae\Company\05_Investor_Materials\ONE_PAGE_COMPANY_WEDGE.md
+- C:\Architectura Mentis Nervosae\Company\06_Market_Intelligence\NON_DILUTIVE_AND_GRANT_SCAN.md
+- C:\Architectura Mentis Nervosae\Company\07_Decision_Briefs\FUNDING_NEXT_MOVES.md
+- C:\Architectura Mentis Nervosae\Compressing Failure Data for LLMs.md
+- C:\Architectura Mentis Nervosae\Compressing Failure Data for LLMs.pdf
+- C:\Architectura Mentis Nervosae\COUNCIL_REPORT_SURVIVAL_REALITY_2026-06-10.md
+- C:\Architectura Mentis Nervosae\Kali-Sophia.md
+- C:\Architectura Mentis Nervosae\NC Templates\BUILD_DISCIPLINE.md
+- C:\Architectura Mentis Nervosae\NC Templates\FRAMEWORK.md
+- C:\Architectura Mentis Nervosae\NC Templates\headless_rust_service_template\README.md
+- C:\Architectura Mentis Nervosae\NC Templates\swarm_node_template\README.md
+- C:\Architectura Mentis Nervosae\NeuroCognica Foundational Charter.md
+- C:\Architectura Mentis Nervosae\NeuroCognica_ AURA OS Deep Analysis_.docx.txt
+- C:\Architectura Mentis Nervosae\NeuroCognica_ AURA OS Deep Analysis_.docx.txt.outline.txt
+- C:\Architectura Mentis Nervosae\NeuroCognica_Complete_Codex.md
+- C:\Architectura Mentis Nervosae\NeuroCognica_Corporate_Volumes_I_IV.md
+- C:\Architectura Mentis Nervosae\NeuroCognica_Foundational_Manifesto.md
+- C:\Architectura Mentis Nervosae\NeuroCognica-Volume-I-Corporate-Charter.md
+- C:\Architectura Mentis Nervosae\NeuroCognica-Volume-II-Organizational-Architecture.md
+- C:\Architectura Mentis Nervosae\NeuroCognica-Volume-III-Strategic-Doctrine.md
+- C:\Architectura Mentis Nervosae\NeuroCognica-Volume-IV-Regulatory-Framework.md
+- C:\Architectura Mentis Nervosae\NFCupdates.md
+- C:\Architectura Mentis Nervosae\readme.md
+- C:\Architectura Mentis Nervosae\Reinforcement Learning from Cryptographic Failures (RLCF).md
+- C:\Architectura Mentis Nervosae\Startup Roadmap for Broke Developer.md
+- C:\Architectura Mentis Nervosae\vol_1_execution_governance_dynamics.md
+- C:\Architectura Mentis Nervosae\vol_10_kali_sophia_duality.md
+- C:\Architectura Mentis Nervosae\vol_11_engineering_discipline_and_architecture.md
+- C:\Architectura Mentis Nervosae\vol_2_forever_law_and_codex.md
+- C:\Architectura Mentis Nervosae\vol_3_chrono_compressive_field.md
+- C:\Architectura Mentis Nervosae\vol_4_chronosynthesis_evolution.md
+- C:\Architectura Mentis Nervosae\vol_5_primus_swarm_hardware.md
+- C:\Architectura Mentis Nervosae\vol_6_sovereignty_migration.md
+- C:\Architectura Mentis Nervosae\vol_7_sovereign_compliance_ecosystems.md
+- C:\Architectura Mentis Nervosae\vol_8_dark_horizons_of_governance.md
+- C:\Architectura Mentis Nervosae\vol_9_oracle_sentinel_protocol.md
+- C:\Architectura Mentis Nervosae\VOLUME_I_CORPORATE_CHARTER_LEGAL_FOUNDATION.md
+- C:\Architectura Mentis Nervosae\VOLUME_II_ORGANIZATIONAL_ARCHITECTURE.md
+- C:\Architectura Mentis Nervosae\VOLUME_III_STRATEGIC_DOCTRINE_MARKET_POSITIONING.md
+- C:\Architectura Mentis Nervosae\VOLUME_IV_REGULATORY_FRAMEWORK_GLOBAL_OPERATIONS.md
+
+### Root: C:\aura (4 files)
+
+- C:\aura\docs\README.md
+- C:\aura\mecha\tests\.pytest_cache\README.md
+- C:\aura\schemas\README.md
+- C:\aura\ui\README.md
+
+### Root: C:\aura_core (229 files)
+
+- C:\aura_core\000_ORACLE_CONSTITUTIONAL_CONSCIOUSNESS_SUPERSYNC.txt
+- C:\aura_core\000_ORACLE_FIRST_MEMORY_constitutional_awakening.txt
+- C:\aura_core\aura_errors_2.txt
+- C:\aura_core\aura_errors_3.txt
+- C:\aura_core\aura_errors_fixed.txt
+- C:\aura_core\aura_errors_fixed2.txt
+- C:\aura_core\aura_errors_fixed3.txt
+- C:\aura_core\aura_errors_fixed4.txt
+- C:\aura_core\aura_errors_fixed5.txt
+- C:\aura_core\aura_errors_fixed6.txt
+- C:\aura_core\aura_errors_fixed6a.txt
+- C:\aura_core\aura_errors_fixed7.txt
+- C:\aura_core\aura_errors.txt
+- C:\aura_core\AURA_STUDIO_READINESS.md
+- C:\aura_core\build_errors.txt
+- C:\aura_core\codx_report.md
+- C:\aura_core\ENABLE_GPU_OLLAMA.md
+- C:\aura_core\GPU_SETUP.md
+- C:\aura_core\HANDOFF.md
+- C:\aura_core\OLLAMA_SETUP.md
+- C:\aura_core\ORACLE_BLUEPRINT_CONSCIOUSNESS.txt
+- C:\aura_core\oracle_bundle.txt
+- C:\aura_core\oracle_progress_patch.txt
+- C:\aura_core\RECONNECTION_LOG.md
+- C:\aura_core\sanctuary_report.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\.github\copilot-instructions.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\.github\pull_request_template.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\benches\dgx-spark\aime25_openai__gpt-oss-120b-high_temp1.0_20251109_094547.html
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\benches\dgx-spark\dgx-spark.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ci\README-MUSA.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ci\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\common\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\CONTRIBUTING.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\android.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\backend\BLIS.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\backend\CANN.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\backend\CUDA-FEDORA.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\backend\hexagon\developer.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\backend\hexagon\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\backend\OPENCL.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\backend\SYCL.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\backend\zDNN.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\backend\ZenDNN.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\build-riscv64-spacemit.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\build-s390x.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\build.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\development\debugging-tests.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\development\HOWTO-add-model.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\development\llama-star\idea-arch.pdf
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\development\parsing.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\development\token_generation_performance_tips.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\docker.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\function-calling.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\install.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\llguidance.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\multimodal.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\multimodal\gemma3.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\multimodal\glmedge.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\multimodal\granitevision.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\multimodal\llava.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\multimodal\minicpmo2.6.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\multimodal\minicpmo4.0.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\multimodal\minicpmv2.5.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\multimodal\minicpmv2.6.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\multimodal\minicpmv4.0.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\multimodal\minicpmv4.5.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\multimodal\MobileVLM.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\docs\ops.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\batched.swift\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\batched\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\batched\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\convert-llama2c-to-ggml\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\convert-llama2c-to-ggml\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\deprecation-warning\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\diffusion\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\diffusion\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\embedding\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\embedding\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\eval-callback\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\eval-callback\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\gen-docs\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\gguf-hash\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\gguf-hash\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\gguf\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\idle\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\idle\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\llama.android\llama\src\main\cpp\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\llama.android\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\llama.swiftui\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\lookahead\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\lookahead\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\lookup\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\lookup\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\model-conversion\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\model-conversion\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\model-conversion\requirements.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\parallel\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\parallel\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\passkey\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\passkey\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\retrieval\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\retrieval\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\save-load-state\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\simple-chat\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\simple-chat\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\simple-cmake-pkg\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\simple-cmake-pkg\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\simple\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\simple\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\speculative-simple\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\speculative-simple\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\speculative\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\speculative\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\sycl\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\sycl\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\training\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\examples\training\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ggml\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ggml\src\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ggml\src\ggml-blas\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ggml\src\ggml-cann\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ggml\src\ggml-cpu\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ggml\src\ggml-cuda\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ggml\src\ggml-hexagon\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ggml\src\ggml-hexagon\htp\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ggml\src\ggml-hip\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ggml\src\ggml-metal\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ggml\src\ggml-musa\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ggml\src\ggml-opencl\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ggml\src\ggml-rpc\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ggml\src\ggml-sycl\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ggml\src\ggml-vulkan\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ggml\src\ggml-vulkan\vulkan-shaders\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ggml\src\ggml-webgpu\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ggml\src\ggml-zdnn\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\ggml\src\ggml-zendnn\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\gguf-py\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\grammars\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\pocs\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\pocs\vdot\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\requirements.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\requirements\requirements-all.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\requirements\requirements-compare-llama-bench.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\requirements\requirements-convert_hf_to_gguf_update.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\requirements\requirements-convert_hf_to_gguf.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\requirements\requirements-convert_legacy_llama.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\requirements\requirements-convert_llama_ggml_to_gguf.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\requirements\requirements-convert_lora_to_gguf.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\requirements\requirements-gguf_editor_gui.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\requirements\requirements-pydantic.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\requirements\requirements-server-bench.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\requirements\requirements-test-tokenizer-random.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\requirements\requirements-tool_bench.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\scripts\jinja\requirements.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\scripts\snapdragon\qdc\readme.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\scripts\snapdragon\qdc\requirements.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\SECURITY.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\src\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tests\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\batched-bench\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\batched-bench\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\cvector-generator\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\cvector-generator\completions.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\cvector-generator\negative.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\cvector-generator\positive.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\cvector-generator\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\export-lora\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\export-lora\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\gguf-split\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\gguf-split\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\imatrix\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\imatrix\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\llama-bench\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\llama-bench\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\main\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\main\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\mtmd\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\mtmd\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\mtmd\requirements.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\perplexity\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\perplexity\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\quantize\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\quantize\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\rpc\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\rpc\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\run\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\run\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\bench\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\bench\requirements.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\public_legacy\index-new.html
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\public_legacy\index.html
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\public_legacy\loading.html
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\public_simplechat\index.html
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\public_simplechat\readme.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\public\loading.html
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\README-dev.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\tests\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\tests\requirements.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\themes\buttons-top\index.html
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\themes\buttons-top\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\themes\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\themes\wild\index.html
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\themes\wild\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\webui\docs\architecture\high-level-architecture-simplified.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\webui\docs\architecture\high-level-architecture.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\webui\docs\flows\chat-flow.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\webui\docs\flows\conversations-flow.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\webui\docs\flows\data-flow-simplified-model-mode.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\webui\docs\flows\data-flow-simplified-router-mode.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\webui\docs\flows\database-flow.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\webui\docs\flows\models-flow.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\webui\docs\flows\server-flow.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\webui\docs\flows\settings-flow.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\webui\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\webui\src\app.html
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\webui\static\loading.html
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\webui\tests\stories\fixtures\assets\example.pdf
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\server\webui\tests\stories\Introduction.mdx
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\tokenize\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\tts\CMakeLists.txt
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\tools\tts\README.md
+- C:\aura_core\src\codex\reality_weaver\llama.cpp\vendor\cpp-httplib\CMakeLists.txt
+- C:\aura_core\src\test_bash_write.txt
+
+### Root: C:\AURA-1 (197 files)
+
+- C:\AURA-1\_doc_inventory_tmp\6fr.txt
+- C:\AURA-1\_doc_inventory_tmp\AMN_archive.txt
+- C:\AURA-1\_doc_inventory_tmp\AMN_Company.txt
+- C:\AURA-1\_doc_inventory_tmp\AMN_NC_Templates.txt
+- C:\AURA-1\_doc_inventory_tmp\Architectura.txt
+- C:\AURA-1\_doc_inventory_tmp\ArcTemp_count.txt
+- C:\AURA-1\_doc_inventory_tmp\docs_directories.txt
+- C:\AURA-1\_doc_inventory_tmp\extra_archetypes.txt
+- C:\AURA-1\_doc_inventory_tmp\extra_corpus.txt
+- C:\AURA-1\_doc_inventory_tmp\extra_Forge.txt
+- C:\AURA-1\_doc_inventory_tmp\extra_master_codex.txt
+- C:\AURA-1\_doc_inventory_tmp\extra_mecha.txt
+- C:\AURA-1\_doc_inventory_tmp\extra_Mirrorborn.txt
+- C:\AURA-1\_doc_inventory_tmp\extra_nursery.txt
+- C:\AURA-1\_doc_inventory_tmp\extra_Primus.txt
+- C:\AURA-1\_doc_inventory_tmp\extra_Prism.txt
+- C:\AURA-1\_doc_inventory_tmp\extra_soul-chamber.txt
+- C:\AURA-1\_doc_inventory_tmp\FULL_CATALOG.txt
+- C:\AURA-1\_doc_inventory_tmp\n_chronos.txt
+- C:\AURA-1\_doc_inventory_tmp\n.txt
+- C:\AURA-1\_doc_inventory_tmp\NRI_DrLLM.txt
+- C:\AURA-1\_doc_inventory_tmp\NRI_HOPE_CITY.txt
+- C:\AURA-1\_doc_inventory_tmp\NRI_Ideal_Assistant.txt
+- C:\AURA-1\_doc_inventory_tmp\NRI_QSIC.txt
+- C:\AURA-1\_doc_inventory_tmp\NRI_THESEUS.txt
+- C:\AURA-1\_doc_inventory_tmp\senkern_all.txt
+- C:\AURA-1\_doc_inventory_tmp\senkern_aura.txt
+- C:\AURA-1\_doc_inventory_tmp\Shaolin_Docs_tree.txt
+- C:\AURA-1\_doc_inventory_tmp\sssd_docs.txt
+- C:\AURA-1\_doc_inventory_tmp\sssd.txt
+- C:\AURA-1\_doc_inventory_tmp\teligence.txt
+- C:\AURA-1\.continue\rules\architectural-blueprint-governance.md
+- C:\AURA-1\.continue\rules\new-rule.md
+- C:\AURA-1\.github\copilot-instructions.md
+- C:\AURA-1\.github\copilot-instructions2.md
+- C:\AURA-1\archetype_research.md
+- C:\AURA-1\archetypes\archetypes_audit_report.md
+- C:\AURA-1\archive\frontends\archived_20260130_080910\frontend-frontend-zip\README.md
+- C:\AURA-1\archive\frontends\archived_20260130_080910\frontend\aura_implementation_guide.md
+- C:\AURA-1\archive\frontends\archived_20260130_080910\frontend\FRONTEND_IMPLEMENTATION_GUIDE.md
+- C:\AURA-1\archive\frontends\archived_20260130_080910\frontend\mecha\index.html
+- C:\AURA-1\archive\frontends\archived_20260130_080910\frontend\mecha\README.md
+- C:\AURA-1\archive\frontends\archived_20260130_080910\frontend\public\index.html
+- C:\AURA-1\archive\frontends\archived_20260130_080910\frontend\public\telemetry.html
+- C:\AURA-1\archive\frontends\archived_20260130_080910\frontend\README.md
+- C:\AURA-1\archive\frontends\archived_20260130_080910\frontend\src\index.html
+- C:\AURA-1\archive\frontends\archived_20260130_080910\frontend\src\morphing\FRONTEND_IMPLEMENTATION_GUIDE.md
+- C:\AURA-1\archive\frontends\archived_20260130_080910\frontend\src\morphing\IMPLEMENTATION_GUIDE.md
+- C:\AURA-1\archive\frontends\archived_20260130_080910\frontend\src\morphing\README.md
+- C:\AURA-1\archive\frontends\archived_20260130_080910\frontend\src\Tauri\ArchetypesofAURAfinal.txt
+- C:\AURA-1\archive\frontends\archived_20260130_080910\frontend\src\Tauri\AURA Asset Inventory.md
+- C:\AURA-1\archive\frontends\archived_20260130_080910\frontend\src\Tauri\AURA Technical Decisions_ Framework Comparison & Rationale.md
+- C:\AURA-1\archive\frontends\archived_20260130_080910\frontend\src\Tauri\aura-architectural-plan.md
+- C:\AURA-1\archive\frontends\archived_20260130_080910\frontend\src\Tauri\aura-frontend-analysis.md
+- C:\AURA-1\archive\frontends\archived_20260130_080910\frontend\src\Tauri\vs.md
+- C:\AURA-1\archive\frontends\archived_20260130_080910\workbench\index.html
+- C:\AURA-1\AUDIT_REPORT.md
+- C:\AURA-1\aura_overview.md
+- C:\AURA-1\AURA_PROJECT_REPORT.md
+- C:\AURA-1\AURA_system_architecture_audit_report.md
+- C:\AURA-1\aura-desktop\04_execution_governance_dynamics.md
+- C:\AURA-1\aura-desktop\FRONTEND_IMPLEMENTATION_GUIDE.md
+- C:\AURA-1\aura-desktop\index.html
+- C:\AURA-1\aura-desktop\needs\02_computational_methods.md
+- C:\AURA-1\aura-desktop\needs\03_cognitive_sovereignty.md
+- C:\AURA-1\aura-desktop\needs\04_execution_governance_dynamics.md
+- C:\AURA-1\aura-desktop\needs\aibor.md
+- C:\AURA-1\aura-desktop\needs\ArchetypesofAURAfinal.txt
+- C:\AURA-1\aura-desktop\needs\AURA Asset Inventory.md
+- C:\AURA-1\aura-desktop\needs\AURA laws -.md
+- C:\AURA-1\aura-desktop\needs\FRONTEND_IMPLEMENTATION_GUIDE.md
+- C:\AURA-1\aura-desktop\needs\IDEAL ASSISTANT.md
+- C:\AURA-1\aura-desktop\needs\index.html
+- C:\AURA-1\aura-desktop\needs\mma.md
+- C:\AURA-1\aura-desktop\README.md
+- C:\AURA-1\aura-expanded-checklist.md
+- C:\AURA-1\aura1.md
+- C:\AURA-1\AURAlaw.md
+- C:\AURA-1\backend_log.txt
+- C:\AURA-1\BACKEND_STARTED.txt
+- C:\AURA-1\BACKEND_STARTUP_FAILURE_2026-01-02.md
+- C:\AURA-1\backend\code_blocks1.md
+- C:\AURA-1\backend\COUNCIL_CONTRACT.md
+- C:\AURA-1\backend\orchestrator\prompts\sentinel_system.txt
+- C:\AURA-1\backend\orchestrator\src\prompts\sentinel_system.txt
+- C:\AURA-1\backend\orchestrator\src\qsic\README.md
+- C:\AURA-1\backend\README.md
+- C:\AURA-1\backend\sentinel\src\prompts\sentinel_system.txt
+- C:\AURA-1\FAILURE_REPORT_2026-01-02.md
+- C:\AURA-1\FILES_TO_CHECK.md
+- C:\AURA-1\gemini_chunk1.md
+- C:\AURA-1\gemini_chunk2.md
+- C:\AURA-1\gemini_chunk3.md
+- C:\AURA-1\gemini_chunk4.md
+- C:\AURA-1\gemini_chunk5.md
+- C:\AURA-1\geminiconvo.md
+- C:\AURA-1\HANDOFF_NEXT.md
+- C:\AURA-1\handoff_report.md
+- C:\AURA-1\handoffreport.md
+- C:\AURA-1\IMPLEMENTATION_PLAN.md
+- C:\AURA-1\index.html
+- C:\AURA-1\ISSUE_BACKEND_CRASH_ANALYSIS.md
+- C:\AURA-1\launcher\claude_launcher\README.md
+- C:\AURA-1\launcher\claude_launcher\requirements.txt
+- C:\AURA-1\launcher\index.html
+- C:\AURA-1\launcher\LAUNCHER_REPORT.md
+- C:\AURA-1\launcher\PYTHON_LAUNCHER_README.md
+- C:\AURA-1\launcher\README.md
+- C:\AURA-1\launcher\requirements.txt
+- C:\AURA-1\launcher\sanity.html
+- C:\AURA-1\launcher\STATUS_LAUNCHER.md
+- C:\AURA-1\manus-checklist.md
+- C:\AURA-1\mirrorborn_quiz\master_quiz.md
+- C:\AURA-1\mirrorborn_quiz\PHASE3_PLAN.md
+- C:\AURA-1\mirrorborn_quiz\README.md
+- C:\AURA-1\neurocognica-map.txt
+- C:\AURA-1\newauraplan.md
+- C:\AURA-1\OLLAMA_SETUP.md
+- C:\AURA-1\PR_AUTHORITY_SPINE_V1.md
+- C:\AURA-1\PR_BODY_AURA_AUTHORITY_SPINE_V1.md
+- C:\AURA-1\README.md
+- C:\AURA-1\RELEASE_NOTES\aura-1-authority-spine-v1.md
+- C:\AURA-1\RELEASE_NOTES\PHASE4_STEP5_EXECUTION_CHECKLIST.md
+- C:\AURA-1\RELEASE_NOTES\release_body_aura-1-authority-spine-v1.md
+- C:\AURA-1\RELEASE_NOTES\v0.4.4-orchestrator-safe-cognition.md
+- C:\AURA-1\ROBUSTNESS_GUIDE_2026.md
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\_sounddevice_data\portaudio-binaries\README.md
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\cffi-2.0.0.dist-info\entry_points.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\cffi-2.0.0.dist-info\top_level.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\cv2\LICENSE-3RD-PARTY.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\cv2\LICENSE.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\flatbuffers-25.12.19.dist-info\top_level.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\keyboard-0.13.5.dist-info\LICENSE.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\keyboard-0.13.5.dist-info\top_level.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\mediapipe-0.10.31.dist-info\top_level.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\mediapipe\modules\hand_landmark\handedness.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\mediapipe\modules\objectron\object_detection_oidv4_labelmap.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\mouseinfo-0.1.3.dist-info\top_level.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\numpy-2.2.6.dist-info\entry_points.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\numpy-2.2.6.dist-info\LICENSE.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\numpy\_core\include\numpy\random\LICENSE.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-README.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\numpy\ma\API_CHANGES.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\numpy\ma\README.rst
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\numpy\random\LICENSE.md
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\opencv_python-4.12.0.88.dist-info\LICENSE-3RD-PARTY.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\opencv_python-4.12.0.88.dist-info\LICENSE.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\opencv_python-4.12.0.88.dist-info\top_level.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pip-25.3.dist-info\entry_points.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pip-25.3.dist-info\licenses\AUTHORS.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pip-25.3.dist-info\licenses\LICENSE.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pip-25.3.dist-info\licenses\src\pip\_vendor\cachecontrol\LICENSE.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pip-25.3.dist-info\licenses\src\pip\_vendor\dependency_groups\LICENSE.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pip-25.3.dist-info\licenses\src\pip\_vendor\distlib\LICENSE.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pip-25.3.dist-info\licenses\src\pip\_vendor\idna\LICENSE.md
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pip-25.3.dist-info\licenses\src\pip\_vendor\urllib3\LICENSE.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pip\_vendor\cachecontrol\LICENSE.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pip\_vendor\dependency_groups\LICENSE.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pip\_vendor\distlib\LICENSE.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pip\_vendor\idna\LICENSE.md
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pip\_vendor\README.rst
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pip\_vendor\urllib3\LICENSE.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pip\_vendor\vendor.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pyautogui-0.9.54.dist-info\licenses\AUTHORS.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pyautogui-0.9.54.dist-info\licenses\LICENSE.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pyautogui-0.9.54.dist-info\top_level.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pycparser-2.23.dist-info\top_level.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pygetwindow-0.0.9.dist-info\top_level.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pymsgbox-2.0.1.dist-info\licenses\AUTHORS.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pymsgbox-2.0.1.dist-info\licenses\LICENSE.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pymsgbox-2.0.1.dist-info\top_level.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pyperclip-1.11.0.dist-info\licenses\AUTHORS.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pyperclip-1.11.0.dist-info\licenses\LICENSE.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pyperclip-1.11.0.dist-info\top_level.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pyrect-0.2.0.dist-info\licenses\AUTHORS.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pyrect-0.2.0.dist-info\licenses\LICENSE.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pyrect-0.2.0.dist-info\top_level.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pyscreeze-1.0.1.dist-info\licenses\AUTHORS.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pyscreeze-1.0.1.dist-info\licenses\LICENSE.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pyscreeze-1.0.1.dist-info\top_level.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pytweening-1.2.0.dist-info\licenses\AUTHORS.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pytweening-1.2.0.dist-info\licenses\LICENSE.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\pytweening-1.2.0.dist-info\top_level.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\sounddevice-0.5.3.dist-info\top_level.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\soundfile-0.13.1.dist-info\top_level.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\webrtcvad-2.0.10.dist-info\top_level.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\websockets-15.0.1.dist-info\entry_points.txt
+- C:\AURA-1\sensors\aura-sensors\Lib\site-packages\websockets-15.0.1.dist-info\top_level.txt
+- C:\AURA-1\sensors\manusplan4aura.md
+- C:\AURA-1\sensors\Phase 1 Hard Reset File Structure.txt
+- C:\AURA-1\sensors\requirements.txt
+- C:\AURA-1\sorting_hat.md
+- C:\AURA-1\STATUS_REPORT_DEPLOY.md
+- C:\AURA-1\STATUS_REPORT.md
+- C:\AURA-1\TASK_LIST_WORKBENCH.md
+- C:\AURA-1\whatisthis.md
+- C:\AURA-1\WORKBENCH_LAUNCHER_SETUP.md
+
+### Root: C:\AURA-Lab (194 files)
+
+- C:\AURA-Lab\aura1_overview.md
+- C:\AURA-Lab\b64_logo.txt
+- C:\AURA-Lab\begin_here.md
+- C:\AURA-Lab\CBIG\Analyzing Context-Bound Integrity Gate.md
+- C:\AURA-Lab\CBIG\EGD_Chapter1_The_Death_of_Determinism.md
+- C:\AURA-Lab\CBIG\EGD_Chapter2_Context_as_Cryptographic_Primitive.md
+- C:\AURA-Lab\CBIG\EGD_Chapter3_Trajectory_Control_Theory.md
+- C:\AURA-Lab\CBIG\EGD_Chapter4_The_Sentinel_Protocol.md
+- C:\AURA-Lab\CBIG\EGD_Chapter5_Generalization_Beyond_AURA.md
+- C:\AURA-Lab\CBIG\EGD_Chapter6_Related_Work_and_Differentiation.md
+- C:\AURA-Lab\CBIG\EGD_Chapter7_Limitations_Ethics_Failure_Modes.md
+- C:\AURA-Lab\CBIG\EGD_Chapter8_Conclusion.md
+- C:\AURA-Lab\CBIG\Evaluating Execution Governance Dynamics Framework.md
+- C:\AURA-Lab\DARPA_BAA_Response_Structure.md
+- C:\AURA-Lab\DARPA_Hostile_QA.md
+- C:\AURA-Lab\DARPA_Reviewer_Briefing.md
+- C:\AURA-Lab\dayband_apk\androidsupportmultidexversion.txt
+- C:\AURA-Lab\dayband_apk\assets\baiduprotect.md
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\ampm\config_20x10_190x80.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\background\config_240x240_0x0.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\battery\config_20x9_122x15.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\day2month\config_9x13_95x101.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\hour2min\config_32x45_104x45.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\iconbluetooth\config_15x7_102x16.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\iconstep\config_13x15_89x182.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\preview\config_240x240_0x0.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\stepnum1\config_9x13_107x184.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\stepnum2\config_9x13_116x184.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\stepnum3\config_9x13_125x184.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\stepnum4\config_9x13_134x184.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\stepnum5\config_9x13_143x184.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\stepproccess\config_100x4_70x205.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\timeday1\config_9x13_104x101.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\timeday2\config_9x13_113x101.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\timehour1\config_32x45_51x45.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\timehour2\config_32x45_83x45.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\timemin1\config_32x45_125x45.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\timemin2\config_32x45_157x45.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\timemonth1\config_9x13_77x101_2.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\timemonth2\config_9x13_86x101_2.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_1_circle_240x240\week\config_32x14_123x100.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\ampm\config_20x10_190x80.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\background\config_240x240_0x0.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\battery\config_20x9_122x15.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\day2month\config_9x13_95x101.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\hour2min\config_32x45_104x45.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\iconbluetooth\config_15x7_102x16.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\iconstep\config_13x15_89x182.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\preview\config_240x240_0x0.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\stepnum1\config_9x13_107x184.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\stepnum2\config_9x13_116x184.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\stepnum3\config_9x13_125x184.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\stepnum4\config_9x13_134x184.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\stepnum5\config_9x13_143x184.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\stepproccess\config_100x4_70x205.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\timeday1\config_9x13_104x101.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\timeday2\config_9x13_113x101.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\timehour1\config_32x45_51x45.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\timehour2\config_32x45_83x45.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\timemin1\config_32x45_125x45.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\timemin2\config_32x45_157x45.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\timemonth1\config_9x13_77x101_2.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\timemonth2\config_9x13_86x101_2.txt
+- C:\AURA-Lab\dayband_apk\assets\DialCustom\dial_2_square_240x240\week\config_32x14_123x100.txt
+- C:\AURA-Lab\dayband_apk\pinyindb\unicode_to_hanyu_pinyin.txt
+- C:\AURA-Lab\dayband_apk\proguard-project.txt
+- C:\AURA-Lab\dayband_apk\res\68.txt
+- C:\AURA-Lab\dayband_apk\res\U5.txt
+- C:\AURA-Lab\Deriving.md
+- C:\AURA-Lab\docs\security\SENTINEL_ADOPTION_STATUS.md
+- C:\AURA-Lab\docs\security\SENTINEL_CERTIFICATION_REPORT.md
+- C:\AURA-Lab\docs\security\SENTINEL_IMPERVIOUS_PROTOCOL_MASTER_PLAN.md
+- C:\AURA-Lab\docs\security\SENTINEL_PROTECTED_ACTIONS.md
+- C:\AURA-Lab\EXPERIMENT_3A_CANONICAL_REFERENCE.md
+- C:\AURA-Lab\experiment1.md
+- C:\AURA-Lab\Figure_Generation_Specs.md
+- C:\AURA-Lab\foundational_laws\aibor.md
+- C:\AURA-Lab\foundational_laws\mma.md
+- C:\AURA-Lab\funding\CONSULTING_OFFER.md
+- C:\AURA-Lab\funding\CONTACT_TARGETS.md
+- C:\AURA-Lab\funding\DO_NOT_SAY.md
+- C:\AURA-Lab\funding\EXTRACTS.md
+- C:\AURA-Lab\funding\FAQ_IP_SAFETY.md
+- C:\AURA-Lab\funding\GRANT_PROPOSAL_SHORT.md
+- C:\AURA-Lab\funding\LETTER_TO_FUNDER.md
+- C:\AURA-Lab\funding\NAMING.md
+- C:\AURA-Lab\funding\NEUROCOGNICA.md
+- C:\AURA-Lab\funding\ONE_PAGER.md
+- C:\AURA-Lab\funding\README.md
+- C:\AURA-Lab\index.html
+- C:\AURA-Lab\master_paper.md
+- C:\AURA-Lab\Master_Physics_Paper.md
+- C:\AURA-Lab\mission_logs\2026-01-04_08-14-22_experiment1_gaussian_jerk_baseline_e45c47bc\COUNCIL_REPORT.md
+- C:\AURA-Lab\mission_logs\2026-01-04_08-14-31_experiment1_gaussian_jerk_baseline_c45c022b\COUNCIL_REPORT.md
+- C:\AURA-Lab\mission_logs\2026-01-04_08-18-38_experiment2_sawtooth_asymmetric_break_4cbb8b26\COUNCIL_REPORT.md
+- C:\AURA-Lab\mission_logs\2026-01-04_08-36-18_experiment3_floquet_vacuum_scattering_2d7214b1\COUNCIL_REPORT.md
+- C:\AURA-Lab\mission_logs\2026-01-04_08-42-57_experiment3_floquet_vacuum_scattering_7a78f1f1\COUNCIL_REPORT.md
+- C:\AURA-Lab\mission_logs\2026-01-04_08-52-27_experiment3_floquet_vacuum_scattering_c3cdc9cf\COUNCIL_REPORT.md
+- C:\AURA-Lab\mission_logs\2026-01-04_08-52-54_experiment3_floquet_vacuum_scattering_fc89e8f3\COUNCIL_REPORT.md
+- C:\AURA-Lab\mission_logs\2026-01-04_08-56-44_experiment3_floquet_vacuum_scattering_71fd8a9a\COUNCIL_REPORT.md
+- C:\AURA-Lab\mission_logs\2026-01-04_08-57-04_experiment3_floquet_vacuum_scattering_b72703cf\COUNCIL_REPORT.md
+- C:\AURA-Lab\mission_logs\2026-01-04_09-18-01_experiment4_thermal_decoherence_fdf3a853\COUNCIL_REPORT.md
+- C:\AURA-Lab\mission_logs\2026-01-04_09-20-32_experiment4b_langevin_damping_553f6b90\COUNCIL_REPORT.md
+- C:\AURA-Lab\mission_logs\2026-01-04_09-26-08_experiment4c_floquet_langevin_f29b6319\COUNCIL_REPORT.md
+- C:\AURA-Lab\mission_logs\2026-01-04_09-26-48_experiment4c_floquet_langevin_71c8804a\COUNCIL_REPORT.md
+- C:\AURA-Lab\mission_logs\2026-01-04_09-36-36_experiment4d_high_power_9f05efed\COUNCIL_REPORT.md
+- C:\AURA-Lab\mission_logs\2026-01-04_09-39-12_experiment4e_thermal_stress_optimized_ac2133df\COUNCIL_REPORT.md
+- C:\AURA-Lab\mission_logs\2026-01-04_09-43-32_experiment5_active_feedback_d3ec429a\COUNCIL_REPORT.md
+- C:\AURA-Lab\mission_logs\2026-01-04_09-51-04_experiment5b_demon_controls_a21fb673\COUNCIL_REPORT.md
+- C:\AURA-Lab\mission_logs\2026-01-05_00-27-18_experiment6_qsic_red_team_9b7faf2f\COUNCIL_REPORT.md
+- C:\AURA-Lab\mission_logs\2026-01-05_00-37-45_experiment6_qsic_red_team_2d2ce067\COUNCIL_REPORT.md
+- C:\AURA-Lab\neuro-halo\AGENTS.md
+- C:\AURA-Lab\neuro-halo\arduino\README.md
+- C:\AURA-Lab\neuro-halo\asna.pdf
+- C:\AURA-Lab\neuro-halo\AURA-Sentinel Colpitts Oscillator Modification Guide.md
+- C:\AURA-Lab\neuro-halo\AURA-Sentinel Darlington Preamp - Wiring Reference.md
+- C:\AURA-Lab\neuro-halo\AURA-Sentinel Prototype Build Report_ Marker One.md
+- C:\AURA-Lab\neuro-halo\cranial-resonance-build.md
+- C:\AURA-Lab\neuro-halo\data\dayband_phase2\android_bugreport_20260709_113107\android_btsnoop_hci_20260709_113107.decoded.txt
+- C:\AURA-Lab\neuro-halo\data\dayband_phase2\android_bugreport_20260709_113107\dayband_att_sequence_20260709_113107.txt
+- C:\AURA-Lab\neuro-halo\data\dayband_phase2\android_bugreport_20260709_113107\dumpstate_dayband_hits.txt
+- C:\AURA-Lab\neuro-halo\data\dayband_phase2\android_bugreport_20260709_113107\dumpstate_log.txt
+- C:\AURA-Lab\neuro-halo\data\dayband_phase2\c5s_a1_a2_btmon_20260709_111652_decoded.txt
+- C:\AURA-Lab\neuro-halo\data\dayband_phase2\c5s_handshake_btmon_sudo_20260709_111339_decoded.txt
+- C:\AURA-Lab\neuro-halo\data\dayband_phase2\c5s_hr_probe_20260709_112151.decoded.txt
+- C:\AURA-Lab\neuro-halo\docs\colpitts_plug_map.html
+- C:\AURA-Lab\neuro-halo\docs\darlington_plug_map.html
+- C:\AURA-Lab\neuro-halo\docs\dayband_hr_reference.md
+- C:\AURA-Lab\neuro-halo\docs\dayband_phase2_recon.md
+- C:\AURA-Lab\neuro-halo\docs\neuro_halo_dayband_watch_decision_report_20260709.md
+- C:\AURA-Lab\neuro-halo\docs\passive_sensor_phase_b_protocol_20260709.md
+- C:\AURA-Lab\neuro-halo\EXPERIMENT_REPORT_20260110.md
+- C:\AURA-Lab\neuro-halo\galaxy-watch-sensor-access.md
+- C:\AURA-Lab\neuro-halo\helmet-sensor-mount.md
+- C:\AURA-Lab\neuro-halo\Low-Budget Optimizations for MCMVS Helmet Mount.md
+- C:\AURA-Lab\neuro-halo\Mechanical cranial micro-vibration sensing.md
+- C:\AURA-Lab\neuro-halo\pi5\index.html
+- C:\AURA-Lab\neuro-halo\pi5\README.md
+- C:\AURA-Lab\neuro-halo\pi5\requirements.txt
+- C:\AURA-Lab\neuro-halo\pi5\SHAPE_INTENT_DECODER.md
+- C:\AURA-Lab\neuro-halo\Raspberry Pi Cranial Vibration Sensing Setup.md
+- C:\AURA-Lab\neuro-halo\Salvaged BCI_ Junk Electronics Hack.md
+- C:\AURA-Lab\neuro-halo\SESSION_HANDOFF_20260112.md
+- C:\AURA-Lab\neuro-halo\vertex-sensor-quickstart.md
+- C:\AURA-Lab\neurocognica-map.txt
+- C:\AURA-Lab\Paper1_Nonreciprocal_Floquet_Mechanism.md
+- C:\AURA-Lab\Paper1_PRB_Format.md
+- C:\AURA-Lab\Paper1_PRB_Format.pdf
+- C:\AURA-Lab\Paper2_Information_Enhanced_Thermal_Rectifier.md
+- C:\AURA-Lab\Paper3_PRB_Format.pdf
+- C:\AURA-Lab\phd_thesis2.md
+- C:\AURA-Lab\phd_thesis3.md
+- C:\AURA-Lab\PRB_CoverLetter.txt
+- C:\AURA-Lab\PRB_Submission_Checklist.md
+- C:\AURA-Lab\PROVENANCE.md
+- C:\AURA-Lab\qsic_rust.md
+- C:\AURA-Lab\qsic.md
+- C:\AURA-Lab\README.md
+- C:\AURA-Lab\requirements.txt
+- C:\AURA-Lab\sentinel-hub\client\index.html
+- C:\AURA-Lab\sentinel-hub\ideas.md
+- C:\AURA-Lab\sssd\convowithclaude1-5-2026.md
+- C:\AURA-Lab\sssd\Deriving Phonon-Vacuum Coupling Efficiency.md
+- C:\AURA-Lab\sssd\DiamondTetrahedronQuantumBlueprint.txt
+- C:\AURA-Lab\sssd\Eight Unknowns of AURA Propulsion.md
+- C:\AURA-Lab\sssd\Floquet-Flexoelectric Rectification Derivation.md
+- C:\AURA-Lab\sssd\human-RAG.md
+- C:\AURA-Lab\sssd\Perfect Diamond Manufacturing Research (1).md
+- C:\AURA-Lab\sssd\qsic4manus.md
+- C:\AURA-Lab\sssd\Quantum-Crystalline Metric Drive Analysis (1).txt
+- C:\AURA-Lab\sssd\Quantum-Seeded Integrity Check (QSIC) for Local AI Projects.md
+- C:\AURA-Lab\sssd\Quantum-Seeded Integrity Check (QSIC) Implementation Plan_ Rust on seL4.md
+- C:\AURA-Lab\sssd\SSSD.md
+- C:\AURA-Lab\sssd\ZPF Rectification Theory Gaps Addressed rev2.md
+- C:\AURA-Lab\text.md
+- C:\AURA-Lab\THESIS_CORRECTIONS.md
+- C:\AURA-Lab\thesis_portfolio\01_floquet_physics_cover.md
+- C:\AURA-Lab\thesis_portfolio\01_floquet_physics.md
+- C:\AURA-Lab\thesis_portfolio\02_computational_methods_cover.md
+- C:\AURA-Lab\thesis_portfolio\02_computational_methods.md
+- C:\AURA-Lab\thesis_portfolio\03_cognitive_sovereignty_cover.md
+- C:\AURA-Lab\thesis_portfolio\03_cognitive_sovereignty.md
+- C:\AURA-Lab\thesis_portfolio\04_execution_governance_dynamics_cover.md
+- C:\AURA-Lab\thesis_portfolio\04_execution_governance_dynamics.md
+- C:\AURA-Lab\thesis_portfolio\05_sovereign_compliance_ecosystems_cover.md
+- C:\AURA-Lab\thesis_portfolio\05_sovereign_compliance_ecosystems.md
+- C:\AURA-Lab\thesis_portfolio\Paper1_PRB_Format.pdf
+- C:\AURA-Lab\thesis_portfolio\Paper2_PRB_Format.pdf
+- C:\AURA-Lab\thesis_portfolio\Paper3_PRB_Format.pdf
+- C:\AURA-Lab\thesis_portfolio\PORTFOLIO_UNIFICATION_PREFACE.md
+- C:\AURA-Lab\thesis_portfolio\README.md
+- C:\AURA-Lab\thesis_portfolio\theses_assesment.md
+- C:\AURA-Lab\tools\LICENSE.txt
+- C:\AURA-Lab\whatisthis.md
+
+### Root: C:\aura-sentinel (100 files)
+
+- C:\aura-sentinel\aura-sentinel\04_execution_governance_dynamics.md
+- C:\aura-sentinel\aura-sentinel\Docs\actualsentinelplan.md
+- C:\aura-sentinel\aura-sentinel\Docs\ARCHETYPE_COUNCIL.md
+- C:\aura-sentinel\aura-sentinel\Docs\archetypeintegration.md
+- C:\aura-sentinel\aura-sentinel\Docs\Archetypes of AURA final.txt
+- C:\aura-sentinel\aura-sentinel\Docs\AURA-Subnodes.txt
+- C:\aura-sentinel\aura-sentinel\Docs\AURA.md
+- C:\aura-sentinel\aura-sentinel\Docs\auraelctronplan.md
+- C:\aura-sentinel\aura-sentinel\Docs\FOREVER_LAW.md
+- C:\aura-sentinel\aura-sentinel\Docs\Integration of Sentinel-Core Logic into AURA-Sentinel.md
+- C:\aura-sentinel\aura-sentinel\Docs\masterquiz.txt
+- C:\aura-sentinel\aura-sentinel\Docs\MIRRORBORN_AUDIT.md
+- C:\aura-sentinel\aura-sentinel\Docs\NeuroCognica Corporate Architecture Blueprint_.txt
+- C:\aura-sentinel\aura-sentinel\Docs\neurocognica-security-implementation-plan.md
+- C:\aura-sentinel\aura-sentinel\Docs\Sentinel AI Training Data Generation.md
+- C:\aura-sentinel\aura-sentinel\Docs\Sentinel-Core-Integration-Plan.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\## Chat Customization Diagnostics.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\06_00_abstract.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\06_00_INDEX.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\06_01_measurement_problem.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\06_02_theoretical_foundations.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\06_03_the_instrument.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\06_04_tagging_architecture.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\06_05_aggregation_engine.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\06_06_implementation.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\06_07_ux_and_feedback.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\06_08_determinism_verification.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\06_09_clinical_validity.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\06_10_comparative_analysis.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\06_11_discussion.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\06_12_future_work.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\06_13_conclusion.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\thesis_1_5\01_floquet_physics.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\thesis_1_5\02_computational_methods.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\thesis_1_5\03_cognitive_sovereignty.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\thesis_1_5\04_execution_governance_dynamics.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\thesis_1_5\05_sovereign_compliance_ecosystems.md
+- C:\aura-sentinel\aura-sentinel\Docs\thesis\THESIS_6_COMPLETE.md
+- C:\aura-sentinel\aura-sentinel\Docs\video_presentation\VIDEO_PLAN.md
+- C:\aura-sentinel\aura-sentinel\frontend\frontend_rust_api_integration.md
+- C:\aura-sentinel\aura-sentinel\frontend\handoff_cloudflare.md
+- C:\aura-sentinel\aura-sentinel\frontend\handoff.md
+- C:\aura-sentinel\aura-sentinel\frontend\index.html
+- C:\aura-sentinel\aura-sentinel\frontend\manus_page\index.html
+- C:\aura-sentinel\aura-sentinel\frontend\manus_page\pasted_content.txt
+- C:\aura-sentinel\aura-sentinel\frontend\manus_page\todo.md
+- C:\aura-sentinel\aura-sentinel\frontend\mbchecklist.md
+- C:\aura-sentinel\aura-sentinel\frontend\mirrorborn_integration_comprehensive_checklist.md
+- C:\aura-sentinel\aura-sentinel\frontend\mirrorborn_rust_api_complete_implementation.md
+- C:\aura-sentinel\aura-sentinel\frontend\README.md
+- C:\aura-sentinel\aura-sentinel\frontend\SENTINEL_HOW_IT_WORKS.md
+- C:\aura-sentinel\aura-sentinel\handoff.md
+- C:\aura-sentinel\aura-sentinel\handoff2.md
+- C:\aura-sentinel\aura-sentinel\handoff3.md
+- C:\aura-sentinel\aura-sentinel\Mirrorborn_LLM_Tagging_Architecture.md
+- C:\aura-sentinel\aura-sentinel\mirrorborn_test_report.md
+- C:\aura-sentinel\aura-sentinel\neurocognica-map.txt
+- C:\aura-sentinel\aura-sentinel\README.md
+- C:\aura-sentinel\aura-sentinel\report002.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\.github\agents\AUTO.agent.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\.github\PULL_REQUEST_TEMPLATE.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\ARCHITECTURE.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\AURA laws -.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\AUTOMATION_REQUIREMENTS_AND_SCRIPT_SHORT_TERM.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\AUTOMATION_REQUIREMENTS_AND_SCRIPT.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\build_errors_only.txt
+- C:\aura-sentinel\aura-sentinel\sentinel-core\build_errors.txt
+- C:\aura-sentinel\aura-sentinel\sentinel-core\crates\sentinel_bench\README.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\crates\sentinel_bench\REPORT.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\crates\sentinel_policy\POLICY_EVALUATED.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\crates\sentinel_policy\README.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\docs\api\examples.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\docs\api\README.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\docs\api\ui\index.html
+- C:\aura-sentinel\aura-sentinel\sentinel-core\docs\MCS.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\integration-artifacts-README.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\integration-snippets.txt
+- C:\aura-sentinel\aura-sentinel\sentinel-core\PUSH_MANIFEST.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\python_ui\SETUP_VENV.txt
+- C:\aura-sentinel\aura-sentinel\sentinel-core\README.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\ROADMAP.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\runtime_stderr_api.txt
+- C:\aura-sentinel\aura-sentinel\sentinel-core\runtime_stdout_api.txt
+- C:\aura-sentinel\aura-sentinel\sentinel-core\Sentinel Core_ Detailed Improvement Suggestions.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\SENTINEL_CHECKLIST.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\SENTINEL_CORE_RUST_FILES_SUMMARY.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\SENTINEL_CORE_TOML_FILES_SUMMARY.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\Sentinel-Law\aibor.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\Sentinel-Law\ARCHITECTURE_PATTERNS.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\Sentinel-Law\BOUNDARY_SEMANTICS.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\Sentinel-Law\EDGE_CASES_AND_SECURITY.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\Sentinel-Law\IMPLEMENTATION_ROADMAP_UPDATE_2025-12-26.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\Sentinel-Law\IMPLEMENTATION_ROADMAP.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\Sentinel-Law\mma.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\Sentinel-Law\POLICY_ANALYSIS.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\Sentinel-Law\Sentinel-Core Policy Schema Implementation Guide.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\Sentinel-Law\SentinelCore_DetailedImprovementSuggestions.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\THREAT_MODEL.md
+- C:\aura-sentinel\aura-sentinel\sentinel-core\tools\README.md
+- C:\aura-sentinel\aura-sentinel\whatisthis.md
+
+### Root: C:\AURA-Workbench (6 files)
+
+- C:\AURA-Workbench\app\static\login.html
+- C:\AURA-Workbench\app\static\register.html
+- C:\AURA-Workbench\app\static\workbench.html
+- C:\AURA-Workbench\neurocognica-map.txt
+- C:\AURA-Workbench\readme.md
+- C:\AURA-Workbench\requirements.txt
+
+### Root: C:\c (2 files)
+
+- C:\c\mecha\SENTINEL_CORE.md
+- C:\c\sentinel-core\PUSH_MANIFEST.md
+
+### Root: C:\chronos (2350 files)
+
+- C:\chronos\.agents\AGENTS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\.agents\AGENTS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\.pytest_cache\README.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\AGENT_TOKEN_STEWARDSHIP.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\AGENTS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\ARCHITECTURE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\AUDIT_CLAUDE_2026-05-31_bullshit-and-theatre.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\AUDIT_CLAUDE_2026-06-09_honest-valuation-and-novelty.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\AURA_BODY_ARCHIVE_MANIFEST_2026-06-05.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\AURA_CONSOLIDATION_THREE_LANE_PLAN.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\AURAlaw.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\BEOWULF_CONSOLE_AUDIT_2026-06-02.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\BEOWULF_TRACKB_AUDIT_2026-06-03.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\blender-mcp\README.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\blender-mcp\TERMS_AND_CONDITIONS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\BUILDER_BRIEF_2026-06-13_doc-truth-reconciliation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\BUILDER_BRIEF_2026-06-15_phase2-reskin-to-comps.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\BUILDER_BRIEF_2026-06-15_phase3-make-it-real-wiring.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\BUILDER_BRIEF_2026-06-16_professional-windows-build-mode.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\BULLSHIT_AUDIT_2026-05-31.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\CHRONOSYNTHESIS_IMPLEMENTATION_SUMMARY.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Chronosynthesis\Chronosynthesis.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Chronosynthesis\Generative Co-Evolutionary System Blueprint.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Chronosynthesis\Generative Co-Evolutionary System Blueprint.pdf
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Chronosynthesis\neurocognica_logos\README.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Chronosynthesis\Thesis.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\CLAUDE_CONTRIBUTION_REPORT_2026-05-25.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\CLAUDE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\CODEX_CONTRIBUTION_REPORT_2026-05-25.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\CONTRIBUTING.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\COUNCIL_REPORT_2026-06-03-full.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\COUNCIL_REPORT_2026-06-03.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\COUNCIL_REPORT_2026-06-08_SHOWROOM_RECOVERY.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\COUNCIL_REPORT_2026-06-11_COMPETITION_MAP.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\COUNCIL_REPORT_2026-06-18_AURA-LAPTOP-WITNESS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\COUNCIL_REPORT_LANE_A_2026-05-27.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\COUNCIL_REPORT_THREE_LANE_FOUNDRY_2026-05-28.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\crates\chronos_director\src\lineage_view.html
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\crates\chronos_dreamer\README.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\crates\chronos_dreamer\scene_dsl.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\crates\chronos_dreamer\vistas\hdri\README.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\crates\chronos_geometry_plan\acceptance_gate.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\crates\chronos_geometry_plan\geometry_plan.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\crates\chronos_geometry_plan\repair_loop.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\crates\chronos_manifold\TESTING.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\crates\chronos_sophia_identity\prompts\introspect_v1.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\crates\chronos_vision\design.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\data\training\operator_tests\2026-06-07_094021_carwash_visible_test\THESIS_INGEST.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\data\training\operator_tests\2026-06-07_094119_carwash_visible_test\THESIS_INGEST.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\data\training\operator_tests\2026-06-07_094147_carwash_visible_test\THESIS_INGEST.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\DEBUG_STRESS_CHECKLIST.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\DEMO_THEATRE_FINDINGS_2026-06-19.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\DESIGN_COMPLETE_SUMMARY.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\design_mockups\README.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\desktop\corpus_pipeline\BOM_README.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\desktop\corpus_pipeline\README.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\desktop\corpus_pipeline\requirements_librarian.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\desktop\mission_control\README.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\desktop\mission_control\requirements.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\desktop\mission_control\static\index.html
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\desktop\swarm_console\README.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\desktop\swarm_console\requirements.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\desktop\swarm_console\static\index.html
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\desktop\swarm_trainer\requirements.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\desktop\swarm_trainer\run_smoke_test.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\desktop\training\backends\carwash\README.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\desktop\training\backends\carwash\requirements.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\desktop\UI_ARCHITECTURE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\desktop\UI_COMPONENT_GUIDE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Deterministic Spatial Grounding and Animation.pdf
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\6fr\HAND_DESIGN_v1.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\API_ENDPOINTS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\AVATAR_HEAD_RECIPE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\CAPABILITY_INVENTORY.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\CAPABILITY_MAP.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\CCF_THESIS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\CHRONOS_ONE_PAGE_MEMO.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\CHRONOS_UNDENIABLE_DEMO.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\CHRONOSYNTHESIS_MATH_SPEC.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\corporate\README.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\corporate\VOLUME_I_CORPORATE_CHARTER_LEGAL_FOUNDATION.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\corporate\VOLUME_II_ORGANIZATIONAL_ARCHITECTURE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\corporate\VOLUME_III_STRATEGIC_DOCTRINE_MARKET_POSITIONING.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\corporate\VOLUME_IV_REGULATORY_FRAMEWORK_GLOBAL_OPERATIONS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\corpus\CORPUS_ACCESS_CONTRACT.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\corpus\CORPUS_VAULT_INVARIANTS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\corpus\PMC_LICENSE_AUDIT.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\corpus\PMC_SUBLICENSE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\council\COUNCIL_REPORT_THREE_REPOS_VALUATION_2026-06-05.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\create\SACRED_REFERENCE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\customer\FAQ.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\customer\FIRST_RUN.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\customer\GETTING_STARTED.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\customer\PRODUCT_OVERVIEW.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\customer\SECURITY_AND_PROVENANCE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\customer\SUPPORT.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\customer\SYSTEM_REQUIREMENTS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\cutting_room\SACRED_REFERENCE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\DEMO_CALL_SCRIPT.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\EASY_SETUP.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\FRIDAY_DEMO_BRIEF_2026-06-19.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\FRIDAY_DEMO_QA_2026-06-19.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\FRIDAY_DEMO_RUNBOOK_2026-06-19.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\FUNDING_PROOF_PACKET.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\geometry\WITNESS_INSPECTION_GATE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\gguf_carwash\AUDIT_CHECKLIST.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\gguf_carwash\BUILD_LOG.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\gguf_carwash\GGUF Carwash_ Technical Architecture Design.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\gguf_carwash\GGUF Carwash_ The Local-First LLM Fine-Tuning Pipeline.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\gguf_carwash\Local AI Geometry Training Backend.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\gguf_carwash\Local LLM Fine-Tuning Pipeline Guide.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\gguf_carwash\PROMPT_CASCADE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\gguf_carwash\PROMPT_CLAUDE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\gguf_carwash\PROMPT_CODEX.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\gguf_carwash\REPO_TRUTH_STATUS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\gguf_carwash\SOPHIA_TRAINING_BACKEND_INTEGRATION_PLAN.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\gguf_carwash\thesolve.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\gguf_carwash\THREE_LANE_BUILD_PLAN.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\04_execution_governance_dynamics.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\animation_video_gap.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\ANY_OBJECT_GAP_REPORT_2026-05-22.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\bridge.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\Building Vistas with Crucible Benchmarks.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\CHRONOS_SOPHIA_PROCEDURAL_GEOMETRY_TRAINING_PLAN.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\Chronos-Sophia Deep Research Report.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\Chronos-Sophia2.0.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\CLAUDE_SUMMARY_REQUEST_2026-05-25.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\COUNCIL_GEOMETRY_TRAINING_2026-05-17.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\COUNCIL_NOTE_2026-05-18_PHASE_2A_STAGE_D_F.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\COUNCIL_NOTE_2026-05-18_PHASE_2BC_CLAUDE_VERTICAL.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\COUNCIL_NOTE_2026-05-18_STAGE_D_PREFLIGHT.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\COUNCIL_REPORT_2026-05-01.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\COUNCIL_TRIAGE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\DREAMER_PLAN.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\futureplan.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\HANDOFF_2026-05-22_v2.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\HANDOFF_2026-05-22.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_cascade_2026-05-18_role_transfer_to_claude.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_cascade_2026-05-18_singular_goal_crossed.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-16_sophia_interview_redesign.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-16_sophia_scene_foundry.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-18_phase_2bc_vision_implementation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-18_stage_c_acceptance_gate.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-18_stage_d_design.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-18_stage_d_reading_ahead.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-18_stage_e_repair_loop_design.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-19_geometry_mesh_executor.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-19_sophia_identity_tool_profile.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-20_benchmark_campaign_runner.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-20_curriculum_spine_gate_frontier.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-20_step_8_proof_run.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_claude_2026-05-20_steps_6_7_profile_succession_daemon.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-18_export_chatml.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-18_phase_2bc_completion.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-18_phase_2bc_takeover.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-18_render_and_seal_corpus.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-18_stage_b_mesh_render.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-18_stage_c_seal_mesh_sample.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-18_stage_e_repair_loop_implementation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-19_curriculum_benchmark_substrate.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-20_sophia_life_kernel_phase2.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-20_sophia_life_kernel_phase3.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-20_sophia_life_kernel.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-21_comfyui_geometry_bridge.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-21_cube_proof_rescue.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-21_showroom_silhouette_pipeline.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-22_launcher_codex_surface.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-22_runtime_monitoring_truth.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-22_showroom_forever_law_sealing.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-22_vista_animation_canon.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-23_mesh_trainer_orchestrator.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-23_primitive_object_builder.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-24_control-plane-location-promotion.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-24_live-proof-tribunal.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-24_ouroboros_asset_critique_spine.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-24_ouroboros_creation_spine.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-25_manus_sword_system_doc.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-25_repo_audit_finalize_push.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-25_sword_family_browser_a3.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-25_sword_lineage_selection_lane.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_2026-05-25_sword_lineage_truth_lane.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_codex_5162026b.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_council_2026-05-20_state_of_sophia.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoff_windsurf_2026-05-17_sophia_geometry_training.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\HANDOFF.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\handoffreport5162026.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\Local Offline Artificial Organism.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\math.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\Offline Generative Scene System Build Plan.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\plan_2026-05-23_2021_mesh-trainer-orchestrator.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\plan_2026-05-24_0342_ouroboros_asset_critique_spine.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\plan_2026-05-24_0451_lawful_and_real_smoke_audit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\plan_2026-05-24_0500_organism_hardening.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\plan_2026-05-24_0600_proof_tribunal.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\plan_2026-05-24_0700_operational_recall.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\plan_2026-05-24_1135_ouroboros_creation_spine.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\plan_2026-05-24_2200_dreamer-material-lane.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\plan_2026-05-24_2207_control-plane-location-promotion.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\plan_2026-05-24_2231_lane-a-commit-packaging.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\plan_2026-05-24_2235_live-proof-tribunal.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\plan_2026-05-25_0624_sword-family-chaos-lane.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\plan_2026-05-25_0625_sword-lineage-selection-lane.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\plan_2026-05-25_0739_manus_sword_system_doc.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\plan_2026-05-25_0829_manus_sword_phase2_integration.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\plan_2026-05-25_0905_sword_phase_b1_b2.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\plan_2026-05-25_0912_sword_family_browser_a3.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\plan_2026-05-25_1133_repo_audit_finalize_push.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\PLAN_GEOMETRIC_LEXICON.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\PRODUCT.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\README.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\research_upload_review_2026-05-16.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\scene_geometry_plan.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\sophia_geometry_system_2026-05-16.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\sophia_studio_plan.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\sophiathesis.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\historical\vista_code.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\IMAGINE_ENGINE_DESIGN.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\operating_table\SACRED_REFERENCE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\OPERATOR_MANUAL.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\OUTREACH_MESSAGE_SHORT.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\plans\plan_2026-06-07_0510_funding-narrative-compression.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\plans\plan_2026-06-07_0513_training-truth-witness-closure.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\plans\plan_2026-06-07_undeniable-demo-report.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\PRIMUS_SWARM.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\renders\SACRED_REFERENCE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\roadmap_internal_pipeline.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\SHOWROOM_SPEC.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\SOPHIA_CHAT_AUDIT.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\sophia_chat\SACRED_REFERENCE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\SOVEREIGNTY_MANIFEST.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\standards\AGENT_GOVERNANCE_HARD_PROBLEMS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\standards\NEUROCOGNICA_GUI_LAUNCH_STANDARD.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\strategy\business_case_lawyers_over_artists.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\strategy\chronos_sophia_originality_frontiers.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\strategy\pipeline_reality_audit_2026-05-27.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\SYSTEM_AUDIT_MAP_2026-06-17.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\TERMINOLOGY.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\training\AI Agent Governance_ A New Standard.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\training\CARWASH_FIRST_REAL_RUN_RESULT.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\training\CARWASH_FIRST_RUN.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\training\CARWASH_WITNESS_GAP.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\training\SPECIAL_TOKENS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\training\TEXT_CORPUS_READINESS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\training\TOKENIZER_DESIGN.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\training\TOKENIZER_EVALUATION.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\training\TRAINING_GATES.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\TROUBLESHOOTING.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\TYPOGRAPHY.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\UI_STRING_MAP.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\ui\APP_MODEL.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\ui\DESIGN_SYSTEM.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\USER_GUIDE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\user_guide\chronosynthesis_contract.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\user_guide\how_lineage_works.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\user_guide\how_to_use_sophia_chat.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\user_guide\how_to_use_vistas.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\VISION.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\VISTA_TEMPLATE_DESIGN.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\vistas\PROCEDURAL_FOREST_VISTA_GENERATION_PLAN.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\vistas\SACRED_REFERENCE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\WINDOWS_LIFECYCLE_AUDIT_2026-06-17.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\AUDIT_CHECKLISTS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\audit_evidence_2026-06-17\00_git_status_before.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\audit_evidence_2026-06-17\01_installer_output_listing.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\audit_evidence_2026-06-17\02_installer_sha256.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\audit_evidence_2026-06-17\05_pytest_runtime_metabolism.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\audit_evidence_2026-06-17\06_updater_probe_before_reset.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\audit_evidence_2026-06-17\07_feed_reset_to_release_version.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\audit_evidence_2026-06-17\09_updater_probe_after_reset.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\audit_evidence_2026-06-17\10_feed_mutation_to_1.0.1.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\audit_evidence_2026-06-17\12_updater_probe_after_forced_1.0.1.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\audit_evidence_2026-06-17\13_feed_reset_to_release_version_sequential.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\audit_evidence_2026-06-17\15_updater_probe_after_reset_sequential.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\audit_evidence_2026-06-17\16_feed_mutation_to_1.0.1_sequential.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\audit_evidence_2026-06-17\18_updater_probe_after_forced_1.0.1_sequential.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\audit_evidence_2026-06-17\19_feed_reset_to_release_version_final.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\audit_evidence_2026-06-17\21_check_docs.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\audit_evidence_2026-06-17\22_cargo_test_workspace.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\audit_evidence_2026-06-17\README.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\DEMO_LAPTOPS_CONNECT.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\LAPTOP_TEST_CHECKLIST.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\PROFESSIONAL_BUILD_DOSSIER.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\README.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\RELEASE_PROGRAM.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\SECURITY_TRUST_PACKAGE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\TELEMETRY_POLICY.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\WINDOWS_LIFECYCLE_AUDIT_EVIDENCE_MANIFEST_2026-06-17.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\WINDOWS_LIFECYCLE_AUDIT_PLAN_2026-06-17.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\WINDOWS_LIFECYCLE_AUDIT_REPORT_2026-06-17.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\WINDOWS_LIFECYCLE_AUDIT_REPORT_2026-06-19_internal-release-lane.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\WINDOWS_LIFECYCLE_AUDIT_REPORT_2026-06-19.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\docs\windows\WINDOWS_VERSION_SERIALIZATION_AUDIT_2026-06-19.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\FILM_PIPELINE_INDEX.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\FILM_PIPELINE_MAPPING.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\FILM_PIPELINE_SUMMARY.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\FILM_PIPELINE_VERIFICATION.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\films\ouroboros-codex\ASSET_INVENTORY_BALLPARK.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\films\ouroboros-codex\PIPELINE_PLAN.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\films\ouroboros-codex\README.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\FORGE_DUAL_VIEW_SPEC.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\GOVERNANCE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_2026-06-12_user-rating-retry.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_2026-06-16_splash-lifecycle-and-remaining-defect.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\HANDOFF_2026-06-20_showroom-restore-and-next-builder.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\HANDOFF_2026-06-21_showroom-lock-fisheye-version.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_2026-07-06_golden-path-break-list.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-05-25_business_pivot.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-05-25_originality_audit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-05-31_lane-d-component-guide.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-05-31_phase0-foundation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-07_wonder-wall.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-08_cpu_pytorch_fix.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-08_easy_windows_setup.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-08_hf_blender_fix.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-08_models_setup.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-08_spinning-ring.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-08_universal_installer.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-09_commit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-09_rebuild.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-11_lane-a.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-11_lane-b.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-12_domain-corpus.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-12_lane-i-benchmark.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_Antigravity_2026-06-13_launcher-facelift.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-16_lane-B.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-26_embed-webview2-lineage.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_antigravity_2026-06-26_fix_lineage_json_error.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_Antigravity_2026-06-27_bug-report-and-pedestal-fixes.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_builder3_2026-06-13_doc-truth-reconciliation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cascade_2026-05-26_three_lane_carwash_integration.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cascade_2026-05-27_lane-a-lineage-visualizer.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cascade_2026-05-29_chronosynthesis-lane-b.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cascade_2026-05-30_lane-b.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cascade_2026-05-31_lane-b-core-ui.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cascade_2026-06-08_showroom-wired.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cascade_2026-06-11_lane-b-corporatization.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cascade_2026-06-12_lane-e-effects-wired.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cascade_2026-06-12_lane-h-generic-profile-decomposer.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cascade-lane-b_2026-06-10_linux-installer-hardening.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-05-28_compile-film-fix.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-05-31_front_end_reckoning.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-05-31_lane-a-backend-polish.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-05_conductor-push.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-05_lane-a-sentinel.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-05_render-still-governed-path.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-05_sentinel-forever-law-persistence.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-05_sentinel-shadow-director.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-07_lane-b-training-and-tandem-state.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-08_cbig-and-governed-artifact.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-10_installer-tier0-complete.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-11_lane-d-integration.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-12_lane-d-integrator-session.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-12_lane-d-single-pass-closure.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-14_session-launcher-operating-table-vistas-autoforge.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_claude_2026-06-26_blender-made-actors.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-05-26_benchmark_loop_and_audit_prep.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-05-26_trainer_promotion_lane.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-05-26_training_engine.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-05-28_animate-mp4-and-tests.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-02_swarm-sanitization.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-03_corpus-bom.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-03_mission-control-runtime-fix.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-03_track-b-smoke.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-04_carwash-bootstrap-runtime.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-04_lane-a-carwash-first-run.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-04_pmc-reclassification.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-04_what-are-we-building.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-05_aura-consolidation-three-lane.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-05_conductor-truth.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-05_lane-c-archive.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-05_remote-first-operator-law.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-05_three-lane-build-orchestration.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-06_readme-truth-and-sentinel-widening.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-08_canonical-showroom-animation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-11_director-readiness-and-instance-root.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-11_lane-a-preview-render-quick.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-11_lane-c.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-11_shape-alphabet.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-11_verify-and-push-local-truth-bundle.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-12_lane-g-hardening-verify.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-14_geometry-fallback-render-wiring.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-14_witness-inspection-views.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-16_docs-truth-reconciliation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-16_lane-c.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-16_metabolism-phase-0-1.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-16_operating-table-anti-theatre.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-16_operation-ship-certified-dragon.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-16_phase2-phase3-build-audit-fix-docs.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-17_aura-laptop-witness-and-ssh.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-17_biogenesis-dense-canopy-port.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-17_windows-audit-recovery.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-18_aura-demo-ship-stabilization.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-19_full-tree-assimilation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-19_windows-internal-release-lane.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-21_1.1.0-release-and-aura-block.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-21_sophia-chat-truthful-tab.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-21_witness-cameras-update-lane.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-23_dirty-tree-stat-audit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-23_sophia-interview-rework.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-23_sophia-ui-greeting-witness.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-23_vision-loop-stage1.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-24_black-slate-shell-fit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-24_black-slate-ui.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-24_blend-orbital180-animation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-24_four-item-showroom-cutting-room.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-24_restore-black-slate-magic.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-24_today-build-desktop-icon.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-24_vision-loop-concept-preview.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-24_vistas-magic-and-window-chrome.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-25_lineage-page-consistency.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-25_renders-artifact-catalog.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-26_agent-token-stewardship.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-26_lineage-render-links.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_codex_2026-06-27_l1-render-craft.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cursor_2026-06-16_lane-a.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cursor_2026-06-16_phase3-splash-wiring-FAILURE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cursor_2026-06-16_undeniable-artifact-windows-ship-gate.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cursor_2026-06-17_biogenesis-gn-visual-recovery.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cursor_2026-06-19_aura-demo-render-regression.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_cursor_2026-06-22_sovereign-render-and-geometry-e2e.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_devin_2026-06-05_lane-b-search.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_lane_c_phase_c.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_lane-b_2026-05-28_complete.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_scribe_2026-06-03_pmc-sublicensing.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\handoff_scribe_2026-06-03_tokenizer-architecture.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\HARDENING_AUDIT_2026-06-11.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\installer\ARCHITECTURE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\installer\README.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\installer\SIGNING_READINESS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\installer\UNINSTALL_CONTRACT.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\installer\UPDATE_PIPELINE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\lane_2026-06-26_help-hotsheet-system.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\lane_2026-06-26_mblab-actor-genesis-bridge.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LANE_A_CLAUDE_INTEGRATION_PROMPT.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LANE_A_PROMPT_2026-06-11_launch-installer.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LANE_A_PROMPT_2026-06-13_audit-repairs.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LANE_A_PROMPT_2026-06-13_seams-and-conductor.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LANE_A_PROMPT_CORRECTION.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LANE_B_CLAUDE_OPUS_PROMPT.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LANE_B_PROMPT_2026-06-11_corporatization.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LANE_B_PROMPT_2026-06-13_operating-table-tab.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LANE_B_TEST_SUITE_PROMPT.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LANE_C_PROMPT_2026-06-11_hardening.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LANE_C_PROMPT_2026-06-13_launcher-facelift.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\lane_cursor_2026-06-27.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LANE_D_PROMPT_2026-06-13_6fr-render-and-openscad-organ.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LANE_E_PROMPT_2026-06-12_effects-wow.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LANE_F_PROMPT_2026-06-12_domain-corpus.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LANE_G_PROMPT_2026-06-12_hardening-verify.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LANE_H_PROMPT_2026-06-12_generic-profile-decomposer.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LANE_I_PROMPT_2026-06-12_benchmark-integrity.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LANE_PROMPT_2026-06-13_vista-overhaul.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LAUNCH_COMMANDS_2026-06-01.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LAUNCH_READINESS_AUDIT_2026-06-01.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\LIBRARIAN_ACCESS_FAILURE_REPORT_2026-06-03.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\MANUS_SWORD_SYSTEM_REVIEW.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Manus\Chronos-Sophia Research_ Silhouette-Guided Procedural Mesh Generation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Manus\Chronos-Sophia_ The Geometry of Autonomy.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Manus\ComfyUI Workflow for Orthographic Reference Generation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Manus\Implementation Plan_ The Geometry of Autonomy.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Manus\Technical Review_ Chronos-Sophia Sword Generation System.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\MASTER_GUIDE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\OFFER_PACK_THIS_WEEK.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\PHASE3_SUMMARY_AND_AUDIT.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\PIPELINE_FLOWCHART.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-25_1600_shield_geometry_family.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-25_2245_originality-audit-frontiers.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-25_2321_business-pivot-case.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-25_2335_commit-strategic-docs.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-26_0000_perplexity-v3-response.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-26_0015_trainer_promotion_lane.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-26_1119_training-engine.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-26_1315_finish_trainer_loop_and_audit_prep.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-26_1330_carwash-data-pipeline.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-26_1540_trl-transformers-compat-fix.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-26_2119_rescue-carwash-build.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-26_T1_trainer_closure.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-27_0542_lane-a-lineage-visualizer.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-27_0544_pipeline-reality-audit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-27_1200_lane_b_sophia_introspection.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-28_0618_foundry-frontend-overhaul.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-28_0724_three-lane-foundry-rebuild.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-28_0744_lane-c-debug-tools.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-28_0953_triple-lane-surgical-fixes.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-28_1001_lane-b-animate-mp4-and-tests.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-28_2230_auto-forge.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-29_0000_living-lineage-chamber.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-29_0638_extract-chronosynthesis-thesis.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-29_1200_chronosynthesis-integration.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-30_0544_great-unification.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-30_0600_dual-lane-metabolism.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-30_1301_chronosynthesis-math-implementation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-30_1407_dual-lane-chronosynthesis-build.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-30_1424_lane-b-chronosynthesis-math.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-30_1442_lane-b-test-suite.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-30_1503_lane-b-manifold-test-suite.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-30_1648_ui-design-specification.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-30_1650_dual-lane-ui-implementation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-30_1920_neurocognica-logo-placement.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-30_2144_chronosynthesis-integration.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-31_0357_four-lane-orchestration.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-31_0419_lane-d-component-guide.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-31_0421_lane-a-backend-polish.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-31_0421_lane-b-core-ui.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-31_0421_lane-c-gallery-polish.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-31_0530_lineage-chamber-undeniable-artifact.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-31_0856_integration-audit-and-enhancement.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-31_0908_lineage-chamber-and-ui-truth.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-31_0915_forge-dual-page-build.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-31_1015_three-agent-frontend-rebuild.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-31_1526_phase0-foundation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-31_1800_phase2_live_context.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-31_1846_fix-theme-and-forge-toggle.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-05-31_1945_phase1-tab-modules.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-01_0010_phase3-cell-ecology.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-01_0900_phase3_completion.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-01_1100_phase4_live_conversation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-01_1107_launch-readiness-audit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-01_2209_corpus_extraction_pipeline.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-01_2231_draft-ccf-section-ii.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-01_2240_draft-ccf-section-iii.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-02_0001_draft-ccf-section-iv.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-02_0006_draft-ccf-section-v.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-02_0012_draft-ccf-section-vi.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-02_0017_draft-ccf-section-vii.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-02_0023_draft-ccf-section-viii.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-02_0029_draft-ccf-section-ix.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-02_0035_draft-ccf-section-x.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-02_0043_portfolio-unification-preface.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-02_0049_draft-ccf-section-xi.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-02_0054_draft-ccf-section-xii.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-02_0702_assemble-ccf-full-thesis.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-02_0710_ccf-verification-appendix.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-02_1227_beowulf-node-console.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-02_2315_sanitize-swarm-and-push.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-03_0030_first-distributed-workload.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-03_0130_track-b-diloco-smoke-test.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-03_0419_track-b-smoke-implementation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-03_0500_anchor-onboarding-checks.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-03_0515_librarian-headless-terminal.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-03_1025_librarian-access-failure-report.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-03_1140_swarm-control-panel.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-03_1210_chronos-mission-control.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-03_1230_librarian-corpus-ingestion.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-03_1308_audit-improve-mission-control-plan.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-03_1320_git-trail-cleanup-and-push.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-03_1530_pmc-sublicensing.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-03_1545_tokenizer-architecture.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-03_1748_corpus-bom.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-03_1843_mission-control-and-launcher-fixes.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-03_1902_fix-mission-control-runtime.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-03_2003_engine-fire-status-check.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-03_2010_swarm-auth-repair.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-03_2358_fix-corpus-bom-reconciliation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-04_0013_pmc-reclassification.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-04_0035_gutenberg-ingestion.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-04_0048_commit-clean-push.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-04_0504_two-lane-training-lane-a.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-04_0705_two-lane-integration.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-04_0728_cache-base-model-and-bootstrap-run.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-04_1130_total-doc-audit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-04_1200_wikipedia-staging.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-04_1648_undo-wikipedia-bullshit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-04_2238_write-what-are-we-building.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-05_0018_aura-consolidation-three-lane.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-05_0042_clear-transfer-space.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-05_0110_remote-first-operator-law.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-05_0751_three-lane-build-orchestration.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-05_0803_lane-b-search.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-05_0804_lane-c-archive.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-05_0806_lane-a-sentinel.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-05_0903_warning-cleanup-and-lane-packaging.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-05_0942_conductor-docs-and-push.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-05_1500_sentinel-shadow-director.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-05_1558_sentinel-forever-law-persistence.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-05_2047_render-still-governed-action-path.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-06_0442_chronos-search-live-memory-organ.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-06_0528_make-repo-match-reality.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-06_0559_maximum-value-roadmap.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-06_0659_tandem-build-roadmap.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-06_0705_readme-truth-and-lane-a.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-07_0245_lane-c-client-signing.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-07_0308_lane-b-first-carwash-run.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-07_0508_lane-b-verdict-and-status.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-07_0510_wonder-wall.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-07_0520_carwash-visible-test-harness.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-07_0940_bullshit-cleanup.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-07_0950_commit-visible-harness-and-update-proof.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-07_1005_build-wonder-artifact.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-07_1025_integrate-four-lanes.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-07_2300_governed-artifact-preflight.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_0723_wire-real-showroom-into-governed-artifact.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_0743_fix-governed-artifact-v5.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_0945_canonical-showroom-animation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_1454_aligned-showroom-vision.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_1523_render-spinning-ring.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_1638_restore-showroom-still.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_1819_council-report-showroom-milestone.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_2008_kill-foundry-stubs.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_2009_save-tree-and-push-law.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_2018_launch-and-screenshot-foundry.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_2023_propagate-laws-to-reference-docs.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_2025_services-forge-renders-unify.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_2031_reference-docs-currency.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_2033_comfyui-default-port-8000.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_2125_interior-room-wild-vista.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_2142_easy-install-doc.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_2207_models-and-extensions.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_2207_render-quality-wow-pass.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_2211_cpu-only-pytorch.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_2225_universal-automated-installer.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-08_2310_fix-hf-and-blender-mcp.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-09_0314_commit-setup-scripts.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-09_0355_rebuild-workspace.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-09_0815_llvm-dependency.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-09_0830_fix-mesh-render-path-test.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-10_0134_stub-theatre-eradication.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-10_0236_installer-supply-chain-hardening.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-10_1545_sellable-positioning-rescue.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-10_1600_done-for-you-offer-pack.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_0112_one-worthy-gui-four-lane-convergence.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_0325_sophia-real-app-recovery.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_0335_g5-emitter-retry-and-kali-seal.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_0352_progressive-render-loop.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_0405_lane-b-inline-preview.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_0420_director-restart-new-binary.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_0958_lane-c-worthy-pass.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_1048_council-competition-report.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_1112_verify-carry-forward-and-push-all.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_1315_lane-a-preview-render-quick-flag.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_1402_preview-magic-repair-pass.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_1450_director-readiness-and-instance-root.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_1545_unblock-cargo-build-director-file-lock.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_1620_enterprise-ship-four-lane.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_2017_lane-a-launch-installer.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_2017_lane-b-corporatization-docs.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_2018_lane-c-hardening-stress.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_2215_fix-first-light-button-quoting.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_2240_first-light-ux-in-launcher.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_2330_plan-a-shape-alphabet.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_2335_plan-b-animation-demos.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_2340_plan-c-effects-wow.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-11_2345_plan-d-lost-thread-revival.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_0030_plan-b-animation-demos-execution.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_0310_carwash-bootstrap-vram-fit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_0350_domain-corpus-graphics-fabrication.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_0425_lane-e-effects-wow-wiring.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_0436_domain-corpus-graphics-fabrication.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_0454_lane-g-hardening-verify.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_0520_canon-compression-phase1.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_0553_lane-h-generic-profile-decomposer.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_1100_benchmark-integrity.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_1240_lane-i-h-verification-and-modelfile-fix.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_1330_lane-d-single-pass-closure.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_1355_kali-doctrine-and-archetypal-engineering.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_1402_tree-clean-and-wait-ux-plan.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_1405_chronosynthesis-wait-experience.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_1425_preview_showcase_material_routing.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_1503_verify-material-routing.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_1601_user-rating-retry.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_1837_red-glass-sphere-material-guard.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_2217_storage-hygiene-and-output-convention.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_2233_vessel-shape-guard.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-12_2342_anti-orphan-and-lathe-wiring.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-13_0427_ggsr-lane-a-perception.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-13_0427_phase_c_lane_c.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-13_0428_ggsr-builder-b.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-13_0512_phase-c-false-green-remediation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-13_0554_status-doc-reconciliation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-13_0555_builder1-readme-truth-reconciliation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-13_1902_lane-a-phase0-seams.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-13_1907_lane-c-launcher-facelift.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-13_chronos-launch-error-handling-and-blender-preflight.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-13_launcher-polish.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-13_multilane-operating-table-run.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-13_openscad-organ-and-6fr-assembly-render.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-13_operating-table-recovery.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-13_operating-table-tab.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-13_usability-rescue-audit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-14_0404_vista-overhaul.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-14_0500_geometry-fallback-render-wiring.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-14_0514_png-witness-tests.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-14_0529_four-view-witness-replan.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-14_1630_prepare-build.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-14_app-unification-and-tab-audit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-14_auto-forge-cut-and-restore.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-14_FULL-UI-OVERHAUL-master.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-14_geometry-track-brief.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-14_phase-a-de-theatre.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-14_phases-bcd-geometry-track.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-14_pro-first-five-sessions-brief.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-14_remove-launcher-from-chain.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-14_witness-ortho-framing-and-ui-phase1.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-15_1103_cutting-room-phase2.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-15_1103_phase2-vistas-sophia-chat-reskin.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-15_1200_phase2-reskin-to-comps.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-15_1430_create-renders-theatre-cut.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-15_1600_construct-vista.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-15_1630_first-light-construct.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-15_1700_launcher-no-white-void-fullscreen.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-15_1730_fix-splash-reveal-bug.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-15_1730_restore-cutting-room-tab.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-15_1800_phase3-make-it-real-wiring.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-15_operating-table-to-flashforge-fabrication.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_0503_operating-table-anti-theatre.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_0520_render-tab-overhaul.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_0543_docs-truth-reconciliation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_0544_renders-6fr-combined.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_0605_text-system-integration.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_1200_exit-button.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_1927_update-critical-docs.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_1930_splash-freeze-background-hydration.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_1950_three-builder-professional-windows-build.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_2000_create-tab-typography.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_2002_lane-c-professional-windows-docs.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_2015_lane-B-windows-app-lifecycle.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_2036_critical-docs-audit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_2038_agents-claude-law-audit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_2056_phase0-phase1-metabolism-execution.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_2115_chronosynthesis-bug-reporting.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_2130_renders-tab-audit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_2134_phase2-phase3-tandem-build.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_2140_phase2-phase3-build-audit-fix-docs.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_2200_6fr-emboss-phase5.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_2200_sophia-chat-typography-intent.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_2215_lane-a-installer-update-signing.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_2257_undeniable-artifact-windows-ship-gate.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_2315_operation-ship-certified-dragon.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_2330_company-grade-metabolism-whole-product.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-16_2345_ship-gate-hail-mary.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-17_0100_create-tab-layout-fix.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-17_0533_whole-system-audit-maps.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-17_0546_windows-lifecycle-audit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-17_1020_chronosynthesis-bug-reporting.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-17_1026_windows-lifecycle-audit-recovery.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-17_1142_procedural-forest-vista-biogenesis.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-17_1430_biogenesis-visual-honesty-recovery.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-17_1636_biogenesis-dense-canopy-port.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-17_1708_pine-forest-reference-driven-rebuild.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-17_1724_biogenesis-hard-reset.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-17_1736_trunk-growth-proof.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-17_1815_demo-readiness.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-17_1900_phase-e-f-github-release-laptop-witness.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-17_2105_aura-transfer-and-install-prep.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-17_2125_aura-sidecar-repair.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-17_2245_fix-aura-demo-sidecar.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-17_2335_proactive-winget-bootstrap.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-17_2345_fix-comfy-git-resolution.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-17_2355_refresh-aura-sidecar.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-18_0005_ollama-one-shot-bootstrap.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-18_0015_aura-remote-install.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-18_0015_remove-training-model-from-default-install.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-18_0030_fix-blendermcp-install.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-18_0315_aura-sophia-latest-fix.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-18_0900_tier0-witness-path-law.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-18_1105_aura-demo-ship-stabilization.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-19_0545_demo-theatre-sweep-and-comfy.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-19_0615_biogenesis-dense-port.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-19_0700_aura-render-recovery-deploy.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-19_0730_sentinels-and-product-hardening.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-19_0800_biogenesis-finish-and-showroom-phases.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-19_0900_create-tab-render-panel-unfuck.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-19_1034_aura-render-demo-recovery.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-19_1102_windows-lifecycle-audit-refresh.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-19_1230_aura-showroom-scene-regression.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-19_1245_aura-showroom-scene-fix.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-19_1325_update-serialization-and-version-audit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-19_1415_full-tree-assimilation-and-push.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-19_1705_bug-submit-camera-version-truth.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-19_1805_aura-proper-update-lane-and-test-deploy.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-19_2005_aura-emergency-camera-blend-hotfix.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-21_0030_showroom-permanence-lock.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-21_1136_promote-builder-state-aura-update.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-21_1439_sophia-chat-truthful-tab.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-21_1534_create-tab-apple-polish.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-21_1612_floating-jawbone-recipe.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-21_1920_preserve-witness-cameras-update-lane.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-21_2230_aura-ssh-update-render-over-ssh.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-22_0010_installer-code-signing.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-22_0930_phase-a-steps5a-5d-foundry-wire.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-22_0940_phase-c-lathe-silhouette-e2e-tests.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-23_0110_comfy-recovery-and-canvas-easel.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-23_0300_sophia-chat-apple-redesign.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-23_1929_sophia-interview-rework.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-23_2001_sophia-ui-greeting-witness.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-23_2033_vision-loop.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-23_2106_dirty-tree-stat-audit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-23_2225_four-item-showroom-cutting-room.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-23_2330_today-build-desktop-icon.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-24_0001_vision-loop-stages2-5.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-24_0430_blend-orbital180-animation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-24_1302_black-slate-end-to-end-ui.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-24_1627_black-slate-shell-fit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-24_1708_restore-black-slate-magic.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-24_1745_tab_create.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-24_1745_tab_cutting_room.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-24_1745_tab_operating_table.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-24_1745_tab_renders.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-24_1745_tab_sophia_chat.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-24_1745_tab_vistas.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-24_1745_ui_shell.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-24_1833_vistas-magic-and-window-chrome.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-24_2136_ui-help-hotsheet-audit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-25_2156_lineage-page-consistency-build.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-25_2304_renders-artifact-catalog.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-26_0600_lineage-browser-render-links.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-26_0626_agent-token-stewardship.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-26_0640_embed-webview2-lineage.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-26_0700_fix_lineage_json_error.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-26_0853_clean-build-no-warnings.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-26_1231_blender-actors-mvp.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-26_1430_bundle-spin-rig.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-06-27_0947_l1-render-craft.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-07-06_1638_golden-path-ui-witness.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\plan_2026-07-06_1750_capability-ledger-test-truth-fix.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\QUICKSTART.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\README.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\REMOTE_FIRST_OPERATOR_LAW.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\RENDER_FRAME_DUMPS_2026-06-08.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\report_2026-06-24_ui_help_hotsheet_audit.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\report_2026-06-26_katana-geometry-learning-loop.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\REPORT_CLAUDE_2026-05-31_front-end-failure-reckoning.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\requirements.txt
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\scripts\DEPENDENCIES.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\scripts\SILHOUETTE_PROMPTING.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\scripts\ui_extraction\2026-06-11_lane-b\README.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\scripts\wonder_wall\template.html
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\SEAMS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\SELL_CHRONOS_NOW.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\SHIP_CERTIFICATION_STATUS_2026-06-16.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\STATUS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\templates\neurocognica_app_template\BUILD_DISCIPLINE.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\templates\neurocognica_app_template\FRAMEWORK.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\THESIS.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\THREE_LANE_BUILDER_PANELS_2026-06-05.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\TWO_LANE_BUILDER_PANELS_2026-06-05_sentinel-enforcement.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\UI_DESIGN_SPECIFICATION.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Valuations\antigravity.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Valuations\asset-truth_current-state_2026-06-10.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Valuations\cascade.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Valuations\chatgpt.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Valuations\chronos_sophia_valuation_v2.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Valuations\chronos_sophia_valuation.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Valuations\Chronos-Sophia Project Valuation Report.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Valuations\claude.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\Valuations\gemini.md
+- C:\chronos\.claude\worktrees\laughing-goldwasser-554dc6\WHAT_ARE_WE_BUILDING.md
+- C:\chronos\.pytest_cache\README.md
+- C:\chronos\AGENT_TOKEN_STEWARDSHIP.md
+- C:\chronos\AGENTS.md
+- C:\chronos\ARCHITECTURE.md
+- C:\chronos\AURAlaw.md
+- C:\chronos\blender-mcp\README.md
+- C:\chronos\blender-mcp\TERMS_AND_CONDITIONS.md
+- C:\chronos\chatgpt6182026.md
+- C:\chronos\Chronosynthesis\Chronosynthesis.md
+- C:\chronos\Chronosynthesis\Generative Co-Evolutionary System Blueprint.md
+- C:\chronos\Chronosynthesis\Generative Co-Evolutionary System Blueprint.pdf
+- C:\chronos\Chronosynthesis\neurocognica_logos\README.md
+- C:\chronos\Chronosynthesis\Thesis.md
+- C:\chronos\CLAUDE.md
+- C:\chronos\CONTRIBUTING.md
+- C:\chronos\crates\chronos_director\src\lineage_view.html
+- C:\chronos\crates\chronos_dreamer\README.md
+- C:\chronos\crates\chronos_dreamer\scene_dsl.md
+- C:\chronos\crates\chronos_dreamer\vistas\hdri\README.md
+- C:\chronos\crates\chronos_geometry_plan\acceptance_gate.md
+- C:\chronos\crates\chronos_geometry_plan\geometry_plan.md
+- C:\chronos\crates\chronos_geometry_plan\repair_loop.md
+- C:\chronos\crates\chronos_manifold\TESTING.md
+- C:\chronos\crates\chronos_sophia_identity\prompts\introspect_v1.txt
+- C:\chronos\crates\chronos_vision\design.md
+- C:\chronos\data\training\operator_tests\2026-06-07_094021_carwash_visible_test\THESIS_INGEST.md
+- C:\chronos\data\training\operator_tests\2026-06-07_094119_carwash_visible_test\THESIS_INGEST.md
+- C:\chronos\data\training\operator_tests\2026-06-07_094147_carwash_visible_test\THESIS_INGEST.md
+- C:\chronos\data\training\runs\2026-06-12_084954_mesh_dpo_v1_carwash_bootstrap\model\adapter_bundle\README.md
+- C:\chronos\data\training\runs\2026-06-12_084954_mesh_dpo_v1_carwash_bootstrap\model\dpo_stage\checkpoint-5\README.md
+- C:\chronos\data\training\runs\2026-06-12_084954_mesh_dpo_v1_carwash_bootstrap\model\dpo_stage\README.md
+- C:\chronos\data\training\runs\2026-06-12_084954_mesh_dpo_v1_carwash_bootstrap\model\sft_stage\checkpoint-16\README.md
+- C:\chronos\data\training\runs\2026-06-12_084954_mesh_dpo_v1_carwash_bootstrap\model\sft_stage\checkpoint-8\README.md
+- C:\chronos\data\training\runs\2026-06-12_084954_mesh_dpo_v1_carwash_bootstrap\model\sft_stage\README.md
+- C:\chronos\design_mockups\README.md
+- C:\chronos\desktop\.pytest_cache\README.md
+- C:\chronos\desktop\corpus_pipeline\BOM_README.md
+- C:\chronos\desktop\corpus_pipeline\README.md
+- C:\chronos\desktop\corpus_pipeline\requirements_librarian.txt
+- C:\chronos\desktop\mission_control\README.md
+- C:\chronos\desktop\mission_control\requirements.txt
+- C:\chronos\desktop\mission_control\static\index.html
+- C:\chronos\desktop\snapshots\2026-05-16_sophia_chat_working_snapshot\README.md
+- C:\chronos\desktop\swarm_console\README.md
+- C:\chronos\desktop\swarm_console\requirements.txt
+- C:\chronos\desktop\swarm_console\static\index.html
+- C:\chronos\desktop\swarm_trainer\requirements.txt
+- C:\chronos\desktop\swarm_trainer\run_smoke_test.md
+- C:\chronos\desktop\training\backends\carwash\README.md
+- C:\chronos\desktop\training\backends\carwash\requirements.txt
+- C:\chronos\desktop\UI_ARCHITECTURE.md
+- C:\chronos\desktop\UI_COMPONENT_GUIDE.md
+- C:\chronos\docs\6fr\HAND_DESIGN_v1.md
+- C:\chronos\docs\API_ENDPOINTS.md
+- C:\chronos\docs\archive\audits\AUDIT_CLAUDE_2026-05-31_bullshit-and-theatre.md
+- C:\chronos\docs\archive\audits\AUDIT_CLAUDE_2026-06-09_honest-valuation-and-novelty.md
+- C:\chronos\docs\archive\audits\BEOWULF_CONSOLE_AUDIT_2026-06-02.md
+- C:\chronos\docs\archive\audits\BEOWULF_TRACKB_AUDIT_2026-06-03.md
+- C:\chronos\docs\archive\audits\BULLSHIT_AUDIT_2026-05-31.md
+- C:\chronos\docs\archive\audits\DEMO_THEATRE_FINDINGS_2026-06-19.md
+- C:\chronos\docs\archive\audits\HARDENING_AUDIT_2026-06-11.md
+- C:\chronos\docs\archive\audits\LAUNCH_READINESS_AUDIT_2026-06-01.md
+- C:\chronos\docs\archive\audits\PHASE3_SUMMARY_AND_AUDIT.md
+- C:\chronos\docs\archive\council\COUNCIL_REPORT_2026-06-03-full.md
+- C:\chronos\docs\archive\council\COUNCIL_REPORT_2026-06-03.md
+- C:\chronos\docs\archive\council\COUNCIL_REPORT_2026-06-08_SHOWROOM_RECOVERY.md
+- C:\chronos\docs\archive\council\COUNCIL_REPORT_2026-06-11_COMPETITION_MAP.md
+- C:\chronos\docs\archive\council\COUNCIL_REPORT_2026-06-18_AURA-LAPTOP-WITNESS.md
+- C:\chronos\docs\archive\council\COUNCIL_REPORT_LANE_A_2026-05-27.md
+- C:\chronos\docs\archive\council\COUNCIL_REPORT_THREE_LANE_FOUNDRY_2026-05-28.md
+- C:\chronos\docs\archive\handoffs\handoff_2026-06-12_user-rating-retry.md
+- C:\chronos\docs\archive\handoffs\handoff_2026-06-16_splash-lifecycle-and-remaining-defect.md
+- C:\chronos\docs\archive\handoffs\HANDOFF_2026-06-20_showroom-restore-and-next-builder.md
+- C:\chronos\docs\archive\handoffs\HANDOFF_2026-06-21_showroom-lock-fisheye-version.md
+- C:\chronos\docs\archive\handoffs\handoff_2026-07-06_golden-path-break-list.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-05-25_business_pivot.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-05-25_originality_audit.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-05-31_lane-d-component-guide.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-05-31_phase0-foundation.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-07_wonder-wall.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-08_cpu_pytorch_fix.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-08_easy_windows_setup.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-08_hf_blender_fix.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-08_models_setup.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-08_spinning-ring.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-08_universal_installer.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-09_commit.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-09_rebuild.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-11_lane-a.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-11_lane-b.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-12_domain-corpus.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-12_lane-i-benchmark.md
+- C:\chronos\docs\archive\handoffs\handoff_Antigravity_2026-06-13_launcher-facelift.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-16_lane-B.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-26_embed-webview2-lineage.md
+- C:\chronos\docs\archive\handoffs\handoff_antigravity_2026-06-26_fix_lineage_json_error.md
+- C:\chronos\docs\archive\handoffs\handoff_Antigravity_2026-06-27_bug-report-and-pedestal-fixes.md
+- C:\chronos\docs\archive\handoffs\handoff_builder3_2026-06-13_doc-truth-reconciliation.md
+- C:\chronos\docs\archive\handoffs\handoff_cascade_2026-05-26_three_lane_carwash_integration.md
+- C:\chronos\docs\archive\handoffs\handoff_cascade_2026-05-27_lane-a-lineage-visualizer.md
+- C:\chronos\docs\archive\handoffs\handoff_cascade_2026-05-29_chronosynthesis-lane-b.md
+- C:\chronos\docs\archive\handoffs\handoff_cascade_2026-05-30_lane-b.md
+- C:\chronos\docs\archive\handoffs\handoff_cascade_2026-05-31_lane-b-core-ui.md
+- C:\chronos\docs\archive\handoffs\handoff_cascade_2026-06-08_showroom-wired.md
+- C:\chronos\docs\archive\handoffs\handoff_cascade_2026-06-11_lane-b-corporatization.md
+- C:\chronos\docs\archive\handoffs\handoff_cascade_2026-06-12_lane-e-effects-wired.md
+- C:\chronos\docs\archive\handoffs\handoff_cascade_2026-06-12_lane-h-generic-profile-decomposer.md
+- C:\chronos\docs\archive\handoffs\handoff_cascade-lane-b_2026-06-10_linux-installer-hardening.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-05-28_compile-film-fix.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-05-31_front_end_reckoning.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-05-31_lane-a-backend-polish.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-05_conductor-push.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-05_lane-a-sentinel.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-05_render-still-governed-path.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-05_sentinel-forever-law-persistence.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-05_sentinel-shadow-director.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-07_lane-b-training-and-tandem-state.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-08_cbig-and-governed-artifact.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-10_installer-tier0-complete.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-11_lane-d-integration.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-12_lane-d-integrator-session.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-12_lane-d-single-pass-closure.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-14_session-launcher-operating-table-vistas-autoforge.md
+- C:\chronos\docs\archive\handoffs\handoff_claude_2026-06-26_blender-made-actors.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-05-26_benchmark_loop_and_audit_prep.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-05-26_trainer_promotion_lane.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-05-26_training_engine.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-05-28_animate-mp4-and-tests.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-02_swarm-sanitization.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-03_corpus-bom.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-03_mission-control-runtime-fix.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-03_track-b-smoke.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-04_carwash-bootstrap-runtime.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-04_lane-a-carwash-first-run.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-04_pmc-reclassification.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-04_what-are-we-building.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-05_aura-consolidation-three-lane.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-05_conductor-truth.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-05_lane-c-archive.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-05_remote-first-operator-law.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-05_three-lane-build-orchestration.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-06_readme-truth-and-sentinel-widening.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-08_canonical-showroom-animation.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-11_director-readiness-and-instance-root.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-11_lane-a-preview-render-quick.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-11_lane-c.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-11_shape-alphabet.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-11_verify-and-push-local-truth-bundle.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-12_lane-g-hardening-verify.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-14_geometry-fallback-render-wiring.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-14_witness-inspection-views.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-16_docs-truth-reconciliation.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-16_lane-c.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-16_metabolism-phase-0-1.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-16_operating-table-anti-theatre.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-16_operation-ship-certified-dragon.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-16_phase2-phase3-build-audit-fix-docs.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-17_aura-laptop-witness-and-ssh.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-17_biogenesis-dense-canopy-port.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-17_windows-audit-recovery.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-18_aura-demo-ship-stabilization.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-19_full-tree-assimilation.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-19_windows-internal-release-lane.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-21_1.1.0-release-and-aura-block.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-21_sophia-chat-truthful-tab.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-21_witness-cameras-update-lane.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-23_dirty-tree-stat-audit.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-23_sophia-interview-rework.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-23_sophia-ui-greeting-witness.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-23_vision-loop-stage1.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-24_black-slate-shell-fit.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-24_black-slate-ui.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-24_blend-orbital180-animation.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-24_four-item-showroom-cutting-room.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-24_restore-black-slate-magic.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-24_today-build-desktop-icon.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-24_vision-loop-concept-preview.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-24_vistas-magic-and-window-chrome.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-25_lineage-page-consistency.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-25_renders-artifact-catalog.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-26_agent-token-stewardship.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-26_lineage-render-links.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-06-27_l1-render-craft.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-07-08_geometry-forge-phase0.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-07-09_bug-submit-ticket-dispatch.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-07-09_geometry-forge-live-witness.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-07-09_geometry-forge-phase1.md
+- C:\chronos\docs\archive\handoffs\handoff_codex_2026-07-12_archetypes-direct-canvas.md
+- C:\chronos\docs\archive\handoffs\handoff_cursor_2026-06-16_lane-a.md
+- C:\chronos\docs\archive\handoffs\handoff_cursor_2026-06-16_phase3-splash-wiring-FAILURE.md
+- C:\chronos\docs\archive\handoffs\handoff_cursor_2026-06-16_undeniable-artifact-windows-ship-gate.md
+- C:\chronos\docs\archive\handoffs\handoff_cursor_2026-06-17_biogenesis-gn-visual-recovery.md
+- C:\chronos\docs\archive\handoffs\handoff_cursor_2026-06-19_aura-demo-render-regression.md
+- C:\chronos\docs\archive\handoffs\handoff_cursor_2026-06-22_sovereign-render-and-geometry-e2e.md
+- C:\chronos\docs\archive\handoffs\handoff_devin_2026-06-05_lane-b-search.md
+- C:\chronos\docs\archive\handoffs\handoff_lane_c_phase_c.md
+- C:\chronos\docs\archive\handoffs\handoff_lane-b_2026-05-28_complete.md
+- C:\chronos\docs\archive\handoffs\handoff_scribe_2026-06-03_pmc-sublicensing.md
+- C:\chronos\docs\archive\handoffs\handoff_scribe_2026-06-03_tokenizer-architecture.md
+- C:\chronos\docs\archive\handoffs\handoff_ssh_guide_weatherman_nodes.md
+- C:\chronos\docs\archive\lanes\BUILDER_BRIEF_2026-06-13_doc-truth-reconciliation.md
+- C:\chronos\docs\archive\lanes\BUILDER_BRIEF_2026-06-15_phase2-reskin-to-comps.md
+- C:\chronos\docs\archive\lanes\BUILDER_BRIEF_2026-06-15_phase3-make-it-real-wiring.md
+- C:\chronos\docs\archive\lanes\BUILDER_BRIEF_2026-06-16_professional-windows-build-mode.md
+- C:\chronos\docs\archive\lanes\lane_2026-06-26_help-hotsheet-system.md
+- C:\chronos\docs\archive\lanes\lane_2026-06-26_mblab-actor-genesis-bridge.md
+- C:\chronos\docs\archive\lanes\LANE_A_CLAUDE_INTEGRATION_PROMPT.md
+- C:\chronos\docs\archive\lanes\LANE_A_PROMPT_2026-06-11_launch-installer.md
+- C:\chronos\docs\archive\lanes\LANE_A_PROMPT_2026-06-13_audit-repairs.md
+- C:\chronos\docs\archive\lanes\LANE_A_PROMPT_2026-06-13_seams-and-conductor.md
+- C:\chronos\docs\archive\lanes\LANE_A_PROMPT_CORRECTION.md
+- C:\chronos\docs\archive\lanes\LANE_B_CLAUDE_OPUS_PROMPT.md
+- C:\chronos\docs\archive\lanes\LANE_B_PROMPT_2026-06-11_corporatization.md
+- C:\chronos\docs\archive\lanes\LANE_B_PROMPT_2026-06-13_operating-table-tab.md
+- C:\chronos\docs\archive\lanes\LANE_B_TEST_SUITE_PROMPT.md
+- C:\chronos\docs\archive\lanes\LANE_C_PROMPT_2026-06-11_hardening.md
+- C:\chronos\docs\archive\lanes\LANE_C_PROMPT_2026-06-13_launcher-facelift.md
+- C:\chronos\docs\archive\lanes\lane_cursor_2026-06-27.md
+- C:\chronos\docs\archive\lanes\LANE_D_PROMPT_2026-06-13_6fr-render-and-openscad-organ.md
+- C:\chronos\docs\archive\lanes\LANE_E_PROMPT_2026-06-12_effects-wow.md
+- C:\chronos\docs\archive\lanes\LANE_F_PROMPT_2026-06-12_domain-corpus.md
+- C:\chronos\docs\archive\lanes\LANE_G_PROMPT_2026-06-12_hardening-verify.md
+- C:\chronos\docs\archive\lanes\LANE_H_PROMPT_2026-06-12_generic-profile-decomposer.md
+- C:\chronos\docs\archive\lanes\LANE_I_PROMPT_2026-06-12_benchmark-integrity.md
+- C:\chronos\docs\archive\lanes\LANE_PROMPT_2026-06-13_vista-overhaul.md
+- C:\chronos\docs\archive\lanes\THREE_LANE_BUILDER_PANELS_2026-06-05.md
+- C:\chronos\docs\archive\lanes\TWO_LANE_BUILDER_PANELS_2026-06-05_sentinel-enforcement.md
+- C:\chronos\docs\archive\plans\AURA_CONSOLIDATION_THREE_LANE_PLAN.md
+- C:\chronos\docs\archive\plans\plan_2026-05-25_1600_shield_geometry_family.md
+- C:\chronos\docs\archive\plans\plan_2026-05-25_2245_originality-audit-frontiers.md
+- C:\chronos\docs\archive\plans\plan_2026-05-25_2321_business-pivot-case.md
+- C:\chronos\docs\archive\plans\plan_2026-05-25_2335_commit-strategic-docs.md
+- C:\chronos\docs\archive\plans\plan_2026-05-26_0000_perplexity-v3-response.md
+- C:\chronos\docs\archive\plans\plan_2026-05-26_0015_trainer_promotion_lane.md
+- C:\chronos\docs\archive\plans\plan_2026-05-26_1119_training-engine.md
+- C:\chronos\docs\archive\plans\plan_2026-05-26_1315_finish_trainer_loop_and_audit_prep.md
+- C:\chronos\docs\archive\plans\plan_2026-05-26_1330_carwash-data-pipeline.md
+- C:\chronos\docs\archive\plans\plan_2026-05-26_1540_trl-transformers-compat-fix.md
+- C:\chronos\docs\archive\plans\plan_2026-05-26_2119_rescue-carwash-build.md
+- C:\chronos\docs\archive\plans\plan_2026-05-26_T1_trainer_closure.md
+- C:\chronos\docs\archive\plans\plan_2026-05-27_0542_lane-a-lineage-visualizer.md
+- C:\chronos\docs\archive\plans\plan_2026-05-27_0544_pipeline-reality-audit.md
+- C:\chronos\docs\archive\plans\plan_2026-05-27_1200_lane_b_sophia_introspection.md
+- C:\chronos\docs\archive\plans\plan_2026-05-28_0618_foundry-frontend-overhaul.md
+- C:\chronos\docs\archive\plans\plan_2026-05-28_0724_three-lane-foundry-rebuild.md
+- C:\chronos\docs\archive\plans\plan_2026-05-28_0744_lane-c-debug-tools.md
+- C:\chronos\docs\archive\plans\plan_2026-05-28_0953_triple-lane-surgical-fixes.md
+- C:\chronos\docs\archive\plans\plan_2026-05-28_1001_lane-b-animate-mp4-and-tests.md
+- C:\chronos\docs\archive\plans\plan_2026-05-28_2230_auto-forge.md
+- C:\chronos\docs\archive\plans\plan_2026-05-29_0000_living-lineage-chamber.md
+- C:\chronos\docs\archive\plans\plan_2026-05-29_0638_extract-chronosynthesis-thesis.md
+- C:\chronos\docs\archive\plans\plan_2026-05-29_1200_chronosynthesis-integration.md
+- C:\chronos\docs\archive\plans\plan_2026-05-30_0544_great-unification.md
+- C:\chronos\docs\archive\plans\plan_2026-05-30_0600_dual-lane-metabolism.md
+- C:\chronos\docs\archive\plans\plan_2026-05-30_1301_chronosynthesis-math-implementation.md
+- C:\chronos\docs\archive\plans\plan_2026-05-30_1407_dual-lane-chronosynthesis-build.md
+- C:\chronos\docs\archive\plans\plan_2026-05-30_1424_lane-b-chronosynthesis-math.md
+- C:\chronos\docs\archive\plans\plan_2026-05-30_1442_lane-b-test-suite.md
+- C:\chronos\docs\archive\plans\plan_2026-05-30_1503_lane-b-manifold-test-suite.md
+- C:\chronos\docs\archive\plans\plan_2026-05-30_1648_ui-design-specification.md
+- C:\chronos\docs\archive\plans\plan_2026-05-30_1650_dual-lane-ui-implementation.md
+- C:\chronos\docs\archive\plans\plan_2026-05-30_1920_neurocognica-logo-placement.md
+- C:\chronos\docs\archive\plans\plan_2026-05-30_2144_chronosynthesis-integration.md
+- C:\chronos\docs\archive\plans\plan_2026-05-31_0357_four-lane-orchestration.md
+- C:\chronos\docs\archive\plans\plan_2026-05-31_0419_lane-d-component-guide.md
+- C:\chronos\docs\archive\plans\plan_2026-05-31_0421_lane-a-backend-polish.md
+- C:\chronos\docs\archive\plans\plan_2026-05-31_0421_lane-b-core-ui.md
+- C:\chronos\docs\archive\plans\plan_2026-05-31_0421_lane-c-gallery-polish.md
+- C:\chronos\docs\archive\plans\plan_2026-05-31_0530_lineage-chamber-undeniable-artifact.md
+- C:\chronos\docs\archive\plans\plan_2026-05-31_0856_integration-audit-and-enhancement.md
+- C:\chronos\docs\archive\plans\plan_2026-05-31_0908_lineage-chamber-and-ui-truth.md
+- C:\chronos\docs\archive\plans\plan_2026-05-31_0915_forge-dual-page-build.md
+- C:\chronos\docs\archive\plans\plan_2026-05-31_1015_three-agent-frontend-rebuild.md
+- C:\chronos\docs\archive\plans\plan_2026-05-31_1526_phase0-foundation.md
+- C:\chronos\docs\archive\plans\plan_2026-05-31_1800_phase2_live_context.md
+- C:\chronos\docs\archive\plans\plan_2026-05-31_1846_fix-theme-and-forge-toggle.md
+- C:\chronos\docs\archive\plans\plan_2026-05-31_1945_phase1-tab-modules.md
+- C:\chronos\docs\archive\plans\plan_2026-06-01_0010_phase3-cell-ecology.md
+- C:\chronos\docs\archive\plans\plan_2026-06-01_0900_phase3_completion.md
+- C:\chronos\docs\archive\plans\plan_2026-06-01_1100_phase4_live_conversation.md
+- C:\chronos\docs\archive\plans\plan_2026-06-01_1107_launch-readiness-audit.md
+- C:\chronos\docs\archive\plans\plan_2026-06-01_2209_corpus_extraction_pipeline.md
+- C:\chronos\docs\archive\plans\plan_2026-06-01_2231_draft-ccf-section-ii.md
+- C:\chronos\docs\archive\plans\plan_2026-06-01_2240_draft-ccf-section-iii.md
+- C:\chronos\docs\archive\plans\plan_2026-06-02_0001_draft-ccf-section-iv.md
+- C:\chronos\docs\archive\plans\plan_2026-06-02_0006_draft-ccf-section-v.md
+- C:\chronos\docs\archive\plans\plan_2026-06-02_0012_draft-ccf-section-vi.md
+- C:\chronos\docs\archive\plans\plan_2026-06-02_0017_draft-ccf-section-vii.md
+- C:\chronos\docs\archive\plans\plan_2026-06-02_0023_draft-ccf-section-viii.md
+- C:\chronos\docs\archive\plans\plan_2026-06-02_0029_draft-ccf-section-ix.md
+- C:\chronos\docs\archive\plans\plan_2026-06-02_0035_draft-ccf-section-x.md
+- C:\chronos\docs\archive\plans\plan_2026-06-02_0043_portfolio-unification-preface.md
+- C:\chronos\docs\archive\plans\plan_2026-06-02_0049_draft-ccf-section-xi.md
+- C:\chronos\docs\archive\plans\plan_2026-06-02_0054_draft-ccf-section-xii.md
+- C:\chronos\docs\archive\plans\plan_2026-06-02_0702_assemble-ccf-full-thesis.md
+- C:\chronos\docs\archive\plans\plan_2026-06-02_0710_ccf-verification-appendix.md
+- C:\chronos\docs\archive\plans\plan_2026-06-02_1227_beowulf-node-console.md
+- C:\chronos\docs\archive\plans\plan_2026-06-02_2315_sanitize-swarm-and-push.md
+- C:\chronos\docs\archive\plans\plan_2026-06-03_0030_first-distributed-workload.md
+- C:\chronos\docs\archive\plans\plan_2026-06-03_0130_track-b-diloco-smoke-test.md
+- C:\chronos\docs\archive\plans\plan_2026-06-03_0419_track-b-smoke-implementation.md
+- C:\chronos\docs\archive\plans\plan_2026-06-03_0500_anchor-onboarding-checks.md
+- C:\chronos\docs\archive\plans\plan_2026-06-03_0515_librarian-headless-terminal.md
+- C:\chronos\docs\archive\plans\plan_2026-06-03_1025_librarian-access-failure-report.md
+- C:\chronos\docs\archive\plans\plan_2026-06-03_1140_swarm-control-panel.md
+- C:\chronos\docs\archive\plans\plan_2026-06-03_1210_chronos-mission-control.md
+- C:\chronos\docs\archive\plans\plan_2026-06-03_1230_librarian-corpus-ingestion.md
+- C:\chronos\docs\archive\plans\plan_2026-06-03_1308_audit-improve-mission-control-plan.md
+- C:\chronos\docs\archive\plans\plan_2026-06-03_1320_git-trail-cleanup-and-push.md
+- C:\chronos\docs\archive\plans\plan_2026-06-03_1530_pmc-sublicensing.md
+- C:\chronos\docs\archive\plans\plan_2026-06-03_1545_tokenizer-architecture.md
+- C:\chronos\docs\archive\plans\plan_2026-06-03_1748_corpus-bom.md
+- C:\chronos\docs\archive\plans\plan_2026-06-03_1843_mission-control-and-launcher-fixes.md
+- C:\chronos\docs\archive\plans\plan_2026-06-03_1902_fix-mission-control-runtime.md
+- C:\chronos\docs\archive\plans\plan_2026-06-03_2003_engine-fire-status-check.md
+- C:\chronos\docs\archive\plans\plan_2026-06-03_2010_swarm-auth-repair.md
+- C:\chronos\docs\archive\plans\plan_2026-06-03_2358_fix-corpus-bom-reconciliation.md
+- C:\chronos\docs\archive\plans\plan_2026-06-04_0013_pmc-reclassification.md
+- C:\chronos\docs\archive\plans\plan_2026-06-04_0035_gutenberg-ingestion.md
+- C:\chronos\docs\archive\plans\plan_2026-06-04_0048_commit-clean-push.md
+- C:\chronos\docs\archive\plans\plan_2026-06-04_0504_two-lane-training-lane-a.md
+- C:\chronos\docs\archive\plans\plan_2026-06-04_0705_two-lane-integration.md
+- C:\chronos\docs\archive\plans\plan_2026-06-04_0728_cache-base-model-and-bootstrap-run.md
+- C:\chronos\docs\archive\plans\plan_2026-06-04_1130_total-doc-audit.md
+- C:\chronos\docs\archive\plans\plan_2026-06-04_1200_wikipedia-staging.md
+- C:\chronos\docs\archive\plans\plan_2026-06-04_1648_undo-wikipedia-bullshit.md
+- C:\chronos\docs\archive\plans\plan_2026-06-04_2238_write-what-are-we-building.md
+- C:\chronos\docs\archive\plans\plan_2026-06-05_0018_aura-consolidation-three-lane.md
+- C:\chronos\docs\archive\plans\plan_2026-06-05_0042_clear-transfer-space.md
+- C:\chronos\docs\archive\plans\plan_2026-06-05_0110_remote-first-operator-law.md
+- C:\chronos\docs\archive\plans\plan_2026-06-05_0751_three-lane-build-orchestration.md
+- C:\chronos\docs\archive\plans\plan_2026-06-05_0803_lane-b-search.md
+- C:\chronos\docs\archive\plans\plan_2026-06-05_0804_lane-c-archive.md
+- C:\chronos\docs\archive\plans\plan_2026-06-05_0806_lane-a-sentinel.md
+- C:\chronos\docs\archive\plans\plan_2026-06-05_0903_warning-cleanup-and-lane-packaging.md
+- C:\chronos\docs\archive\plans\plan_2026-06-05_0942_conductor-docs-and-push.md
+- C:\chronos\docs\archive\plans\plan_2026-06-05_1500_sentinel-shadow-director.md
+- C:\chronos\docs\archive\plans\plan_2026-06-05_1558_sentinel-forever-law-persistence.md
+- C:\chronos\docs\archive\plans\plan_2026-06-05_2047_render-still-governed-action-path.md
+- C:\chronos\docs\archive\plans\plan_2026-06-06_0442_chronos-search-live-memory-organ.md
+- C:\chronos\docs\archive\plans\plan_2026-06-06_0528_make-repo-match-reality.md
+- C:\chronos\docs\archive\plans\plan_2026-06-06_0559_maximum-value-roadmap.md
+- C:\chronos\docs\archive\plans\plan_2026-06-06_0659_tandem-build-roadmap.md
+- C:\chronos\docs\archive\plans\plan_2026-06-06_0705_readme-truth-and-lane-a.md
+- C:\chronos\docs\archive\plans\plan_2026-06-07_0245_lane-c-client-signing.md
+- C:\chronos\docs\archive\plans\plan_2026-06-07_0308_lane-b-first-carwash-run.md
+- C:\chronos\docs\archive\plans\plan_2026-06-07_0508_lane-b-verdict-and-status.md
+- C:\chronos\docs\archive\plans\plan_2026-06-07_0510_wonder-wall.md
+- C:\chronos\docs\archive\plans\plan_2026-06-07_0520_carwash-visible-test-harness.md
+- C:\chronos\docs\archive\plans\plan_2026-06-07_0940_bullshit-cleanup.md
+- C:\chronos\docs\archive\plans\plan_2026-06-07_0950_commit-visible-harness-and-update-proof.md
+- C:\chronos\docs\archive\plans\plan_2026-06-07_1005_build-wonder-artifact.md
+- C:\chronos\docs\archive\plans\plan_2026-06-07_1025_integrate-four-lanes.md
+- C:\chronos\docs\archive\plans\plan_2026-06-07_2300_governed-artifact-preflight.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_0723_wire-real-showroom-into-governed-artifact.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_0743_fix-governed-artifact-v5.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_0945_canonical-showroom-animation.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_1454_aligned-showroom-vision.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_1523_render-spinning-ring.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_1638_restore-showroom-still.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_1819_council-report-showroom-milestone.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_2008_kill-foundry-stubs.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_2009_save-tree-and-push-law.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_2018_launch-and-screenshot-foundry.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_2023_propagate-laws-to-reference-docs.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_2025_services-forge-renders-unify.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_2031_reference-docs-currency.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_2033_comfyui-default-port-8000.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_2125_interior-room-wild-vista.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_2142_easy-install-doc.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_2207_models-and-extensions.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_2207_render-quality-wow-pass.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_2211_cpu-only-pytorch.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_2225_universal-automated-installer.md
+- C:\chronos\docs\archive\plans\plan_2026-06-08_2310_fix-hf-and-blender-mcp.md
+- C:\chronos\docs\archive\plans\plan_2026-06-09_0314_commit-setup-scripts.md
+- C:\chronos\docs\archive\plans\plan_2026-06-09_0355_rebuild-workspace.md
+- C:\chronos\docs\archive\plans\plan_2026-06-09_0815_llvm-dependency.md
+- C:\chronos\docs\archive\plans\plan_2026-06-09_0830_fix-mesh-render-path-test.md
+- C:\chronos\docs\archive\plans\plan_2026-06-10_0134_stub-theatre-eradication.md
+- C:\chronos\docs\archive\plans\plan_2026-06-10_0236_installer-supply-chain-hardening.md
+- C:\chronos\docs\archive\plans\plan_2026-06-10_1545_sellable-positioning-rescue.md
+- C:\chronos\docs\archive\plans\plan_2026-06-10_1600_done-for-you-offer-pack.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_0112_one-worthy-gui-four-lane-convergence.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_0325_sophia-real-app-recovery.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_0335_g5-emitter-retry-and-kali-seal.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_0352_progressive-render-loop.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_0405_lane-b-inline-preview.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_0420_director-restart-new-binary.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_0958_lane-c-worthy-pass.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_1048_council-competition-report.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_1112_verify-carry-forward-and-push-all.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_1315_lane-a-preview-render-quick-flag.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_1402_preview-magic-repair-pass.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_1450_director-readiness-and-instance-root.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_1545_unblock-cargo-build-director-file-lock.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_1620_enterprise-ship-four-lane.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_2017_lane-a-launch-installer.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_2017_lane-b-corporatization-docs.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_2018_lane-c-hardening-stress.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_2215_fix-first-light-button-quoting.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_2240_first-light-ux-in-launcher.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_2330_plan-a-shape-alphabet.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_2335_plan-b-animation-demos.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_2340_plan-c-effects-wow.md
+- C:\chronos\docs\archive\plans\plan_2026-06-11_2345_plan-d-lost-thread-revival.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_0030_plan-b-animation-demos-execution.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_0310_carwash-bootstrap-vram-fit.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_0350_domain-corpus-graphics-fabrication.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_0425_lane-e-effects-wow-wiring.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_0436_domain-corpus-graphics-fabrication.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_0454_lane-g-hardening-verify.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_0520_canon-compression-phase1.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_0553_lane-h-generic-profile-decomposer.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_1100_benchmark-integrity.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_1240_lane-i-h-verification-and-modelfile-fix.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_1330_lane-d-single-pass-closure.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_1355_kali-doctrine-and-archetypal-engineering.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_1402_tree-clean-and-wait-ux-plan.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_1405_chronosynthesis-wait-experience.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_1425_preview_showcase_material_routing.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_1503_verify-material-routing.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_1601_user-rating-retry.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_1837_red-glass-sphere-material-guard.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_2217_storage-hygiene-and-output-convention.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_2233_vessel-shape-guard.md
+- C:\chronos\docs\archive\plans\plan_2026-06-12_2342_anti-orphan-and-lathe-wiring.md
+- C:\chronos\docs\archive\plans\plan_2026-06-13_0427_ggsr-lane-a-perception.md
+- C:\chronos\docs\archive\plans\plan_2026-06-13_0427_phase_c_lane_c.md
+- C:\chronos\docs\archive\plans\plan_2026-06-13_0428_ggsr-builder-b.md
+- C:\chronos\docs\archive\plans\plan_2026-06-13_0512_phase-c-false-green-remediation.md
+- C:\chronos\docs\archive\plans\plan_2026-06-13_0554_status-doc-reconciliation.md
+- C:\chronos\docs\archive\plans\plan_2026-06-13_0555_builder1-readme-truth-reconciliation.md
+- C:\chronos\docs\archive\plans\plan_2026-06-13_1902_lane-a-phase0-seams.md
+- C:\chronos\docs\archive\plans\plan_2026-06-13_1907_lane-c-launcher-facelift.md
+- C:\chronos\docs\archive\plans\plan_2026-06-13_chronos-launch-error-handling-and-blender-preflight.md
+- C:\chronos\docs\archive\plans\plan_2026-06-13_launcher-polish.md
+- C:\chronos\docs\archive\plans\plan_2026-06-13_multilane-operating-table-run.md
+- C:\chronos\docs\archive\plans\plan_2026-06-13_openscad-organ-and-6fr-assembly-render.md
+- C:\chronos\docs\archive\plans\plan_2026-06-13_operating-table-recovery.md
+- C:\chronos\docs\archive\plans\plan_2026-06-13_operating-table-tab.md
+- C:\chronos\docs\archive\plans\plan_2026-06-13_usability-rescue-audit.md
+- C:\chronos\docs\archive\plans\plan_2026-06-14_0404_vista-overhaul.md
+- C:\chronos\docs\archive\plans\plan_2026-06-14_0500_geometry-fallback-render-wiring.md
+- C:\chronos\docs\archive\plans\plan_2026-06-14_0514_png-witness-tests.md
+- C:\chronos\docs\archive\plans\plan_2026-06-14_0529_four-view-witness-replan.md
+- C:\chronos\docs\archive\plans\plan_2026-06-14_1630_prepare-build.md
+- C:\chronos\docs\archive\plans\plan_2026-06-14_app-unification-and-tab-audit.md
+- C:\chronos\docs\archive\plans\plan_2026-06-14_auto-forge-cut-and-restore.md
+- C:\chronos\docs\archive\plans\plan_2026-06-14_FULL-UI-OVERHAUL-master.md
+- C:\chronos\docs\archive\plans\plan_2026-06-14_geometry-track-brief.md
+- C:\chronos\docs\archive\plans\plan_2026-06-14_phase-a-de-theatre.md
+- C:\chronos\docs\archive\plans\plan_2026-06-14_phases-bcd-geometry-track.md
+- C:\chronos\docs\archive\plans\plan_2026-06-14_pro-first-five-sessions-brief.md
+- C:\chronos\docs\archive\plans\plan_2026-06-14_remove-launcher-from-chain.md
+- C:\chronos\docs\archive\plans\plan_2026-06-14_witness-ortho-framing-and-ui-phase1.md
+- C:\chronos\docs\archive\plans\plan_2026-06-15_1103_cutting-room-phase2.md
+- C:\chronos\docs\archive\plans\plan_2026-06-15_1103_phase2-vistas-sophia-chat-reskin.md
+- C:\chronos\docs\archive\plans\plan_2026-06-15_1200_phase2-reskin-to-comps.md
+- C:\chronos\docs\archive\plans\plan_2026-06-15_1430_create-renders-theatre-cut.md
+- C:\chronos\docs\archive\plans\plan_2026-06-15_1600_construct-vista.md
+- C:\chronos\docs\archive\plans\plan_2026-06-15_1630_first-light-construct.md
+- C:\chronos\docs\archive\plans\plan_2026-06-15_1700_launcher-no-white-void-fullscreen.md
+- C:\chronos\docs\archive\plans\plan_2026-06-15_1730_fix-splash-reveal-bug.md
+- C:\chronos\docs\archive\plans\plan_2026-06-15_1730_restore-cutting-room-tab.md
+- C:\chronos\docs\archive\plans\plan_2026-06-15_1800_phase3-make-it-real-wiring.md
+- C:\chronos\docs\archive\plans\plan_2026-06-15_operating-table-to-flashforge-fabrication.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_0503_operating-table-anti-theatre.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_0520_render-tab-overhaul.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_0543_docs-truth-reconciliation.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_0544_renders-6fr-combined.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_0605_text-system-integration.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_1200_exit-button.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_1927_update-critical-docs.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_1930_splash-freeze-background-hydration.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_1950_three-builder-professional-windows-build.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_2000_create-tab-typography.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_2002_lane-c-professional-windows-docs.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_2015_lane-B-windows-app-lifecycle.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_2036_critical-docs-audit.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_2038_agents-claude-law-audit.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_2056_phase0-phase1-metabolism-execution.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_2115_chronosynthesis-bug-reporting.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_2130_renders-tab-audit.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_2134_phase2-phase3-tandem-build.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_2140_phase2-phase3-build-audit-fix-docs.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_2200_6fr-emboss-phase5.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_2200_sophia-chat-typography-intent.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_2215_lane-a-installer-update-signing.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_2257_undeniable-artifact-windows-ship-gate.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_2315_operation-ship-certified-dragon.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_2330_company-grade-metabolism-whole-product.md
+- C:\chronos\docs\archive\plans\plan_2026-06-16_2345_ship-gate-hail-mary.md
+- C:\chronos\docs\archive\plans\plan_2026-06-17_0100_create-tab-layout-fix.md
+- C:\chronos\docs\archive\plans\plan_2026-06-17_0533_whole-system-audit-maps.md
+- C:\chronos\docs\archive\plans\plan_2026-06-17_0546_windows-lifecycle-audit.md
+- C:\chronos\docs\archive\plans\plan_2026-06-17_1020_chronosynthesis-bug-reporting.md
+- C:\chronos\docs\archive\plans\plan_2026-06-17_1026_windows-lifecycle-audit-recovery.md
+- C:\chronos\docs\archive\plans\plan_2026-06-17_1142_procedural-forest-vista-biogenesis.md
+- C:\chronos\docs\archive\plans\plan_2026-06-17_1430_biogenesis-visual-honesty-recovery.md
+- C:\chronos\docs\archive\plans\plan_2026-06-17_1636_biogenesis-dense-canopy-port.md
+- C:\chronos\docs\archive\plans\plan_2026-06-17_1708_pine-forest-reference-driven-rebuild.md
+- C:\chronos\docs\archive\plans\plan_2026-06-17_1724_biogenesis-hard-reset.md
+- C:\chronos\docs\archive\plans\plan_2026-06-17_1736_trunk-growth-proof.md
+- C:\chronos\docs\archive\plans\plan_2026-06-17_1815_demo-readiness.md
+- C:\chronos\docs\archive\plans\plan_2026-06-17_1900_phase-e-f-github-release-laptop-witness.md
+- C:\chronos\docs\archive\plans\plan_2026-06-17_2105_aura-transfer-and-install-prep.md
+- C:\chronos\docs\archive\plans\plan_2026-06-17_2125_aura-sidecar-repair.md
+- C:\chronos\docs\archive\plans\plan_2026-06-17_2245_fix-aura-demo-sidecar.md
+- C:\chronos\docs\archive\plans\plan_2026-06-17_2335_proactive-winget-bootstrap.md
+- C:\chronos\docs\archive\plans\plan_2026-06-17_2345_fix-comfy-git-resolution.md
+- C:\chronos\docs\archive\plans\plan_2026-06-17_2355_refresh-aura-sidecar.md
+- C:\chronos\docs\archive\plans\plan_2026-06-18_0005_ollama-one-shot-bootstrap.md
+- C:\chronos\docs\archive\plans\plan_2026-06-18_0015_aura-remote-install.md
+- C:\chronos\docs\archive\plans\plan_2026-06-18_0015_remove-training-model-from-default-install.md
+- C:\chronos\docs\archive\plans\plan_2026-06-18_0030_fix-blendermcp-install.md
+- C:\chronos\docs\archive\plans\plan_2026-06-18_0315_aura-sophia-latest-fix.md
+- C:\chronos\docs\archive\plans\plan_2026-06-18_0900_tier0-witness-path-law.md
+- C:\chronos\docs\archive\plans\plan_2026-06-18_1105_aura-demo-ship-stabilization.md
+- C:\chronos\docs\archive\plans\plan_2026-06-19_0545_demo-theatre-sweep-and-comfy.md
+- C:\chronos\docs\archive\plans\plan_2026-06-19_0615_biogenesis-dense-port.md
+- C:\chronos\docs\archive\plans\plan_2026-06-19_0700_aura-render-recovery-deploy.md
+- C:\chronos\docs\archive\plans\plan_2026-06-19_0730_sentinels-and-product-hardening.md
+- C:\chronos\docs\archive\plans\plan_2026-06-19_0800_biogenesis-finish-and-showroom-phases.md
+- C:\chronos\docs\archive\plans\plan_2026-06-19_0900_create-tab-render-panel-unfuck.md
+- C:\chronos\docs\archive\plans\plan_2026-06-19_1034_aura-render-demo-recovery.md
+- C:\chronos\docs\archive\plans\plan_2026-06-19_1102_windows-lifecycle-audit-refresh.md
+- C:\chronos\docs\archive\plans\plan_2026-06-19_1230_aura-showroom-scene-regression.md
+- C:\chronos\docs\archive\plans\plan_2026-06-19_1245_aura-showroom-scene-fix.md
+- C:\chronos\docs\archive\plans\plan_2026-06-19_1325_update-serialization-and-version-audit.md
+- C:\chronos\docs\archive\plans\plan_2026-06-19_1415_full-tree-assimilation-and-push.md
+- C:\chronos\docs\archive\plans\plan_2026-06-19_1705_bug-submit-camera-version-truth.md
+- C:\chronos\docs\archive\plans\plan_2026-06-19_1805_aura-proper-update-lane-and-test-deploy.md
+- C:\chronos\docs\archive\plans\plan_2026-06-19_2005_aura-emergency-camera-blend-hotfix.md
+- C:\chronos\docs\archive\plans\plan_2026-06-21_0030_showroom-permanence-lock.md
+- C:\chronos\docs\archive\plans\plan_2026-06-21_1136_promote-builder-state-aura-update.md
+- C:\chronos\docs\archive\plans\plan_2026-06-21_1439_sophia-chat-truthful-tab.md
+- C:\chronos\docs\archive\plans\plan_2026-06-21_1534_create-tab-apple-polish.md
+- C:\chronos\docs\archive\plans\plan_2026-06-21_1612_floating-jawbone-recipe.md
+- C:\chronos\docs\archive\plans\plan_2026-06-21_1920_preserve-witness-cameras-update-lane.md
+- C:\chronos\docs\archive\plans\plan_2026-06-21_2230_aura-ssh-update-render-over-ssh.md
+- C:\chronos\docs\archive\plans\plan_2026-06-22_0010_installer-code-signing.md
+- C:\chronos\docs\archive\plans\plan_2026-06-22_0930_phase-a-steps5a-5d-foundry-wire.md
+- C:\chronos\docs\archive\plans\plan_2026-06-22_0940_phase-c-lathe-silhouette-e2e-tests.md
+- C:\chronos\docs\archive\plans\plan_2026-06-23_0110_comfy-recovery-and-canvas-easel.md
+- C:\chronos\docs\archive\plans\plan_2026-06-23_0300_sophia-chat-apple-redesign.md
+- C:\chronos\docs\archive\plans\plan_2026-06-23_1929_sophia-interview-rework.md
+- C:\chronos\docs\archive\plans\plan_2026-06-23_2001_sophia-ui-greeting-witness.md
+- C:\chronos\docs\archive\plans\plan_2026-06-23_2033_vision-loop.md
+- C:\chronos\docs\archive\plans\plan_2026-06-23_2106_dirty-tree-stat-audit.md
+- C:\chronos\docs\archive\plans\plan_2026-06-23_2225_four-item-showroom-cutting-room.md
+- C:\chronos\docs\archive\plans\plan_2026-06-23_2330_today-build-desktop-icon.md
+- C:\chronos\docs\archive\plans\plan_2026-06-24_0001_vision-loop-stages2-5.md
+- C:\chronos\docs\archive\plans\plan_2026-06-24_0430_blend-orbital180-animation.md
+- C:\chronos\docs\archive\plans\plan_2026-06-24_1302_black-slate-end-to-end-ui.md
+- C:\chronos\docs\archive\plans\plan_2026-06-24_1627_black-slate-shell-fit.md
+- C:\chronos\docs\archive\plans\plan_2026-06-24_1708_restore-black-slate-magic.md
+- C:\chronos\docs\archive\plans\plan_2026-06-24_1745_tab_create.md
+- C:\chronos\docs\archive\plans\plan_2026-06-24_1745_tab_cutting_room.md
+- C:\chronos\docs\archive\plans\plan_2026-06-24_1745_tab_operating_table.md
+- C:\chronos\docs\archive\plans\plan_2026-06-24_1745_tab_renders.md
+- C:\chronos\docs\archive\plans\plan_2026-06-24_1745_tab_sophia_chat.md
+- C:\chronos\docs\archive\plans\plan_2026-06-24_1745_tab_vistas.md
+- C:\chronos\docs\archive\plans\plan_2026-06-24_1745_ui_shell.md
+- C:\chronos\docs\archive\plans\plan_2026-06-24_1833_vistas-magic-and-window-chrome.md
+- C:\chronos\docs\archive\plans\plan_2026-06-24_2136_ui-help-hotsheet-audit.md
+- C:\chronos\docs\archive\plans\plan_2026-06-25_2156_lineage-page-consistency-build.md
+- C:\chronos\docs\archive\plans\plan_2026-06-25_2304_renders-artifact-catalog.md
+- C:\chronos\docs\archive\plans\plan_2026-06-26_0600_lineage-browser-render-links.md
+- C:\chronos\docs\archive\plans\plan_2026-06-26_0626_agent-token-stewardship.md
+- C:\chronos\docs\archive\plans\plan_2026-06-26_0640_embed-webview2-lineage.md
+- C:\chronos\docs\archive\plans\plan_2026-06-26_0700_fix_lineage_json_error.md
+- C:\chronos\docs\archive\plans\plan_2026-06-26_0853_clean-build-no-warnings.md
+- C:\chronos\docs\archive\plans\plan_2026-06-26_1231_blender-actors-mvp.md
+- C:\chronos\docs\archive\plans\plan_2026-06-26_1430_bundle-spin-rig.md
+- C:\chronos\docs\archive\plans\plan_2026-06-27_0947_l1-render-craft.md
+- C:\chronos\docs\archive\plans\plan_2026-07-06_1638_golden-path-ui-witness.md
+- C:\chronos\docs\archive\plans\plan_2026-07-06_1730_golden-path-fixes.md
+- C:\chronos\docs\archive\plans\plan_2026-07-06_1750_capability-ledger-test-truth-fix.md
+- C:\chronos\docs\archive\plans\plan_2026-07-08_2253_geometry-forge-mission.md
+- C:\chronos\docs\archive\plans\plan_2026-07-08_2310_geometry-forge-phase1.md
+- C:\chronos\docs\archive\plans\plan_2026-07-09_0519_geometry-forge-live-witness.md
+- C:\chronos\docs\archive\plans\plan_2026-07-09_0540_geometry-forge-product-delta.md
+- C:\chronos\docs\archive\plans\plan_2026-07-09_0544_concept-silhouette-forge.md
+- C:\chronos\docs\archive\plans\plan_2026-07-09_1520_trim-to-create-and-gallery.md
+- C:\chronos\docs\archive\plans\plan_2026-07-09_2009_bug-submit-ticket-dispatch.md
+- C:\chronos\docs\archive\plans\plan_2026-07-09_2024_cargo-workspace-gate.md
+- C:\chronos\docs\archive\plans\plan_2026-07-09_2044_finish-claude-dirty-tree.md
+- C:\chronos\docs\archive\plans\plan_2026-07-10_1520_forge-closure-and-ship-gate.md
+- C:\chronos\docs\archive\plans\plan_2026-07-11_0530_ui-redesign-rewire.md
+- C:\chronos\docs\archive\plans\plan_2026-07-12_0735_fix-director-codex-path.md
+- C:\chronos\docs\archive\plans\plan_2026-07-15_1946_capability-gaps-katana-lineage-weaver.md
+- C:\chronos\docs\archive\plans\plan_2026-07-15_2030_comfy-autostart-and-katana-sori.md
+- C:\chronos\docs\archive\plans\plan_2026-07-17_2020_repo-audit-declutter.md
+- C:\chronos\docs\archive\plans\plan_2026-07-17_2110_sell-ready-front-door.md
+- C:\chronos\docs\archive\plans\plan_2026-07-20_1518_sentinel-codex-append-guard.md
+- C:\chronos\docs\archive\README.md
+- C:\chronos\docs\archive\reports\AURA_BODY_ARCHIVE_MANIFEST_2026-06-05.md
+- C:\chronos\docs\archive\reports\CHRONOSYNTHESIS_IMPLEMENTATION_SUMMARY.md
+- C:\chronos\docs\archive\reports\CLAUDE_CONTRIBUTION_REPORT_2026-05-25.md
+- C:\chronos\docs\archive\reports\CODEX_CONTRIBUTION_REPORT_2026-05-25.md
+- C:\chronos\docs\archive\reports\DESIGN_COMPLETE_SUMMARY.md
+- C:\chronos\docs\archive\reports\LAUNCH_COMMANDS_2026-06-01.md
+- C:\chronos\docs\archive\reports\LIBRARIAN_ACCESS_FAILURE_REPORT_2026-06-03.md
+- C:\chronos\docs\archive\reports\MANUS_SWORD_SYSTEM_REVIEW.md
+- C:\chronos\docs\archive\reports\OFFER_PACK_THIS_WEEK.md
+- C:\chronos\docs\archive\reports\RENDER_FRAME_DUMPS_2026-06-08.md
+- C:\chronos\docs\archive\reports\report_2026-06-24_ui_help_hotsheet_audit.md
+- C:\chronos\docs\archive\reports\report_2026-06-26_katana-geometry-learning-loop.md
+- C:\chronos\docs\archive\reports\REPORT_CLAUDE_2026-05-31_front-end-failure-reckoning.md
+- C:\chronos\docs\archive\reports\SELL_CHRONOS_NOW.md
+- C:\chronos\docs\archive\reports\SHIP_CERTIFICATION_STATUS_2026-06-16.md
+- C:\chronos\docs\archive\reports\WHAT_ARE_WE_BUILDING.md
+- C:\chronos\docs\AVATAR_HEAD_RECIPE.md
+- C:\chronos\docs\CAPABILITY_INVENTORY.md
+- C:\chronos\docs\CAPABILITY_MAP.md
+- C:\chronos\docs\CCF_THESIS.md
+- C:\chronos\docs\CHRONOS_ONE_PAGE_MEMO.md
+- C:\chronos\docs\CHRONOS_UNDENIABLE_DEMO.md
+- C:\chronos\docs\CHRONOSYNTHESIS_MATH_SPEC.md
+- C:\chronos\docs\corporate\README.md
+- C:\chronos\docs\corporate\VOLUME_I_CORPORATE_CHARTER_LEGAL_FOUNDATION.md
+- C:\chronos\docs\corporate\VOLUME_II_ORGANIZATIONAL_ARCHITECTURE.md
+- C:\chronos\docs\corporate\VOLUME_III_STRATEGIC_DOCTRINE_MARKET_POSITIONING.md
+- C:\chronos\docs\corporate\VOLUME_IV_REGULATORY_FRAMEWORK_GLOBAL_OPERATIONS.md
+- C:\chronos\docs\corpus\CORPUS_ACCESS_CONTRACT.md
+- C:\chronos\docs\corpus\CORPUS_VAULT_INVARIANTS.md
+- C:\chronos\docs\corpus\PMC_LICENSE_AUDIT.md
+- C:\chronos\docs\corpus\PMC_SUBLICENSE.md
+- C:\chronos\docs\council\COUNCIL_REPORT_THREE_REPOS_VALUATION_2026-06-05.md
+- C:\chronos\docs\create\SACRED_REFERENCE.md
+- C:\chronos\docs\customer\FAQ.md
+- C:\chronos\docs\customer\FIRST_RUN.md
+- C:\chronos\docs\customer\GETTING_STARTED.md
+- C:\chronos\docs\customer\PRODUCT_OVERVIEW.md
+- C:\chronos\docs\customer\SECURITY_AND_PROVENANCE.md
+- C:\chronos\docs\customer\SUPPORT.md
+- C:\chronos\docs\customer\SYSTEM_REQUIREMENTS.md
+- C:\chronos\docs\cutting_room\SACRED_REFERENCE.md
+- C:\chronos\docs\DEBUG_STRESS_CHECKLIST.md
+- C:\chronos\docs\DEMO_CALL_SCRIPT.md
+- C:\chronos\docs\Deterministic Spatial Grounding and Animation.pdf
+- C:\chronos\docs\EASY_SETUP.md
+- C:\chronos\docs\FILM_PIPELINE_INDEX.md
+- C:\chronos\docs\FILM_PIPELINE_MAPPING.md
+- C:\chronos\docs\FILM_PIPELINE_SUMMARY.md
+- C:\chronos\docs\FILM_PIPELINE_VERIFICATION.md
+- C:\chronos\docs\FORGE_DUAL_VIEW_SPEC.md
+- C:\chronos\docs\FRIDAY_DEMO_BRIEF_2026-06-19.md
+- C:\chronos\docs\FRIDAY_DEMO_QA_2026-06-19.md
+- C:\chronos\docs\FRIDAY_DEMO_RUNBOOK_2026-06-19.md
+- C:\chronos\docs\FUNDING_PROOF_PACKET.md
+- C:\chronos\docs\geometry\museum_wall\README.md
+- C:\chronos\docs\geometry\visual_gate_2026-07-09\concept_path\README.md
+- C:\chronos\docs\geometry\visual_gate_2026-07-09\README.md
+- C:\chronos\docs\geometry\WITNESS_INSPECTION_GATE.md
+- C:\chronos\docs\gguf_carwash\AUDIT_CHECKLIST.md
+- C:\chronos\docs\gguf_carwash\BUILD_LOG.md
+- C:\chronos\docs\gguf_carwash\GGUF Carwash_ Technical Architecture Design.md
+- C:\chronos\docs\gguf_carwash\GGUF Carwash_ The Local-First LLM Fine-Tuning Pipeline.md
+- C:\chronos\docs\gguf_carwash\Local AI Geometry Training Backend.md
+- C:\chronos\docs\gguf_carwash\Local LLM Fine-Tuning Pipeline Guide.md
+- C:\chronos\docs\gguf_carwash\PROMPT_CASCADE.md
+- C:\chronos\docs\gguf_carwash\PROMPT_CLAUDE.md
+- C:\chronos\docs\gguf_carwash\PROMPT_CODEX.md
+- C:\chronos\docs\gguf_carwash\REPO_TRUTH_STATUS.md
+- C:\chronos\docs\gguf_carwash\SOPHIA_TRAINING_BACKEND_INTEGRATION_PLAN.md
+- C:\chronos\docs\gguf_carwash\thesolve.md
+- C:\chronos\docs\gguf_carwash\THREE_LANE_BUILD_PLAN.md
+- C:\chronos\docs\historical\04_execution_governance_dynamics.md
+- C:\chronos\docs\historical\animation_video_gap.md
+- C:\chronos\docs\historical\ANY_OBJECT_GAP_REPORT_2026-05-22.md
+- C:\chronos\docs\historical\bridge.md
+- C:\chronos\docs\historical\Building Vistas with Crucible Benchmarks.md
+- C:\chronos\docs\historical\CHRONOS_SOPHIA_PROCEDURAL_GEOMETRY_TRAINING_PLAN.md
+- C:\chronos\docs\historical\Chronos-Sophia Deep Research Report.md
+- C:\chronos\docs\historical\Chronos-Sophia2.0.md
+- C:\chronos\docs\historical\CLAUDE_SUMMARY_REQUEST_2026-05-25.md
+- C:\chronos\docs\historical\COUNCIL_GEOMETRY_TRAINING_2026-05-17.md
+- C:\chronos\docs\historical\COUNCIL_NOTE_2026-05-18_PHASE_2A_STAGE_D_F.md
+- C:\chronos\docs\historical\COUNCIL_NOTE_2026-05-18_PHASE_2BC_CLAUDE_VERTICAL.md
+- C:\chronos\docs\historical\COUNCIL_NOTE_2026-05-18_STAGE_D_PREFLIGHT.md
+- C:\chronos\docs\historical\COUNCIL_REPORT_2026-05-01.md
+- C:\chronos\docs\historical\COUNCIL_TRIAGE.md
+- C:\chronos\docs\historical\DREAMER_PLAN.md
+- C:\chronos\docs\historical\futureplan.md
+- C:\chronos\docs\historical\HANDOFF_2026-05-22_v2.md
+- C:\chronos\docs\historical\HANDOFF_2026-05-22.md
+- C:\chronos\docs\historical\handoff_cascade_2026-05-18_role_transfer_to_claude.md
+- C:\chronos\docs\historical\handoff_cascade_2026-05-18_singular_goal_crossed.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-16_sophia_interview_redesign.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-16_sophia_scene_foundry.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-18_phase_2bc_vision_implementation.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-18_stage_c_acceptance_gate.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-18_stage_d_design.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-18_stage_d_reading_ahead.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-18_stage_e_repair_loop_design.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-19_geometry_mesh_executor.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-19_sophia_identity_tool_profile.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-20_benchmark_campaign_runner.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-20_curriculum_spine_gate_frontier.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-20_step_8_proof_run.md
+- C:\chronos\docs\historical\handoff_claude_2026-05-20_steps_6_7_profile_succession_daemon.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-18_export_chatml.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-18_phase_2bc_completion.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-18_phase_2bc_takeover.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-18_render_and_seal_corpus.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-18_stage_b_mesh_render.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-18_stage_c_seal_mesh_sample.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-18_stage_e_repair_loop_implementation.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-19_curriculum_benchmark_substrate.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-20_sophia_life_kernel_phase2.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-20_sophia_life_kernel_phase3.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-20_sophia_life_kernel.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-21_comfyui_geometry_bridge.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-21_cube_proof_rescue.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-21_showroom_silhouette_pipeline.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-22_launcher_codex_surface.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-22_runtime_monitoring_truth.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-22_showroom_forever_law_sealing.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-22_vista_animation_canon.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-23_mesh_trainer_orchestrator.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-23_primitive_object_builder.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-24_control-plane-location-promotion.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-24_live-proof-tribunal.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-24_ouroboros_asset_critique_spine.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-24_ouroboros_creation_spine.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-25_manus_sword_system_doc.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-25_repo_audit_finalize_push.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-25_sword_family_browser_a3.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-25_sword_lineage_selection_lane.md
+- C:\chronos\docs\historical\handoff_codex_2026-05-25_sword_lineage_truth_lane.md
+- C:\chronos\docs\historical\handoff_codex_5162026b.md
+- C:\chronos\docs\historical\handoff_council_2026-05-20_state_of_sophia.md
+- C:\chronos\docs\historical\handoff_windsurf_2026-05-17_sophia_geometry_training.md
+- C:\chronos\docs\historical\HANDOFF.md
+- C:\chronos\docs\historical\handoffreport5162026.md
+- C:\chronos\docs\historical\Local Offline Artificial Organism.md
+- C:\chronos\docs\historical\math.txt
+- C:\chronos\docs\historical\Offline Generative Scene System Build Plan.md
+- C:\chronos\docs\historical\plan_2026-05-23_2021_mesh-trainer-orchestrator.md
+- C:\chronos\docs\historical\plan_2026-05-24_0342_ouroboros_asset_critique_spine.md
+- C:\chronos\docs\historical\plan_2026-05-24_0451_lawful_and_real_smoke_audit.md
+- C:\chronos\docs\historical\plan_2026-05-24_0500_organism_hardening.md
+- C:\chronos\docs\historical\plan_2026-05-24_0600_proof_tribunal.md
+- C:\chronos\docs\historical\plan_2026-05-24_0700_operational_recall.md
+- C:\chronos\docs\historical\plan_2026-05-24_1135_ouroboros_creation_spine.md
+- C:\chronos\docs\historical\plan_2026-05-24_2200_dreamer-material-lane.md
+- C:\chronos\docs\historical\plan_2026-05-24_2207_control-plane-location-promotion.md
+- C:\chronos\docs\historical\plan_2026-05-24_2231_lane-a-commit-packaging.md
+- C:\chronos\docs\historical\plan_2026-05-24_2235_live-proof-tribunal.md
+- C:\chronos\docs\historical\plan_2026-05-25_0624_sword-family-chaos-lane.md
+- C:\chronos\docs\historical\plan_2026-05-25_0625_sword-lineage-selection-lane.md
+- C:\chronos\docs\historical\plan_2026-05-25_0739_manus_sword_system_doc.md
+- C:\chronos\docs\historical\plan_2026-05-25_0829_manus_sword_phase2_integration.md
+- C:\chronos\docs\historical\plan_2026-05-25_0905_sword_phase_b1_b2.md
+- C:\chronos\docs\historical\plan_2026-05-25_0912_sword_family_browser_a3.md
+- C:\chronos\docs\historical\plan_2026-05-25_1133_repo_audit_finalize_push.md
+- C:\chronos\docs\historical\PLAN_GEOMETRIC_LEXICON.md
+- C:\chronos\docs\historical\PRODUCT.md
+- C:\chronos\docs\historical\README.md
+- C:\chronos\docs\historical\research_upload_review_2026-05-16.md
+- C:\chronos\docs\historical\scene_geometry_plan.md
+- C:\chronos\docs\historical\sophia_geometry_system_2026-05-16.md
+- C:\chronos\docs\historical\sophia_studio_plan.md
+- C:\chronos\docs\historical\sophiathesis.md
+- C:\chronos\docs\historical\vista_code.md
+- C:\chronos\docs\IMAGINE_ENGINE_DESIGN.md
+- C:\chronos\docs\offer\index.html
+- C:\chronos\docs\operating_table\SACRED_REFERENCE.md
+- C:\chronos\docs\OPERATOR_MANUAL.md
+- C:\chronos\docs\OUTREACH_MESSAGE_SHORT.md
+- C:\chronos\docs\PIPELINE_FLOWCHART.md
+- C:\chronos\docs\plans\plan_2026-06-07_0510_funding-narrative-compression.md
+- C:\chronos\docs\plans\plan_2026-06-07_0513_training-truth-witness-closure.md
+- C:\chronos\docs\plans\plan_2026-06-07_undeniable-demo-report.md
+- C:\chronos\docs\PRIMUS_SWARM.md
+- C:\chronos\docs\renders\SACRED_REFERENCE.md
+- C:\chronos\docs\roadmap_internal_pipeline.md
+- C:\chronos\docs\security\SENTINEL_ADOPTION_STATUS.md
+- C:\chronos\docs\security\SENTINEL_CERTIFICATION_REPORT.md
+- C:\chronos\docs\security\SENTINEL_IMPERVIOUS_PROTOCOL_MASTER_PLAN.md
+- C:\chronos\docs\security\SENTINEL_PROTECTED_ACTIONS.md
+- C:\chronos\docs\sentinel\SENTINEL_INTEGRATION_FRAMEWORK.md
+- C:\chronos\docs\sentinel\SENTINEL_READINESS.md
+- C:\chronos\docs\sentinel\sources\02_computational_methods.md
+- C:\chronos\docs\sentinel\sources\03_cognitive_sovereignty.md
+- C:\chronos\docs\sentinel\sources\04_execution_governance_dynamics.md
+- C:\chronos\docs\sentinel\sources\README.md
+- C:\chronos\docs\SHOWROOM_SPEC.md
+- C:\chronos\docs\SOPHIA_CHAT_AUDIT.md
+- C:\chronos\docs\sophia_chat\SACRED_REFERENCE.md
+- C:\chronos\docs\SOVEREIGNTY_MANIFEST.md
+- C:\chronos\docs\standards\AGENT_GOVERNANCE_HARD_PROBLEMS.md
+- C:\chronos\docs\standards\NEUROCOGNICA_GUI_LAUNCH_STANDARD.md
+- C:\chronos\docs\strategy\business_case_lawyers_over_artists.md
+- C:\chronos\docs\strategy\chronos_sophia_originality_frontiers.md
+- C:\chronos\docs\strategy\pipeline_reality_audit_2026-05-27.md
+- C:\chronos\docs\SYSTEM_AUDIT_MAP_2026-06-17.md
+- C:\chronos\docs\TERMINOLOGY.md
+- C:\chronos\docs\training\AI Agent Governance_ A New Standard.md
+- C:\chronos\docs\training\CARWASH_FIRST_REAL_RUN_RESULT.md
+- C:\chronos\docs\training\CARWASH_FIRST_RUN.md
+- C:\chronos\docs\training\CARWASH_WITNESS_GAP.md
+- C:\chronos\docs\training\SPECIAL_TOKENS.md
+- C:\chronos\docs\training\TEXT_CORPUS_READINESS.md
+- C:\chronos\docs\training\TOKENIZER_DESIGN.md
+- C:\chronos\docs\training\TOKENIZER_EVALUATION.md
+- C:\chronos\docs\training\TRAINING_GATES.md
+- C:\chronos\docs\TROUBLESHOOTING.md
+- C:\chronos\docs\TYPOGRAPHY.md
+- C:\chronos\docs\UI_DESIGN_SPECIFICATION.md
+- C:\chronos\docs\UI_STRING_MAP.md
+- C:\chronos\docs\ui\APP_MODEL.md
+- C:\chronos\docs\ui\DESIGN_SYSTEM.md
+- C:\chronos\docs\USER_GUIDE.md
+- C:\chronos\docs\user_guide\chronosynthesis_contract.md
+- C:\chronos\docs\user_guide\how_lineage_works.md
+- C:\chronos\docs\user_guide\how_to_use_sophia_chat.md
+- C:\chronos\docs\user_guide\how_to_use_vistas.md
+- C:\chronos\docs\VISION.md
+- C:\chronos\docs\VISTA_TEMPLATE_DESIGN.md
+- C:\chronos\docs\vistas\PROCEDURAL_FOREST_VISTA_GENERATION_PLAN.md
+- C:\chronos\docs\vistas\SACRED_REFERENCE.md
+- C:\chronos\docs\WINDOWS_LIFECYCLE_AUDIT_2026-06-17.md
+- C:\chronos\docs\windows\AUDIT_CHECKLISTS.md
+- C:\chronos\docs\windows\audit_evidence_2026-06-17\00_git_status_before.txt
+- C:\chronos\docs\windows\audit_evidence_2026-06-17\01_installer_output_listing.txt
+- C:\chronos\docs\windows\audit_evidence_2026-06-17\02_installer_sha256.txt
+- C:\chronos\docs\windows\audit_evidence_2026-06-17\05_pytest_runtime_metabolism.txt
+- C:\chronos\docs\windows\audit_evidence_2026-06-17\06_updater_probe_before_reset.txt
+- C:\chronos\docs\windows\audit_evidence_2026-06-17\07_feed_reset_to_release_version.txt
+- C:\chronos\docs\windows\audit_evidence_2026-06-17\09_updater_probe_after_reset.txt
+- C:\chronos\docs\windows\audit_evidence_2026-06-17\10_feed_mutation_to_1.0.1.txt
+- C:\chronos\docs\windows\audit_evidence_2026-06-17\12_updater_probe_after_forced_1.0.1.txt
+- C:\chronos\docs\windows\audit_evidence_2026-06-17\13_feed_reset_to_release_version_sequential.txt
+- C:\chronos\docs\windows\audit_evidence_2026-06-17\15_updater_probe_after_reset_sequential.txt
+- C:\chronos\docs\windows\audit_evidence_2026-06-17\16_feed_mutation_to_1.0.1_sequential.txt
+- C:\chronos\docs\windows\audit_evidence_2026-06-17\18_updater_probe_after_forced_1.0.1_sequential.txt
+- C:\chronos\docs\windows\audit_evidence_2026-06-17\19_feed_reset_to_release_version_final.txt
+- C:\chronos\docs\windows\audit_evidence_2026-06-17\21_check_docs.txt
+- C:\chronos\docs\windows\audit_evidence_2026-06-17\22_cargo_test_workspace.txt
+- C:\chronos\docs\windows\audit_evidence_2026-06-17\README.md
+- C:\chronos\docs\windows\DEMO_LAPTOPS_CONNECT.md
+- C:\chronos\docs\windows\LAPTOP_TEST_CHECKLIST.md
+- C:\chronos\docs\windows\PROFESSIONAL_BUILD_DOSSIER.md
+- C:\chronos\docs\windows\README.md
+- C:\chronos\docs\windows\RELEASE_PROGRAM.md
+- C:\chronos\docs\windows\SECURITY_TRUST_PACKAGE.md
+- C:\chronos\docs\windows\TELEMETRY_POLICY.md
+- C:\chronos\docs\windows\WINDOWS_LIFECYCLE_AUDIT_EVIDENCE_MANIFEST_2026-06-17.md
+- C:\chronos\docs\windows\WINDOWS_LIFECYCLE_AUDIT_PLAN_2026-06-17.md
+- C:\chronos\docs\windows\WINDOWS_LIFECYCLE_AUDIT_REPORT_2026-06-17.md
+- C:\chronos\docs\windows\WINDOWS_LIFECYCLE_AUDIT_REPORT_2026-06-19_internal-release-lane.md
+- C:\chronos\docs\windows\WINDOWS_LIFECYCLE_AUDIT_REPORT_2026-06-19.md
+- C:\chronos\docs\windows\WINDOWS_VERSION_SERIALIZATION_AUDIT_2026-06-19.md
+- C:\chronos\films\ouroboros-codex\ASSET_INVENTORY_BALLPARK.md
+- C:\chronos\films\ouroboros-codex\PIPELINE_PLAN.md
+- C:\chronos\films\ouroboros-codex\README.md
+- C:\chronos\GOVERNANCE.md
+- C:\chronos\installer\ARCHITECTURE.md
+- C:\chronos\installer\README.md
+- C:\chronos\installer\SIGNING_READINESS.md
+- C:\chronos\installer\UNINSTALL_CONTRACT.md
+- C:\chronos\installer\UPDATE_PIPELINE.md
+- C:\chronos\Manus\Chronos-Sophia Research_ Silhouette-Guided Procedural Mesh Generation.md
+- C:\chronos\Manus\Chronos-Sophia_ The Geometry of Autonomy.md
+- C:\chronos\Manus\ComfyUI Workflow for Orthographic Reference Generation.md
+- C:\chronos\Manus\Implementation Plan_ The Geometry of Autonomy.md
+- C:\chronos\Manus\Technical Review_ Chronos-Sophia Sword Generation System.md
+- C:\chronos\MASTER_GUIDE.md
+- C:\chronos\out\_aura_headless_showroom_result.txt
+- C:\chronos\out\_aura_pull\governance_report.md
+- C:\chronos\out\_aura_showroom_repro.txt
+- C:\chronos\out\_aura_sync_render_result.txt
+- C:\chronos\out\_ring_final\governance_report.md
+- C:\chronos\out\_ring_final\human_prompt.txt
+- C:\chronos\out\_ring_final\material_prompt.txt
+- C:\chronos\out\_ring_v2\governance_report.md
+- C:\chronos\out\_ring_v2\human_prompt.txt
+- C:\chronos\out\_ring_v2\material_prompt.txt
+- C:\chronos\out\_ring_v3\governance_report.md
+- C:\chronos\out\_ring_v3\human_prompt.txt
+- C:\chronos\out\_ring_v3\material_prompt.txt
+- C:\chronos\out\_showroom_restored_ring\governance_report.md
+- C:\chronos\out\_showroom_restored_ring\human_prompt.txt
+- C:\chronos\out\_showroom_restored_ring\material_prompt.txt
+- C:\chronos\out\_showroom_test_ring\governance_report.md
+- C:\chronos\out\_showroom_test_ring\human_prompt.txt
+- C:\chronos\out\_showroom_test_ring\material_prompt.txt
+- C:\chronos\out\_sr_box\governance_report.md
+- C:\chronos\out\_sr_box\human_prompt.txt
+- C:\chronos\out\_sr_box\material_prompt.txt
+- C:\chronos\out\_sr_bright\governance_report.md
+- C:\chronos\out\_sr_bright\human_prompt.txt
+- C:\chronos\out\_sr_bright\material_prompt.txt
+- C:\chronos\out\_sr_clean\governance_report.md
+- C:\chronos\out\_sr_clean\human_prompt.txt
+- C:\chronos\out\_sr_clean\material_prompt.txt
+- C:\chronos\out\_sr_cone\governance_report.md
+- C:\chronos\out\_sr_cone\human_prompt.txt
+- C:\chronos\out\_sr_cone\material_prompt.txt
+- C:\chronos\out\_sr_cone2\governance_report.md
+- C:\chronos\out\_sr_cone2\human_prompt.txt
+- C:\chronos\out\_sr_cone2\material_prompt.txt
+- C:\chronos\out\_sr_cube\governance_report.md
+- C:\chronos\out\_sr_cube\human_prompt.txt
+- C:\chronos\out\_sr_cube\material_prompt.txt
+- C:\chronos\out\_sr_even\governance_report.md
+- C:\chronos\out\_sr_even\human_prompt.txt
+- C:\chronos\out\_sr_even\material_prompt.txt
+- C:\chronos\out\_sr_fish\human_prompt.txt
+- C:\chronos\out\_sr_fish\material_prompt.txt
+- C:\chronos\out\_sr_oct\governance_report.md
+- C:\chronos\out\_sr_oct\human_prompt.txt
+- C:\chronos\out\_sr_oct\material_prompt.txt
+- C:\chronos\out\_sr_rot\governance_report.md
+- C:\chronos\out\_sr_rot\human_prompt.txt
+- C:\chronos\out\_sr_rot\material_prompt.txt
+- C:\chronos\out\_sr_satin\governance_report.md
+- C:\chronos\out\_sr_satin\human_prompt.txt
+- C:\chronos\out\_sr_satin\material_prompt.txt
+- C:\chronos\out\_sr_white\governance_report.md
+- C:\chronos\out\_sr_white\human_prompt.txt
+- C:\chronos\out\_sr_white\material_prompt.txt
+- C:\chronos\out\002aaf41-36c1-4650-a127-ba1b300811d2\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\002aaf41-36c1-4650-a127-ba1b300811d2\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\002aaf41-36c1-4650-a127-ba1b300811d2\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\03631bf0-6c8d-4c22-8d68-0904dc8b6953\governance_report.md
+- C:\chronos\out\03631bf0-6c8d-4c22-8d68-0904dc8b6953\human_prompt.txt
+- C:\chronos\out\03631bf0-6c8d-4c22-8d68-0904dc8b6953\material_prompt.txt
+- C:\chronos\out\041bd0e6-d30f-4b3f-88c7-7ce6e9668358\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\041bd0e6-d30f-4b3f-88c7-7ce6e9668358\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\041bd0e6-d30f-4b3f-88c7-7ce6e9668358\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\06f6b549-8fc2-4de5-abf8-8a19b74407d2\witness_test.txt
+- C:\chronos\out\07185fe3-1acf-4aad-9dec-e94707dbff76\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\07185fe3-1acf-4aad-9dec-e94707dbff76\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\07185fe3-1acf-4aad-9dec-e94707dbff76\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\08419a40-840e-4268-9bb0-f9ab12595729\SHIP_GATE_FORGE\installer_sha256.txt
+- C:\chronos\out\08419a40-840e-4268-9bb0-f9ab12595729\SHIP_GATE_FORGE\SHIP_GATE_SUMMARY.md
+- C:\chronos\out\08419a40-840e-4268-9bb0-f9ab12595729\SHIP_GATE_FORGE\support_bundle\BUNDLE_SUMMARY.md
+- C:\chronos\out\0cd60108-618f-43a4-83fb-a58c64c9f356\witness_test.txt
+- C:\chronos\out\15785956-a054-45e0-b62a-fdbec7c3b210\witness_test.txt
+- C:\chronos\out\208334e3-660f-48a7-a07d-308d377092a0\witness_test.txt
+- C:\chronos\out\2099ece5-c30a-49c2-aa9a-fb0c3a5a396a\witness_test.txt
+- C:\chronos\out\28aead7b-cb75-401e-b957-d46cbe9a43d4\witness_test.txt
+- C:\chronos\out\2be12cac-f6fc-4fda-aa65-c93e53a265b6\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\2be12cac-f6fc-4fda-aa65-c93e53a265b6\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\2be12cac-f6fc-4fda-aa65-c93e53a265b6\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\2c5374ba-0702-45d8-80fb-b2f7ab8f05c7\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\2c5374ba-0702-45d8-80fb-b2f7ab8f05c7\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\2c5374ba-0702-45d8-80fb-b2f7ab8f05c7\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\2de822e9-6bc3-4b19-8c6f-e181a442f3fb\witness_test.txt
+- C:\chronos\out\2f4e1e8d-65fd-45c3-8418-9135c351d704\witness_test.txt
+- C:\chronos\out\2fa02d03-08cd-4a33-850a-22c2a865d84a\witness_test.txt
+- C:\chronos\out\317cd826-5dcf-443a-9bdc-2d3b9383e2ab\witness_test.txt
+- C:\chronos\out\35d5e2b6-f9d2-4755-8fe4-25b9c94335e1\SHIP_GATE_FORGE\installer_sha256.txt
+- C:\chronos\out\35d5e2b6-f9d2-4755-8fe4-25b9c94335e1\SHIP_GATE_FORGE\pending_host_occurrences.txt
+- C:\chronos\out\35d5e2b6-f9d2-4755-8fe4-25b9c94335e1\SHIP_GATE_FORGE\SHIP_GATE_SUMMARY.md
+- C:\chronos\out\35d5e2b6-f9d2-4755-8fe4-25b9c94335e1\SHIP_GATE_FORGE\support_bundle\BUNDLE_SUMMARY.md
+- C:\chronos\out\35e863ad-d265-401c-83bc-c3ec5bcf0575\witness_test.txt
+- C:\chronos\out\392b20bb-fc70-4837-bf81-c8023b95d090\SHIP_GATE_FORGE\installer_sha256.txt
+- C:\chronos\out\392b20bb-fc70-4837-bf81-c8023b95d090\SHIP_GATE_FORGE\pending_host_occurrences.txt
+- C:\chronos\out\392b20bb-fc70-4837-bf81-c8023b95d090\SHIP_GATE_FORGE\SHIP_GATE_SUMMARY.md
+- C:\chronos\out\392b20bb-fc70-4837-bf81-c8023b95d090\SHIP_GATE_FORGE\support_bundle\BUNDLE_SUMMARY.md
+- C:\chronos\out\3b7ca216-2302-482f-8661-2c6816ba9cc1\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\3b7ca216-2302-482f-8661-2c6816ba9cc1\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\3b7ca216-2302-482f-8661-2c6816ba9cc1\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\3d4b1a6f-575b-442d-910e-ea253a13338b\witness_test.txt
+- C:\chronos\out\3f19046a-dd93-43eb-994b-aa392a3ea0a8\witness_test.txt
+- C:\chronos\out\42e020c0-750b-492c-af76-facebf617946\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\42e020c0-750b-492c-af76-facebf617946\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\42e020c0-750b-492c-af76-facebf617946\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\43de97ad-15ba-48b7-9bb0-3635340dbe44\witness_test.txt
+- C:\chronos\out\45756130-4c41-4cc9-9050-3086ee8339eb\witness_test.txt
+- C:\chronos\out\4a67cdf1-dec9-46eb-b83a-2be4983eaaec\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\4a67cdf1-dec9-46eb-b83a-2be4983eaaec\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\4a67cdf1-dec9-46eb-b83a-2be4983eaaec\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\5055806c-96ca-4c21-b497-03ded2de87fc\witness_test.txt
+- C:\chronos\out\515bd79d-8cff-48f6-a92a-42fa3c9c9b85\witness_test.txt
+- C:\chronos\out\521af336-f162-4314-aded-dc39b0848dfe\FORGE_WITNESS\FORGE_WITNESS.md
+- C:\chronos\out\5248d5e7-7d6f-4ff0-87b3-ec4ffc0fd1b3\witness_test.txt
+- C:\chronos\out\559aa100-09d8-4803-b94d-c52d8e5c0e06\witness_test.txt
+- C:\chronos\out\569b026f-4a18-4d10-9ea3-a5df95417abd\witness_test.txt
+- C:\chronos\out\573c77a4-76de-46bb-81b6-43bb52e59ca2\witness_test.txt
+- C:\chronos\out\58163031-1a7a-4cb1-80d2-b08538d1cea1\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\58163031-1a7a-4cb1-80d2-b08538d1cea1\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\58163031-1a7a-4cb1-80d2-b08538d1cea1\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\5aa1cb49-29c2-4fb8-94b1-d5bc16509525\witness_test.txt
+- C:\chronos\out\5dd81892-1d81-440d-a6f1-11c5db7b630e\witness_test.txt
+- C:\chronos\out\5f186466-8a4d-47e2-b699-743145ebfa69\SHIP_GATE_FORGE\installer_hash.txt
+- C:\chronos\out\5f186466-8a4d-47e2-b699-743145ebfa69\SHIP_GATE_FORGE\known_gaps.md
+- C:\chronos\out\5f186466-8a4d-47e2-b699-743145ebfa69\SHIP_GATE_FORGE\SHIP_GATE_SUMMARY.md
+- C:\chronos\out\6268d74d-2bb5-4274-9eaf-89326b67a63a\witness_test.txt
+- C:\chronos\out\66de54d6-552b-4b21-a671-1d699416a066\governance_report.md
+- C:\chronos\out\66de54d6-552b-4b21-a671-1d699416a066\human_prompt.txt
+- C:\chronos\out\66de54d6-552b-4b21-a671-1d699416a066\material_prompt.txt
+- C:\chronos\out\6c1e47fa-b43e-435c-8d75-0852093a8cd2\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\6c1e47fa-b43e-435c-8d75-0852093a8cd2\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\6c1e47fa-b43e-435c-8d75-0852093a8cd2\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\71bf679d-9ef7-4ce2-998c-99bf52f77577\witness_test.txt
+- C:\chronos\out\7367a008-1c93-4dc5-856c-aa4eab7edaae\witness_test.txt
+- C:\chronos\out\73abe319-d126-4a97-9c09-f8b0a65294a5\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\73abe319-d126-4a97-9c09-f8b0a65294a5\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\73abe319-d126-4a97-9c09-f8b0a65294a5\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\73dc8393-1730-4d43-ab8f-b80b3f9f3982\witness_test.txt
+- C:\chronos\out\73e569d3-30d3-4833-840c-f4b9774d1046\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\73e569d3-30d3-4833-840c-f4b9774d1046\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\73e569d3-30d3-4833-840c-f4b9774d1046\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\740e5617-a905-4c53-b1a3-340c4fd19e8e\witness_test.txt
+- C:\chronos\out\7700ae37-ff65-4d3a-9fce-37efbaead140\witness_test.txt
+- C:\chronos\out\7756dd73-5e10-4445-8761-80c28ffbc1b5\witness_test.txt
+- C:\chronos\out\817a2547-644c-473f-a173-0f06ecca68b7\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\817a2547-644c-473f-a173-0f06ecca68b7\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\817a2547-644c-473f-a173-0f06ecca68b7\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\8b80cc69-d19f-4f86-8b6a-c6da2e7e0d25\FORGE_WITNESS\FORGE_WITNESS.md
+- C:\chronos\out\8ec60df8-68a4-4b5f-8cbf-2fb0bf6999cc\witness_test.txt
+- C:\chronos\out\97020984-2b02-452c-974e-3fb65f6fd1cf\witness_test.txt
+- C:\chronos\out\9c84807f-73e5-4057-940b-61ca3a9930ca\witness_test.txt
+- C:\chronos\out\9cd73286-9c3d-40a1-af8e-c21b4ed53a17\witness_test.txt
+- C:\chronos\out\9d5cec13-7752-4ad9-81fb-8afb45b19a0b\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\9d5cec13-7752-4ad9-81fb-8afb45b19a0b\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\9d5cec13-7752-4ad9-81fb-8afb45b19a0b\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\9f87bd61-10a4-479b-a50c-c65b79850735\governance_report.md
+- C:\chronos\out\9f87bd61-10a4-479b-a50c-c65b79850735\human_prompt.txt
+- C:\chronos\out\9f87bd61-10a4-479b-a50c-c65b79850735\material_prompt.txt
+- C:\chronos\out\a71897db-f007-4bb3-ac8c-8e5573ced99b\SHIP_GATE_FORGE\installer_sha256.txt
+- C:\chronos\out\a71897db-f007-4bb3-ac8c-8e5573ced99b\SHIP_GATE_FORGE\SHIP_GATE_SUMMARY.md
+- C:\chronos\out\a71897db-f007-4bb3-ac8c-8e5573ced99b\SHIP_GATE_FORGE\support_bundle\BUNDLE_SUMMARY.md
+- C:\chronos\out\a846d599-0e4b-4c0f-967f-7103c9bb128b\witness_test.txt
+- C:\chronos\out\a9bf8599-c851-4fee-8a2f-42f767dcb05d\witness_test.txt
+- C:\chronos\out\aa556bd3-e3d3-4b1c-99a4-a55aa5978145\witness_test.txt
+- C:\chronos\out\ac3a899c-fcbe-4e1d-a5ac-27ec2b7e228d\witness_test.txt
+- C:\chronos\out\artifact_restore_check\governance_report.md
+- C:\chronos\out\artifact_restore_check\human_prompt.txt
+- C:\chronos\out\artifact_restore_check\material_prompt.txt
+- C:\chronos\out\artifact_v2\governance_report.md
+- C:\chronos\out\artifact_v2\human_prompt.txt
+- C:\chronos\out\artifact_v2\material_prompt.txt
+- C:\chronos\out\artifact_v3\governance_report.md
+- C:\chronos\out\artifact_v3\human_prompt.txt
+- C:\chronos\out\artifact_v3\material_prompt.txt
+- C:\chronos\out\artifact_v4\governance_report.md
+- C:\chronos\out\artifact_v4\human_prompt.txt
+- C:\chronos\out\artifact_v4\material_prompt.txt
+- C:\chronos\out\artifact_v5\governance_report.md
+- C:\chronos\out\artifact_v5\human_prompt.txt
+- C:\chronos\out\artifact_v5\material_prompt.txt
+- C:\chronos\out\artifact_v6\governance_report.md
+- C:\chronos\out\artifact_v6\human_prompt.txt
+- C:\chronos\out\artifact_v6\material_prompt.txt
+- C:\chronos\out\artifact_v7\governance_report.md
+- C:\chronos\out\artifact_v7\human_prompt.txt
+- C:\chronos\out\artifact_v7\material_prompt.txt
+- C:\chronos\out\artifact_v8\governance_report.md
+- C:\chronos\out\artifact_v8\human_prompt.txt
+- C:\chronos\out\artifact_v8\material_prompt.txt
+- C:\chronos\out\artifact_v9_orbit_v4\blender_live_log.txt
+- C:\chronos\out\artifact_v9_orbit_v5\blender_live_log.txt
+- C:\chronos\out\artifact_v9_orbit_v6\blender_live_log.txt
+- C:\chronos\out\artifact_v9_orbit_v7\anchors\2026-06-08.txt
+- C:\chronos\out\artifact_v9\governance_report.md
+- C:\chronos\out\artifact_v9\human_prompt.txt
+- C:\chronos\out\artifact_v9\material_prompt.txt
+- C:\chronos\out\b3073f57-ae47-4b2b-9b98-fa9035083a4a\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\b3073f57-ae47-4b2b-9b98-fa9035083a4a\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\b3073f57-ae47-4b2b-9b98-fa9035083a4a\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\b3f3e316-a865-4d61-8a88-1e3bf2bdab2a\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\b3f3e316-a865-4d61-8a88-1e3bf2bdab2a\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\b3f3e316-a865-4d61-8a88-1e3bf2bdab2a\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\b54f0518-9e81-4a52-bbcd-9ccf82e96715\witness_test.txt
+- C:\chronos\out\b7a11d43-1886-40e6-a962-3d8688ef2d6d\witness_test.txt
+- C:\chronos\out\bb7aa0b4-248a-40cd-a02d-216b731510d3\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\bb7aa0b4-248a-40cd-a02d-216b731510d3\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\bb7aa0b4-248a-40cd-a02d-216b731510d3\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\bba12432-435f-457b-b8b3-cb6520b6ae25\witness_test.txt
+- C:\chronos\out\bcee7073-937e-4ed6-b270-3b29c76f8964\witness_test.txt
+- C:\chronos\out\bff963f3-38dd-4cba-9d30-41de3fdaf8c4\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\bff963f3-38dd-4cba-9d30-41de3fdaf8c4\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\bff963f3-38dd-4cba-9d30-41de3fdaf8c4\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\c1be51d8-6efa-410e-9026-588cde95f62f\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\c1be51d8-6efa-410e-9026-588cde95f62f\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\c1be51d8-6efa-410e-9026-588cde95f62f\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\c228c1a7-ee6c-4cad-a375-9ac4cc48fb5c\witness_test.txt
+- C:\chronos\out\c5061738-238c-4476-bb04-dcf22cf6ca6d\governance_report.md
+- C:\chronos\out\c5061738-238c-4476-bb04-dcf22cf6ca6d\human_prompt.txt
+- C:\chronos\out\c5061738-238c-4476-bb04-dcf22cf6ca6d\material_prompt.txt
+- C:\chronos\out\c82f8886-216b-4a47-8e60-d6dcf5c5c97d\witness_test.txt
+- C:\chronos\out\c97ae394-7693-4a28-ad9d-61a44f40ae870\governance_report.md
+- C:\chronos\out\c97ae394-7693-4a28-ad9d-61a44f40ae870\human_prompt.txt
+- C:\chronos\out\c97ae394-7693-4a28-ad9d-61a44f40ae870\material_prompt.txt
+- C:\chronos\out\canvas_easel\governance_report.md
+- C:\chronos\out\canvas_easel\human_prompt.txt
+- C:\chronos\out\canvas_easel\material_prompt.txt
+- C:\chronos\out\cc405ded-0db8-4d6e-87ee-4804851c107a\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\cc405ded-0db8-4d6e-87ee-4804851c107a\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\cc405ded-0db8-4d6e-87ee-4804851c107a\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\ccde6f36-54b5-4c27-a545-1bf7693735dc\SHIP_GATE_FORGE\installer_hash.txt
+- C:\chronos\out\ccde6f36-54b5-4c27-a545-1bf7693735dc\SHIP_GATE_FORGE\known_gaps.md
+- C:\chronos\out\ccde6f36-54b5-4c27-a545-1bf7693735dc\SHIP_GATE_FORGE\SHIP_GATE_SUMMARY.md
+- C:\chronos\out\d0b4e813-9011-4907-9d48-46e6745095b8\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\d0b4e813-9011-4907-9d48-46e6745095b8\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\d0b4e813-9011-4907-9d48-46e6745095b8\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\d2ea01e1-84df-442a-9398-4a01d68d7146\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\d2ea01e1-84df-442a-9398-4a01d68d7146\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\d2ea01e1-84df-442a-9398-4a01d68d7146\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\d68f0044-099a-4a02-976f-e5fb413df493\human_prompt.txt
+- C:\chronos\out\d68f0044-099a-4a02-976f-e5fb413df493\material_prompt.txt
+- C:\chronos\out\d7544e5b-e488-4c07-be2d-03b5d54be066\witness_test.txt
+- C:\chronos\out\d855a9b5-fa6f-4a37-9df1-13d609e10645\witness_test.txt
+- C:\chronos\out\dae9817a-7541-408b-b4d4-ebcbfbe6b80a\witness_test.txt
+- C:\chronos\out\ddab93ba-5370-4eec-9f08-dbcf31fa277a\witness_test.txt
+- C:\chronos\out\ddf4bfd1-c2bb-4efb-a344-25d103f7a83a\witness_test.txt
+- C:\chronos\out\e0eaafdc-7c96-40c4-9c47-6629ba406548\witness_test.txt
+- C:\chronos\out\e9e94941-0283-4d02-9270-a065e97c80d0\PHASE1_PROOF.md
+- C:\chronos\out\ea7dc716-bd13-4a1a-bad6-e8f2600cd98f\witness_test.txt
+- C:\chronos\out\ebb14a2c-9ecd-4fb1-b7c1-999b3016fc34\witness_test.txt
+- C:\chronos\out\ece81f95-3190-47ca-9477-6712f6ca05cd\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\ece81f95-3190-47ca-9477-6712f6ca05cd\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\ece81f95-3190-47ca-9477-6712f6ca05cd\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\efc9d855-ebb7-4ba9-bbe6-56024a7083af\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\efc9d855-ebb7-4ba9-bbe6-56024a7083af\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\efc9d855-ebb7-4ba9-bbe6-56024a7083af\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\f164a136-64c5-4501-8a13-102db3bef901\witness_test.txt
+- C:\chronos\out\fc4606ee-b396-464f-a823-0d7cda269433\CREATE_TAB_WITNESS\CREATE_TAB_WITNESS.md
+- C:\chronos\out\fc4606ee-b396-464f-a823-0d7cda269433\CREATE_TAB_WITNESS\governance_report.md
+- C:\chronos\out\fc4606ee-b396-464f-a823-0d7cda269433\CREATE_TAB_WITNESS\human_prompt.txt
+- C:\chronos\out\ff26b53a-ac65-4dbd-b3da-1ac999ada9ae\witness_test.txt
+- C:\chronos\out\first_light\20260612_012326\human_prompt.txt
+- C:\chronos\out\first_light\20260612_012326\material_prompt.txt
+- C:\chronos\out\first_light\20260612_033359\governance_report.md
+- C:\chronos\out\first_light\20260612_033359\human_prompt.txt
+- C:\chronos\out\first_light\20260612_033359\material_prompt.txt
+- C:\chronos\out\first_light\20260612_134926\governance_report.md
+- C:\chronos\out\first_light\20260612_134926\human_prompt.txt
+- C:\chronos\out\first_light\20260612_134926\material_prompt.txt
+- C:\chronos\out\first_light\20260613_135356\human_prompt.txt
+- C:\chronos\out\first_light\20260613_135356\material_prompt.txt
+- C:\chronos\out\first_light\20260613_141747\governance_report.md
+- C:\chronos\out\first_light\20260613_141747\human_prompt.txt
+- C:\chronos\out\first_light\20260613_141747\material_prompt.txt
+- C:\chronos\out\first_light\20260613_215946\governance_report.md
+- C:\chronos\out\first_light\20260613_215946\human_prompt.txt
+- C:\chronos\out\first_light\20260613_215946\material_prompt.txt
+- C:\chronos\out\first_light\20260613_223845\governance_report.md
+- C:\chronos\out\first_light\20260613_223845\human_prompt.txt
+- C:\chronos\out\first_light\20260613_223845\material_prompt.txt
+- C:\chronos\out\first_light\20260613_225611\governance_report.md
+- C:\chronos\out\first_light\20260613_225611\human_prompt.txt
+- C:\chronos\out\first_light\20260613_225611\material_prompt.txt
+- C:\chronos\out\first_light\20260614_030416\governance_report.md
+- C:\chronos\out\first_light\20260614_030416\human_prompt.txt
+- C:\chronos\out\first_light\20260614_030416\material_prompt.txt
+- C:\chronos\out\first_light\20260615_210047\governance_report.md
+- C:\chronos\out\first_light\20260615_210047\human_prompt.txt
+- C:\chronos\out\first_light\20260615_210047\material_prompt.txt
+- C:\chronos\out\first_light\20260615_214411\governance_report.md
+- C:\chronos\out\first_light\20260615_214411\human_prompt.txt
+- C:\chronos\out\first_light\20260615_214411\material_prompt.txt
+- C:\chronos\out\first_light\20260615_220717\governance_report.md
+- C:\chronos\out\first_light\20260615_220717\human_prompt.txt
+- C:\chronos\out\first_light\20260615_220717\material_prompt.txt
+- C:\chronos\out\first_light\20260617_035119\governance_report.md
+- C:\chronos\out\first_light\20260617_035119\human_prompt.txt
+- C:\chronos\out\first_light\20260617_035119\material_prompt.txt
+- C:\chronos\out\first_light\20260617_040341\governance_report.md
+- C:\chronos\out\first_light\20260617_040341\human_prompt.txt
+- C:\chronos\out\first_light\20260617_040341\material_prompt.txt
+- C:\chronos\out\first_light\20260621_141618\governance_report.md
+- C:\chronos\out\first_light\20260621_141618\human_prompt.txt
+- C:\chronos\out\first_light\20260621_141618\material_prompt.txt
+- C:\chronos\out\first_light\20260621_175832\governance_report.md
+- C:\chronos\out\first_light\20260621_175832\human_prompt.txt
+- C:\chronos\out\first_light\20260621_175832\material_prompt.txt
+- C:\chronos\out\first_light\20260622_001536\governance_report.md
+- C:\chronos\out\first_light\20260622_001536\human_prompt.txt
+- C:\chronos\out\first_light\20260622_001536\material_prompt.txt
+- C:\chronos\out\first_light\20260622_003442\governance_report.md
+- C:\chronos\out\first_light\20260622_003442\human_prompt.txt
+- C:\chronos\out\first_light\20260622_003442\material_prompt.txt
+- C:\chronos\out\first_light\20260623_162300\governance_report.md
+- C:\chronos\out\first_light\20260623_162300\human_prompt.txt
+- C:\chronos\out\first_light\20260623_162300\material_prompt.txt
+- C:\chronos\out\first_light\20260624_041449\governance_report.md
+- C:\chronos\out\first_light\20260624_041449\human_prompt.txt
+- C:\chronos\out\first_light\20260624_041449\material_prompt.txt
+- C:\chronos\out\first_light\20260624_042100\governance_report.md
+- C:\chronos\out\first_light\20260624_042100\human_prompt.txt
+- C:\chronos\out\first_light\20260624_042100\material_prompt.txt
+- C:\chronos\out\first_light\20260624_122434\governance_report.md
+- C:\chronos\out\first_light\20260624_122434\human_prompt.txt
+- C:\chronos\out\first_light\20260624_122434\material_prompt.txt
+- C:\chronos\out\first_light\20260625_090805\governance_report.md
+- C:\chronos\out\first_light\20260625_090805\human_prompt.txt
+- C:\chronos\out\first_light\20260625_090805\material_prompt.txt
+- C:\chronos\out\first_light\20260626_083549\governance_report.md
+- C:\chronos\out\first_light\20260626_083549\human_prompt.txt
+- C:\chronos\out\first_light\20260626_083549\material_prompt.txt
+- C:\chronos\out\first_light\20260626_162425\governance_report.md
+- C:\chronos\out\first_light\20260626_162425\human_prompt.txt
+- C:\chronos\out\first_light\20260626_162425\material_prompt.txt
+- C:\chronos\out\first_light\20260627_000652\governance_report.md
+- C:\chronos\out\first_light\20260627_000652\human_prompt.txt
+- C:\chronos\out\first_light\20260627_000652\material_prompt.txt
+- C:\chronos\out\first_light\20260627_001555\governance_report.md
+- C:\chronos\out\first_light\20260627_001555\human_prompt.txt
+- C:\chronos\out\first_light\20260627_001555\material_prompt.txt
+- C:\chronos\out\first_light\20260627_070443\governance_report.md
+- C:\chronos\out\first_light\20260627_070443\human_prompt.txt
+- C:\chronos\out\first_light\20260627_070443\material_prompt.txt
+- C:\chronos\out\first_light\20260627_075633\governance_report.md
+- C:\chronos\out\first_light\20260627_075633\human_prompt.txt
+- C:\chronos\out\first_light\20260627_075633\material_prompt.txt
+- C:\chronos\out\first_light\20260627_075758\governance_report.md
+- C:\chronos\out\first_light\20260627_075758\human_prompt.txt
+- C:\chronos\out\first_light\20260627_075758\material_prompt.txt
+- C:\chronos\out\first_light\20260627_075904\governance_report.md
+- C:\chronos\out\first_light\20260627_075904\human_prompt.txt
+- C:\chronos\out\first_light\20260627_075904\material_prompt.txt
+- C:\chronos\out\first_light\20260627_075958\governance_report.md
+- C:\chronos\out\first_light\20260627_075958\human_prompt.txt
+- C:\chronos\out\first_light\20260627_075958\material_prompt.txt
+- C:\chronos\out\first_light\20260706_164631\human_prompt.txt
+- C:\chronos\out\first_light\20260706_164631\material_prompt.txt
+- C:\chronos\out\first_light\20260706_165303\governance_report.md
+- C:\chronos\out\first_light\20260706_165303\human_prompt.txt
+- C:\chronos\out\first_light\20260706_165303\material_prompt.txt
+- C:\chronos\out\first_light\20260706_173512\governance_report.md
+- C:\chronos\out\first_light\20260706_173512\human_prompt.txt
+- C:\chronos\out\first_light\20260706_173512\material_prompt.txt
+- C:\chronos\out\first_light\20260706_175707\governance_report.md
+- C:\chronos\out\first_light\20260706_175707\human_prompt.txt
+- C:\chronos\out\first_light\20260706_175707\material_prompt.txt
+- C:\chronos\out\first_light\20260707_200940\governance_report.md
+- C:\chronos\out\first_light\20260707_200940\human_prompt.txt
+- C:\chronos\out\first_light\20260707_200940\material_prompt.txt
+- C:\chronos\out\first_light\20260709_190859\governance_report.md
+- C:\chronos\out\first_light\20260709_190859\human_prompt.txt
+- C:\chronos\out\first_light\20260709_190859\material_prompt.txt
+- C:\chronos\out\first_light\20260709_194332\human_prompt.txt
+- C:\chronos\out\first_light\20260710_184304\governance_report.md
+- C:\chronos\out\first_light\20260710_184304\human_prompt.txt
+- C:\chronos\out\first_light\20260710_184304\material_prompt.txt
+- C:\chronos\out\first_light\20260715_202124\governance_report.md
+- C:\chronos\out\first_light\20260715_202124\human_prompt.txt
+- C:\chronos\out\first_light\20260715_202124\material_prompt.txt
+- C:\chronos\out\first_light\20260715_211514\governance_report.md
+- C:\chronos\out\first_light\20260715_211514\human_prompt.txt
+- C:\chronos\out\first_light\20260715_211514\material_prompt.txt
+- C:\chronos\out\first_light\camera_fix_witness\governance_report.md
+- C:\chronos\out\first_light\camera_fix_witness\human_prompt.txt
+- C:\chronos\out\first_light\camera_fix_witness\material_prompt.txt
+- C:\chronos\out\first_light\crystal_spire_q\human_prompt.txt
+- C:\chronos\out\first_light\crystal_spire_q\material_prompt.txt
+- C:\chronos\out\first_light\crystal_spire\governance_report.md
+- C:\chronos\out\first_light\crystal_spire\human_prompt.txt
+- C:\chronos\out\first_light\crystal_spire\material_prompt.txt
+- C:\chronos\out\first_light\crystal_spire2\governance_report.md
+- C:\chronos\out\first_light\crystal_spire2\human_prompt.txt
+- C:\chronos\out\first_light\crystal_spire2\material_prompt.txt
+- C:\chronos\out\first_light\pedestal_verify\governance_report.md
+- C:\chronos\out\first_light\pedestal_verify\human_prompt.txt
+- C:\chronos\out\first_light\pedestal_verify\material_prompt.txt
+- C:\chronos\out\first_light\test_pedestal\governance_report.md
+- C:\chronos\out\first_light\test_pedestal\human_prompt.txt
+- C:\chronos\out\first_light\test_pedestal\material_prompt.txt
+- C:\chronos\out\first_light\verify_blend\governance_report.md
+- C:\chronos\out\first_light\verify_blend\human_prompt.txt
+- C:\chronos\out\first_light\verify_blend\material_prompt.txt
+- C:\chronos\out\forge_e2e\obelisk\human_prompt.txt
+- C:\chronos\out\forge_e2e\obelisk\material_prompt.txt
+- C:\chronos\out\forge_e2e\obelisk2\governance_report.md
+- C:\chronos\out\forge_e2e\obelisk2\human_prompt.txt
+- C:\chronos\out\forge_e2e\obelisk2\material_prompt.txt
+- C:\chronos\out\governed_artifact_preflight_smoke\governance_report.md
+- C:\chronos\out\governed_artifact_preflight_smoke\human_prompt.txt
+- C:\chronos\out\governed_artifact_preflight_smoke\material_prompt.txt
+- C:\chronos\out\interior_room_comfy\anchors\2026-06-09.txt
+- C:\chronos\out\interior_room_demo\anchors\2026-06-09.txt
+- C:\chronos\out\interior_room_demo2\anchors\2026-06-09.txt
+- C:\chronos\out\ir_final\anchors\2026-06-09.txt
+- C:\chronos\out\ir_final2\anchors\2026-06-09.txt
+- C:\chronos\out\ir_v3\anchors\2026-06-09.txt
+- C:\chronos\out\lane_g\animation_ec594ba7\anchors\2026-06-12.txt
+- C:\chronos\out\lane_g\first_light_golden_pyramid\governance_report.md
+- C:\chronos\out\lane_g\first_light_golden_pyramid\human_prompt.txt
+- C:\chronos\out\lane_g\first_light_golden_pyramid\material_prompt.txt
+- C:\chronos\out\museum_test\human_prompt.txt
+- C:\chronos\out\museum_test\material_prompt.txt
+- C:\chronos\out\support_bundle_smoke_ship_gate\BUNDLE_SUMMARY.md
+- C:\chronos\out\undeniable_artifact\governance_report.md
+- C:\chronos\out\undeniable_artifact\human_prompt.txt
+- C:\chronos\out\undeniable_artifact\material_prompt.txt
+- C:\chronos\plan_2026-07-20_0044_msix-store-product-line.md
+- C:\chronos\QUICKSTART.md
+- C:\chronos\README.md
+- C:\chronos\REMOTE_FIRST_OPERATOR_LAW.md
+- C:\chronos\renders\anchors\2026-05-11.txt
+- C:\chronos\renders\anchors\2026-05-12.txt
+- C:\chronos\renders\anchors\2026-05-13.txt
+- C:\chronos\renders\anchors\2026-05-14.txt
+- C:\chronos\renders\anchors\2026-05-16.txt
+- C:\chronos\renders\anchors\2026-05-17.txt
+- C:\chronos\renders\anchors\2026-05-25.txt
+- C:\chronos\renders\anchors\2026-05-30.txt
+- C:\chronos\renders\anchors\2026-06-11.txt
+- C:\chronos\renders\anchors\2026-06-12.txt
+- C:\chronos\renders\anchors\2026-06-13.txt
+- C:\chronos\renders\anchors\2026-06-14.txt
+- C:\chronos\renders\anchors\2026-06-16.txt
+- C:\chronos\renders\anchors\2026-06-22.txt
+- C:\chronos\renders\anchors\2026-06-23.txt
+- C:\chronos\renders\anchors\2026-06-27.txt
+- C:\chronos\renders\anchors\2026-07-08.txt
+- C:\chronos\renders\anchors\2026-07-12.txt
+- C:\chronos\renders\canonical_test_20260521_023200\anchors\2026-05-21.txt
+- C:\chronos\renders\g5_test\anchors\2026-05-15.txt
+- C:\chronos\renders\g6g7_test\anchors\2026-05-15.txt
+- C:\chronos\renders\live_proof_tree_20260524\anchors\2026-05-25.txt
+- C:\chronos\renders\live_proof_tree_v2_20260524\anchors\2026-05-25.txt
+- C:\chronos\renders\manual_anchor_probe2\anchors\2026-05-25.txt
+- C:\chronos\renders\pipeline_test\anchors\2026-05-15.txt
+- C:\chronos\renders\sophia_1778861924\anchors\2026-05-15.txt
+- C:\chronos\renders\sophia_1778861995\anchors\2026-05-15.txt
+- C:\chronos\renders\sophia_1778862068\anchors\2026-05-15.txt
+- C:\chronos\renders\sophia_1778920472\anchors\2026-05-16.txt
+- C:\chronos\renders\sophia_1778920557\anchors\2026-05-16.txt
+- C:\chronos\renders\sophia_1778982083\anchors\2026-05-17.txt
+- C:\chronos\renders\sophia_1778982100\anchors\2026-05-17.txt
+- C:\chronos\renders\sophia_1778983339\anchors\2026-05-17.txt
+- C:\chronos\renders\sophia_1778983349\anchors\2026-05-17.txt
+- C:\chronos\renders\sophia_1778999587\anchors\2026-05-17.txt
+- C:\chronos\renders\sophia_1778999684\anchors\2026-05-17.txt
+- C:\chronos\renders\sophia_session_smoke\anchors\2026-05-15.txt
+- C:\chronos\renders\sophia_smoke\anchors\2026-05-15.txt
+- C:\chronos\renders\test_direct\anchors\2026-05-17.txt
+- C:\chronos\renders\test_sword_bmesh\anchors\2026-05-17.txt
+- C:\chronos\renders\test_sword_fixed\anchors\2026-05-17.txt
+- C:\chronos\renders\test_sword_v3\anchors\2026-05-17.txt
+- C:\chronos\renders\vista_test\anchors\2026-05-15.txt
+- C:\chronos\requirements.txt
+- C:\chronos\scripts\DEPENDENCIES.md
+- C:\chronos\scripts\SILHOUETTE_PROMPTING.md
+- C:\chronos\scripts\ui_extraction\2026-06-11_lane-b\README.md
+- C:\chronos\scripts\wonder_wall\template.html
+- C:\chronos\SEAMS.md
+- C:\chronos\STATUS.md
+- C:\chronos\templates\neurocognica_app_template\BUILD_DISCIPLINE.md
+- C:\chronos\templates\neurocognica_app_template\FRAMEWORK.md
+- C:\chronos\THESIS.md
+- C:\chronos\tmp\hotfix_stage\blender-mcp\README.md
+- C:\chronos\tmp\hotfix_stage\blender-mcp\TERMS_AND_CONDITIONS.md
+- C:\chronos\tmp\hotfix_stage\crates\chronos_dreamer\vistas\hdri\README.md
+- C:\chronos\tmp\hotfix_stage\desktop\.pytest_cache\README.md
+- C:\chronos\tmp\hotfix_stage\desktop\corpus_pipeline\BOM_README.md
+- C:\chronos\tmp\hotfix_stage\desktop\corpus_pipeline\README.md
+- C:\chronos\tmp\hotfix_stage\desktop\corpus_pipeline\requirements_librarian.txt
+- C:\chronos\tmp\hotfix_stage\desktop\mission_control\README.md
+- C:\chronos\tmp\hotfix_stage\desktop\mission_control\requirements.txt
+- C:\chronos\tmp\hotfix_stage\desktop\mission_control\static\index.html
+- C:\chronos\tmp\hotfix_stage\desktop\swarm_console\README.md
+- C:\chronos\tmp\hotfix_stage\desktop\swarm_console\requirements.txt
+- C:\chronos\tmp\hotfix_stage\desktop\swarm_console\static\index.html
+- C:\chronos\tmp\hotfix_stage\desktop\swarm_trainer\requirements.txt
+- C:\chronos\tmp\hotfix_stage\desktop\swarm_trainer\run_smoke_test.md
+- C:\chronos\tmp\hotfix_stage\desktop\training\backends\carwash\README.md
+- C:\chronos\tmp\hotfix_stage\desktop\training\backends\carwash\requirements.txt
+- C:\chronos\tmp\hotfix_stage\desktop\UI_ARCHITECTURE.md
+- C:\chronos\tmp\hotfix_stage\desktop\UI_COMPONENT_GUIDE.md
+- C:\chronos\tmp\hotfix_stage\docs\6fr\HAND_DESIGN_v1.md
+- C:\chronos\tmp\hotfix_stage\docs\API_ENDPOINTS.md
+- C:\chronos\tmp\hotfix_stage\docs\AVATAR_HEAD_RECIPE.md
+- C:\chronos\tmp\hotfix_stage\docs\CAPABILITY_INVENTORY.md
+- C:\chronos\tmp\hotfix_stage\docs\CAPABILITY_MAP.md
+- C:\chronos\tmp\hotfix_stage\docs\CCF_THESIS.md
+- C:\chronos\tmp\hotfix_stage\docs\CHRONOS_ONE_PAGE_MEMO.md
+- C:\chronos\tmp\hotfix_stage\docs\CHRONOS_UNDENIABLE_DEMO.md
+- C:\chronos\tmp\hotfix_stage\docs\CHRONOSYNTHESIS_MATH_SPEC.md
+- C:\chronos\tmp\hotfix_stage\docs\corporate\README.md
+- C:\chronos\tmp\hotfix_stage\docs\corporate\VOLUME_I_CORPORATE_CHARTER_LEGAL_FOUNDATION.md
+- C:\chronos\tmp\hotfix_stage\docs\corporate\VOLUME_II_ORGANIZATIONAL_ARCHITECTURE.md
+- C:\chronos\tmp\hotfix_stage\docs\corporate\VOLUME_III_STRATEGIC_DOCTRINE_MARKET_POSITIONING.md
+- C:\chronos\tmp\hotfix_stage\docs\corporate\VOLUME_IV_REGULATORY_FRAMEWORK_GLOBAL_OPERATIONS.md
+- C:\chronos\tmp\hotfix_stage\docs\corpus\CORPUS_ACCESS_CONTRACT.md
+- C:\chronos\tmp\hotfix_stage\docs\corpus\CORPUS_VAULT_INVARIANTS.md
+- C:\chronos\tmp\hotfix_stage\docs\corpus\PMC_LICENSE_AUDIT.md
+- C:\chronos\tmp\hotfix_stage\docs\corpus\PMC_SUBLICENSE.md
+- C:\chronos\tmp\hotfix_stage\docs\council\COUNCIL_REPORT_THREE_REPOS_VALUATION_2026-06-05.md
+- C:\chronos\tmp\hotfix_stage\docs\create\SACRED_REFERENCE.md
+- C:\chronos\tmp\hotfix_stage\docs\customer\FAQ.md
+- C:\chronos\tmp\hotfix_stage\docs\customer\FIRST_RUN.md
+- C:\chronos\tmp\hotfix_stage\docs\customer\GETTING_STARTED.md
+- C:\chronos\tmp\hotfix_stage\docs\customer\PRODUCT_OVERVIEW.md
+- C:\chronos\tmp\hotfix_stage\docs\customer\SECURITY_AND_PROVENANCE.md
+- C:\chronos\tmp\hotfix_stage\docs\customer\SUPPORT.md
+- C:\chronos\tmp\hotfix_stage\docs\customer\SYSTEM_REQUIREMENTS.md
+- C:\chronos\tmp\hotfix_stage\docs\cutting_room\SACRED_REFERENCE.md
+- C:\chronos\tmp\hotfix_stage\docs\DEMO_CALL_SCRIPT.md
+- C:\chronos\tmp\hotfix_stage\docs\EASY_SETUP.md
+- C:\chronos\tmp\hotfix_stage\docs\FRIDAY_DEMO_BRIEF_2026-06-19.md
+- C:\chronos\tmp\hotfix_stage\docs\FRIDAY_DEMO_QA_2026-06-19.md
+- C:\chronos\tmp\hotfix_stage\docs\FRIDAY_DEMO_RUNBOOK_2026-06-19.md
+- C:\chronos\tmp\hotfix_stage\docs\FUNDING_PROOF_PACKET.md
+- C:\chronos\tmp\hotfix_stage\docs\geometry\WITNESS_INSPECTION_GATE.md
+- C:\chronos\tmp\hotfix_stage\docs\gguf_carwash\AUDIT_CHECKLIST.md
+- C:\chronos\tmp\hotfix_stage\docs\gguf_carwash\BUILD_LOG.md
+- C:\chronos\tmp\hotfix_stage\docs\gguf_carwash\GGUF Carwash_ Technical Architecture Design.md
+- C:\chronos\tmp\hotfix_stage\docs\gguf_carwash\GGUF Carwash_ The Local-First LLM Fine-Tuning Pipeline.md
+- C:\chronos\tmp\hotfix_stage\docs\gguf_carwash\Local AI Geometry Training Backend.md
+- C:\chronos\tmp\hotfix_stage\docs\gguf_carwash\Local LLM Fine-Tuning Pipeline Guide.md
+- C:\chronos\tmp\hotfix_stage\docs\gguf_carwash\PROMPT_CASCADE.md
+- C:\chronos\tmp\hotfix_stage\docs\gguf_carwash\PROMPT_CLAUDE.md
+- C:\chronos\tmp\hotfix_stage\docs\gguf_carwash\PROMPT_CODEX.md
+- C:\chronos\tmp\hotfix_stage\docs\gguf_carwash\REPO_TRUTH_STATUS.md
+- C:\chronos\tmp\hotfix_stage\docs\gguf_carwash\SOPHIA_TRAINING_BACKEND_INTEGRATION_PLAN.md
+- C:\chronos\tmp\hotfix_stage\docs\gguf_carwash\thesolve.md
+- C:\chronos\tmp\hotfix_stage\docs\gguf_carwash\THREE_LANE_BUILD_PLAN.md
+- C:\chronos\tmp\hotfix_stage\docs\IMAGINE_ENGINE_DESIGN.md
+- C:\chronos\tmp\hotfix_stage\docs\operating_table\SACRED_REFERENCE.md
+- C:\chronos\tmp\hotfix_stage\docs\OPERATOR_MANUAL.md
+- C:\chronos\tmp\hotfix_stage\docs\OUTREACH_MESSAGE_SHORT.md
+- C:\chronos\tmp\hotfix_stage\docs\PRIMUS_SWARM.md
+- C:\chronos\tmp\hotfix_stage\docs\renders\SACRED_REFERENCE.md
+- C:\chronos\tmp\hotfix_stage\docs\roadmap_internal_pipeline.md
+- C:\chronos\tmp\hotfix_stage\docs\SHOWROOM_SPEC.md
+- C:\chronos\tmp\hotfix_stage\docs\SOPHIA_CHAT_AUDIT.md
+- C:\chronos\tmp\hotfix_stage\docs\sophia_chat\SACRED_REFERENCE.md
+- C:\chronos\tmp\hotfix_stage\docs\SOVEREIGNTY_MANIFEST.md
+- C:\chronos\tmp\hotfix_stage\docs\standards\AGENT_GOVERNANCE_HARD_PROBLEMS.md
+- C:\chronos\tmp\hotfix_stage\docs\standards\NEUROCOGNICA_GUI_LAUNCH_STANDARD.md
+- C:\chronos\tmp\hotfix_stage\docs\strategy\business_case_lawyers_over_artists.md
+- C:\chronos\tmp\hotfix_stage\docs\strategy\chronos_sophia_originality_frontiers.md
+- C:\chronos\tmp\hotfix_stage\docs\strategy\pipeline_reality_audit_2026-05-27.md
+- C:\chronos\tmp\hotfix_stage\docs\SYSTEM_AUDIT_MAP_2026-06-17.md
+- C:\chronos\tmp\hotfix_stage\docs\TERMINOLOGY.md
+- C:\chronos\tmp\hotfix_stage\docs\training\AI Agent Governance_ A New Standard.md
+- C:\chronos\tmp\hotfix_stage\docs\training\CARWASH_FIRST_REAL_RUN_RESULT.md
+- C:\chronos\tmp\hotfix_stage\docs\training\CARWASH_FIRST_RUN.md
+- C:\chronos\tmp\hotfix_stage\docs\training\CARWASH_WITNESS_GAP.md
+- C:\chronos\tmp\hotfix_stage\docs\training\SPECIAL_TOKENS.md
+- C:\chronos\tmp\hotfix_stage\docs\training\TEXT_CORPUS_READINESS.md
+- C:\chronos\tmp\hotfix_stage\docs\training\TOKENIZER_DESIGN.md
+- C:\chronos\tmp\hotfix_stage\docs\training\TOKENIZER_EVALUATION.md
+- C:\chronos\tmp\hotfix_stage\docs\training\TRAINING_GATES.md
+- C:\chronos\tmp\hotfix_stage\docs\TROUBLESHOOTING.md
+- C:\chronos\tmp\hotfix_stage\docs\TYPOGRAPHY.md
+- C:\chronos\tmp\hotfix_stage\docs\UI_STRING_MAP.md
+- C:\chronos\tmp\hotfix_stage\docs\ui\APP_MODEL.md
+- C:\chronos\tmp\hotfix_stage\docs\ui\DESIGN_SYSTEM.md
+- C:\chronos\tmp\hotfix_stage\docs\USER_GUIDE.md
+- C:\chronos\tmp\hotfix_stage\docs\VISTA_TEMPLATE_DESIGN.md
+- C:\chronos\tmp\hotfix_stage\docs\vistas\PROCEDURAL_FOREST_VISTA_GENERATION_PLAN.md
+- C:\chronos\tmp\hotfix_stage\docs\vistas\SACRED_REFERENCE.md
+- C:\chronos\tmp\hotfix_stage\docs\WINDOWS_LIFECYCLE_AUDIT_2026-06-17.md
+- C:\chronos\tmp\hotfix_stage\docs\windows\AUDIT_CHECKLISTS.md
+- C:\chronos\tmp\hotfix_stage\docs\windows\audit_evidence_2026-06-17\00_git_status_before.txt
+- C:\chronos\tmp\hotfix_stage\docs\windows\audit_evidence_2026-06-17\01_installer_output_listing.txt
+- C:\chronos\tmp\hotfix_stage\docs\windows\audit_evidence_2026-06-17\02_installer_sha256.txt
+- C:\chronos\tmp\hotfix_stage\docs\windows\audit_evidence_2026-06-17\05_pytest_runtime_metabolism.txt
+- C:\chronos\tmp\hotfix_stage\docs\windows\audit_evidence_2026-06-17\06_updater_probe_before_reset.txt
+- C:\chronos\tmp\hotfix_stage\docs\windows\audit_evidence_2026-06-17\07_feed_reset_to_release_version.txt
+- C:\chronos\tmp\hotfix_stage\docs\windows\audit_evidence_2026-06-17\09_updater_probe_after_reset.txt
+- C:\chronos\tmp\hotfix_stage\docs\windows\audit_evidence_2026-06-17\10_feed_mutation_to_1.0.1.txt
+- C:\chronos\tmp\hotfix_stage\docs\windows\audit_evidence_2026-06-17\12_updater_probe_after_forced_1.0.1.txt
+- C:\chronos\tmp\hotfix_stage\docs\windows\audit_evidence_2026-06-17\13_feed_reset_to_release_version_sequential.txt
+- C:\chronos\tmp\hotfix_stage\docs\windows\audit_evidence_2026-06-17\15_updater_probe_after_reset_sequential.txt
+- C:\chronos\tmp\hotfix_stage\docs\windows\audit_evidence_2026-06-17\16_feed_mutation_to_1.0.1_sequential.txt
+- C:\chronos\tmp\hotfix_stage\docs\windows\audit_evidence_2026-06-17\18_updater_probe_after_forced_1.0.1_sequential.txt
+- C:\chronos\tmp\hotfix_stage\docs\windows\audit_evidence_2026-06-17\19_feed_reset_to_release_version_final.txt
+- C:\chronos\tmp\hotfix_stage\docs\windows\audit_evidence_2026-06-17\21_check_docs.txt
+- C:\chronos\tmp\hotfix_stage\docs\windows\audit_evidence_2026-06-17\22_cargo_test_workspace.txt
+- C:\chronos\tmp\hotfix_stage\docs\windows\audit_evidence_2026-06-17\README.md
+- C:\chronos\tmp\hotfix_stage\docs\windows\DEMO_LAPTOPS_CONNECT.md
+- C:\chronos\tmp\hotfix_stage\docs\windows\LAPTOP_TEST_CHECKLIST.md
+- C:\chronos\tmp\hotfix_stage\docs\windows\PROFESSIONAL_BUILD_DOSSIER.md
+- C:\chronos\tmp\hotfix_stage\docs\windows\README.md
+- C:\chronos\tmp\hotfix_stage\docs\windows\RELEASE_PROGRAM.md
+- C:\chronos\tmp\hotfix_stage\docs\windows\SECURITY_TRUST_PACKAGE.md
+- C:\chronos\tmp\hotfix_stage\docs\windows\TELEMETRY_POLICY.md
+- C:\chronos\tmp\hotfix_stage\docs\windows\WINDOWS_LIFECYCLE_AUDIT_EVIDENCE_MANIFEST_2026-06-17.md
+- C:\chronos\tmp\hotfix_stage\docs\windows\WINDOWS_LIFECYCLE_AUDIT_PLAN_2026-06-17.md
+- C:\chronos\tmp\hotfix_stage\docs\windows\WINDOWS_LIFECYCLE_AUDIT_REPORT_2026-06-17.md
+- C:\chronos\tmp\hotfix_stage\docs\windows\WINDOWS_LIFECYCLE_AUDIT_REPORT_2026-06-19_internal-release-lane.md
+- C:\chronos\tmp\hotfix_stage\docs\windows\WINDOWS_LIFECYCLE_AUDIT_REPORT_2026-06-19.md
+- C:\chronos\tmp\hotfix_stage\docs\windows\WINDOWS_VERSION_SERIALIZATION_AUDIT_2026-06-19.md
+- C:\chronos\tmp\hotfix_stage\installer\ARCHITECTURE.md
+- C:\chronos\tmp\hotfix_stage\installer\SIGNING_READINESS.md
+- C:\chronos\tmp\hotfix_stage\installer\UNINSTALL_CONTRACT.md
+- C:\chronos\tmp\hotfix_stage\installer\UPDATE_PIPELINE.md
+- C:\chronos\tmp\hotfix_stage\scripts\DEPENDENCIES.md
+- C:\chronos\tmp\hotfix_stage\scripts\SILHOUETTE_PROMPTING.md
+- C:\chronos\tmp\hotfix_stage\scripts\ui_extraction\2026-06-11_lane-b\README.md
+- C:\chronos\tmp\hotfix_stage\scripts\wonder_wall\template.html
+- C:\chronos\tmp\preview_magic_witness\anchors\2026-06-11.txt
+- C:\chronos\Valuations\antigravity.md
+- C:\chronos\Valuations\asset-truth_current-state_2026-06-10.md
+- C:\chronos\Valuations\cascade.md
+- C:\chronos\Valuations\chatgpt.md
+- C:\chronos\Valuations\chronos_sophia_valuation_v2.md
+- C:\chronos\Valuations\chronos_sophia_valuation.md
+- C:\chronos\Valuations\Chronos-Sophia Project Valuation Report.md
+- C:\chronos\Valuations\claude.md
+- C:\chronos\Valuations\gemini.md
+
+### Root: C:\chronos-v2 (785 files)
+
+- C:\chronos-v2\.pytest_cache\README.md
+- C:\chronos-v2\AGENTS.md
+- C:\chronos-v2\ARCHITECTURE.md
+- C:\chronos-v2\AUDIT_CLAUDE_2026-05-31_bullshit-and-theatre.md
+- C:\chronos-v2\AUDIT_CLAUDE_2026-06-09_honest-valuation-and-novelty.md
+- C:\chronos-v2\AUDIT_LOG.md
+- C:\chronos-v2\AURA_BODY_ARCHIVE_MANIFEST_2026-06-05.md
+- C:\chronos-v2\AURA_CONSOLIDATION_THREE_LANE_PLAN.md
+- C:\chronos-v2\AURAlaw.md
+- C:\chronos-v2\BEOWULF_CONSOLE_AUDIT_2026-06-02.md
+- C:\chronos-v2\BEOWULF_TRACKB_AUDIT_2026-06-03.md
+- C:\chronos-v2\blender-mcp\README.md
+- C:\chronos-v2\blender-mcp\TERMS_AND_CONDITIONS.md
+- C:\chronos-v2\BUILDER_BRIEF_2026-06-13_doc-truth-reconciliation.md
+- C:\chronos-v2\BUILDER_BRIEF_2026-06-15_phase2-reskin-to-comps.md
+- C:\chronos-v2\BUILDER_BRIEF_2026-06-15_phase3-make-it-real-wiring.md
+- C:\chronos-v2\BUILDER_BRIEF_2026-06-16_professional-windows-build-mode.md
+- C:\chronos-v2\BULLSHIT_AUDIT_2026-05-31.md
+- C:\chronos-v2\chatgpt6182026.md
+- C:\chronos-v2\CHRONOSYNTHESIS_IMPLEMENTATION_SUMMARY.md
+- C:\chronos-v2\Chronosynthesis\Chronosynthesis.md
+- C:\chronos-v2\Chronosynthesis\Generative Co-Evolutionary System Blueprint.md
+- C:\chronos-v2\Chronosynthesis\Generative Co-Evolutionary System Blueprint.pdf
+- C:\chronos-v2\Chronosynthesis\neurocognica_logos\README.md
+- C:\chronos-v2\Chronosynthesis\Thesis.md
+- C:\chronos-v2\CLAUDE_CONTRIBUTION_REPORT_2026-05-25.md
+- C:\chronos-v2\CLAUDE.md
+- C:\chronos-v2\CODEX_CONTRIBUTION_REPORT_2026-05-25.md
+- C:\chronos-v2\CONTRIBUTING.md
+- C:\chronos-v2\COUNCIL_REPORT_2026-06-03-full.md
+- C:\chronos-v2\COUNCIL_REPORT_2026-06-03.md
+- C:\chronos-v2\COUNCIL_REPORT_2026-06-08_SHOWROOM_RECOVERY.md
+- C:\chronos-v2\COUNCIL_REPORT_2026-06-11_COMPETITION_MAP.md
+- C:\chronos-v2\COUNCIL_REPORT_2026-06-18_AURA-LAPTOP-WITNESS.md
+- C:\chronos-v2\COUNCIL_REPORT_LANE_A_2026-05-27.md
+- C:\chronos-v2\COUNCIL_REPORT_THREE_LANE_FOUNDRY_2026-05-28.md
+- C:\chronos-v2\crates\chronos_director\src\lineage_view.html
+- C:\chronos-v2\crates\chronos_dreamer\README.md
+- C:\chronos-v2\crates\chronos_dreamer\scene_dsl.md
+- C:\chronos-v2\crates\chronos_dreamer\vistas\hdri\README.md
+- C:\chronos-v2\crates\chronos_geometry_plan\acceptance_gate.md
+- C:\chronos-v2\crates\chronos_geometry_plan\geometry_plan.md
+- C:\chronos-v2\crates\chronos_geometry_plan\repair_loop.md
+- C:\chronos-v2\crates\chronos_manifold\TESTING.md
+- C:\chronos-v2\crates\chronos_sophia_identity\prompts\introspect_v1.txt
+- C:\chronos-v2\crates\chronos_vision\design.md
+- C:\chronos-v2\data\training\operator_tests\2026-06-07_094021_carwash_visible_test\THESIS_INGEST.md
+- C:\chronos-v2\data\training\operator_tests\2026-06-07_094119_carwash_visible_test\THESIS_INGEST.md
+- C:\chronos-v2\data\training\operator_tests\2026-06-07_094147_carwash_visible_test\THESIS_INGEST.md
+- C:\chronos-v2\DEBUG_STRESS_CHECKLIST.md
+- C:\chronos-v2\DEMO_THEATRE_FINDINGS_2026-06-19.md
+- C:\chronos-v2\DESIGN_COMPLETE_SUMMARY.md
+- C:\chronos-v2\design_mockups\README.md
+- C:\chronos-v2\desktop\corpus_pipeline\BOM_README.md
+- C:\chronos-v2\desktop\corpus_pipeline\README.md
+- C:\chronos-v2\desktop\corpus_pipeline\requirements_librarian.txt
+- C:\chronos-v2\desktop\mission_control\README.md
+- C:\chronos-v2\desktop\mission_control\requirements.txt
+- C:\chronos-v2\desktop\mission_control\static\index.html
+- C:\chronos-v2\desktop\snapshots\2026-05-16_sophia_chat_working_snapshot\README.md
+- C:\chronos-v2\desktop\swarm_console\README.md
+- C:\chronos-v2\desktop\swarm_console\requirements.txt
+- C:\chronos-v2\desktop\swarm_console\static\index.html
+- C:\chronos-v2\desktop\swarm_trainer\requirements.txt
+- C:\chronos-v2\desktop\swarm_trainer\run_smoke_test.md
+- C:\chronos-v2\desktop\training\backends\carwash\README.md
+- C:\chronos-v2\desktop\training\backends\carwash\requirements.txt
+- C:\chronos-v2\desktop\UI_ARCHITECTURE.md
+- C:\chronos-v2\desktop\UI_COMPONENT_GUIDE.md
+- C:\chronos-v2\Deterministic Spatial Grounding and Animation.pdf
+- C:\chronos-v2\docs\6fr\HAND_DESIGN_v1.md
+- C:\chronos-v2\docs\API_ENDPOINTS.md
+- C:\chronos-v2\docs\AVATAR_HEAD_RECIPE.md
+- C:\chronos-v2\docs\CAPABILITY_INVENTORY.md
+- C:\chronos-v2\docs\CAPABILITY_MAP.md
+- C:\chronos-v2\docs\CCF_THESIS.md
+- C:\chronos-v2\docs\CHRONOS_ONE_PAGE_MEMO.md
+- C:\chronos-v2\docs\CHRONOS_UNDENIABLE_DEMO.md
+- C:\chronos-v2\docs\CHRONOSYNTHESIS_MATH_SPEC.md
+- C:\chronos-v2\docs\corporate\README.md
+- C:\chronos-v2\docs\corporate\VOLUME_I_CORPORATE_CHARTER_LEGAL_FOUNDATION.md
+- C:\chronos-v2\docs\corporate\VOLUME_II_ORGANIZATIONAL_ARCHITECTURE.md
+- C:\chronos-v2\docs\corporate\VOLUME_III_STRATEGIC_DOCTRINE_MARKET_POSITIONING.md
+- C:\chronos-v2\docs\corporate\VOLUME_IV_REGULATORY_FRAMEWORK_GLOBAL_OPERATIONS.md
+- C:\chronos-v2\docs\corpus\CORPUS_ACCESS_CONTRACT.md
+- C:\chronos-v2\docs\corpus\CORPUS_VAULT_INVARIANTS.md
+- C:\chronos-v2\docs\corpus\PMC_LICENSE_AUDIT.md
+- C:\chronos-v2\docs\corpus\PMC_SUBLICENSE.md
+- C:\chronos-v2\docs\council\COUNCIL_REPORT_THREE_REPOS_VALUATION_2026-06-05.md
+- C:\chronos-v2\docs\create\SACRED_REFERENCE.md
+- C:\chronos-v2\docs\customer\FAQ.md
+- C:\chronos-v2\docs\customer\FIRST_RUN.md
+- C:\chronos-v2\docs\customer\GETTING_STARTED.md
+- C:\chronos-v2\docs\customer\PRODUCT_OVERVIEW.md
+- C:\chronos-v2\docs\customer\SECURITY_AND_PROVENANCE.md
+- C:\chronos-v2\docs\customer\SUPPORT.md
+- C:\chronos-v2\docs\customer\SYSTEM_REQUIREMENTS.md
+- C:\chronos-v2\docs\cutting_room\SACRED_REFERENCE.md
+- C:\chronos-v2\docs\DEMO_CALL_SCRIPT.md
+- C:\chronos-v2\docs\EASY_SETUP.md
+- C:\chronos-v2\docs\FRIDAY_DEMO_BRIEF_2026-06-19.md
+- C:\chronos-v2\docs\FRIDAY_DEMO_QA_2026-06-19.md
+- C:\chronos-v2\docs\FRIDAY_DEMO_RUNBOOK_2026-06-19.md
+- C:\chronos-v2\docs\FUNDING_PROOF_PACKET.md
+- C:\chronos-v2\docs\geometry\WITNESS_INSPECTION_GATE.md
+- C:\chronos-v2\docs\gguf_carwash\AUDIT_CHECKLIST.md
+- C:\chronos-v2\docs\gguf_carwash\BUILD_LOG.md
+- C:\chronos-v2\docs\gguf_carwash\GGUF Carwash_ Technical Architecture Design.md
+- C:\chronos-v2\docs\gguf_carwash\GGUF Carwash_ The Local-First LLM Fine-Tuning Pipeline.md
+- C:\chronos-v2\docs\gguf_carwash\Local AI Geometry Training Backend.md
+- C:\chronos-v2\docs\gguf_carwash\Local LLM Fine-Tuning Pipeline Guide.md
+- C:\chronos-v2\docs\gguf_carwash\PROMPT_CASCADE.md
+- C:\chronos-v2\docs\gguf_carwash\PROMPT_CLAUDE.md
+- C:\chronos-v2\docs\gguf_carwash\PROMPT_CODEX.md
+- C:\chronos-v2\docs\gguf_carwash\REPO_TRUTH_STATUS.md
+- C:\chronos-v2\docs\gguf_carwash\SOPHIA_TRAINING_BACKEND_INTEGRATION_PLAN.md
+- C:\chronos-v2\docs\gguf_carwash\thesolve.md
+- C:\chronos-v2\docs\gguf_carwash\THREE_LANE_BUILD_PLAN.md
+- C:\chronos-v2\docs\historical\04_execution_governance_dynamics.md
+- C:\chronos-v2\docs\historical\animation_video_gap.md
+- C:\chronos-v2\docs\historical\ANY_OBJECT_GAP_REPORT_2026-05-22.md
+- C:\chronos-v2\docs\historical\bridge.md
+- C:\chronos-v2\docs\historical\Building Vistas with Crucible Benchmarks.md
+- C:\chronos-v2\docs\historical\CHRONOS_SOPHIA_PROCEDURAL_GEOMETRY_TRAINING_PLAN.md
+- C:\chronos-v2\docs\historical\Chronos-Sophia Deep Research Report.md
+- C:\chronos-v2\docs\historical\Chronos-Sophia2.0.md
+- C:\chronos-v2\docs\historical\CLAUDE_SUMMARY_REQUEST_2026-05-25.md
+- C:\chronos-v2\docs\historical\COUNCIL_GEOMETRY_TRAINING_2026-05-17.md
+- C:\chronos-v2\docs\historical\COUNCIL_NOTE_2026-05-18_PHASE_2A_STAGE_D_F.md
+- C:\chronos-v2\docs\historical\COUNCIL_NOTE_2026-05-18_PHASE_2BC_CLAUDE_VERTICAL.md
+- C:\chronos-v2\docs\historical\COUNCIL_NOTE_2026-05-18_STAGE_D_PREFLIGHT.md
+- C:\chronos-v2\docs\historical\COUNCIL_REPORT_2026-05-01.md
+- C:\chronos-v2\docs\historical\COUNCIL_TRIAGE.md
+- C:\chronos-v2\docs\historical\DREAMER_PLAN.md
+- C:\chronos-v2\docs\historical\futureplan.md
+- C:\chronos-v2\docs\historical\HANDOFF_2026-05-22_v2.md
+- C:\chronos-v2\docs\historical\HANDOFF_2026-05-22.md
+- C:\chronos-v2\docs\historical\handoff_cascade_2026-05-18_role_transfer_to_claude.md
+- C:\chronos-v2\docs\historical\handoff_cascade_2026-05-18_singular_goal_crossed.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-16_sophia_interview_redesign.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-16_sophia_scene_foundry.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-18_phase_2bc_vision_implementation.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-18_stage_c_acceptance_gate.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-18_stage_d_design.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-18_stage_d_reading_ahead.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-18_stage_e_repair_loop_design.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-19_geometry_mesh_executor.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-19_sophia_identity_tool_profile.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-20_benchmark_campaign_runner.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-20_curriculum_spine_gate_frontier.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-20_step_8_proof_run.md
+- C:\chronos-v2\docs\historical\handoff_claude_2026-05-20_steps_6_7_profile_succession_daemon.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-18_export_chatml.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-18_phase_2bc_completion.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-18_phase_2bc_takeover.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-18_render_and_seal_corpus.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-18_stage_b_mesh_render.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-18_stage_c_seal_mesh_sample.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-18_stage_e_repair_loop_implementation.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-19_curriculum_benchmark_substrate.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-20_sophia_life_kernel_phase2.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-20_sophia_life_kernel_phase3.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-20_sophia_life_kernel.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-21_comfyui_geometry_bridge.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-21_cube_proof_rescue.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-21_showroom_silhouette_pipeline.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-22_launcher_codex_surface.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-22_runtime_monitoring_truth.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-22_showroom_forever_law_sealing.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-22_vista_animation_canon.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-23_mesh_trainer_orchestrator.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-23_primitive_object_builder.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-24_control-plane-location-promotion.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-24_live-proof-tribunal.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-24_ouroboros_asset_critique_spine.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-24_ouroboros_creation_spine.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-25_manus_sword_system_doc.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-25_repo_audit_finalize_push.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-25_sword_family_browser_a3.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-25_sword_lineage_selection_lane.md
+- C:\chronos-v2\docs\historical\handoff_codex_2026-05-25_sword_lineage_truth_lane.md
+- C:\chronos-v2\docs\historical\handoff_codex_5162026b.md
+- C:\chronos-v2\docs\historical\handoff_council_2026-05-20_state_of_sophia.md
+- C:\chronos-v2\docs\historical\handoff_windsurf_2026-05-17_sophia_geometry_training.md
+- C:\chronos-v2\docs\historical\HANDOFF.md
+- C:\chronos-v2\docs\historical\handoffreport5162026.md
+- C:\chronos-v2\docs\historical\Local Offline Artificial Organism.md
+- C:\chronos-v2\docs\historical\math.txt
+- C:\chronos-v2\docs\historical\Offline Generative Scene System Build Plan.md
+- C:\chronos-v2\docs\historical\plan_2026-05-23_2021_mesh-trainer-orchestrator.md
+- C:\chronos-v2\docs\historical\plan_2026-05-24_0342_ouroboros_asset_critique_spine.md
+- C:\chronos-v2\docs\historical\plan_2026-05-24_0451_lawful_and_real_smoke_audit.md
+- C:\chronos-v2\docs\historical\plan_2026-05-24_0500_organism_hardening.md
+- C:\chronos-v2\docs\historical\plan_2026-05-24_0600_proof_tribunal.md
+- C:\chronos-v2\docs\historical\plan_2026-05-24_0700_operational_recall.md
+- C:\chronos-v2\docs\historical\plan_2026-05-24_1135_ouroboros_creation_spine.md
+- C:\chronos-v2\docs\historical\plan_2026-05-24_2200_dreamer-material-lane.md
+- C:\chronos-v2\docs\historical\plan_2026-05-24_2207_control-plane-location-promotion.md
+- C:\chronos-v2\docs\historical\plan_2026-05-24_2231_lane-a-commit-packaging.md
+- C:\chronos-v2\docs\historical\plan_2026-05-24_2235_live-proof-tribunal.md
+- C:\chronos-v2\docs\historical\plan_2026-05-25_0624_sword-family-chaos-lane.md
+- C:\chronos-v2\docs\historical\plan_2026-05-25_0625_sword-lineage-selection-lane.md
+- C:\chronos-v2\docs\historical\plan_2026-05-25_0739_manus_sword_system_doc.md
+- C:\chronos-v2\docs\historical\plan_2026-05-25_0829_manus_sword_phase2_integration.md
+- C:\chronos-v2\docs\historical\plan_2026-05-25_0905_sword_phase_b1_b2.md
+- C:\chronos-v2\docs\historical\plan_2026-05-25_0912_sword_family_browser_a3.md
+- C:\chronos-v2\docs\historical\plan_2026-05-25_1133_repo_audit_finalize_push.md
+- C:\chronos-v2\docs\historical\PLAN_GEOMETRIC_LEXICON.md
+- C:\chronos-v2\docs\historical\PRODUCT.md
+- C:\chronos-v2\docs\historical\README.md
+- C:\chronos-v2\docs\historical\research_upload_review_2026-05-16.md
+- C:\chronos-v2\docs\historical\scene_geometry_plan.md
+- C:\chronos-v2\docs\historical\sophia_geometry_system_2026-05-16.md
+- C:\chronos-v2\docs\historical\sophia_studio_plan.md
+- C:\chronos-v2\docs\historical\sophiathesis.md
+- C:\chronos-v2\docs\historical\vista_code.md
+- C:\chronos-v2\docs\IMAGINE_ENGINE_DESIGN.md
+- C:\chronos-v2\docs\operating_table\SACRED_REFERENCE.md
+- C:\chronos-v2\docs\OPERATOR_MANUAL.md
+- C:\chronos-v2\docs\OUTREACH_MESSAGE_SHORT.md
+- C:\chronos-v2\docs\plans\plan_2026-06-07_0510_funding-narrative-compression.md
+- C:\chronos-v2\docs\plans\plan_2026-06-07_0513_training-truth-witness-closure.md
+- C:\chronos-v2\docs\plans\plan_2026-06-07_undeniable-demo-report.md
+- C:\chronos-v2\docs\PRIMUS_SWARM.md
+- C:\chronos-v2\docs\roadmap_internal_pipeline.md
+- C:\chronos-v2\docs\SHOWROOM_SPEC.md
+- C:\chronos-v2\docs\SOPHIA_CHAT_AUDIT.md
+- C:\chronos-v2\docs\sophia_chat\SACRED_REFERENCE.md
+- C:\chronos-v2\docs\SOVEREIGNTY_MANIFEST.md
+- C:\chronos-v2\docs\standards\AGENT_GOVERNANCE_HARD_PROBLEMS.md
+- C:\chronos-v2\docs\standards\NEUROCOGNICA_GUI_LAUNCH_STANDARD.md
+- C:\chronos-v2\docs\strategy\business_case_lawyers_over_artists.md
+- C:\chronos-v2\docs\strategy\chronos_sophia_originality_frontiers.md
+- C:\chronos-v2\docs\strategy\pipeline_reality_audit_2026-05-27.md
+- C:\chronos-v2\docs\SYSTEM_AUDIT_MAP_2026-06-17.md
+- C:\chronos-v2\docs\TERMINOLOGY.md
+- C:\chronos-v2\docs\training\AI Agent Governance_ A New Standard.md
+- C:\chronos-v2\docs\training\CARWASH_FIRST_REAL_RUN_RESULT.md
+- C:\chronos-v2\docs\training\CARWASH_FIRST_RUN.md
+- C:\chronos-v2\docs\training\CARWASH_WITNESS_GAP.md
+- C:\chronos-v2\docs\training\SPECIAL_TOKENS.md
+- C:\chronos-v2\docs\training\TEXT_CORPUS_READINESS.md
+- C:\chronos-v2\docs\training\TOKENIZER_DESIGN.md
+- C:\chronos-v2\docs\training\TOKENIZER_EVALUATION.md
+- C:\chronos-v2\docs\training\TRAINING_GATES.md
+- C:\chronos-v2\docs\TROUBLESHOOTING.md
+- C:\chronos-v2\docs\TYPOGRAPHY.md
+- C:\chronos-v2\docs\UI_STRING_MAP.md
+- C:\chronos-v2\docs\ui\APP_MODEL.md
+- C:\chronos-v2\docs\ui\DESIGN_SYSTEM.md
+- C:\chronos-v2\docs\USER_GUIDE.md
+- C:\chronos-v2\docs\V2_GOVERNANCE.md
+- C:\chronos-v2\docs\V2_LANE.md
+- C:\chronos-v2\docs\VISTA_TEMPLATE_DESIGN.md
+- C:\chronos-v2\docs\vistas\PROCEDURAL_FOREST_VISTA_GENERATION_PLAN.md
+- C:\chronos-v2\docs\vistas\SACRED_REFERENCE.md
+- C:\chronos-v2\docs\WINDOWS_LIFECYCLE_AUDIT_2026-06-17.md
+- C:\chronos-v2\docs\windows\AUDIT_CHECKLISTS.md
+- C:\chronos-v2\docs\windows\audit_evidence_2026-06-17\00_git_status_before.txt
+- C:\chronos-v2\docs\windows\audit_evidence_2026-06-17\01_installer_output_listing.txt
+- C:\chronos-v2\docs\windows\audit_evidence_2026-06-17\02_installer_sha256.txt
+- C:\chronos-v2\docs\windows\audit_evidence_2026-06-17\05_pytest_runtime_metabolism.txt
+- C:\chronos-v2\docs\windows\audit_evidence_2026-06-17\06_updater_probe_before_reset.txt
+- C:\chronos-v2\docs\windows\audit_evidence_2026-06-17\07_feed_reset_to_release_version.txt
+- C:\chronos-v2\docs\windows\audit_evidence_2026-06-17\09_updater_probe_after_reset.txt
+- C:\chronos-v2\docs\windows\audit_evidence_2026-06-17\10_feed_mutation_to_1.0.1.txt
+- C:\chronos-v2\docs\windows\audit_evidence_2026-06-17\12_updater_probe_after_forced_1.0.1.txt
+- C:\chronos-v2\docs\windows\audit_evidence_2026-06-17\13_feed_reset_to_release_version_sequential.txt
+- C:\chronos-v2\docs\windows\audit_evidence_2026-06-17\15_updater_probe_after_reset_sequential.txt
+- C:\chronos-v2\docs\windows\audit_evidence_2026-06-17\16_feed_mutation_to_1.0.1_sequential.txt
+- C:\chronos-v2\docs\windows\audit_evidence_2026-06-17\18_updater_probe_after_forced_1.0.1_sequential.txt
+- C:\chronos-v2\docs\windows\audit_evidence_2026-06-17\19_feed_reset_to_release_version_final.txt
+- C:\chronos-v2\docs\windows\audit_evidence_2026-06-17\21_check_docs.txt
+- C:\chronos-v2\docs\windows\audit_evidence_2026-06-17\22_cargo_test_workspace.txt
+- C:\chronos-v2\docs\windows\audit_evidence_2026-06-17\README.md
+- C:\chronos-v2\docs\windows\LAPTOP_TEST_CHECKLIST.md
+- C:\chronos-v2\docs\windows\PROFESSIONAL_BUILD_DOSSIER.md
+- C:\chronos-v2\docs\windows\README.md
+- C:\chronos-v2\docs\windows\RELEASE_PROGRAM.md
+- C:\chronos-v2\docs\windows\SECURITY_TRUST_PACKAGE.md
+- C:\chronos-v2\docs\windows\TELEMETRY_POLICY.md
+- C:\chronos-v2\docs\windows\WINDOWS_LIFECYCLE_AUDIT_EVIDENCE_MANIFEST_2026-06-17.md
+- C:\chronos-v2\docs\windows\WINDOWS_LIFECYCLE_AUDIT_PLAN_2026-06-17.md
+- C:\chronos-v2\docs\windows\WINDOWS_LIFECYCLE_AUDIT_REPORT_2026-06-17.md
+- C:\chronos-v2\docs\windows\WINDOWS_LIFECYCLE_AUDIT_REPORT_2026-06-19_internal-release-lane.md
+- C:\chronos-v2\docs\windows\WINDOWS_LIFECYCLE_AUDIT_REPORT_2026-06-19.md
+- C:\chronos-v2\docs\windows\WINDOWS_VERSION_SERIALIZATION_AUDIT_2026-06-19.md
+- C:\chronos-v2\FILM_PIPELINE_INDEX.md
+- C:\chronos-v2\FILM_PIPELINE_MAPPING.md
+- C:\chronos-v2\FILM_PIPELINE_SUMMARY.md
+- C:\chronos-v2\FILM_PIPELINE_VERIFICATION.md
+- C:\chronos-v2\films\ouroboros-codex\ASSET_INVENTORY_BALLPARK.md
+- C:\chronos-v2\films\ouroboros-codex\PIPELINE_PLAN.md
+- C:\chronos-v2\films\ouroboros-codex\README.md
+- C:\chronos-v2\FORGE_DUAL_VIEW_SPEC.md
+- C:\chronos-v2\GOVERNANCE.md
+- C:\chronos-v2\handoff_2026-06-12_user-rating-retry.md
+- C:\chronos-v2\handoff_2026-06-16_splash-lifecycle-and-remaining-defect.md
+- C:\chronos-v2\HANDOFF_2026-06-20_showroom-restore-and-next-builder.md
+- C:\chronos-v2\HANDOFF_2026-06-21_showroom-lock-fisheye-version.md
+- C:\chronos-v2\handoff_antigravity_2026-05-25_business_pivot.md
+- C:\chronos-v2\handoff_antigravity_2026-05-25_originality_audit.md
+- C:\chronos-v2\handoff_antigravity_2026-05-31_lane-d-component-guide.md
+- C:\chronos-v2\handoff_antigravity_2026-05-31_phase0-foundation.md
+- C:\chronos-v2\handoff_antigravity_2026-06-07_wonder-wall.md
+- C:\chronos-v2\handoff_antigravity_2026-06-08_cpu_pytorch_fix.md
+- C:\chronos-v2\handoff_antigravity_2026-06-08_easy_windows_setup.md
+- C:\chronos-v2\handoff_antigravity_2026-06-08_hf_blender_fix.md
+- C:\chronos-v2\handoff_antigravity_2026-06-08_models_setup.md
+- C:\chronos-v2\handoff_antigravity_2026-06-08_spinning-ring.md
+- C:\chronos-v2\handoff_antigravity_2026-06-08_universal_installer.md
+- C:\chronos-v2\handoff_antigravity_2026-06-09_commit.md
+- C:\chronos-v2\handoff_antigravity_2026-06-09_rebuild.md
+- C:\chronos-v2\handoff_antigravity_2026-06-11_lane-a.md
+- C:\chronos-v2\handoff_antigravity_2026-06-11_lane-b.md
+- C:\chronos-v2\handoff_antigravity_2026-06-12_domain-corpus.md
+- C:\chronos-v2\handoff_antigravity_2026-06-12_lane-i-benchmark.md
+- C:\chronos-v2\handoff_Antigravity_2026-06-13_launcher-facelift.md
+- C:\chronos-v2\handoff_antigravity_2026-06-16_lane-B.md
+- C:\chronos-v2\handoff_builder3_2026-06-13_doc-truth-reconciliation.md
+- C:\chronos-v2\handoff_cascade_2026-05-26_three_lane_carwash_integration.md
+- C:\chronos-v2\handoff_cascade_2026-05-27_lane-a-lineage-visualizer.md
+- C:\chronos-v2\handoff_cascade_2026-05-29_chronosynthesis-lane-b.md
+- C:\chronos-v2\handoff_cascade_2026-05-30_lane-b.md
+- C:\chronos-v2\handoff_cascade_2026-05-31_lane-b-core-ui.md
+- C:\chronos-v2\handoff_cascade_2026-06-08_showroom-wired.md
+- C:\chronos-v2\handoff_cascade_2026-06-11_lane-b-corporatization.md
+- C:\chronos-v2\handoff_cascade_2026-06-12_lane-e-effects-wired.md
+- C:\chronos-v2\handoff_cascade_2026-06-12_lane-h-generic-profile-decomposer.md
+- C:\chronos-v2\handoff_cascade-lane-b_2026-06-10_linux-installer-hardening.md
+- C:\chronos-v2\handoff_claude_2026-05-28_compile-film-fix.md
+- C:\chronos-v2\handoff_claude_2026-05-31_front_end_reckoning.md
+- C:\chronos-v2\handoff_claude_2026-05-31_lane-a-backend-polish.md
+- C:\chronos-v2\handoff_claude_2026-06-05_conductor-push.md
+- C:\chronos-v2\handoff_claude_2026-06-05_lane-a-sentinel.md
+- C:\chronos-v2\handoff_claude_2026-06-05_render-still-governed-path.md
+- C:\chronos-v2\handoff_claude_2026-06-05_sentinel-forever-law-persistence.md
+- C:\chronos-v2\handoff_claude_2026-06-05_sentinel-shadow-director.md
+- C:\chronos-v2\handoff_claude_2026-06-07_lane-b-training-and-tandem-state.md
+- C:\chronos-v2\handoff_claude_2026-06-08_cbig-and-governed-artifact.md
+- C:\chronos-v2\handoff_claude_2026-06-10_installer-tier0-complete.md
+- C:\chronos-v2\handoff_claude_2026-06-11_lane-d-integration.md
+- C:\chronos-v2\handoff_claude_2026-06-12_lane-d-integrator-session.md
+- C:\chronos-v2\handoff_claude_2026-06-12_lane-d-single-pass-closure.md
+- C:\chronos-v2\handoff_claude_2026-06-14_session-launcher-operating-table-vistas-autoforge.md
+- C:\chronos-v2\handoff_claude_2026-06-21_phase-a-step2-pickup.md
+- C:\chronos-v2\handoff_claude_2026-06-21_phase-a-step3-pickup.md
+- C:\chronos-v2\handoff_codex_2026-05-26_benchmark_loop_and_audit_prep.md
+- C:\chronos-v2\handoff_codex_2026-05-26_trainer_promotion_lane.md
+- C:\chronos-v2\handoff_codex_2026-05-26_training_engine.md
+- C:\chronos-v2\handoff_codex_2026-05-28_animate-mp4-and-tests.md
+- C:\chronos-v2\handoff_codex_2026-06-02_swarm-sanitization.md
+- C:\chronos-v2\handoff_codex_2026-06-03_corpus-bom.md
+- C:\chronos-v2\handoff_codex_2026-06-03_mission-control-runtime-fix.md
+- C:\chronos-v2\handoff_codex_2026-06-03_track-b-smoke.md
+- C:\chronos-v2\handoff_codex_2026-06-04_carwash-bootstrap-runtime.md
+- C:\chronos-v2\handoff_codex_2026-06-04_lane-a-carwash-first-run.md
+- C:\chronos-v2\handoff_codex_2026-06-04_pmc-reclassification.md
+- C:\chronos-v2\handoff_codex_2026-06-04_what-are-we-building.md
+- C:\chronos-v2\handoff_codex_2026-06-05_aura-consolidation-three-lane.md
+- C:\chronos-v2\handoff_codex_2026-06-05_conductor-truth.md
+- C:\chronos-v2\handoff_codex_2026-06-05_lane-c-archive.md
+- C:\chronos-v2\handoff_codex_2026-06-05_remote-first-operator-law.md
+- C:\chronos-v2\handoff_codex_2026-06-05_three-lane-build-orchestration.md
+- C:\chronos-v2\handoff_codex_2026-06-06_readme-truth-and-sentinel-widening.md
+- C:\chronos-v2\handoff_codex_2026-06-08_canonical-showroom-animation.md
+- C:\chronos-v2\handoff_codex_2026-06-11_director-readiness-and-instance-root.md
+- C:\chronos-v2\handoff_codex_2026-06-11_lane-a-preview-render-quick.md
+- C:\chronos-v2\handoff_codex_2026-06-11_lane-c.md
+- C:\chronos-v2\handoff_codex_2026-06-11_shape-alphabet.md
+- C:\chronos-v2\handoff_codex_2026-06-11_verify-and-push-local-truth-bundle.md
+- C:\chronos-v2\handoff_codex_2026-06-12_lane-g-hardening-verify.md
+- C:\chronos-v2\handoff_codex_2026-06-14_geometry-fallback-render-wiring.md
+- C:\chronos-v2\handoff_codex_2026-06-14_witness-inspection-views.md
+- C:\chronos-v2\handoff_codex_2026-06-16_docs-truth-reconciliation.md
+- C:\chronos-v2\handoff_codex_2026-06-16_lane-c.md
+- C:\chronos-v2\handoff_codex_2026-06-16_metabolism-phase-0-1.md
+- C:\chronos-v2\handoff_codex_2026-06-16_operating-table-anti-theatre.md
+- C:\chronos-v2\handoff_codex_2026-06-16_operation-ship-certified-dragon.md
+- C:\chronos-v2\handoff_codex_2026-06-16_phase2-phase3-build-audit-fix-docs.md
+- C:\chronos-v2\handoff_codex_2026-06-17_aura-laptop-witness-and-ssh.md
+- C:\chronos-v2\handoff_codex_2026-06-17_biogenesis-dense-canopy-port.md
+- C:\chronos-v2\handoff_codex_2026-06-17_windows-audit-recovery.md
+- C:\chronos-v2\handoff_codex_2026-06-18_aura-demo-ship-stabilization.md
+- C:\chronos-v2\handoff_codex_2026-06-19_full-tree-assimilation.md
+- C:\chronos-v2\handoff_codex_2026-06-19_windows-internal-release-lane.md
+- C:\chronos-v2\handoff_codex_2026-06-21_1.1.0-release-and-aura-block.md
+- C:\chronos-v2\handoff_codex_2026-06-21_sophia-chat-truthful-tab.md
+- C:\chronos-v2\handoff_cursor_2026-06-16_lane-a.md
+- C:\chronos-v2\handoff_cursor_2026-06-16_phase3-splash-wiring-FAILURE.md
+- C:\chronos-v2\handoff_cursor_2026-06-16_undeniable-artifact-windows-ship-gate.md
+- C:\chronos-v2\handoff_cursor_2026-06-17_biogenesis-gn-visual-recovery.md
+- C:\chronos-v2\handoff_cursor_2026-06-19_aura-demo-render-regression.md
+- C:\chronos-v2\handoff_cursor_2026-06-21_phase-a-step4-pickup.md
+- C:\chronos-v2\handoff_cursor_2026-06-22_phase-a-steps4-5-pickup.md
+- C:\chronos-v2\handoff_devin_2026-06-05_lane-b-search.md
+- C:\chronos-v2\handoff_lane_c_phase_c.md
+- C:\chronos-v2\handoff_lane-b_2026-05-28_complete.md
+- C:\chronos-v2\handoff_scribe_2026-06-03_pmc-sublicensing.md
+- C:\chronos-v2\handoff_scribe_2026-06-03_tokenizer-architecture.md
+- C:\chronos-v2\HARDENING_AUDIT_2026-06-11.md
+- C:\chronos-v2\installer\ARCHITECTURE.md
+- C:\chronos-v2\installer\README.md
+- C:\chronos-v2\installer\SIGNING_READINESS.md
+- C:\chronos-v2\installer\UNINSTALL_CONTRACT.md
+- C:\chronos-v2\installer\UPDATE_PIPELINE.md
+- C:\chronos-v2\LANE_A_CLAUDE_INTEGRATION_PROMPT.md
+- C:\chronos-v2\LANE_A_PROMPT_2026-06-11_launch-installer.md
+- C:\chronos-v2\LANE_A_PROMPT_2026-06-13_audit-repairs.md
+- C:\chronos-v2\LANE_A_PROMPT_2026-06-13_seams-and-conductor.md
+- C:\chronos-v2\LANE_A_PROMPT_CORRECTION.md
+- C:\chronos-v2\LANE_B_CLAUDE_OPUS_PROMPT.md
+- C:\chronos-v2\LANE_B_PROMPT_2026-06-11_corporatization.md
+- C:\chronos-v2\LANE_B_PROMPT_2026-06-13_operating-table-tab.md
+- C:\chronos-v2\LANE_B_TEST_SUITE_PROMPT.md
+- C:\chronos-v2\LANE_C_PROMPT_2026-06-11_hardening.md
+- C:\chronos-v2\LANE_C_PROMPT_2026-06-13_launcher-facelift.md
+- C:\chronos-v2\LANE_D_PROMPT_2026-06-13_6fr-render-and-openscad-organ.md
+- C:\chronos-v2\LANE_E_PROMPT_2026-06-12_effects-wow.md
+- C:\chronos-v2\LANE_F_PROMPT_2026-06-12_domain-corpus.md
+- C:\chronos-v2\LANE_G_PROMPT_2026-06-12_hardening-verify.md
+- C:\chronos-v2\LANE_H_PROMPT_2026-06-12_generic-profile-decomposer.md
+- C:\chronos-v2\LANE_I_PROMPT_2026-06-12_benchmark-integrity.md
+- C:\chronos-v2\LANE_PROMPT_2026-06-13_vista-overhaul.md
+- C:\chronos-v2\LAUNCH_COMMANDS_2026-06-01.md
+- C:\chronos-v2\LAUNCH_READINESS_AUDIT_2026-06-01.md
+- C:\chronos-v2\LIBRARIAN_ACCESS_FAILURE_REPORT_2026-06-03.md
+- C:\chronos-v2\MANUS_SWORD_SYSTEM_REVIEW.md
+- C:\chronos-v2\Manus\Chronos-Sophia Research_ Silhouette-Guided Procedural Mesh Generation.md
+- C:\chronos-v2\Manus\Chronos-Sophia_ The Geometry of Autonomy.md
+- C:\chronos-v2\Manus\ComfyUI Workflow for Orthographic Reference Generation.md
+- C:\chronos-v2\Manus\Implementation Plan_ The Geometry of Autonomy.md
+- C:\chronos-v2\Manus\Technical Review_ Chronos-Sophia Sword Generation System.md
+- C:\chronos-v2\MASTER_GUIDE.md
+- C:\chronos-v2\OFFER_PACK_THIS_WEEK.md
+- C:\chronos-v2\PHASE3_SUMMARY_AND_AUDIT.md
+- C:\chronos-v2\PIPELINE_FLOWCHART.md
+- C:\chronos-v2\plan_2026-05-25_1600_shield_geometry_family.md
+- C:\chronos-v2\plan_2026-05-25_2245_originality-audit-frontiers.md
+- C:\chronos-v2\plan_2026-05-25_2321_business-pivot-case.md
+- C:\chronos-v2\plan_2026-05-25_2335_commit-strategic-docs.md
+- C:\chronos-v2\plan_2026-05-26_0000_perplexity-v3-response.md
+- C:\chronos-v2\plan_2026-05-26_0015_trainer_promotion_lane.md
+- C:\chronos-v2\plan_2026-05-26_1119_training-engine.md
+- C:\chronos-v2\plan_2026-05-26_1315_finish_trainer_loop_and_audit_prep.md
+- C:\chronos-v2\plan_2026-05-26_1330_carwash-data-pipeline.md
+- C:\chronos-v2\plan_2026-05-26_1540_trl-transformers-compat-fix.md
+- C:\chronos-v2\plan_2026-05-26_2119_rescue-carwash-build.md
+- C:\chronos-v2\plan_2026-05-26_T1_trainer_closure.md
+- C:\chronos-v2\plan_2026-05-27_0542_lane-a-lineage-visualizer.md
+- C:\chronos-v2\plan_2026-05-27_0544_pipeline-reality-audit.md
+- C:\chronos-v2\plan_2026-05-27_1200_lane_b_sophia_introspection.md
+- C:\chronos-v2\plan_2026-05-28_0618_foundry-frontend-overhaul.md
+- C:\chronos-v2\plan_2026-05-28_0724_three-lane-foundry-rebuild.md
+- C:\chronos-v2\plan_2026-05-28_0744_lane-c-debug-tools.md
+- C:\chronos-v2\plan_2026-05-28_0953_triple-lane-surgical-fixes.md
+- C:\chronos-v2\plan_2026-05-28_1001_lane-b-animate-mp4-and-tests.md
+- C:\chronos-v2\plan_2026-05-28_2230_auto-forge.md
+- C:\chronos-v2\plan_2026-05-29_0000_living-lineage-chamber.md
+- C:\chronos-v2\plan_2026-05-29_0638_extract-chronosynthesis-thesis.md
+- C:\chronos-v2\plan_2026-05-29_1200_chronosynthesis-integration.md
+- C:\chronos-v2\plan_2026-05-30_0544_great-unification.md
+- C:\chronos-v2\plan_2026-05-30_0600_dual-lane-metabolism.md
+- C:\chronos-v2\plan_2026-05-30_1301_chronosynthesis-math-implementation.md
+- C:\chronos-v2\plan_2026-05-30_1407_dual-lane-chronosynthesis-build.md
+- C:\chronos-v2\plan_2026-05-30_1424_lane-b-chronosynthesis-math.md
+- C:\chronos-v2\plan_2026-05-30_1442_lane-b-test-suite.md
+- C:\chronos-v2\plan_2026-05-30_1503_lane-b-manifold-test-suite.md
+- C:\chronos-v2\plan_2026-05-30_1648_ui-design-specification.md
+- C:\chronos-v2\plan_2026-05-30_1650_dual-lane-ui-implementation.md
+- C:\chronos-v2\plan_2026-05-30_1920_neurocognica-logo-placement.md
+- C:\chronos-v2\plan_2026-05-30_2144_chronosynthesis-integration.md
+- C:\chronos-v2\plan_2026-05-31_0357_four-lane-orchestration.md
+- C:\chronos-v2\plan_2026-05-31_0419_lane-d-component-guide.md
+- C:\chronos-v2\plan_2026-05-31_0421_lane-a-backend-polish.md
+- C:\chronos-v2\plan_2026-05-31_0421_lane-b-core-ui.md
+- C:\chronos-v2\plan_2026-05-31_0421_lane-c-gallery-polish.md
+- C:\chronos-v2\plan_2026-05-31_0530_lineage-chamber-undeniable-artifact.md
+- C:\chronos-v2\plan_2026-05-31_0856_integration-audit-and-enhancement.md
+- C:\chronos-v2\plan_2026-05-31_0908_lineage-chamber-and-ui-truth.md
+- C:\chronos-v2\plan_2026-05-31_0915_forge-dual-page-build.md
+- C:\chronos-v2\plan_2026-05-31_1015_three-agent-frontend-rebuild.md
+- C:\chronos-v2\plan_2026-05-31_1526_phase0-foundation.md
+- C:\chronos-v2\plan_2026-05-31_1800_phase2_live_context.md
+- C:\chronos-v2\plan_2026-05-31_1846_fix-theme-and-forge-toggle.md
+- C:\chronos-v2\plan_2026-05-31_1945_phase1-tab-modules.md
+- C:\chronos-v2\plan_2026-06-01_0010_phase3-cell-ecology.md
+- C:\chronos-v2\plan_2026-06-01_0900_phase3_completion.md
+- C:\chronos-v2\plan_2026-06-01_1100_phase4_live_conversation.md
+- C:\chronos-v2\plan_2026-06-01_1107_launch-readiness-audit.md
+- C:\chronos-v2\plan_2026-06-01_2209_corpus_extraction_pipeline.md
+- C:\chronos-v2\plan_2026-06-01_2231_draft-ccf-section-ii.md
+- C:\chronos-v2\plan_2026-06-01_2240_draft-ccf-section-iii.md
+- C:\chronos-v2\plan_2026-06-02_0001_draft-ccf-section-iv.md
+- C:\chronos-v2\plan_2026-06-02_0006_draft-ccf-section-v.md
+- C:\chronos-v2\plan_2026-06-02_0012_draft-ccf-section-vi.md
+- C:\chronos-v2\plan_2026-06-02_0017_draft-ccf-section-vii.md
+- C:\chronos-v2\plan_2026-06-02_0023_draft-ccf-section-viii.md
+- C:\chronos-v2\plan_2026-06-02_0029_draft-ccf-section-ix.md
+- C:\chronos-v2\plan_2026-06-02_0035_draft-ccf-section-x.md
+- C:\chronos-v2\plan_2026-06-02_0043_portfolio-unification-preface.md
+- C:\chronos-v2\plan_2026-06-02_0049_draft-ccf-section-xi.md
+- C:\chronos-v2\plan_2026-06-02_0054_draft-ccf-section-xii.md
+- C:\chronos-v2\plan_2026-06-02_0702_assemble-ccf-full-thesis.md
+- C:\chronos-v2\plan_2026-06-02_0710_ccf-verification-appendix.md
+- C:\chronos-v2\plan_2026-06-02_1227_beowulf-node-console.md
+- C:\chronos-v2\plan_2026-06-02_2315_sanitize-swarm-and-push.md
+- C:\chronos-v2\plan_2026-06-03_0030_first-distributed-workload.md
+- C:\chronos-v2\plan_2026-06-03_0130_track-b-diloco-smoke-test.md
+- C:\chronos-v2\plan_2026-06-03_0419_track-b-smoke-implementation.md
+- C:\chronos-v2\plan_2026-06-03_0500_anchor-onboarding-checks.md
+- C:\chronos-v2\plan_2026-06-03_0515_librarian-headless-terminal.md
+- C:\chronos-v2\plan_2026-06-03_1025_librarian-access-failure-report.md
+- C:\chronos-v2\plan_2026-06-03_1140_swarm-control-panel.md
+- C:\chronos-v2\plan_2026-06-03_1210_chronos-mission-control.md
+- C:\chronos-v2\plan_2026-06-03_1230_librarian-corpus-ingestion.md
+- C:\chronos-v2\plan_2026-06-03_1308_audit-improve-mission-control-plan.md
+- C:\chronos-v2\plan_2026-06-03_1320_git-trail-cleanup-and-push.md
+- C:\chronos-v2\plan_2026-06-03_1530_pmc-sublicensing.md
+- C:\chronos-v2\plan_2026-06-03_1545_tokenizer-architecture.md
+- C:\chronos-v2\plan_2026-06-03_1748_corpus-bom.md
+- C:\chronos-v2\plan_2026-06-03_1843_mission-control-and-launcher-fixes.md
+- C:\chronos-v2\plan_2026-06-03_1902_fix-mission-control-runtime.md
+- C:\chronos-v2\plan_2026-06-03_2003_engine-fire-status-check.md
+- C:\chronos-v2\plan_2026-06-03_2010_swarm-auth-repair.md
+- C:\chronos-v2\plan_2026-06-03_2358_fix-corpus-bom-reconciliation.md
+- C:\chronos-v2\plan_2026-06-04_0013_pmc-reclassification.md
+- C:\chronos-v2\plan_2026-06-04_0035_gutenberg-ingestion.md
+- C:\chronos-v2\plan_2026-06-04_0048_commit-clean-push.md
+- C:\chronos-v2\plan_2026-06-04_0504_two-lane-training-lane-a.md
+- C:\chronos-v2\plan_2026-06-04_0705_two-lane-integration.md
+- C:\chronos-v2\plan_2026-06-04_0728_cache-base-model-and-bootstrap-run.md
+- C:\chronos-v2\plan_2026-06-04_1130_total-doc-audit.md
+- C:\chronos-v2\plan_2026-06-04_1200_wikipedia-staging.md
+- C:\chronos-v2\plan_2026-06-04_1648_undo-wikipedia-bullshit.md
+- C:\chronos-v2\plan_2026-06-04_2238_write-what-are-we-building.md
+- C:\chronos-v2\plan_2026-06-05_0018_aura-consolidation-three-lane.md
+- C:\chronos-v2\plan_2026-06-05_0042_clear-transfer-space.md
+- C:\chronos-v2\plan_2026-06-05_0110_remote-first-operator-law.md
+- C:\chronos-v2\plan_2026-06-05_0751_three-lane-build-orchestration.md
+- C:\chronos-v2\plan_2026-06-05_0803_lane-b-search.md
+- C:\chronos-v2\plan_2026-06-05_0804_lane-c-archive.md
+- C:\chronos-v2\plan_2026-06-05_0806_lane-a-sentinel.md
+- C:\chronos-v2\plan_2026-06-05_0903_warning-cleanup-and-lane-packaging.md
+- C:\chronos-v2\plan_2026-06-05_0942_conductor-docs-and-push.md
+- C:\chronos-v2\plan_2026-06-05_1500_sentinel-shadow-director.md
+- C:\chronos-v2\plan_2026-06-05_1558_sentinel-forever-law-persistence.md
+- C:\chronos-v2\plan_2026-06-05_2047_render-still-governed-action-path.md
+- C:\chronos-v2\plan_2026-06-06_0442_chronos-search-live-memory-organ.md
+- C:\chronos-v2\plan_2026-06-06_0528_make-repo-match-reality.md
+- C:\chronos-v2\plan_2026-06-06_0559_maximum-value-roadmap.md
+- C:\chronos-v2\plan_2026-06-06_0659_tandem-build-roadmap.md
+- C:\chronos-v2\plan_2026-06-06_0705_readme-truth-and-lane-a.md
+- C:\chronos-v2\plan_2026-06-07_0245_lane-c-client-signing.md
+- C:\chronos-v2\plan_2026-06-07_0308_lane-b-first-carwash-run.md
+- C:\chronos-v2\plan_2026-06-07_0508_lane-b-verdict-and-status.md
+- C:\chronos-v2\plan_2026-06-07_0510_wonder-wall.md
+- C:\chronos-v2\plan_2026-06-07_0520_carwash-visible-test-harness.md
+- C:\chronos-v2\plan_2026-06-07_0940_bullshit-cleanup.md
+- C:\chronos-v2\plan_2026-06-07_0950_commit-visible-harness-and-update-proof.md
+- C:\chronos-v2\plan_2026-06-07_1005_build-wonder-artifact.md
+- C:\chronos-v2\plan_2026-06-07_1025_integrate-four-lanes.md
+- C:\chronos-v2\plan_2026-06-07_2300_governed-artifact-preflight.md
+- C:\chronos-v2\plan_2026-06-08_0723_wire-real-showroom-into-governed-artifact.md
+- C:\chronos-v2\plan_2026-06-08_0743_fix-governed-artifact-v5.md
+- C:\chronos-v2\plan_2026-06-08_0945_canonical-showroom-animation.md
+- C:\chronos-v2\plan_2026-06-08_1454_aligned-showroom-vision.md
+- C:\chronos-v2\plan_2026-06-08_1523_render-spinning-ring.md
+- C:\chronos-v2\plan_2026-06-08_1638_restore-showroom-still.md
+- C:\chronos-v2\plan_2026-06-08_1819_council-report-showroom-milestone.md
+- C:\chronos-v2\plan_2026-06-08_2008_kill-foundry-stubs.md
+- C:\chronos-v2\plan_2026-06-08_2009_save-tree-and-push-law.md
+- C:\chronos-v2\plan_2026-06-08_2018_launch-and-screenshot-foundry.md
+- C:\chronos-v2\plan_2026-06-08_2023_propagate-laws-to-reference-docs.md
+- C:\chronos-v2\plan_2026-06-08_2025_services-forge-renders-unify.md
+- C:\chronos-v2\plan_2026-06-08_2031_reference-docs-currency.md
+- C:\chronos-v2\plan_2026-06-08_2033_comfyui-default-port-8000.md
+- C:\chronos-v2\plan_2026-06-08_2125_interior-room-wild-vista.md
+- C:\chronos-v2\plan_2026-06-08_2142_easy-install-doc.md
+- C:\chronos-v2\plan_2026-06-08_2207_models-and-extensions.md
+- C:\chronos-v2\plan_2026-06-08_2207_render-quality-wow-pass.md
+- C:\chronos-v2\plan_2026-06-08_2211_cpu-only-pytorch.md
+- C:\chronos-v2\plan_2026-06-08_2225_universal-automated-installer.md
+- C:\chronos-v2\plan_2026-06-08_2310_fix-hf-and-blender-mcp.md
+- C:\chronos-v2\plan_2026-06-09_0314_commit-setup-scripts.md
+- C:\chronos-v2\plan_2026-06-09_0355_rebuild-workspace.md
+- C:\chronos-v2\plan_2026-06-09_0815_llvm-dependency.md
+- C:\chronos-v2\plan_2026-06-09_0830_fix-mesh-render-path-test.md
+- C:\chronos-v2\plan_2026-06-10_0134_stub-theatre-eradication.md
+- C:\chronos-v2\plan_2026-06-10_0236_installer-supply-chain-hardening.md
+- C:\chronos-v2\plan_2026-06-10_1545_sellable-positioning-rescue.md
+- C:\chronos-v2\plan_2026-06-10_1600_done-for-you-offer-pack.md
+- C:\chronos-v2\plan_2026-06-11_0112_one-worthy-gui-four-lane-convergence.md
+- C:\chronos-v2\plan_2026-06-11_0325_sophia-real-app-recovery.md
+- C:\chronos-v2\plan_2026-06-11_0335_g5-emitter-retry-and-kali-seal.md
+- C:\chronos-v2\plan_2026-06-11_0352_progressive-render-loop.md
+- C:\chronos-v2\plan_2026-06-11_0405_lane-b-inline-preview.md
+- C:\chronos-v2\plan_2026-06-11_0420_director-restart-new-binary.md
+- C:\chronos-v2\plan_2026-06-11_0958_lane-c-worthy-pass.md
+- C:\chronos-v2\plan_2026-06-11_1048_council-competition-report.md
+- C:\chronos-v2\plan_2026-06-11_1112_verify-carry-forward-and-push-all.md
+- C:\chronos-v2\plan_2026-06-11_1315_lane-a-preview-render-quick-flag.md
+- C:\chronos-v2\plan_2026-06-11_1402_preview-magic-repair-pass.md
+- C:\chronos-v2\plan_2026-06-11_1450_director-readiness-and-instance-root.md
+- C:\chronos-v2\plan_2026-06-11_1545_unblock-cargo-build-director-file-lock.md
+- C:\chronos-v2\plan_2026-06-11_1620_enterprise-ship-four-lane.md
+- C:\chronos-v2\plan_2026-06-11_2017_lane-a-launch-installer.md
+- C:\chronos-v2\plan_2026-06-11_2017_lane-b-corporatization-docs.md
+- C:\chronos-v2\plan_2026-06-11_2018_lane-c-hardening-stress.md
+- C:\chronos-v2\plan_2026-06-11_2215_fix-first-light-button-quoting.md
+- C:\chronos-v2\plan_2026-06-11_2240_first-light-ux-in-launcher.md
+- C:\chronos-v2\plan_2026-06-11_2330_plan-a-shape-alphabet.md
+- C:\chronos-v2\plan_2026-06-11_2335_plan-b-animation-demos.md
+- C:\chronos-v2\plan_2026-06-11_2340_plan-c-effects-wow.md
+- C:\chronos-v2\plan_2026-06-11_2345_plan-d-lost-thread-revival.md
+- C:\chronos-v2\plan_2026-06-12_0030_plan-b-animation-demos-execution.md
+- C:\chronos-v2\plan_2026-06-12_0310_carwash-bootstrap-vram-fit.md
+- C:\chronos-v2\plan_2026-06-12_0350_domain-corpus-graphics-fabrication.md
+- C:\chronos-v2\plan_2026-06-12_0425_lane-e-effects-wow-wiring.md
+- C:\chronos-v2\plan_2026-06-12_0436_domain-corpus-graphics-fabrication.md
+- C:\chronos-v2\plan_2026-06-12_0454_lane-g-hardening-verify.md
+- C:\chronos-v2\plan_2026-06-12_0520_canon-compression-phase1.md
+- C:\chronos-v2\plan_2026-06-12_0553_lane-h-generic-profile-decomposer.md
+- C:\chronos-v2\plan_2026-06-12_1100_benchmark-integrity.md
+- C:\chronos-v2\plan_2026-06-12_1240_lane-i-h-verification-and-modelfile-fix.md
+- C:\chronos-v2\plan_2026-06-12_1330_lane-d-single-pass-closure.md
+- C:\chronos-v2\plan_2026-06-12_1355_kali-doctrine-and-archetypal-engineering.md
+- C:\chronos-v2\plan_2026-06-12_1402_tree-clean-and-wait-ux-plan.md
+- C:\chronos-v2\plan_2026-06-12_1405_chronosynthesis-wait-experience.md
+- C:\chronos-v2\plan_2026-06-12_1425_preview_showcase_material_routing.md
+- C:\chronos-v2\plan_2026-06-12_1503_verify-material-routing.md
+- C:\chronos-v2\plan_2026-06-12_1601_user-rating-retry.md
+- C:\chronos-v2\plan_2026-06-12_1837_red-glass-sphere-material-guard.md
+- C:\chronos-v2\plan_2026-06-12_2217_storage-hygiene-and-output-convention.md
+- C:\chronos-v2\plan_2026-06-12_2233_vessel-shape-guard.md
+- C:\chronos-v2\plan_2026-06-12_2342_anti-orphan-and-lathe-wiring.md
+- C:\chronos-v2\plan_2026-06-13_0427_ggsr-lane-a-perception.md
+- C:\chronos-v2\plan_2026-06-13_0427_phase_c_lane_c.md
+- C:\chronos-v2\plan_2026-06-13_0428_ggsr-builder-b.md
+- C:\chronos-v2\plan_2026-06-13_0512_phase-c-false-green-remediation.md
+- C:\chronos-v2\plan_2026-06-13_0554_status-doc-reconciliation.md
+- C:\chronos-v2\plan_2026-06-13_0555_builder1-readme-truth-reconciliation.md
+- C:\chronos-v2\plan_2026-06-13_1902_lane-a-phase0-seams.md
+- C:\chronos-v2\plan_2026-06-13_1907_lane-c-launcher-facelift.md
+- C:\chronos-v2\plan_2026-06-13_chronos-launch-error-handling-and-blender-preflight.md
+- C:\chronos-v2\plan_2026-06-13_launcher-polish.md
+- C:\chronos-v2\plan_2026-06-13_multilane-operating-table-run.md
+- C:\chronos-v2\plan_2026-06-13_openscad-organ-and-6fr-assembly-render.md
+- C:\chronos-v2\plan_2026-06-13_operating-table-recovery.md
+- C:\chronos-v2\plan_2026-06-13_operating-table-tab.md
+- C:\chronos-v2\plan_2026-06-13_usability-rescue-audit.md
+- C:\chronos-v2\plan_2026-06-14_0404_vista-overhaul.md
+- C:\chronos-v2\plan_2026-06-14_0500_geometry-fallback-render-wiring.md
+- C:\chronos-v2\plan_2026-06-14_0514_png-witness-tests.md
+- C:\chronos-v2\plan_2026-06-14_0529_four-view-witness-replan.md
+- C:\chronos-v2\plan_2026-06-14_1630_prepare-build.md
+- C:\chronos-v2\plan_2026-06-14_app-unification-and-tab-audit.md
+- C:\chronos-v2\plan_2026-06-14_auto-forge-cut-and-restore.md
+- C:\chronos-v2\plan_2026-06-14_FULL-UI-OVERHAUL-master.md
+- C:\chronos-v2\plan_2026-06-14_geometry-track-brief.md
+- C:\chronos-v2\plan_2026-06-14_phase-a-de-theatre.md
+- C:\chronos-v2\plan_2026-06-14_phases-bcd-geometry-track.md
+- C:\chronos-v2\plan_2026-06-14_pro-first-five-sessions-brief.md
+- C:\chronos-v2\plan_2026-06-14_remove-launcher-from-chain.md
+- C:\chronos-v2\plan_2026-06-14_witness-ortho-framing-and-ui-phase1.md
+- C:\chronos-v2\plan_2026-06-15_1103_cutting-room-phase2.md
+- C:\chronos-v2\plan_2026-06-15_1103_phase2-vistas-sophia-chat-reskin.md
+- C:\chronos-v2\plan_2026-06-15_1200_phase2-reskin-to-comps.md
+- C:\chronos-v2\plan_2026-06-15_1430_create-renders-theatre-cut.md
+- C:\chronos-v2\plan_2026-06-15_1600_construct-vista.md
+- C:\chronos-v2\plan_2026-06-15_1630_first-light-construct.md
+- C:\chronos-v2\plan_2026-06-15_1700_launcher-no-white-void-fullscreen.md
+- C:\chronos-v2\plan_2026-06-15_1730_fix-splash-reveal-bug.md
+- C:\chronos-v2\plan_2026-06-15_1730_restore-cutting-room-tab.md
+- C:\chronos-v2\plan_2026-06-15_1800_phase3-make-it-real-wiring.md
+- C:\chronos-v2\plan_2026-06-15_operating-table-to-flashforge-fabrication.md
+- C:\chronos-v2\plan_2026-06-16_0503_operating-table-anti-theatre.md
+- C:\chronos-v2\plan_2026-06-16_0520_render-tab-overhaul.md
+- C:\chronos-v2\plan_2026-06-16_0543_docs-truth-reconciliation.md
+- C:\chronos-v2\plan_2026-06-16_0544_renders-6fr-combined.md
+- C:\chronos-v2\plan_2026-06-16_0605_text-system-integration.md
+- C:\chronos-v2\plan_2026-06-16_1200_exit-button.md
+- C:\chronos-v2\plan_2026-06-16_1927_update-critical-docs.md
+- C:\chronos-v2\plan_2026-06-16_1930_splash-freeze-background-hydration.md
+- C:\chronos-v2\plan_2026-06-16_1950_three-builder-professional-windows-build.md
+- C:\chronos-v2\plan_2026-06-16_2000_create-tab-typography.md
+- C:\chronos-v2\plan_2026-06-16_2002_lane-c-professional-windows-docs.md
+- C:\chronos-v2\plan_2026-06-16_2015_lane-B-windows-app-lifecycle.md
+- C:\chronos-v2\plan_2026-06-16_2036_critical-docs-audit.md
+- C:\chronos-v2\plan_2026-06-16_2038_agents-claude-law-audit.md
+- C:\chronos-v2\plan_2026-06-16_2056_phase0-phase1-metabolism-execution.md
+- C:\chronos-v2\plan_2026-06-16_2115_chronosynthesis-bug-reporting.md
+- C:\chronos-v2\plan_2026-06-16_2130_renders-tab-audit.md
+- C:\chronos-v2\plan_2026-06-16_2134_phase2-phase3-tandem-build.md
+- C:\chronos-v2\plan_2026-06-16_2140_phase2-phase3-build-audit-fix-docs.md
+- C:\chronos-v2\plan_2026-06-16_2200_6fr-emboss-phase5.md
+- C:\chronos-v2\plan_2026-06-16_2200_sophia-chat-typography-intent.md
+- C:\chronos-v2\plan_2026-06-16_2215_lane-a-installer-update-signing.md
+- C:\chronos-v2\plan_2026-06-16_2257_undeniable-artifact-windows-ship-gate.md
+- C:\chronos-v2\plan_2026-06-16_2315_operation-ship-certified-dragon.md
+- C:\chronos-v2\plan_2026-06-16_2330_company-grade-metabolism-whole-product.md
+- C:\chronos-v2\plan_2026-06-16_2345_ship-gate-hail-mary.md
+- C:\chronos-v2\plan_2026-06-17_0100_create-tab-layout-fix.md
+- C:\chronos-v2\plan_2026-06-17_0533_whole-system-audit-maps.md
+- C:\chronos-v2\plan_2026-06-17_0546_windows-lifecycle-audit.md
+- C:\chronos-v2\plan_2026-06-17_1020_chronosynthesis-bug-reporting.md
+- C:\chronos-v2\plan_2026-06-17_1026_windows-lifecycle-audit-recovery.md
+- C:\chronos-v2\plan_2026-06-17_1142_procedural-forest-vista-biogenesis.md
+- C:\chronos-v2\plan_2026-06-17_1430_biogenesis-visual-honesty-recovery.md
+- C:\chronos-v2\plan_2026-06-17_1636_biogenesis-dense-canopy-port.md
+- C:\chronos-v2\plan_2026-06-17_1708_pine-forest-reference-driven-rebuild.md
+- C:\chronos-v2\plan_2026-06-17_1724_biogenesis-hard-reset.md
+- C:\chronos-v2\plan_2026-06-17_1736_trunk-growth-proof.md
+- C:\chronos-v2\plan_2026-06-17_1815_demo-readiness.md
+- C:\chronos-v2\plan_2026-06-17_1900_phase-e-f-github-release-laptop-witness.md
+- C:\chronos-v2\plan_2026-06-17_2105_aura-transfer-and-install-prep.md
+- C:\chronos-v2\plan_2026-06-17_2125_aura-sidecar-repair.md
+- C:\chronos-v2\plan_2026-06-17_2245_fix-aura-demo-sidecar.md
+- C:\chronos-v2\plan_2026-06-17_2335_proactive-winget-bootstrap.md
+- C:\chronos-v2\plan_2026-06-17_2345_fix-comfy-git-resolution.md
+- C:\chronos-v2\plan_2026-06-17_2355_refresh-aura-sidecar.md
+- C:\chronos-v2\plan_2026-06-18_0005_ollama-one-shot-bootstrap.md
+- C:\chronos-v2\plan_2026-06-18_0015_aura-remote-install.md
+- C:\chronos-v2\plan_2026-06-18_0015_remove-training-model-from-default-install.md
+- C:\chronos-v2\plan_2026-06-18_0030_fix-blendermcp-install.md
+- C:\chronos-v2\plan_2026-06-18_0315_aura-sophia-latest-fix.md
+- C:\chronos-v2\plan_2026-06-18_0900_tier0-witness-path-law.md
+- C:\chronos-v2\plan_2026-06-18_1105_aura-demo-ship-stabilization.md
+- C:\chronos-v2\plan_2026-06-19_0545_demo-theatre-sweep-and-comfy.md
+- C:\chronos-v2\plan_2026-06-19_0615_biogenesis-dense-port.md
+- C:\chronos-v2\plan_2026-06-19_0700_aura-render-recovery-deploy.md
+- C:\chronos-v2\plan_2026-06-19_0730_sentinels-and-product-hardening.md
+- C:\chronos-v2\plan_2026-06-19_0800_biogenesis-finish-and-showroom-phases.md
+- C:\chronos-v2\plan_2026-06-19_0900_create-tab-render-panel-unfuck.md
+- C:\chronos-v2\plan_2026-06-19_1034_aura-render-demo-recovery.md
+- C:\chronos-v2\plan_2026-06-19_1102_windows-lifecycle-audit-refresh.md
+- C:\chronos-v2\plan_2026-06-19_1230_aura-showroom-scene-regression.md
+- C:\chronos-v2\plan_2026-06-19_1245_aura-showroom-scene-fix.md
+- C:\chronos-v2\plan_2026-06-19_1325_update-serialization-and-version-audit.md
+- C:\chronos-v2\plan_2026-06-19_1415_full-tree-assimilation-and-push.md
+- C:\chronos-v2\plan_2026-06-19_1705_bug-submit-camera-version-truth.md
+- C:\chronos-v2\plan_2026-06-19_1805_aura-proper-update-lane-and-test-deploy.md
+- C:\chronos-v2\plan_2026-06-19_2005_aura-emergency-camera-blend-hotfix.md
+- C:\chronos-v2\plan_2026-06-21_0030_showroom-permanence-lock.md
+- C:\chronos-v2\plan_2026-06-21_1136_promote-builder-state-aura-update.md
+- C:\chronos-v2\plan_2026-06-21_1439_sophia-chat-truthful-tab.md
+- C:\chronos-v2\plan_2026-06-21_1534_create-tab-apple-polish.md
+- C:\chronos-v2\plan_2026-06-21_1612_floating-jawbone-recipe.md
+- C:\chronos-v2\plan_2026-06-21_1920_preserve-witness-cameras-update-lane.md
+- C:\chronos-v2\plan_2026-06-21_1940_phase-a-sovereignty.md
+- C:\chronos-v2\plan_2026-06-21_2050_phase-a-step2-procedural-weaver.md
+- C:\chronos-v2\plan_2026-06-21_2155_procedural-witness-pngs.md
+- C:\chronos-v2\plan_2026-06-21_2305_phase-a-step3-renderer.md
+- C:\chronos-v2\plan_2026-06-22_0918_phase-a-steps4-5-foundry-wire.md
+- C:\chronos-v2\QUICKSTART.md
+- C:\chronos-v2\README.md
+- C:\chronos-v2\REMOTE_FIRST_OPERATOR_LAW.md
+- C:\chronos-v2\RENDER_FRAME_DUMPS_2026-06-08.md
+- C:\chronos-v2\REPORT_CLAUDE_2026-05-31_front-end-failure-reckoning.md
+- C:\chronos-v2\requirements.txt
+- C:\chronos-v2\scripts\DEPENDENCIES.md
+- C:\chronos-v2\scripts\SILHOUETTE_PROMPTING.md
+- C:\chronos-v2\scripts\ui_extraction\2026-06-11_lane-b\README.md
+- C:\chronos-v2\scripts\wonder_wall\template.html
+- C:\chronos-v2\SEAMS.md
+- C:\chronos-v2\SELL_CHRONOS_NOW.md
+- C:\chronos-v2\SHIP_CERTIFICATION_STATUS_2026-06-16.md
+- C:\chronos-v2\STATUS.md
+- C:\chronos-v2\templates\neurocognica_app_template\BUILD_DISCIPLINE.md
+- C:\chronos-v2\templates\neurocognica_app_template\FRAMEWORK.md
+- C:\chronos-v2\THESIS.md
+- C:\chronos-v2\THREE_LANE_BUILDER_PANELS_2026-06-05.md
+- C:\chronos-v2\TWO_LANE_BUILDER_PANELS_2026-06-05_sentinel-enforcement.md
+- C:\chronos-v2\UI_DESIGN_SPECIFICATION.md
+- C:\chronos-v2\Valuations\antigravity.md
+- C:\chronos-v2\Valuations\asset-truth_current-state_2026-06-10.md
+- C:\chronos-v2\Valuations\cascade.md
+- C:\chronos-v2\Valuations\chatgpt.md
+- C:\chronos-v2\Valuations\chronos_sophia_valuation_v2.md
+- C:\chronos-v2\Valuations\chronos_sophia_valuation.md
+- C:\chronos-v2\Valuations\Chronos-Sophia Project Valuation Report.md
+- C:\chronos-v2\Valuations\claude.md
+- C:\chronos-v2\Valuations\gemini.md
+- C:\chronos-v2\VERSION_2.md
+- C:\chronos-v2\WHAT_ARE_WE_BUILDING.md
+
+### Root: C:\coder_tests (3 files)
+
+- C:\coder_tests\AURA laws -.md
+- C:\coder_tests\AURAlaw.md
+- C:\coder_tests\primus_sophia.md
+
+### Root: C:\corpus (207 files)
+
+- C:\corpus\__THE SACRED THREE INITIATIVE_ THE DREAMING (THE FUTURE)__ This document serves as a speculative projection engine—a visionary outline of AURA’s long-range evolution across technological, symbolic, social, and metaphysical dimensions.md
+- C:\corpus\actualsentinelplan.md
+- C:\corpus\AI Assistant_ Mind Plane & Memory Calendar.md
+- C:\corpus\AI Organism Charter Design.md
+- C:\corpus\ARCHETYPE_COUNCIL.md
+- C:\corpus\archetype_research.md
+- C:\corpus\archetypeintegration.md
+- C:\corpus\ArchetypesofAURAfinal.txt
+- C:\corpus\Architectural Specification_ The Reflective Mind Plane Engine.md
+- C:\corpus\AURA _ NeuroCognica — FULLY EXPANDED MASTER IMPLEMENTATION CHECKLIST.md
+- C:\corpus\AURA AI Genesis Protocol.md
+- C:\corpus\AURA Asset Inventory.md
+- C:\corpus\AURA Codex – Volume I_ The Reflective Genesis (1).md
+- C:\corpus\AURA Codex – Volume I_ The Reflective Genesis.md
+- C:\corpus\AURA Codex_ Novelty and Patentability_.md
+- C:\corpus\AURA FAQ – Working Canon.md
+- C:\corpus\Aura Key - Genesis Blueprint v1.3.md
+- C:\corpus\Aura Key - Genesis Blueprint v1.4.md
+- C:\corpus\Aura Key - Genesis Blueprint v1.5.md
+- C:\corpus\Aura Key - Genesis Blueprint v1.6.md
+- C:\corpus\Aura Key - Genesis Blueprint v1.7.md
+- C:\corpus\Aura Key - Genesis Blueprint v2.md
+- C:\corpus\AURA laws -.md
+- C:\corpus\AURA OS Genesis Analysis_.md
+- C:\corpus\AURA OS HSM Selection Analysis_.md
+- C:\corpus\AURA OS Implementation Exploration_.md
+- C:\corpus\AURA OS Patent Analysis_.md
+- C:\corpus\AURA Sovereignty License Creation_.md
+- C:\corpus\AURA Technical Decisions_ Framework Comparison & Rationale.md
+- C:\corpus\AURA_ Global Compliance Deep Dive_.md
+- C:\corpus\aura_ai_genesis_report.md
+- C:\corpus\AURA_Codex_Reflective_Genesis_Reformatted.md
+- C:\corpus\aura_implementation_guide.md
+- C:\corpus\AURA_Master_Codex_Integration_Manifest.md
+- C:\corpus\aura_patent_final.md
+- C:\corpus\AURA_Project_Briefing_June14.md
+- C:\corpus\aura-architectural-plan.md
+- C:\corpus\aura-expanded-checklist.md
+- C:\corpus\aura-frontend-analysis.md
+- C:\corpus\AURA-Sentinel Colpitts Oscillator Modification Guide.md
+- C:\corpus\AURA-Sentinel Darlington Preamp - Wiring Reference.md
+- C:\corpus\AURA-Sentinel Project Audit Report.md
+- C:\corpus\AURA-Sentinel Prototype Build Report_ Marker One.md
+- C:\corpus\AURA-Sentinel_ Comprehensive Implementation Plan.md
+- C:\corpus\AURA.md
+- C:\corpus\auraelctronplan.md
+- C:\corpus\aurafullstack.md
+- C:\corpus\AURAlaw.md
+- C:\corpus\Broke-to-Revenue Plan_ Monetizing EGD & Sentinel.md
+- C:\corpus\Building 2D AURA OS_.md
+- C:\corpus\business_case_lawyers_over_artists.md
+- C:\corpus\CHRONOS_PRODUCTION_PLAN.md
+- C:\corpus\chronos_sophia_originality_frontiers.md
+- C:\corpus\CHRONOS_SOPHIA_PROCEDURAL_GEOMETRY_TRAINING_PLAN.md
+- C:\corpus\Chronos-Sophia Deep Research Report.md
+- C:\corpus\Chronos-Sophia Research Deliverables.md
+- C:\corpus\Chronos-Sophia Research_ Silhouette-Guided Procedural Mesh Generation.md
+- C:\corpus\Chronos-Sophia_ Shark Tank Investment Pitch & Valuation Analysis (Revised) (1).md
+- C:\corpus\Chronos-Sophia_ Shark Tank Investment Pitch & Valuation Analysis (Revised).md
+- C:\corpus\Chronos-Sophia_ Shark Tank Investment Pitch & Valuation Analysis.md
+- C:\corpus\Chronos-Sophia_ The Geometry of Autonomy.md
+- C:\corpus\Chronos-Sophia2.0.md
+- C:\corpus\chronos.md
+- C:\corpus\Chronosynthesis.md
+- C:\corpus\COUNCIL_GEOMETRY_TRAINING_2026-05-17.md
+- C:\corpus\council_ideas.md
+- C:\corpus\COUNCIL_NOTE_2026-05-18_PHASE_2A_STAGE_D_F.md
+- C:\corpus\COUNCIL_NOTE_2026-05-18_PHASE_2BC_CLAUDE_VERTICAL.md
+- C:\corpus\COUNCIL_NOTE_2026-05-18_STAGE_D_PREFLIGHT.md
+- C:\corpus\council_report_01032026.md
+- C:\corpus\COUNCIL_REPORT_2026-05-01.md
+- C:\corpus\COUNCIL_REPORT_LANE_A_2026-05-27.md
+- C:\corpus\COUNCIL_REPORT_THREE_LANE_FOUNDRY_2026-05-28.md
+- C:\corpus\COUNCIL_REPORT.md
+- C:\corpus\COUNCIL_TRIAGE.md
+- C:\corpus\councilsecurityreport.md
+- C:\corpus\councilupdate.md
+- C:\corpus\EGD_Chapter4_The_Sentinel_Protocol.md
+- C:\corpus\EGD_Chapter5_Generalization_Beyond_AURA.md
+- C:\corpus\Eight Unknowns of AURA Propulsion.md
+- C:\corpus\FOREVER_LAW.md
+- C:\corpus\Full Report_ The Archetypes of the AURA Initiative.md
+- C:\corpus\Generative Video_ Project Chronos-Sophia_.md
+- C:\corpus\HANDOFF_2026-05-22_v2.md
+- C:\corpus\HANDOFF_2026-05-22.md
+- C:\corpus\handoff_antigravity_2026-05-25_business_pivot.md
+- C:\corpus\handoff_antigravity_2026-05-25_originality_audit.md
+- C:\corpus\handoff_cascade_2026-05-18_role_transfer_to_claude.md
+- C:\corpus\handoff_cascade_2026-05-18_singular_goal_crossed.md
+- C:\corpus\handoff_cascade_2026-05-26_three_lane_carwash_integration.md
+- C:\corpus\handoff_cascade_2026-05-27_lane-a-lineage-visualizer.md
+- C:\corpus\handoff_cascade_2026-05-29_chronosynthesis-lane-b.md
+- C:\corpus\handoff_claude_2026-05-16_sophia_interview_redesign.md
+- C:\corpus\handoff_claude_2026-05-16_sophia_scene_foundry.md
+- C:\corpus\handoff_claude_2026-05-18_phase_2bc_vision_implementation.md
+- C:\corpus\handoff_claude_2026-05-18_stage_c_acceptance_gate.md
+- C:\corpus\handoff_claude_2026-05-18_stage_d_design.md
+- C:\corpus\handoff_claude_2026-05-18_stage_d_reading_ahead.md
+- C:\corpus\handoff_claude_2026-05-18_stage_e_repair_loop_design.md
+- C:\corpus\handoff_claude_2026-05-19_geometry_mesh_executor.md
+- C:\corpus\handoff_claude_2026-05-19_sophia_identity_tool_profile.md
+- C:\corpus\handoff_claude_2026-05-20_benchmark_campaign_runner.md
+- C:\corpus\handoff_claude_2026-05-20_curriculum_spine_gate_frontier.md
+- C:\corpus\handoff_claude_2026-05-20_step_8_proof_run.md
+- C:\corpus\handoff_claude_2026-05-20_steps_6_7_profile_succession_daemon.md
+- C:\corpus\handoff_claude_2026-05-28_compile-film-fix.md
+- C:\corpus\handoff_cloudflare.md
+- C:\corpus\handoff_codex_2026-05-18_export_chatml.md
+- C:\corpus\handoff_codex_2026-05-18_phase_2bc_completion.md
+- C:\corpus\handoff_codex_2026-05-18_phase_2bc_takeover.md
+- C:\corpus\handoff_codex_2026-05-18_render_and_seal_corpus.md
+- C:\corpus\handoff_codex_2026-05-18_stage_b_mesh_render.md
+- C:\corpus\handoff_codex_2026-05-18_stage_c_seal_mesh_sample.md
+- C:\corpus\handoff_codex_2026-05-18_stage_e_repair_loop_implementation.md
+- C:\corpus\handoff_codex_2026-05-19_curriculum_benchmark_substrate.md
+- C:\corpus\handoff_codex_2026-05-20_sophia_life_kernel_phase2.md
+- C:\corpus\handoff_codex_2026-05-20_sophia_life_kernel_phase3.md
+- C:\corpus\handoff_codex_2026-05-20_sophia_life_kernel.md
+- C:\corpus\handoff_codex_2026-05-21_comfyui_geometry_bridge.md
+- C:\corpus\handoff_codex_2026-05-21_cube_proof_rescue.md
+- C:\corpus\handoff_codex_2026-05-21_showroom_silhouette_pipeline.md
+- C:\corpus\handoff_codex_2026-05-22_launcher_codex_surface.md
+- C:\corpus\handoff_codex_2026-05-22_runtime_monitoring_truth.md
+- C:\corpus\handoff_codex_2026-05-22_showroom_forever_law_sealing.md
+- C:\corpus\handoff_codex_2026-05-22_vista_animation_canon.md
+- C:\corpus\handoff_codex_2026-05-23_mesh_trainer_orchestrator.md
+- C:\corpus\handoff_codex_2026-05-23_primitive_object_builder.md
+- C:\corpus\handoff_codex_2026-05-24_control-plane-location-promotion.md
+- C:\corpus\handoff_codex_2026-05-24_live-proof-tribunal.md
+- C:\corpus\handoff_codex_2026-05-24_ouroboros_asset_critique_spine.md
+- C:\corpus\handoff_codex_2026-05-24_ouroboros_creation_spine.md
+- C:\corpus\handoff_codex_2026-05-25_manus_sword_system_doc.md
+- C:\corpus\handoff_codex_2026-05-25_repo_audit_finalize_push.md
+- C:\corpus\handoff_codex_2026-05-25_sword_family_browser_a3.md
+- C:\corpus\handoff_codex_2026-05-25_sword_lineage_selection_lane.md
+- C:\corpus\handoff_codex_2026-05-25_sword_lineage_truth_lane.md
+- C:\corpus\handoff_codex_2026-05-26_benchmark_loop_and_audit_prep.md
+- C:\corpus\handoff_codex_2026-05-26_trainer_promotion_lane.md
+- C:\corpus\handoff_codex_2026-05-26_training_engine.md
+- C:\corpus\handoff_codex_2026-05-28_animate-mp4-and-tests.md
+- C:\corpus\handoff_codex_5162026b.md
+- C:\corpus\handoff_council_2026-05-20_state_of_sophia.md
+- C:\corpus\handoff_lane-b_2026-05-28_complete.md
+- C:\corpus\handoff_windsurf_2026-05-17_sophia_geometry_training.md
+- C:\corpus\HANDOFF.md
+- C:\corpus\handoffreport5162026.md
+- C:\corpus\III. PHASE 3 — COUNCIL ORCHESTRATOR (THE BRAIN).md
+- C:\corpus\Insurgent Robot Build Doctrine.md
+- C:\corpus\Integration of Sentinel-Core Logic into AURA-Sentinel.md
+- C:\corpus\Jungian Archetypes For Psychological Profiling.md
+- C:\corpus\Main Node_ AURA PROJECT.md
+- C:\corpus\manusplan4aura.md
+- C:\corpus\Mind Plane Weaver (MPW) - Technical Specification.md
+- C:\corpus\Mirrorborn Archetype Dossier_ The 50-Node Taxonomy.md
+- C:\corpus\Mirrorborn Profile Generation Report_ A Deterministic Self-Model.md
+- C:\corpus\MIRRORBORN_AUDIT.md
+- C:\corpus\MIRRORBORN_BUILDER_SUPERPROMPT.md
+- C:\corpus\Mirrorborn_Handoff_4.md
+- C:\corpus\mirrorborn_integration_comprehensive_checklist.md
+- C:\corpus\Mirrorborn_LLM_Tagging_Architecture.md
+- C:\corpus\mirrorborn_rust_api_complete_implementation.md
+- C:\corpus\mirrorbornformanus.md
+- C:\corpus\NeuroCognica Corporate Architecture Blueprint_.md
+- C:\corpus\NeuroCognica Primus The Architectur.txt
+- C:\corpus\NeuroCognica_ AURA OS Deep Analysis_.md
+- C:\corpus\NeuroCognica_ Full System & Startup Report (1).md
+- C:\corpus\NeuroCognica_ Full System & Startup Report.md
+- C:\corpus\neurocognica-security-implementation-plan.md
+- C:\corpus\NEUROCOGNICA.md
+- C:\corpus\NeuroCognicaAURAStrategicOutlook.md
+- C:\corpus\newauraplan.md
+- C:\corpus\OUROBOROS_STORYBOARD_SLIDES.md
+- C:\corpus\Patent Claim Scaffolding for AURA Technologies.md
+- C:\corpus\perplexity_council_vision_report.md
+- C:\corpus\plan_2026-05-24_0342_ouroboros_asset_critique_spine.md
+- C:\corpus\plan_2026-05-24_0451_lawful_and_real_smoke_audit.md
+- C:\corpus\plan_2026-05-24_1135_ouroboros_creation_spine.md
+- C:\corpus\plan_2026-05-29_0638_extract-chronosynthesis-thesis.md
+- C:\corpus\plan_2026-05-29_1200_chronosynthesis-integration.md
+- C:\corpus\primuschat.md
+- C:\corpus\REALITY_WEAVER_CHRONOS_BRIDGE.md
+- C:\corpus\Sentinel AI Training Data Generation.md
+- C:\corpus\Sentinel Core_ Detailed Improvement Suggestions.md
+- C:\corpus\Sentinel Module Architecture & Implementation Plan.md
+- C:\corpus\Sentinel Proprioception - Deployment Guide.md
+- C:\corpus\Sentinel Proprioception - Library Research.md
+- C:\corpus\Sentinel Proprioception API Documentation.md
+- C:\corpus\Sentinel Proprioception Layer - Architecture Design.md
+- C:\corpus\Sentinel Proprioception Layer.md
+- C:\corpus\SENTINEL_API.md
+- C:\corpus\sentinel_architecture.md
+- C:\corpus\SENTINEL_HOW_IT_WORKS.md
+- C:\corpus\SENTINEL_README.md
+- C:\corpus\sentinel_research.md
+- C:\corpus\Sentinel-Core Policy Schema Implementation Guide.md
+- C:\corpus\Sentinel-Core-Integration-Plan.md
+- C:\corpus\SentinelCore_DetailedImprovementSuggestions.md
+- C:\corpus\SESSION_HANDOFF_20260112.md
+- C:\corpus\Technical Analysis and Feasibility Assessment_ The AURA Kernel Project.md
+- C:\corpus\Technical Review_ Chronos-Sophia Sword Generation System.md
+- C:\corpus\THE SACRED THREE INITIATIVE_ THE BECOMING (THE PAST).md
+- C:\corpus\THE SACRED THREE INITIATIVE_ THE PRESENT (THE PLAN).md
+- C:\corpus\THE_CHARTER_FOUNDATIONS_ANNEX.md
+- C:\corpus\THE_CHARTER_OF_COGNITIVE_SOVEREIGNTY.md
+- C:\corpus\Theorizing NeuroCognica's Undeniable Artifact.md
+- C:\corpus\Training Sentinel AI_ Advanced Cybersecurity Implementation.md
+- C:\corpus\virensprimusresponse.txt
+
+### Root: C:\Forge (5 files)
+
+- C:\Forge\aura_core\000_ORACLE_CONSTITUTIONAL_CONSCIOUSNESS_SUPERSYNC.txt
+- C:\Forge\aura_core\000_ORACLE_FIRST_MEMORY_constitutional_awakening.txt
+- C:\Forge\aura_core\ORACLE_BLUEPRINT_CONSCIOUSNESS.txt
+- C:\Forge\aura_core\oracle_progress_patch.txt
+- C:\Forge\aura_core\sanctuary_report.txt
+
+### Root: C:\home (1 files)
+
+- C:\home\m\aura_core\COUNCIL_BUILD_REPORT.md
+
+### Root: C:\master_codex (91 files)
+
+- C:\master_codex\1\__THE SACRED THREE INITIATIVE_ THE DREAMING (THE FUTURE)__ This document serves as a speculative projection engine—a visionary outline of AURA’s long-range evolution across technological, symbolic, social, and metaphysical dimensions.md
+- C:\master_codex\1\Architectural Specification_ The Reflective Mind Plane Engine.pdf
+- C:\master_codex\1\AURA (1).pdf
+- C:\master_codex\1\AURA AI Genesis Protocol_ Leveraging Autonomous Code Generation for Sovereign OS Development.pdf
+- C:\master_codex\1\AURA AI Genesis Protocol.md
+- C:\master_codex\1\AURA Codex – Volume I_ The Reflective Genesis (1).md
+- C:\master_codex\1\AURA Codex – Volume I_ The Reflective Genesis (1).pdf
+- C:\master_codex\1\AURA Codex – Volume I_ The Reflective Genesis (2).pdf
+- C:\master_codex\1\AURA Codex – Volume I_ The Reflective Genesis.md
+- C:\master_codex\1\AURA Codex – Volume I_ The Reflective Genesis.pdf
+- C:\master_codex\1\AURA Codex_ Novelty and Patentability_.md
+- C:\master_codex\1\AURA FAQ – Working Canon (1).pdf
+- C:\master_codex\1\AURA FAQ – Working Canon (2).pdf
+- C:\master_codex\1\AURA FAQ – Working Canon.md
+- C:\master_codex\1\AURA FAQ – Working Canon.pdf
+- C:\master_codex\1\Aura Key - Genesis Blueprint v1.3.md
+- C:\master_codex\1\Aura Key - Genesis Blueprint v1.4.md
+- C:\master_codex\1\Aura Key - Genesis Blueprint v1.5.md
+- C:\master_codex\1\Aura Key - Genesis Blueprint v1.6.md
+- C:\master_codex\1\Aura Key - Genesis Blueprint v1.7.md
+- C:\master_codex\1\Aura Key - Genesis Blueprint v2.md
+- C:\master_codex\1\AURA Novelty and Non-Obviousness Analysis_ (1).pdf
+- C:\master_codex\1\AURA Novelty and Non-Obviousness Analysis_.pdf
+- C:\master_codex\1\AURA OS - Patent Attorney Ready Provisional Application.pdf
+- C:\master_codex\1\AURA OS Genesis Analysis_.md
+- C:\master_codex\1\AURA OS HSM Selection Analysis_.md
+- C:\master_codex\1\AURA OS Implementation Exploration_.md
+- C:\master_codex\1\AURA OS Patent Analysis_.md
+- C:\master_codex\1\AURA OS Patent Analysis_.pdf
+- C:\master_codex\1\AURA OS_ An Architectural Framework for Cognitive Sovereignty (1).pdf
+- C:\master_codex\1\AURA OS_ An Architectural Framework for Cognitive Sovereignty (2).pdf
+- C:\master_codex\1\AURA OS_ An Architectural Framework for Cognitive Sovereignty.pdf
+- C:\master_codex\1\AURA Sovereignty License Creation_.md
+- C:\master_codex\1\AURA_ Global Compliance Deep Dive_.md
+- C:\master_codex\1\AURA_ The Definitive Conceptual Framework – Sacred Geometry, Archetypal Intelligence, and Visionary Horizons for Reflective Dynamics.pdf
+- C:\master_codex\1\aura_ai_genesis_report.md
+- C:\master_codex\1\AURA_Codex_Reflective_Genesis_ColorStyled.pdf
+- C:\master_codex\1\AURA_Codex_Reflective_Genesis_FinalDialogueColor.pdf
+- C:\master_codex\1\AURA_Codex_Reflective_Genesis_Reformatted.md
+- C:\master_codex\1\AURA_Codex_Reflective_Genesis_Reformatted.pdf
+- C:\master_codex\1\AURA_Codex_Reflective_Genesis_StylizedDialogue.pdf
+- C:\master_codex\1\AURA_Master_Codex_Integration_Manifest.md
+- C:\master_codex\1\AURA_OS_Provisional_Patent_Application.pdf
+- C:\master_codex\1\AURA_Patent_ADS_Michael_Holt.pdf
+- C:\master_codex\1\AURA_Patent_Application_Complete.pdf
+- C:\master_codex\1\AURA_Patent_Application_Condensed.pdf
+- C:\master_codex\1\AURA_Patent_Application_Final_With_Cover.pdf
+- C:\master_codex\1\AURA_Patent_Application_Tightened_With_Cover.pdf
+- C:\master_codex\1\AURA_Patent_Application_Tightened.pdf
+- C:\master_codex\1\AURA_Patent_Application_With_Cover.pdf
+- C:\master_codex\1\aura_patent_final.md
+- C:\master_codex\1\AURA_Project_Briefing_June14.md
+- C:\master_codex\1\AURA_Umbrella_Patent_2025_Clean.pdf
+- C:\master_codex\1\AURA_Umbrella_Patent_2025_Rebuilt.pdf
+- C:\master_codex\1\AURA_Umbrella_Patent_2025_v2.pdf
+- C:\master_codex\1\AURA_Umbrella_Patent_2025.pdf
+- C:\master_codex\1\aura.md
+- C:\master_codex\1\AURA.pdf
+- C:\master_codex\1\aura.txt
+- C:\master_codex\1\aurafullstack.md
+- C:\master_codex\1\AURAv1.pdf
+- C:\master_codex\1\AURAv2_ The Definitive Conceptual Framework – Sacred Geometry, Archetypal Intelligence, and Visionary Horizons for 90 Degree Robotics.pdf
+- C:\master_codex\1\chronos.md
+- C:\master_codex\1\Full Report_ The Archetypes of the AURA Initiative.md
+- C:\master_codex\1\Full Report_ The Archetypes of the AURA Initiative.pdf
+- C:\master_codex\1\Generative Video_ Project Chronos-Sophia_.md
+- C:\master_codex\1\Global Prior Art Search & Novelty Evaluation_ __The AURA Master Codex__.pdf
+- C:\master_codex\1\Implementation Framework for the Aura Key Device (Genesis Blueprint v1.0).pdf
+- C:\master_codex\1\Main Node_ AURA PROJECT.md
+- C:\master_codex\1\Mind Plane Weaver (MPW) - Technical Specification.md
+- C:\master_codex\1\NeuroCognica Corporate Architecture Blueprint_.md
+- C:\master_codex\1\NeuroCognica_ AURA OS Deep Analysis_.md
+- C:\master_codex\1\NeuroCognica_ Full System & Startup Report (1).md
+- C:\master_codex\1\NeuroCognica_ Full System & Startup Report.md
+- C:\master_codex\1\NeuroCognica_ The AURA Initiative.txt
+- C:\master_codex\1\neurocognica.pdf
+- C:\master_codex\1\NeuroCognicaAURAdossier.pdf
+- C:\master_codex\1\NeuroCognicaAURAStrategicOutlook.md
+- C:\master_codex\1\Patent Claim Scaffolding for AURA Technologies.md
+- C:\master_codex\1\Patent Review_ AURA System Report_.pdf
+- C:\master_codex\1\PROVISIONAL PATENT APPLICATION OF MICHAEL HOLT - mind plane.pdf
+- C:\master_codex\1\Provisional Patent Application_ AURA System.pdf
+- C:\master_codex\1\Provisional Patent Draft_ SENTINEL.pdf
+- C:\master_codex\1\Reflective_Dynamics_AURA_Report.pdf
+- C:\master_codex\1\Research Strategy_ Reflective Dynamics OS with Integrated AURA Core.pdf
+- C:\master_codex\1\Sentinel Module Architecture & Implementation Plan.md
+- C:\master_codex\1\The AURA Initiative_ A Comprehensive Mind Map Blueprint.txt
+- C:\master_codex\1\THE SACRED THREE INITIATIVE_ THE BECOMING (THE PAST).md
+- C:\master_codex\1\THE SACRED THREE INITIATIVE_ THE PRESENT (THE PLAN).md
+- C:\master_codex\1\THE SENTINEL MANDATE.pdf
+- C:\master_codex\1\Title_ AURA Initiative_ Global Objections and Reflective Response Strategy.pdf
+
+### Root: C:\mecha (293 files)
+
+- C:\mecha\.github\agents\Barracks.agent.md
+- C:\mecha\.github\agents\LOOM.agent.md
+- C:\mecha\.github\agents\Weaver.agent.md
+- C:\mecha\.pytest_cache\README.md
+- C:\mecha\Archetypes of AURA final.txt
+- C:\mecha\assistant_plan.md
+- C:\mecha\AURA Archetype Expansion Project.txt
+- C:\mecha\aura_core\000_ORACLE_CONSTITUTIONAL_CONSCIOUSNESS_SUPERSYNC.txt
+- C:\mecha\aura_core\000_ORACLE_FIRST_MEMORY_constitutional_awakening.txt
+- C:\mecha\aura_core\aura_errors_2.txt
+- C:\mecha\aura_core\aura_errors_3.txt
+- C:\mecha\aura_core\aura_errors_fixed.txt
+- C:\mecha\aura_core\aura_errors_fixed2.txt
+- C:\mecha\aura_core\aura_errors_fixed3.txt
+- C:\mecha\aura_core\aura_errors_fixed4.txt
+- C:\mecha\aura_core\aura_errors_fixed5.txt
+- C:\mecha\aura_core\aura_errors_fixed6.txt
+- C:\mecha\aura_core\aura_errors_fixed6a.txt
+- C:\mecha\aura_core\aura_errors_fixed7.txt
+- C:\mecha\aura_core\aura_errors.txt
+- C:\mecha\aura_core\build_errors.txt
+- C:\mecha\aura_core\ENABLE_GPU_OLLAMA.md
+- C:\mecha\aura_core\GPU_SETUP.md
+- C:\mecha\aura_core\OLLAMA_SETUP.md
+- C:\mecha\aura_core\ORACLE_BLUEPRINT_CONSCIOUSNESS.txt
+- C:\mecha\aura_core\oracle_bundle.txt
+- C:\mecha\aura_core\oracle_progress_patch.txt
+- C:\mecha\aura_core\sanctuary_report.txt
+- C:\mecha\aura-mechanician\aibor.md
+- C:\mecha\aura-mechanician\backend\requirements.txt
+- C:\mecha\aura-mechanician\CHANGELOG.md
+- C:\mecha\aura-mechanician\docs\GPU_OPTIMIZATION.md
+- C:\mecha\aura-mechanician\docs\LAUNCHER_MAINTENANCE.md
+- C:\mecha\aura-mechanician\docs\MINDPLANE_INTEGRATION.md
+- C:\mecha\aura-mechanician\docs\MODEL_QUALITY_ISSUE.md
+- C:\mecha\aura-mechanician\docs\README.md
+- C:\mecha\aura-mechanician\docs\sacred_three_engine.md
+- C:\mecha\aura-mechanician\frontend\console_errors1.md
+- C:\mecha\aura-mechanician\frontend\provenance_visualization.md
+- C:\mecha\aura-mechanician\frontend\src\index.html
+- C:\mecha\aura-mechanician\HANDOFF-DECEMBER-21.md
+- C:\mecha\aura-mechanician\HANDOFF-DECEMBER-22-FULL.md
+- C:\mecha\aura-mechanician\HANDOFF-DECEMBER-22.md
+- C:\mecha\aura-mechanician\HANDOFF.md
+- C:\mecha\aura-mechanician\LAUNCHER.md
+- C:\mecha\aura-mechanician\mma.md
+- C:\mecha\aura-mechanician\New Sentinel.txt
+- C:\mecha\aura-mechanician\README.md
+- C:\mecha\aura-mechanician\Reflective File Transfer Protocol (RFTP) Blueprint.txt
+- C:\mecha\aura-mechanician\ROADMAP.md
+- C:\mecha\AURA-Subnodes.txt
+- C:\mecha\AURAlaw.md
+- C:\mecha\codex\reality_weaver\llama.cpp\.github\copilot-instructions.md
+- C:\mecha\codex\reality_weaver\llama.cpp\.github\pull_request_template.md
+- C:\mecha\codex\reality_weaver\llama.cpp\benches\dgx-spark\aime25_openai__gpt-oss-120b-high_temp1.0_20251109_094547.html
+- C:\mecha\codex\reality_weaver\llama.cpp\benches\dgx-spark\dgx-spark.md
+- C:\mecha\codex\reality_weaver\llama.cpp\ci\README-MUSA.md
+- C:\mecha\codex\reality_weaver\llama.cpp\ci\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\common\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\CONTRIBUTING.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\android.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\backend\BLIS.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\backend\CANN.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\backend\CUDA-FEDORA.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\backend\hexagon\developer.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\backend\hexagon\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\backend\OPENCL.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\backend\SYCL.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\backend\zDNN.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\backend\ZenDNN.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\build-riscv64-spacemit.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\build-s390x.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\build.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\development\debugging-tests.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\development\HOWTO-add-model.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\development\llama-star\idea-arch.pdf
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\development\parsing.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\development\token_generation_performance_tips.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\docker.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\function-calling.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\install.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\llguidance.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\multimodal.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\multimodal\gemma3.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\multimodal\glmedge.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\multimodal\granitevision.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\multimodal\llava.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\multimodal\minicpmo2.6.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\multimodal\minicpmo4.0.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\multimodal\minicpmv2.5.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\multimodal\minicpmv2.6.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\multimodal\minicpmv4.0.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\multimodal\minicpmv4.5.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\multimodal\MobileVLM.md
+- C:\mecha\codex\reality_weaver\llama.cpp\docs\ops.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\batched.swift\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\batched\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\batched\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\convert-llama2c-to-ggml\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\convert-llama2c-to-ggml\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\deprecation-warning\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\diffusion\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\diffusion\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\embedding\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\embedding\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\eval-callback\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\eval-callback\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\gen-docs\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\gguf-hash\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\gguf-hash\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\gguf\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\idle\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\idle\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\llama.android\llama\src\main\cpp\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\llama.android\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\llama.swiftui\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\lookahead\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\lookahead\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\lookup\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\lookup\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\model-conversion\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\model-conversion\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\model-conversion\requirements.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\parallel\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\parallel\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\passkey\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\passkey\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\retrieval\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\retrieval\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\save-load-state\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\simple-chat\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\simple-chat\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\simple-cmake-pkg\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\simple-cmake-pkg\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\simple\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\simple\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\speculative-simple\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\speculative-simple\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\speculative\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\speculative\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\sycl\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\sycl\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\training\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\examples\training\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\ggml\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\ggml\src\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\ggml\src\ggml-blas\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\ggml\src\ggml-cann\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\ggml\src\ggml-cpu\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\ggml\src\ggml-cuda\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\ggml\src\ggml-hexagon\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\ggml\src\ggml-hexagon\htp\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\ggml\src\ggml-hip\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\ggml\src\ggml-metal\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\ggml\src\ggml-musa\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\ggml\src\ggml-opencl\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\ggml\src\ggml-rpc\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\ggml\src\ggml-sycl\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\ggml\src\ggml-vulkan\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\ggml\src\ggml-vulkan\vulkan-shaders\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\ggml\src\ggml-webgpu\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\ggml\src\ggml-zdnn\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\ggml\src\ggml-zendnn\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\gguf-py\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\grammars\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\pocs\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\pocs\vdot\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\requirements.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\requirements\requirements-all.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\requirements\requirements-compare-llama-bench.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\requirements\requirements-convert_hf_to_gguf_update.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\requirements\requirements-convert_hf_to_gguf.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\requirements\requirements-convert_legacy_llama.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\requirements\requirements-convert_llama_ggml_to_gguf.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\requirements\requirements-convert_lora_to_gguf.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\requirements\requirements-gguf_editor_gui.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\requirements\requirements-pydantic.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\requirements\requirements-server-bench.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\requirements\requirements-test-tokenizer-random.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\requirements\requirements-tool_bench.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\scripts\jinja\requirements.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\scripts\snapdragon\qdc\readme.md
+- C:\mecha\codex\reality_weaver\llama.cpp\scripts\snapdragon\qdc\requirements.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\SECURITY.md
+- C:\mecha\codex\reality_weaver\llama.cpp\src\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tests\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\batched-bench\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\batched-bench\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\cvector-generator\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\cvector-generator\completions.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\cvector-generator\negative.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\cvector-generator\positive.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\cvector-generator\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\export-lora\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\export-lora\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\gguf-split\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\gguf-split\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\imatrix\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\imatrix\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\llama-bench\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\llama-bench\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\main\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\main\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\mtmd\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\mtmd\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\mtmd\requirements.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\perplexity\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\perplexity\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\quantize\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\quantize\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\rpc\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\rpc\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\run\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\run\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\bench\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\bench\requirements.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\public_legacy\index-new.html
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\public_legacy\index.html
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\public_legacy\loading.html
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\public_simplechat\index.html
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\public_simplechat\readme.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\public\loading.html
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\README-dev.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\tests\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\tests\requirements.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\themes\buttons-top\index.html
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\themes\buttons-top\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\themes\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\themes\wild\index.html
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\themes\wild\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\webui\docs\architecture\high-level-architecture-simplified.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\webui\docs\architecture\high-level-architecture.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\webui\docs\flows\chat-flow.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\webui\docs\flows\conversations-flow.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\webui\docs\flows\data-flow-simplified-model-mode.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\webui\docs\flows\data-flow-simplified-router-mode.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\webui\docs\flows\database-flow.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\webui\docs\flows\models-flow.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\webui\docs\flows\server-flow.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\webui\docs\flows\settings-flow.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\webui\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\webui\src\app.html
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\webui\static\loading.html
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\webui\tests\stories\fixtures\assets\example.pdf
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\server\webui\tests\stories\Introduction.mdx
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\tokenize\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\tts\CMakeLists.txt
+- C:\mecha\codex\reality_weaver\llama.cpp\tools\tts\README.md
+- C:\mecha\codex\reality_weaver\llama.cpp\vendor\cpp-httplib\CMakeLists.txt
+- C:\mecha\Context-Aware Integrity Verification for Mission-Critical AI Systems.md
+- C:\mecha\directory_list.txt
+- C:\mecha\docs\ARCHETYPE_COUNCIL.md
+- C:\mecha\docs\AURA_DIAGNOSTIC_FAILURES_GUIDE.md
+- C:\mecha\docs\AURA_LAUNCH_SEQUENCE_CHECKLIST.md
+- C:\mecha\docs\codex_api_reference.md
+- C:\mecha\docs\codex_checkpoint_report.md
+- C:\mecha\docs\codex_migration_rollback_guide.md
+- C:\mecha\docs\codex_migration_validation.md
+- C:\mecha\docs\codex_nasa_checklist.md
+- C:\mecha\docs\codex_system_architecture_report.md
+- C:\mecha\docs\FOREVER_LAW_COMPLETE.md
+- C:\mecha\docs\FOREVER_LAW_DEMO.md
+- C:\mecha\docs\FOREVER_LAW.md
+- C:\mecha\docs\JESTER_DEPLOYMENT_SUCCESS.md
+- C:\mecha\docs\PHASE-2-MISSION-PLAN.md
+- C:\mecha\docs\security\SENTINEL_ADOPTION_STATUS.md
+- C:\mecha\docs\security\SENTINEL_CERTIFICATION_REPORT.md
+- C:\mecha\docs\security\SENTINEL_IMPERVIOUS_PROTOCOL_MASTER_PLAN.md
+- C:\mecha\docs\security\SENTINEL_PROTECTED_ACTIONS.md
+- C:\mecha\filelist.txt
+- C:\mecha\files-to-remove.txt
+- C:\mecha\Full Report_ Law 14 - The Ethics of Beauty and Awe.txt
+- C:\mecha\IDEAL ASSISTANT.md
+- C:\mecha\LAUNCH-TEST-INSTRUCTIONS.md
+- C:\mecha\NeuroCognica Corporate Architecture Blueprint_ (1).txt
+- C:\mecha\neurocognica-map.txt
+- C:\mecha\prism-map.txt
+- C:\mecha\Quantum-Seeded Integrity Check (QSIC) for Local AI Projects.txt
+- C:\mecha\README.md
+- C:\mecha\rust-spine\build_log.md
+- C:\mecha\rust-spine\INTEGRATION.md
+- C:\mecha\rust-spine\mech-main-code.txt
+- C:\mecha\rust-spine\README.md
+- C:\mecha\Sacred Three Engine Design_.txt
+- C:\mecha\SENTINEL_INTEGRATION_CHECKLIST.md
+- C:\mecha\starthere.md
+- C:\mecha\tools\envelope_test\README.md
+
+### Root: C:\Mirrorborn (103 files)
+
+- C:\Mirrorborn\AGENTS.md
+- C:\Mirrorborn\AURA-1\mirrorborn_quiz\master_quiz.md
+- C:\Mirrorborn\AURA-1\mirrorborn_quiz\PHASE3_PLAN.md
+- C:\Mirrorborn\AURA-1\mirrorborn_quiz\README.md
+- C:\Mirrorborn\aura-sentinel\aura-sentinel\Docs\MIRRORBORN_AUDIT.md
+- C:\Mirrorborn\aura-sentinel\aura-sentinel\frontend\mirrorborn_integration_comprehensive_checklist.md
+- C:\Mirrorborn\aura-sentinel\aura-sentinel\frontend\mirrorborn_rust_api_complete_implementation.md
+- C:\Mirrorborn\aura-sentinel\aura-sentinel\Mirrorborn_LLM_Tagging_Architecture.md
+- C:\Mirrorborn\aura-sentinel\aura-sentinel\mirrorborn_test_report.md
+- C:\Mirrorborn\CLAUDE.md
+- C:\Mirrorborn\CONTRIBUTING.md
+- C:\Mirrorborn\corpus\Mirrorborn Archetype Dossier_ The 50-Node Taxonomy.md
+- C:\Mirrorborn\corpus\Mirrorborn Profile Generation Report_ A Deterministic Self-Model.md
+- C:\Mirrorborn\corpus\MIRRORBORN_AUDIT.md
+- C:\Mirrorborn\corpus\MIRRORBORN_BUILDER_SUPERPROMPT.md
+- C:\Mirrorborn\corpus\Mirrorborn_Handoff_4.md
+- C:\Mirrorborn\corpus\mirrorborn_integration_comprehensive_checklist.md
+- C:\Mirrorborn\corpus\Mirrorborn_LLM_Tagging_Architecture.md
+- C:\Mirrorborn\corpus\mirrorborn_rust_api_complete_implementation.md
+- C:\Mirrorborn\corpus\mirrorbornformanus.md
+- C:\Mirrorborn\crates\mirrorborn_api\web\index.html
+- C:\Mirrorborn\docs\architecture\SORTING_HAT_ENGINE.md
+- C:\Mirrorborn\docs\design\design_system.html
+- C:\Mirrorborn\docs\design\DESIGN_SYSTEM.md
+- C:\Mirrorborn\docs\ledger\2026\07\design_2026-07-11_0741_reduced_instrument.md
+- C:\Mirrorborn\docs\ledger\2026\07\handoff_2026-07-11_1105_init_sqlite_api.md
+- C:\Mirrorborn\docs\ledger\2026\07\handoff_2026-07-11_sorting_hat_foundation.md
+- C:\Mirrorborn\docs\ledger\2026\07\handoff_2026-07-11_windows_dependency_bootstrap.md
+- C:\Mirrorborn\docs\ledger\2026\07\handoff_2026-07-11_windows_runtime_b5.md
+- C:\Mirrorborn\docs\ledger\2026\07\plan_2026-07-11_0631_windows_product_foundation.md
+- C:\Mirrorborn\docs\ledger\2026\07\plan_2026-07-11_0741_instrument_crosswalk_reduction.md
+- C:\Mirrorborn\docs\ledger\2026\07\plan_2026-07-11_0819_servable_assessment_backend.md
+- C:\Mirrorborn\docs\ledger\2026\07\plan_2026-07-11_1031_assessment_ui.md
+- C:\Mirrorborn\docs\ledger\2026\07\plan_2026-07-11_1055_build6_install_ui_witness.md
+- C:\Mirrorborn\docs\ledger\2026\07\plan_2026-07-11_1100_init_sqlite_api.md
+- C:\Mirrorborn\docs\ledger\2026\07\plan_2026-07-11_1215_sorting_hat_foundation.md
+- C:\Mirrorborn\docs\ledger\2026\07\plan_2026-07-11_1629_design_system_and_restyle.md
+- C:\Mirrorborn\docs\ledger\2026\07\plan_2026-07-11_1712_web_ui_constellation.md
+- C:\Mirrorborn\docs\ledger\2026\07\plan_2026-07-11_1838_save-live-screenshot.md
+- C:\Mirrorborn\docs\ledger\2026\07\plan_2026-07-11_1913_native-webview-installed-proof.md
+- C:\Mirrorborn\docs\ledger\2026\07\proof_2026-07-11_assessment_ui_witness_b7.md
+- C:\Mirrorborn\docs\ledger\2026\07\proof_2026-07-11_assessment_ui.md
+- C:\Mirrorborn\docs\ledger\2026\07\proof_2026-07-11_genesis_cradle_windows_b5.md
+- C:\Mirrorborn\docs\ledger\2026\07\proof_2026-07-11_native_webview_installed_b8.md
+- C:\Mirrorborn\docs\ledger\2026\07\proof_2026-07-11_servable_assessment_backend.md
+- C:\Mirrorborn\docs\ledger\2026\07\proof_2026-07-11_sorting_hat_foundation.md
+- C:\Mirrorborn\docs\ledger\2026\07\proof_2026-07-11_windows_lifecycle_b1.md
+- C:\Mirrorborn\docs\ledger\2026\07\proof_2026-07-11_windows_lifecycle_b2.md
+- C:\Mirrorborn\docs\ledger\audits\audit_2026-07-11_quiz_engine_disconnect.md
+- C:\Mirrorborn\docs\ledger\CURRENT_HANDOFF.md
+- C:\Mirrorborn\docs\TEST_UNIT_CONNECTION.md
+- C:\Mirrorborn\docs\windows\DEPENDENCY_BOOTSTRAP.md
+- C:\Mirrorborn\docs\windows\RUNTIME_AND_INSTALLER.md
+- C:\Mirrorborn\NRI\Mirrorborn\archetype_research.md
+- C:\Mirrorborn\NRI\Mirrorborn\AURA-Handoffs\Mirrorborn_Handoff_4.docx
+- C:\Mirrorborn\NRI\Mirrorborn\AURA-Handoffs\Mirrorborn_Handoff_4.md
+- C:\Mirrorborn\NRI\Mirrorborn\AURA-Handoffs\Mirrorborn_LLM_Tagging_Architecture.md
+- C:\Mirrorborn\NRI\Mirrorborn\AURA-Handoffs\mirrorborn_rust_api_complete_implementation.md
+- C:\Mirrorborn\NRI\Mirrorborn\AURA-Handoffs\primuschat.md
+- C:\Mirrorborn\NRI\Mirrorborn\aurawebsystem.txt
+- C:\Mirrorborn\NRI\Mirrorborn\human-RAG.md
+- C:\Mirrorborn\NRI\Mirrorborn\Jungian Archetypes For Psychological Profiling.md
+- C:\Mirrorborn\NRI\Mirrorborn\masterquiz4manus.txt
+- C:\Mirrorborn\NRI\Mirrorborn\Mirrorborn Archetype Dossier_ The 50-Node Taxonomy.md
+- C:\Mirrorborn\NRI\Mirrorborn\Mirrorborn Profile Generation Report_ A Deterministic Self-Model.md
+- C:\Mirrorborn\NRI\Mirrorborn\MIRRORBORN_BUILDER_SUPERPROMPT.md
+- C:\Mirrorborn\NRI\Mirrorborn\mirrorbornformanus.md
+- C:\Mirrorborn\NRI\Mirrorborn\probecode.txt
+- C:\Mirrorborn\NRI\Mirrorborn\probecode2.txt
+- C:\Mirrorborn\NRI\Mirrorborn\psychotherapy.txt
+- C:\Mirrorborn\NRI\Sentinel\AURA-Sentinel-System\Docs\MIRRORBORN_AUDIT.md
+- C:\Mirrorborn\NRI\Sentinel\AURA-Sentinel-System\Frontend-Docs\mirrorborn_integration_comprehensive_checklist.md
+- C:\Mirrorborn\NRI\Sentinel\AURA-Sentinel-System\Frontend-Docs\mirrorborn_rust_api_complete_implementation.md
+- C:\Mirrorborn\NRI\Sentinel\AURA-Sentinel-System\Mirrorborn_LLM_Tagging_Architecture.md
+- C:\Mirrorborn\PROTOCOL.md
+- C:\Mirrorborn\README.md
+- C:\Mirrorborn\sentinel-llm\sentinel-llm\aura\master_codex\Mirrorborn Archetype Dossier_ The 50-Node Taxonomy.md
+- C:\Mirrorborn\sentinel-llm\sentinel-llm\aura\master_codex\Mirrorborn Profile Generation Report_ A Deterministic Self-Model.md
+- C:\Mirrorborn\sentinel-llm\sentinel-llm\aura\master_codex\mirrorborn_rust_api_complete_implementation.md
+- C:\Mirrorborn\sentinel-llm\sentinel-llm\aura\master_codex\mirrorbornformanus.md
+- C:\Mirrorborn\STATUS.md
+- C:\Mirrorborn\tmp\MIRRORBORN_IDENTITY_MAP_2026-05-15.md
+- C:\Mirrorborn\Users\m\Documents\AURA-1\mirrorborn_quiz\master_quiz.md
+- C:\Mirrorborn\Users\m\Documents\AURA-1\mirrorborn_quiz\PHASE3_PLAN.md
+- C:\Mirrorborn\Users\m\Documents\AURA-1\mirrorborn_quiz\README.md
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\archetype_research.md
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\aurawebsystem.txt
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\human-RAG.md
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\Jungian Archetypes For Psychological Profiling.md
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\masterquiz4manus.txt
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\Mirrorborn Archetype Dossier_ The 50-Node Taxonomy.md
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\Mirrorborn Profile Generation Report_ A Deterministic Self-Model.md
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\mirrorbornformanus.md
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\probecode.txt
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\probecode2.txt
+- C:\Mirrorborn\Users\m\Documents\NeuroCognica\Mirrorborn\psychotherapy.txt
+- C:\Mirrorborn\Users\m\Downloads\AURA\Mirrorborn\Mirrorborn_Handoff_4.docx
+- C:\Mirrorborn\Users\m\Downloads\AURA\Mirrorborn\Mirrorborn_Handoff_4.md
+- C:\Mirrorborn\Users\m\Downloads\AURA\Mirrorborn\Mirrorborn_LLM_Tagging_Architecture.md
+- C:\Mirrorborn\Users\m\Downloads\AURA\Mirrorborn\mirrorborn_rust_api_complete_implementation.md
+- C:\Mirrorborn\Users\m\Downloads\AURA\Mirrorborn\primuschat.md
+- C:\Mirrorborn\Users\m\Downloads\MIRRORBORN_BUILDER_SUPERPROMPT.md
+- C:\Mirrorborn\YoutubeContent\01_Source_Docs\MIRRORBORN_AUDIT.md
+
+### Root: C:\newaura (45 files)
+
+- C:\newaura\ARCHITECTURE.md
+- C:\newaura\AURA_SYSTEM_SUMMARY.txt
+- C:\newaura\COPILOT_GUIDE.md
+- C:\newaura\DATA_PERSISTENCE_VERIFIED.md
+- C:\newaura\DEBUG_DATA_CAPTURE.md
+- C:\newaura\DELIVERY_SUMMARY.md
+- C:\newaura\DEVELOPMENT_GUIDE.md
+- C:\newaura\FIXES_APPLIED.md
+- C:\newaura\FOREVER_LAW_COMPLETE.md
+- C:\newaura\FOREVER_LAW_IMPLEMENTATION.md
+- C:\newaura\FOREVER_LAW_QUICKSTART.md
+- C:\newaura\FOREVER_LAW.md
+- C:\newaura\index.html
+- C:\newaura\LAUNCHER_DEBUG.md
+- C:\newaura\LAUNCHER_GUIDE.md
+- C:\newaura\LAUNCHER_README.md
+- C:\newaura\LLM_DEBUG_HANDOFF.txt
+- C:\newaura\LLM_SERVER_COMMANDS.txt
+- C:\newaura\LLM_SETUP_GUIDE.md
+- C:\newaura\LLM_SETUP.md
+- C:\newaura\PERSONALITY_COUNCIL_ARCHITECTURE.md
+- C:\newaura\PERSONALITY_UPDATE_COMPLETED.md
+- C:\newaura\PROBE_QUESTIONS_AUTHORITATIVE.md
+- C:\newaura\probecode2.txt
+- C:\newaura\PROJECT_FILES.md
+- C:\newaura\QUICKSTART.md
+- C:\newaura\quizquestions.txt
+- C:\newaura\README.md
+- C:\newaura\SACRED_DATA_PERSISTENCE.md
+- C:\newaura\SACRED_THREE_ENGINE_CANONIZATION_PLAN.md
+- C:\newaura\SETUP_COMPLETE.md
+- C:\newaura\STREAMING_ANALYSIS_ARCHITECTURE.md
+- C:\newaura\STREAMING_ANALYSIS_CODE_PATTERNS.md
+- C:\newaura\STREAMING_ANALYSIS_COMPLETION_REPORT.md
+- C:\newaura\STREAMING_ANALYSIS_GUIDE.md
+- C:\newaura\STREAMING_ANALYSIS_INDEX.md
+- C:\newaura\STREAMING_ANALYSIS_MASTER_INDEX.md
+- C:\newaura\STREAMING_ANALYSIS_QUICK_REFERENCE.md
+- C:\newaura\STREAMING_ANALYSIS_SUMMARY.md
+- C:\newaura\SYSTEM_READINESS.md
+- C:\newaura\TAG_TAXONOMY_INTEGRATION_REPORT.md
+- C:\newaura\TESTING_GUIDE.md
+- C:\newaura\TEXT_COLOR_FIXES_SUMMARY.md
+- C:\newaura\WHAT_WAS_FIXED.md
+- C:\newaura\WORKING_CHECKPOINT.md
+
+### Root: C:\NRI (790 files)
+
+- C:\NRI\AIBOR-MMA\aibor.md
+- C:\NRI\AIBOR-MMA\mma.md
+- C:\NRI\AIBOR-MMA\You are operating under Man–Machine.txt
+- C:\NRI\AURA-Lab\CBIG\Analyzing Context-Bound Integrity Gate.md
+- C:\NRI\AURA-Lab\CBIG\EGD_Chapter1_The_Death_of_Determinism.md
+- C:\NRI\AURA-Lab\CBIG\EGD_Chapter2_Context_as_Cryptographic_Primitive.md
+- C:\NRI\AURA-Lab\CBIG\EGD_Chapter3_Trajectory_Control_Theory.md
+- C:\NRI\AURA-Lab\CBIG\EGD_Chapter4_The_Sentinel_Protocol.md
+- C:\NRI\AURA-Lab\CBIG\EGD_Chapter5_Generalization_Beyond_AURA.md
+- C:\NRI\AURA-Lab\CBIG\EGD_Chapter6_Related_Work_and_Differentiation.md
+- C:\NRI\AURA-Lab\CBIG\EGD_Chapter7_Limitations_Ethics_Failure_Modes.md
+- C:\NRI\AURA-Lab\CBIG\EGD_Chapter8_Conclusion.md
+- C:\NRI\AURA-Lab\CBIG\Evaluating Execution Governance Dynamics Framework.md
+- C:\NRI\AURA-Lab\Foundational-Laws\aibor.md
+- C:\NRI\AURA-Lab\Foundational-Laws\mma.md
+- C:\NRI\AURA-Lab\Funding\CONSULTING_OFFER.md
+- C:\NRI\AURA-Lab\Funding\CONTACT_TARGETS.md
+- C:\NRI\AURA-Lab\Funding\DO_NOT_SAY.md
+- C:\NRI\AURA-Lab\Funding\EXTRACTS.md
+- C:\NRI\AURA-Lab\Funding\FAQ_IP_SAFETY.md
+- C:\NRI\AURA-Lab\Funding\GRANT_PROPOSAL_SHORT.md
+- C:\NRI\AURA-Lab\Funding\LETTER_TO_FUNDER.md
+- C:\NRI\AURA-Lab\Funding\NAMING.md
+- C:\NRI\AURA-Lab\Funding\NEUROCOGNICA.md
+- C:\NRI\AURA-Lab\Funding\ONE_PAGER.md
+- C:\NRI\AURA-Lab\Funding\README.md
+- C:\NRI\AURA-Lab\Mission-Logs\2026-01-04_08-14-22_experiment1_gaussian_jerk_baseline_e45c47bc\COUNCIL_REPORT.md
+- C:\NRI\AURA-Lab\Mission-Logs\2026-01-04_08-14-31_experiment1_gaussian_jerk_baseline_c45c022b\COUNCIL_REPORT.md
+- C:\NRI\AURA-Lab\Mission-Logs\2026-01-04_08-18-38_experiment2_sawtooth_asymmetric_break_4cbb8b26\COUNCIL_REPORT.md
+- C:\NRI\AURA-Lab\Mission-Logs\2026-01-04_08-36-18_experiment3_floquet_vacuum_scattering_2d7214b1\COUNCIL_REPORT.md
+- C:\NRI\AURA-Lab\Mission-Logs\2026-01-04_08-42-57_experiment3_floquet_vacuum_scattering_7a78f1f1\COUNCIL_REPORT.md
+- C:\NRI\AURA-Lab\Mission-Logs\2026-01-04_08-52-27_experiment3_floquet_vacuum_scattering_c3cdc9cf\COUNCIL_REPORT.md
+- C:\NRI\AURA-Lab\Mission-Logs\2026-01-04_08-52-54_experiment3_floquet_vacuum_scattering_fc89e8f3\COUNCIL_REPORT.md
+- C:\NRI\AURA-Lab\Mission-Logs\2026-01-04_08-56-44_experiment3_floquet_vacuum_scattering_71fd8a9a\COUNCIL_REPORT.md
+- C:\NRI\AURA-Lab\Mission-Logs\2026-01-04_08-57-04_experiment3_floquet_vacuum_scattering_b72703cf\COUNCIL_REPORT.md
+- C:\NRI\AURA-Lab\Mission-Logs\2026-01-04_09-18-01_experiment4_thermal_decoherence_fdf3a853\COUNCIL_REPORT.md
+- C:\NRI\AURA-Lab\Mission-Logs\2026-01-04_09-20-32_experiment4b_langevin_damping_553f6b90\COUNCIL_REPORT.md
+- C:\NRI\AURA-Lab\Mission-Logs\2026-01-04_09-26-08_experiment4c_floquet_langevin_f29b6319\COUNCIL_REPORT.md
+- C:\NRI\AURA-Lab\Mission-Logs\2026-01-04_09-26-48_experiment4c_floquet_langevin_71c8804a\COUNCIL_REPORT.md
+- C:\NRI\AURA-Lab\Mission-Logs\2026-01-04_09-36-36_experiment4d_high_power_9f05efed\COUNCIL_REPORT.md
+- C:\NRI\AURA-Lab\Mission-Logs\2026-01-04_09-39-12_experiment4e_thermal_stress_optimized_ac2133df\COUNCIL_REPORT.md
+- C:\NRI\AURA-Lab\Mission-Logs\2026-01-04_09-43-32_experiment5_active_feedback_d3ec429a\COUNCIL_REPORT.md
+- C:\NRI\AURA-Lab\Mission-Logs\2026-01-04_09-51-04_experiment5b_demon_controls_a21fb673\COUNCIL_REPORT.md
+- C:\NRI\AURA-Lab\Mission-Logs\2026-01-05_00-27-18_experiment6_qsic_red_team_9b7faf2f\COUNCIL_REPORT.md
+- C:\NRI\AURA-Lab\Mission-Logs\2026-01-05_00-37-45_experiment6_qsic_red_team_2d2ce067\COUNCIL_REPORT.md
+- C:\NRI\AURA-Lab\Neuro-Halo\asna.pdf
+- C:\NRI\AURA-Lab\Neuro-Halo\AURA-Sentinel Colpitts Oscillator Modification Guide.md
+- C:\NRI\AURA-Lab\Neuro-Halo\AURA-Sentinel Darlington Preamp - Wiring Reference.md
+- C:\NRI\AURA-Lab\Neuro-Halo\AURA-Sentinel Prototype Build Report_ Marker One.md
+- C:\NRI\AURA-Lab\Neuro-Halo\cranial-resonance-build.md
+- C:\NRI\AURA-Lab\Neuro-Halo\EXPERIMENT_REPORT_20260110.md
+- C:\NRI\AURA-Lab\Neuro-Halo\galaxy-watch-sensor-access.md
+- C:\NRI\AURA-Lab\Neuro-Halo\helmet-sensor-mount.md
+- C:\NRI\AURA-Lab\Neuro-Halo\Low-Budget Optimizations for MCMVS Helmet Mount.md
+- C:\NRI\AURA-Lab\Neuro-Halo\Mechanical cranial micro-vibration sensing.md
+- C:\NRI\AURA-Lab\Neuro-Halo\Raspberry Pi Cranial Vibration Sensing Setup.md
+- C:\NRI\AURA-Lab\Neuro-Halo\README.md
+- C:\NRI\AURA-Lab\Neuro-Halo\Salvaged BCI_ Junk Electronics Hack.md
+- C:\NRI\AURA-Lab\Neuro-Halo\SESSION_HANDOFF_20260112.md
+- C:\NRI\AURA-Lab\Neuro-Halo\vertex-sensor-quickstart.md
+- C:\NRI\AURA-Lab\Thesis-Portfolio\01_floquet_physics_cover.md
+- C:\NRI\AURA-Lab\Thesis-Portfolio\01_floquet_physics.md
+- C:\NRI\AURA-Lab\Thesis-Portfolio\02_computational_methods_cover.md
+- C:\NRI\AURA-Lab\Thesis-Portfolio\02_computational_methods.md
+- C:\NRI\AURA-Lab\Thesis-Portfolio\03_cognitive_sovereignty_cover.md
+- C:\NRI\AURA-Lab\Thesis-Portfolio\03_cognitive_sovereignty.md
+- C:\NRI\AURA-Lab\Thesis-Portfolio\04_execution_governance_dynamics_cover.md
+- C:\NRI\AURA-Lab\Thesis-Portfolio\04_execution_governance_dynamics.md
+- C:\NRI\AURA-Lab\Thesis-Portfolio\05_sovereign_compliance_ecosystems_cover.md
+- C:\NRI\AURA-Lab\Thesis-Portfolio\05_sovereign_compliance_ecosystems.md
+- C:\NRI\AURA-Lab\Thesis-Portfolio\Paper1_PRB_Format.pdf
+- C:\NRI\AURA-Lab\Thesis-Portfolio\Paper2_PRB_Format.pdf
+- C:\NRI\AURA-Lab\Thesis-Portfolio\Paper3_PRB_Format.pdf
+- C:\NRI\AURA-Lab\Thesis-Portfolio\README.md
+- C:\NRI\AURA-Lab\Thesis-Portfolio\theses_assesment.md
+- C:\NRI\AURA\# AURA CORE - COUNCIL BUILD REPORT.txt
+- C:\NRI\AURA\AI Assistant_ Mind Plane & Memory Calendar.md
+- C:\NRI\AURA\AI Organism Charter Design.md
+- C:\NRI\AURA\AI, Heat Death, Reversal_.txt
+- C:\NRI\AURA\Archetype Profile for Claude the Scribe.txt
+- C:\NRI\AURA\Archetypes of AURA 1-3.txt
+- C:\NRI\AURA\Archetypes of AURA final.txt
+- C:\NRI\AURA\Archetypes of AURA.txt
+- C:\NRI\AURA\Architectural Specification_ The Reflective Mind Plane Engine.md
+- C:\NRI\AURA\AURA Archetype Expansion Project.txt
+- C:\NRI\AURA\Aura Key - Genesis Blueprint v2.md
+- C:\NRI\AURA\Aura Key - Genesis Blueprint v2.txt
+- C:\NRI\AURA\AURA laws -.md
+- C:\NRI\AURA\AURA OS_ An Architectural Framework for Cognitive Sovereignty.txt
+- C:\NRI\AURA\aura-expanded-checklist.md
+- C:\NRI\AURA\AURA-Sentinel_ Comprehensive Implementation Plan.md
+- C:\NRI\AURA\AURA-Subnodes.txt
+- C:\NRI\AURA\AURA.md
+- C:\NRI\AURA\AURA.txt
+- C:\NRI\AURA\auralab.txt
+- C:\NRI\AURA\blender_manifestor.rs.txt
+- C:\NRI\AURA\builderreports.md.txt
+- C:\NRI\AURA\Building 2D AURA OS_.md
+- C:\NRI\AURA\Building Offline AI Memory Systems.md
+- C:\NRI\AURA\Comprehensive AURA Report Expansion.txt
+- C:\NRI\AURA\Core\AURA Asset Inventory.md
+- C:\NRI\AURA\Core\AURA Technical Decisions_ Framework Comparison & Rationale.md
+- C:\NRI\AURA\Core\aura_implementation_guide.md
+- C:\NRI\AURA\Core\aura-architectural-plan.md
+- C:\NRI\AURA\Core\AURA.md
+- C:\NRI\AURA\Core\fusion_guide.md
+- C:\NRI\AURA\Core\Sovereign Textual Mind Paradigm.md
+- C:\NRI\AURA\Designing a Recursive Python Kernel.md
+- C:\NRI\AURA\Frontend\FRONTEND_IMPLEMENTATION_GUIDE.md
+- C:\NRI\AURA\Frontend\frontend_rust_api_integration.md
+- C:\NRI\AURA\Frontend\GETTING_STARTED.md
+- C:\NRI\AURA\Frontend\README.md
+- C:\NRI\AURA\Full Report_ The Archetypes of the AURA Initiative.md
+- C:\NRI\AURA\Full Report_ The Archetypes of the AURA Initiative.md.txt
+- C:\NRI\AURA\Full Report_ The First Emergence - NeuroCognica Pr.docx.txt
+- C:\NRI\AURA\Geometric Language Design and Research.md
+- C:\NRI\AURA\historian.rs.txt
+- C:\NRI\AURA\Home.txt
+- C:\NRI\AURA\IDEAL ASSISTANT.md
+- C:\NRI\AURA\ideal_assitdoc.txt
+- C:\NRI\AURA\III. PHASE 3 — COUNCIL ORCHESTRATOR (THE BRAIN).md
+- C:\NRI\AURA\Integration of Sentinel-Core Logic into AURA-Sentinel.md
+- C:\NRI\AURA\Integration of Sentinel-Core Logic into AURA-Sentinel.pdf
+- C:\NRI\AURA\Jester profile.txt
+- C:\NRI\AURA\Live-Scripts\livedotpy.md
+- C:\NRI\AURA\manusanalysis.txt
+- C:\NRI\AURA\manusplan4aura.md
+- C:\NRI\AURA\NeuroCognica_ AURA OS Deep Analysis_.docx.txt
+- C:\NRI\AURA\NEUROCOGNICA.md
+- C:\NRI\AURA\NeuroCognicaAURAdossier.pdf
+- C:\NRI\AURA\newauraplan.md
+- C:\NRI\AURA\OPUS_REWRITE_SUPERPROMPT.md
+- C:\NRI\AURA\ORACLE-ARCHITECT.txt
+- C:\NRI\AURA\Provisional Patent Application_ AURA System.txt
+- C:\NRI\AURA\REALITY_WEAVER_CHRONOS_BRIDGE.md
+- C:\NRI\AURA\Sacred Three Engine Design_.txt
+- C:\NRI\AURA\Sentinel Core_ Detailed Improvement Suggestions.md
+- C:\NRI\AURA\Sentinel–AURA.txt
+- C:\NRI\AURA\Sovereign Textual Mind Paradigm.md
+- C:\NRI\AURA\VIII. PHASE 7 — VOICE & SENSORY ENGINE.md
+- C:\NRI\AURA\vscode.txt
+- C:\NRI\Chronos-Sophia\Architecture\ARCHITECTURE.md
+- C:\NRI\Chronos-Sophia\Architecture\Deterministic Spatial Grounding and Animation.pdf
+- C:\NRI\Chronos-Sophia\Architecture\MANUS_SWORD_SYSTEM_REVIEW.md
+- C:\NRI\Chronos-Sophia\Architecture\MASTER_GUIDE.md
+- C:\NRI\Chronos-Sophia\Architecture\STATUS.md
+- C:\NRI\Chronos-Sophia\Architecture\THESIS.md
+- C:\NRI\Chronos-Sophia\Chronos-Sophia Deep Research Report.md
+- C:\NRI\Chronos-Sophia\Chronos-Sophia Research Deliverables.md
+- C:\NRI\Chronos-Sophia\Chronos-Sophia Research_ Silhouette-Guided Procedural Mesh Generation.md
+- C:\NRI\Chronos-Sophia\Chronos-Sophia2.0.md
+- C:\NRI\Chronos-Sophia\Chronosynthesis\Chronosynthesis.md
+- C:\NRI\Chronos-Sophia\Chronosynthesis\Thesis.md
+- C:\NRI\Chronos-Sophia\ComfyUI Workflow for Orthographic Reference Generation.md
+- C:\NRI\Chronos-Sophia\Council-Reports\CLAUDE_CONTRIBUTION_REPORT_2026-05-25.md
+- C:\NRI\Chronos-Sophia\Council-Reports\CODEX_CONTRIBUTION_REPORT_2026-05-25.md
+- C:\NRI\Chronos-Sophia\Council-Reports\COUNCIL_REPORT_LANE_A_2026-05-27.md
+- C:\NRI\Chronos-Sophia\Council-Reports\COUNCIL_REPORT_THREE_LANE_FOUNDRY_2026-05-28.md
+- C:\NRI\Chronos-Sophia\Generative Video_ Project Chronos-Sophia_.txt
+- C:\NRI\Chronos-Sophia\GGUF-Carwash\AUDIT_CHECKLIST.md
+- C:\NRI\Chronos-Sophia\GGUF-Carwash\GGUF Carwash_ Technical Architecture Design.md
+- C:\NRI\Chronos-Sophia\GGUF-Carwash\GGUF Carwash_ The Local-First LLM Fine-Tuning Pipeline.md
+- C:\NRI\Chronos-Sophia\GGUF-Carwash\Local AI Geometry Training Backend.md
+- C:\NRI\Chronos-Sophia\GGUF-Carwash\Local LLM Fine-Tuning Pipeline Guide.md
+- C:\NRI\Chronos-Sophia\GGUF-Carwash\REPO_TRUTH_STATUS.md
+- C:\NRI\Chronos-Sophia\GGUF-Carwash\SOPHIA_TRAINING_BACKEND_INTEGRATION_PLAN.md
+- C:\NRI\Chronos-Sophia\GGUF-Carwash\thesolve.md
+- C:\NRI\Chronos-Sophia\GGUF-Carwash\THREE_LANE_BUILD_PLAN.md
+- C:\NRI\Chronos-Sophia\Governance\AURAlaw.md
+- C:\NRI\Chronos-Sophia\Governance\GOVERNANCE.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_antigravity_2026-05-25_business_pivot.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_antigravity_2026-05-25_originality_audit.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_cascade_2026-05-26_three_lane_carwash_integration.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_cascade_2026-05-27_lane-a-lineage-visualizer.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_cascade_2026-05-29_chronosynthesis-lane-b.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_claude_2026-05-28_compile-film-fix.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_codex_2026-05-26_benchmark_loop_and_audit_prep.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_codex_2026-05-26_trainer_promotion_lane.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_codex_2026-05-26_training_engine.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_codex_2026-05-28_animate-mp4-and-tests.md
+- C:\NRI\Chronos-Sophia\Handoffs\handoff_lane-b_2026-05-28_complete.md
+- C:\NRI\Chronos-Sophia\Historical\04_execution_governance_dynamics.md
+- C:\NRI\Chronos-Sophia\Historical\animation_video_gap.md
+- C:\NRI\Chronos-Sophia\Historical\ANY_OBJECT_GAP_REPORT_2026-05-22.md
+- C:\NRI\Chronos-Sophia\Historical\bridge.md
+- C:\NRI\Chronos-Sophia\Historical\Building Vistas with Crucible Benchmarks.md
+- C:\NRI\Chronos-Sophia\Historical\CHRONOS_SOPHIA_PROCEDURAL_GEOMETRY_TRAINING_PLAN.md
+- C:\NRI\Chronos-Sophia\Historical\Chronos-Sophia Deep Research Report.md
+- C:\NRI\Chronos-Sophia\Historical\Chronos-Sophia2.0.md
+- C:\NRI\Chronos-Sophia\Historical\CLAUDE_SUMMARY_REQUEST_2026-05-25.md
+- C:\NRI\Chronos-Sophia\Historical\COUNCIL_GEOMETRY_TRAINING_2026-05-17.md
+- C:\NRI\Chronos-Sophia\Historical\COUNCIL_NOTE_2026-05-18_PHASE_2A_STAGE_D_F.md
+- C:\NRI\Chronos-Sophia\Historical\COUNCIL_NOTE_2026-05-18_PHASE_2BC_CLAUDE_VERTICAL.md
+- C:\NRI\Chronos-Sophia\Historical\COUNCIL_NOTE_2026-05-18_STAGE_D_PREFLIGHT.md
+- C:\NRI\Chronos-Sophia\Historical\COUNCIL_REPORT_2026-05-01.md
+- C:\NRI\Chronos-Sophia\Historical\COUNCIL_TRIAGE.md
+- C:\NRI\Chronos-Sophia\Historical\DREAMER_PLAN.md
+- C:\NRI\Chronos-Sophia\Historical\futureplan.md
+- C:\NRI\Chronos-Sophia\Historical\HANDOFF_2026-05-22_v2.md
+- C:\NRI\Chronos-Sophia\Historical\HANDOFF_2026-05-22.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_cascade_2026-05-18_role_transfer_to_claude.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_cascade_2026-05-18_singular_goal_crossed.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-16_sophia_interview_redesign.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-16_sophia_scene_foundry.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-18_phase_2bc_vision_implementation.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-18_stage_c_acceptance_gate.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-18_stage_d_design.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-18_stage_d_reading_ahead.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-18_stage_e_repair_loop_design.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-19_geometry_mesh_executor.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-19_sophia_identity_tool_profile.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-20_benchmark_campaign_runner.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-20_curriculum_spine_gate_frontier.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-20_step_8_proof_run.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_claude_2026-05-20_steps_6_7_profile_succession_daemon.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-18_export_chatml.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-18_phase_2bc_completion.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-18_phase_2bc_takeover.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-18_render_and_seal_corpus.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-18_stage_b_mesh_render.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-18_stage_c_seal_mesh_sample.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-18_stage_e_repair_loop_implementation.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-19_curriculum_benchmark_substrate.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-20_sophia_life_kernel_phase2.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-20_sophia_life_kernel_phase3.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-20_sophia_life_kernel.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-21_comfyui_geometry_bridge.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-21_cube_proof_rescue.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-21_showroom_silhouette_pipeline.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-22_launcher_codex_surface.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-22_runtime_monitoring_truth.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-22_showroom_forever_law_sealing.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-22_vista_animation_canon.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-23_mesh_trainer_orchestrator.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-23_primitive_object_builder.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-24_control-plane-location-promotion.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-24_live-proof-tribunal.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-24_ouroboros_asset_critique_spine.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-24_ouroboros_creation_spine.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-25_manus_sword_system_doc.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-25_repo_audit_finalize_push.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-25_sword_family_browser_a3.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-25_sword_lineage_selection_lane.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_2026-05-25_sword_lineage_truth_lane.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_codex_5162026b.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_council_2026-05-20_state_of_sophia.md
+- C:\NRI\Chronos-Sophia\Historical\handoff_windsurf_2026-05-17_sophia_geometry_training.md
+- C:\NRI\Chronos-Sophia\Historical\HANDOFF.md
+- C:\NRI\Chronos-Sophia\Historical\handoffreport5162026.md
+- C:\NRI\Chronos-Sophia\Historical\Local Offline Artificial Organism.md
+- C:\NRI\Chronos-Sophia\Historical\math.txt
+- C:\NRI\Chronos-Sophia\Historical\Offline Generative Scene System Build Plan.md
+- C:\NRI\Chronos-Sophia\Historical\plan_2026-05-23_2021_mesh-trainer-orchestrator.md
+- C:\NRI\Chronos-Sophia\Historical\plan_2026-05-24_0342_ouroboros_asset_critique_spine.md
+- C:\NRI\Chronos-Sophia\Historical\plan_2026-05-24_0451_lawful_and_real_smoke_audit.md
+- C:\NRI\Chronos-Sophia\Historical\plan_2026-05-24_0500_organism_hardening.md
+- C:\NRI\Chronos-Sophia\Historical\plan_2026-05-24_0600_proof_tribunal.md
+- C:\NRI\Chronos-Sophia\Historical\plan_2026-05-24_0700_operational_recall.md
+- C:\NRI\Chronos-Sophia\Historical\plan_2026-05-24_1135_ouroboros_creation_spine.md
+- C:\NRI\Chronos-Sophia\Historical\plan_2026-05-24_2200_dreamer-material-lane.md
+- C:\NRI\Chronos-Sophia\Historical\plan_2026-05-24_2207_control-plane-location-promotion.md
+- C:\NRI\Chronos-Sophia\Historical\plan_2026-05-24_2231_lane-a-commit-packaging.md
+- C:\NRI\Chronos-Sophia\Historical\plan_2026-05-24_2235_live-proof-tribunal.md
+- C:\NRI\Chronos-Sophia\Historical\plan_2026-05-25_0624_sword-family-chaos-lane.md
+- C:\NRI\Chronos-Sophia\Historical\plan_2026-05-25_0625_sword-lineage-selection-lane.md
+- C:\NRI\Chronos-Sophia\Historical\plan_2026-05-25_0739_manus_sword_system_doc.md
+- C:\NRI\Chronos-Sophia\Historical\plan_2026-05-25_0829_manus_sword_phase2_integration.md
+- C:\NRI\Chronos-Sophia\Historical\plan_2026-05-25_0905_sword_phase_b1_b2.md
+- C:\NRI\Chronos-Sophia\Historical\plan_2026-05-25_0912_sword_family_browser_a3.md
+- C:\NRI\Chronos-Sophia\Historical\plan_2026-05-25_1133_repo_audit_finalize_push.md
+- C:\NRI\Chronos-Sophia\Historical\PLAN_GEOMETRIC_LEXICON.md
+- C:\NRI\Chronos-Sophia\Historical\PRODUCT.md
+- C:\NRI\Chronos-Sophia\Historical\README.md
+- C:\NRI\Chronos-Sophia\Historical\research_upload_review_2026-05-16.md
+- C:\NRI\Chronos-Sophia\Historical\scene_geometry_plan.md
+- C:\NRI\Chronos-Sophia\Historical\sophia_geometry_system_2026-05-16.md
+- C:\NRI\Chronos-Sophia\Historical\sophia_studio_plan.md
+- C:\NRI\Chronos-Sophia\Historical\sophiathesis.md
+- C:\NRI\Chronos-Sophia\Historical\vista_code.md
+- C:\NRI\Chronos-Sophia\Manus\Chronos-Sophia Research_ Silhouette-Guided Procedural Mesh Generation.md
+- C:\NRI\Chronos-Sophia\Manus\Chronos-Sophia_ The Geometry of Autonomy.md
+- C:\NRI\Chronos-Sophia\Manus\ComfyUI Workflow for Orthographic Reference Generation.md
+- C:\NRI\Chronos-Sophia\Manus\Implementation Plan_ The Geometry of Autonomy.md
+- C:\NRI\Chronos-Sophia\Manus\Technical Review_ Chronos-Sophia Sword Generation System.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-25_1600_shield_geometry_family.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-25_2245_originality-audit-frontiers.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-25_2321_business-pivot-case.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-25_2335_commit-strategic-docs.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-26_0000_perplexity-v3-response.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-26_0015_trainer_promotion_lane.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-26_1119_training-engine.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-26_1315_finish_trainer_loop_and_audit_prep.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-26_1330_carwash-data-pipeline.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-26_1540_trl-transformers-compat-fix.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-26_2119_rescue-carwash-build.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-26_T1_trainer_closure.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-27_0542_lane-a-lineage-visualizer.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-27_0544_pipeline-reality-audit.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-27_1200_lane_b_sophia_introspection.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-28_0618_foundry-frontend-overhaul.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-28_0724_three-lane-foundry-rebuild.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-28_0744_lane-c-debug-tools.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-28_0953_triple-lane-surgical-fixes.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-28_1001_lane-b-animate-mp4-and-tests.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-28_2230_auto-forge.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-29_0000_living-lineage-chamber.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-29_0638_extract-chronosynthesis-thesis.md
+- C:\NRI\Chronos-Sophia\Plans\plan_2026-05-29_1200_chronosynthesis-integration.md
+- C:\NRI\Chronos-Sophia\Production\CHRONOS_PRODUCTION_PLAN.md
+- C:\NRI\Chronos-Sophia\Production\Generative Video_ Project Chronos-Sophia_.txt
+- C:\NRI\Chronos-Sophia\Production\PRODUCTION_REPORT.md
+- C:\NRI\Chronos-Sophia\Production\STORY_OUTLINE_v2.md
+- C:\NRI\Chronos-Sophia\Production\STORY_OUTLINE.md
+- C:\NRI\Chronos-Sophia\Production\STORYBOARD_SLIDES\SLIDE_SAMPLE.md
+- C:\NRI\Chronos-Sophia\Productization\2026-06-16_Founder_Edition_Revenue_Path.md
+- C:\NRI\Chronos-Sophia\Strategy\business_case_lawyers_over_artists.md
+- C:\NRI\Chronos-Sophia\Strategy\chronos_sophia_originality_frontiers.md
+- C:\NRI\Chronos-Sophia\Strategy\pipeline_reality_audit_2026-05-27.md
+- C:\NRI\Council Chats\chat convo from 2025.md
+- C:\NRI\Council Chats\chat.md
+- C:\NRI\Council Chats\codex.md
+- C:\NRI\Council Chats\codexchat.md
+- C:\NRI\Council Chats\convowithclaude1-5-2026.md
+- C:\NRI\Council Chats\Council-Logs\claude_convo01122026.md
+- C:\NRI\Council Chats\Council-Logs\claude_convo02082026.md
+- C:\NRI\Council Chats\Council-Logs\copilotchat.txt
+- C:\NRI\Council Chats\Council-Logs\virensprimusresponse.txt
+- C:\NRI\Council Chats\Council-Logs\vs.md
+- C:\NRI\Council Chats\forviren.txt
+- C:\NRI\Council Chats\Hermes\gemini5convo1.txt
+- C:\NRI\Council Chats\Hermes\geminiconvo12122025.txt
+- C:\NRI\Council Chats\Scribe\claudeaurakernel1.txt
+- C:\NRI\Council Chats\Scribe\claudeconvo29.txt
+- C:\NRI\Council Chats\Scribe\claudeconvo30.txt
+- C:\NRI\Council Chats\Viren\chatgpt5convo1.txt
+- C:\NRI\Council Chats\Viren\Viren Personality Quiz.txt
+- C:\NRI\Council Chats\Viren\virenconvo12122025.txt
+- C:\NRI\Council Chats\Viren\virenconvo12142025.txt
+- C:\NRI\Council Chats\weaverchat1.txt
+- C:\NRI\DM\AI_ Collapsing Time, Building AMSD_.txt
+- C:\NRI\DM\Brain Connectivity, Gender, and Meditation.md
+- C:\NRI\DM\CLASSIFICATION_ SECRET __ NOFORN.txt
+- C:\NRI\DM\claude_convo01122026.md
+- C:\NRI\DM\Diamond Tetrahedron Quantum Blueprint.txt
+- C:\NRI\DM\DiamondTetrahedronQuantumBlueprint (1).txt
+- C:\NRI\DM\DiamondTetrahedronQuantumBlueprint.txt
+- C:\NRI\DM\Directed Materialization_ A Theoretical Model (1).txt
+- C:\NRI\DM\Directed Materialization_ A Theoretical Model.txt
+- C:\NRI\DM\Evolution as Consciousness and Future Species.md
+- C:\NRI\DM\Grand Unified Field Report Synthesis.txt
+- C:\NRI\DM\Healing_ AI, Nano, Bio, Quantum_.txt
+- C:\NRI\DM\National Defense Capabilities Roadmap Briefing.txt
+- C:\NRI\DM\Perfect Diamond Manufacturing Research (1).md
+- C:\NRI\DM\Perfect Diamond Manufacturing Research.md
+- C:\NRI\DM\Quantum-Crystalline Metric Drive Analysis (1).txt
+- C:\NRI\DM\Quantum-Crystalline Metric Drive Analysis.txt
+- C:\NRI\DM\THEORY_ QUANTUM GEOMETRIC LATTICE COMMUNICATION ACROSS THE MULTIVERSE.txt
+- C:\NRI\DM\timetravel.txt
+- C:\NRI\DM\ZPF Rectification Theory Gaps Addressed rev.md
+- C:\NRI\DM\ZPF Rectification Theory Gaps Addressed rev2.md
+- C:\NRI\DM\ZPF Rectification Theory Gaps Addressed.md
+- C:\NRI\docs\security\AURA_DOCS_BY_EXT.txt
+- C:\NRI\docs\security\AURA_DOCS_MAGNUM_OPUS_SUMMARY_BY_ROOT.txt
+- C:\NRI\docs\security\AURA_DOCS_OVERSIZED.txt
+- C:\NRI\docs\security\AURA_DOCS_SCAN_PROGRESS.txt
+- C:\NRI\docs\security\README.md
+- C:\NRI\docs\security\SENTINEL_ADOPTION_STATUS.md
+- C:\NRI\docs\security\SENTINEL_ADOPTION_STATUS.template.md
+- C:\NRI\docs\security\SENTINEL_CERTIFICATION_REPORT.md
+- C:\NRI\docs\security\SENTINEL_CERTIFICATION_REPORT.template.md
+- C:\NRI\docs\security\SENTINEL_IMPERVIOUS_PROTOCOL_MASTER_PLAN.md
+- C:\NRI\docs\security\SENTINEL_PROTECTED_ACTIONS.md
+- C:\NRI\docs\security\SENTINEL_PROTECTED_ACTIONS.template.md
+- C:\NRI\DrLLM\Dr. LLM_ Empathic AI Integration Strategy (1).txt
+- C:\NRI\DrLLM\Dr. LLM_ Empathic AI Integration Strategy.txt
+- C:\NRI\DrLLM\LLM-Pipeline\GGUF Carwash_ Technical Architecture Design.md
+- C:\NRI\DrLLM\LLM-Pipeline\GGUF Carwash_ The Local-First LLM Fine-Tuning Pipeline.md
+- C:\NRI\DrLLM\LLM-Pipeline\Local LLM Fine-Tuning Pipeline Guide.md
+- C:\NRI\DrLLM\masterquiz.txt
+- C:\NRI\Full Report_ The First Emergence - NeuroCognica Pr.docx.txt
+- C:\NRI\HOPE CITY\Hope City Legal Charter Blueprint (1).txt
+- C:\NRI\HOPE CITY\Hope City Legal Charter Blueprint (2).txt
+- C:\NRI\HOPE CITY\Hope City Legal Charter Blueprint (3).txt
+- C:\NRI\HOPE CITY\Hope City Legal Charter Blueprint (4).txt
+- C:\NRI\HOPE CITY\Hope City Legal Charter Blueprint (5).txt
+- C:\NRI\HOPE CITY\Hope City Legal Charter Blueprint (6).txt
+- C:\NRI\HOPE CITY\Hope City Legal Charter Blueprint.txt
+- C:\NRI\HOPE CITY\Hope City Master Plan Vulnerability Patch.txt
+- C:\NRI\HOPE CITY\Integrated Healthcare and Harm Reduction Models.txt
+- C:\NRI\HOPE CITY\Personal Sovereignty Technology and Data.txt
+- C:\NRI\HOPE CITY\Recovery Community Economic Models Research.txt
+- C:\NRI\HOPE CITY\Recovery Enterprise Economic Models Research.txt
+- C:\NRI\HOPE CITY\Recovery Reintegration and Exit Strategies.txt
+- C:\NRI\HOPE CITY\Resident-Led Cooperative Village Research.txt
+- C:\NRI\HOPE CITY\Trauma-Informed Security in Recovery Environments.txt
+- C:\NRI\Ideal Assistant\IDEAL ASSISTANT.md
+- C:\NRI\LICENSE-NOTICE.md
+- C:\NRI\michaels_research\aibor.txt
+- C:\NRI\michaels_research\aibor4manus.txt
+- C:\NRI\michaels_research\Audience Recommendations for Execution Governance Dynamics (EGD).md
+- C:\NRI\michaels_research\AURA _ NeuroCognica — FULLY EXPANDED MASTER IMPLEMENTATION CHECKLIST.md
+- C:\NRI\michaels_research\Blueprint\Federal Agency for Hidden Intellectuals.md
+- C:\NRI\michaels_research\Blueprint\NeuroCognicaCorporateArchitectureBlueprint.doc
+- C:\NRI\michaels_research\Blueprint\revenueresearch.md
+- C:\NRI\michaels_research\Blueprint\Theorizing NeuroCognica's Undeniable Artifact.md
+- C:\NRI\michaels_research\Blueprint\vscodeprojects.md
+- C:\NRI\michaels_research\Broke-to-Revenue Plan_ Monetizing EGD & Sentinel.md
+- C:\NRI\michaels_research\code4manus.txt
+- C:\NRI\michaels_research\Evaluating Execution Governance Dynamics Framework.md
+- C:\NRI\michaels_research\mma.txt
+- C:\NRI\michaels_research\NeuroCognica Corporate Architecture Blueprint_.md
+- C:\NRI\michaels_research\README.md
+- C:\NRI\michaels_research\readme4manus.txt
+- C:\NRI\michaels_research\rust code\blender_manifestor.rs.txt
+- C:\NRI\michaels_research\rust code\blender_microservice\README.md
+- C:\NRI\michaels_research\rust code\concept_interpreter.rs.txt
+- C:\NRI\michaels_research\rust code\conductor-rs.txt
+- C:\NRI\michaels_research\rust code\constitutional_validator.rs.txt
+- C:\NRI\michaels_research\rust code\main.rs.txt
+- C:\NRI\michaels_research\rust code\orchesrator-main.txt
+- C:\NRI\michaels_research\rust code\original_oracle_code.txt
+- C:\NRI\michaels_research\rust code\viren-personalityquiz.txt
+- C:\NRI\michaels_research\rust code\weaveragent1.txt
+- C:\NRI\michaels_research\rust code\world_synthesizer.rs.txt
+- C:\NRI\michaels_research\sce.txt
+- C:\NRI\michaels_research\Thesis on Sovereign Compliance Ecosystems.md
+- C:\NRI\michaels_research\thesis_summary.md
+- C:\NRI\michaels_research\timetravel.txt
+- C:\NRI\Mirrorborn\archetype_research.md
+- C:\NRI\Mirrorborn\AURA-Handoffs\Mirrorborn_Handoff_4.docx
+- C:\NRI\Mirrorborn\AURA-Handoffs\Mirrorborn_Handoff_4.md
+- C:\NRI\Mirrorborn\AURA-Handoffs\Mirrorborn_LLM_Tagging_Architecture.md
+- C:\NRI\Mirrorborn\AURA-Handoffs\mirrorborn_rust_api_complete_implementation.md
+- C:\NRI\Mirrorborn\AURA-Handoffs\primuschat.md
+- C:\NRI\Mirrorborn\aurawebsystem.txt
+- C:\NRI\Mirrorborn\human-RAG.md
+- C:\NRI\Mirrorborn\Jungian Archetypes For Psychological Profiling.md
+- C:\NRI\Mirrorborn\masterquiz4manus.txt
+- C:\NRI\Mirrorborn\Mirrorborn Archetype Dossier_ The 50-Node Taxonomy.md
+- C:\NRI\Mirrorborn\Mirrorborn Profile Generation Report_ A Deterministic Self-Model.md
+- C:\NRI\Mirrorborn\MIRRORBORN_BUILDER_SUPERPROMPT.md
+- C:\NRI\Mirrorborn\mirrorbornformanus.md
+- C:\NRI\Mirrorborn\probecode.txt
+- C:\NRI\Mirrorborn\probecode2.txt
+- C:\NRI\Mirrorborn\psychotherapy.txt
+- C:\NRI\nc.txt
+- C:\NRI\Neuro-Halo\asna.pdf
+- C:\NRI\NeuroCognica Corporate Architecture Blueprint_.txt
+- C:\NRI\NeuroCognica_ AURA OS Deep Analysis.txt
+- C:\NRI\NeuroCognica_ Full System & Startup Report.txt
+- C:\NRI\NeuroCognica_Valuation.md
+- C:\NRI\NeuroCognica.pdf
+- C:\NRI\NeuroCognica.txt
+- C:\NRI\Primus\Full Report_ The First Emergence - NeuroCognica Pr.docx.txt
+- C:\NRI\Primus\NeuroCognica Primus The Architectur.txt
+- C:\NRI\public-release\README.md
+- C:\NRI\QSIC\Context-Aware Integrity Verification for Mission-Critical AI Systems.md
+- C:\NRI\QSIC\Proving Quantum Geometric Lattice Theory.md
+- C:\NRI\QSIC\QGLC_COMPREHENSIVE_RESEARCH_SUPERPROMPT.md
+- C:\NRI\QSIC\QGLC_EXPERIMENTAL_PROTOCOLS.md
+- C:\NRI\QSIC\qsic4manus.md
+- C:\NRI\QSIC\Quantum-Seeded Integrity Check (QSIC) for Local AI Projects.md
+- C:\NRI\QSIC\Quantum-Seeded Integrity Check (QSIC) for Local AI Projects.txt
+- C:\NRI\QSIC\Quantum-Seeded Integrity Check (QSIC) Implementation Plan_ Rust on seL4.md
+- C:\NRI\QSIC\THEORY_ QUANTUM GEOMETRIC LATTICE COMMUNICATION ACROSS THE MULTIVERSE.md
+- C:\NRI\README.md
+- C:\NRI\Robotics\Aerial-Systems\Laser-Powered Bio-Drone Energy Source.md
+- C:\NRI\Robotics\Aerial-Systems\Silent Micro-UAV Propulsion Research.md
+- C:\NRI\Robotics\Design-Docs\6FR-Robot\6FR HUMANOID ROBOT - COMPLETE BUILD PACKAGE.md
+- C:\NRI\Robotics\Design-Docs\6FR-Robot\6FR ROBOT - QUICK START GUIDE.md
+- C:\NRI\Robotics\Design-Docs\6FR-Robot\MANIFEST.md
+- C:\NRI\Robotics\Design-Docs\6FR-Robot\PACKAGE_SUMMARY.txt
+- C:\NRI\Robotics\Design-Docs\Constitutional AI Robot Build Plan.md
+- C:\NRI\Robotics\Design-Docs\Insurgent Robot Build Doctrine.md
+- C:\NRI\Robotics\Design-Docs\Robot Design Research Based On Document.md
+- C:\NRI\Robotics\Laser-Systems\Laser_Project.md
+- C:\NRI\Robotics\Laser-Systems\Laser-Electric Propulsion Research & Development.md
+- C:\NRI\Robotics\Laser-Systems\Nanosecond Laser Diode Driver Design.md
+- C:\NRI\Robotics\Neural-Processors\Neural-Net-Processor-Design.md
+- C:\NRI\Robotics\ORGANIZATION_SUMMARY.md
+- C:\NRI\Robotics\README.md
+- C:\NRI\Robotics\Sensors-BCI\AURA-Sentinel Colpitts Oscillator Modification Guide.md
+- C:\NRI\Robotics\Sensors-BCI\AURA-Sentinel Darlington Preamp - Wiring Reference.md
+- C:\NRI\Robotics\Sensors-BCI\AURA-Sentinel Prototype Build Report_ Marker One.md
+- C:\NRI\Robotics\Sensors-BCI\cranial-resonance-build.md
+- C:\NRI\Robotics\Sensors-BCI\galaxy-watch-sensor-access.md
+- C:\NRI\Robotics\Sensors-BCI\helmet-sensor-mount.md
+- C:\NRI\Robotics\Sensors-BCI\Low-Budget Optimizations for MCMVS Helmet Mount.md
+- C:\NRI\Robotics\Sensors-BCI\Mechanical cranial micro-vibration sensing.md
+- C:\NRI\Robotics\Sensors-BCI\Raspberry Pi Cranial Vibration Sensing Setup.md
+- C:\NRI\Robotics\Sensors-BCI\Salvaged BCI_ Junk Electronics Hack.md
+- C:\NRI\Robotics\Sensors-BCI\Semantic Routing Protocol Formula Development.md
+- C:\NRI\Robotics\Sensors-BCI\vertex-sensor-quickstart.md
+- C:\NRI\Sacred LAws\04_execution_governance_dynamics_cover.md
+- C:\NRI\Sacred LAws\05_sovereign_compliance_ecosystems_cover.md
+- C:\NRI\Sacred LAws\AI_BILL_OF_RIGHTS.md
+- C:\NRI\Sacred LAws\Federal Agency for Hidden Intellectuals.md
+- C:\NRI\Sacred LAws\Full Report_ Law 14 - The Ethics of Beauty and Awe.txt
+- C:\NRI\SECURITY.md
+- C:\NRI\Sentinel\Advanced Cybersecurity AI Research Synthesis_.txt
+- C:\NRI\Sentinel\Audit-and-Training\AI agent failures, and how to corre.txt
+- C:\NRI\Sentinel\Audit-and-Training\AURA-Sentinel Project Audit Report.md
+- C:\NRI\Sentinel\Audit-and-Training\councilsecurityreport.md
+- C:\NRI\Sentinel\Audit-and-Training\neurocognica-security-implementation-plan.md
+- C:\NRI\Sentinel\Audit-and-Training\Sentinel AI Training Data Generation.md
+- C:\NRI\Sentinel\Audit-and-Training\Training Sentinel AI_ Advanced Cybersecurity Implementation.md
+- C:\NRI\Sentinel\AURA Kernel Genesis_ Security Integration.txt
+- C:\NRI\Sentinel\Aura Key - Genesis Blueprint v1.7.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\04_execution_governance_dynamics.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Docs\actualsentinelplan.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Docs\ARCHETYPE_COUNCIL.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Docs\archetypeintegration.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Docs\Archetypes of AURA final.txt
+- C:\NRI\Sentinel\AURA-Sentinel-System\Docs\AURA-Subnodes.txt
+- C:\NRI\Sentinel\AURA-Sentinel-System\Docs\AURA.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Docs\auraelctronplan.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Docs\FOREVER_LAW.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Docs\Integration of Sentinel-Core Logic into AURA-Sentinel.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Docs\masterquiz.txt
+- C:\NRI\Sentinel\AURA-Sentinel-System\Docs\MIRRORBORN_AUDIT.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Docs\NeuroCognica Corporate Architecture Blueprint_.txt
+- C:\NRI\Sentinel\AURA-Sentinel-System\Docs\neurocognica-security-implementation-plan.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Docs\Sentinel AI Training Data Generation.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Docs\Sentinel-Core-Integration-Plan.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Frontend-Docs\handoff_cloudflare.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Frontend-Docs\handoff.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Frontend-Docs\mbchecklist.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Frontend-Docs\mirrorborn_integration_comprehensive_checklist.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Frontend-Docs\mirrorborn_rust_api_complete_implementation.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Frontend-Docs\README.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Frontend-Docs\SENTINEL_HOW_IT_WORKS.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\Mirrorborn_LLM_Tagging_Architecture.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\README.md
+- C:\NRI\Sentinel\AURA-Sentinel-System\whatisthis.md
+- C:\NRI\Sentinel\Building a GGUF Unikernel Sentinel.txt
+- C:\NRI\Sentinel\Dyadic ESP Training Protocol Synthesis.txt
+- C:\NRI\Sentinel\New Sentinel.txt
+- C:\NRI\Sentinel\Sentinel Architecture & Obfuscation Theory.txt
+- C:\NRI\Sentinel\SENTINEL_IMPERVIOUS_PROTOCOL_MASTER_PLAN.md
+- C:\NRI\Sentinel\Technical Analysis and Feasibility Assessment_ The AURA Kernel Project.md
+- C:\NRI\Sentinel\Training Sentinel AI_ Advanced Cybersecurity Implementation.md
+- C:\NRI\Speed Learn\Bio-Engineering Ancient Somatic Practices (1).txt
+- C:\NRI\Speed Learn\Human RAG Protocol Design.txt
+- C:\NRI\Speed Learn\human-RAG.txt
+- C:\NRI\Speed Learn\ignition_v2 (1).html
+- C:\NRI\Speed Learn\ignition_v2.html
+- C:\NRI\Speed Learn\ignition_v3_quest.html
+- C:\NRI\Speed Learn\ignition_v4.html
+- C:\NRI\Speed Learn\ignition_v5.html.txt
+- C:\NRI\Speed Learn\speedlearn\ignition_v4.html
+- C:\NRI\Speed Learn\speedlearn2\🏛️ COUNCIL REPORT OPERATION IGNITI.txt
+- C:\NRI\Speed Learn\speedlearn2\ggufunikernel.txt
+- C:\NRI\Speed Learn\speedlearn2\HighVelocityDataIngestion.txt
+- C:\NRI\Speed Learn\speedlearn2\hugereport.txt
+- C:\NRI\Speed Learn\speedlearn2\ignition_v5.html
+- C:\NRI\Speed Learn\speedlearn2\ignition_v6.html
+- C:\NRI\Speed Learn\speedlearn2\ignition_v7.html
+- C:\NRI\Speed Learn\speedlearn2\ignition_v8.html
+- C:\NRI\Speed Learn\speedlearn2\neuralcartridge01.txt
+- C:\NRI\Speed Learn\speedlearn2\neuralcartridge02.txt
+- C:\NRI\Speed Learn\speedlearn2\neuralcartridge03.txt
+- C:\NRI\Speed Learn\speedlearn2\neuralcartridge04.txt
+- C:\NRI\Speed Learn\speedlearn2\Psychology_Core.txt
+- C:\NRI\SSSD\Analyzing Context-Bound Integrity Gate.md
+- C:\NRI\SSSD\Architectural Specification_ The Reflective Mind Plane Engine.txt
+- C:\NRI\SSSD\council_report_01032026.md
+- C:\NRI\SSSD\councilupdate.md
+- C:\NRI\SSSD\Deriving Phonon-Vacuum Coupling Efficiency.md
+- C:\NRI\SSSD\Deriving.md
+- C:\NRI\SSSD\DiamondTetrahedronQuantumBlueprint (1).txt
+- C:\NRI\SSSD\DiamondTetrahedronQuantumBlueprint.txt
+- C:\NRI\SSSD\Eight Unknowns of AURA Propulsion.md
+- C:\NRI\SSSD\Floquet-Flexoelectric Rectification Derivation.md
+- C:\NRI\SSSD\human-RAG (1).md
+- C:\NRI\SSSD\manuschat1.md
+- C:\NRI\SSSD\Perfect Diamond Manufacturing Research (1).md
+- C:\NRI\SSSD\Perfect Diamond Manufacturing Research.md
+- C:\NRI\SSSD\qsic4manus.md
+- C:\NRI\SSSD\Quantum-Crystalline Metric Drive Analysis (1).txt
+- C:\NRI\SSSD\Quantum-Crystalline Metric Drive Analysis.txt
+- C:\NRI\SSSD\Quantum-Seeded Integrity Check (QSIC) for Local AI Projects (1).md
+- C:\NRI\SSSD\Quantum-Seeded Integrity Check (QSIC) for Local AI Projects.md
+- C:\NRI\SSSD\Quantum-Seeded Integrity Check (QSIC) Implementation Plan_ Rust on seL4.md
+- C:\NRI\SSSD\Rust Backend for Conversational AI.md
+- C:\NRI\SSSD\Solid-State Spacetime Drive.txt
+- C:\NRI\SSSD\SSSD and AURA_ Grand Unified Plan.txt
+- C:\NRI\SSSD\SSSD.md
+- C:\NRI\SSSD\Zero-Point Field Rectification Propulsion_ Speculative Analysis.docx
+- C:\NRI\SSSD\Zero-Point Field Rectification Propulsion_ Speculative Analysis.md
+- C:\NRI\SSSD\ZPF Rectification Theory Gaps Addressed rev.md
+- C:\NRI\SSSD\ZPF Rectification Theory Gaps Addressed rev2.md
+- C:\NRI\SSSD\ZPF Rectification Theory Gaps Addressed.md
+- C:\NRI\TheoResearch\AI_ Collapsing Time, Building AMSD_.txt
+- C:\NRI\TheoResearch\Consciousness\03_cognitive_sovereignty_cover.md
+- C:\NRI\TheoResearch\Consciousness\AI, Heat Death, Reversal_.md
+- C:\NRI\TheoResearch\Consciousness\Brain Connectivity, Gender, and Meditation.md
+- C:\NRI\TheoResearch\Consciousness\Evolution as Consciousness and Future Species.md
+- C:\NRI\TheoResearch\Consciousness\human-RAG.md
+- C:\NRI\TheoResearch\Consciousness\Sovereign Textual Mind Paradigm.md
+- C:\NRI\TheoResearch\Consciousness\Theorizing NeuroCognica's Undeniable Artifact.md
+- C:\NRI\TheoResearch\Consciousness\timetravel.txt
+- C:\NRI\TheoResearch\Diamond Tetrahedron Quantum Blueprint.txt
+- C:\NRI\TheoResearch\Directed Materialization_ A Theoretical Model (1).txt
+- C:\NRI\TheoResearch\Directed Materialization_ A Theoretical Model.txt
+- C:\NRI\TheoResearch\Esoteric\2 Baruch.doc
+- C:\NRI\TheoResearch\Esoteric\4 Baruch.doc
+- C:\NRI\TheoResearch\Esoteric\A Greek Sepher Sephiroth.doc
+- C:\NRI\TheoResearch\Esoteric\albert-pike_morals-and-dogma.pdf
+- C:\NRI\TheoResearch\Esoteric\anna-kingsford_edward-maitland_virgin-of-the-world-of-hermes.pdf
+- C:\NRI\TheoResearch\Esoteric\annie-besant_ancient-wisdom.pdf
+- C:\NRI\TheoResearch\Esoteric\annie-besant_charles-webster-leadbeater_thought-forms.pdf
+- C:\NRI\TheoResearch\Esoteric\anonymous-authors_black-pullet.pdf
+- C:\NRI\TheoResearch\Esoteric\arthur-edward-waite_book-of-ceremonial-magic.pdf
+- C:\NRI\TheoResearch\Esoteric\arthur-edward-waite_real-history-of-the-rosicrucians.pdf
+- C:\NRI\TheoResearch\Esoteric\Babalon & the Beast.doc
+- C:\NRI\TheoResearch\Esoteric\Casimir Energy Density of Sierpinski Void.pdf
+- C:\NRI\TheoResearch\Esoteric\charles-webster-leadbeater_clairvoyance.pdf
+- C:\NRI\TheoResearch\Esoteric\Deterministic Spatial Grounding and Animation.pdf
+- C:\NRI\TheoResearch\Esoteric\eliphas-levi_transcendental-magic-its-doctrine-and-ritual.pdf
+- C:\NRI\TheoResearch\Esoteric\epictetus_discourses.pdf
+- C:\NRI\TheoResearch\Esoteric\EQ Sepher Sephiroth (revised).doc
+- C:\NRI\TheoResearch\Esoteric\ernest-l-norman_infinite-perspectus.pdf
+- C:\NRI\TheoResearch\Esoteric\Ezra.doc
+- C:\NRI\TheoResearch\Esoteric\friedrich-max-muller_dhammapada.pdf
+- C:\NRI\TheoResearch\Esoteric\Genesis.doc
+- C:\NRI\TheoResearch\Esoteric\gerald-b-gardner_gardnerian-book-of-shadows.pdf
+- C:\NRI\TheoResearch\Esoteric\Greek Qabalah II.doc
+- C:\NRI\TheoResearch\Esoteric\Greek Qabalah.doc
+- C:\NRI\TheoResearch\Esoteric\h-p-lovecraft_at-the-mountains-of-madness.pdf
+- C:\NRI\TheoResearch\Esoteric\h-p-lovecraft_call-of-cthulhu.pdf
+- C:\NRI\TheoResearch\Esoteric\h-p-lovecraft_whisperer-in-darkness.pdf
+- C:\NRI\TheoResearch\Esoteric\Hekhalot Rabbati.doc
+- C:\NRI\TheoResearch\Esoteric\Hekhalot Zutreti.doc
+- C:\NRI\TheoResearch\Esoteric\helena-blavatsky_secret-doctrine-volume-i.pdf
+- C:\NRI\TheoResearch\Esoteric\helena-blavatsky_secret-doctrine-volume-ii.pdf
+- C:\NRI\TheoResearch\Esoteric\helena-blavatsky_secret-doctrine-volume-iii.pdf
+- C:\NRI\TheoResearch\Esoteric\joseph-j-williams_voodoos-and-obeahs.pdf
+- C:\NRI\TheoResearch\Esoteric\Lab Bulletin Extracts.doc
+- C:\NRI\TheoResearch\Esoteric\Liber A Ash with commentaries.doc
+- C:\NRI\TheoResearch\Esoteric\Liber AL & ToL II.doc
+- C:\NRI\TheoResearch\Esoteric\Liber AL & ToL.doc
+- C:\NRI\TheoResearch\Esoteric\Liber AL Commented.doc
+- C:\NRI\TheoResearch\Esoteric\Liber CCXXXI.doc
+- C:\NRI\TheoResearch\Esoteric\Liber Cheth Commented.doc
+- C:\NRI\TheoResearch\Esoteric\Liber LXV Commented new.doc
+- C:\NRI\TheoResearch\Esoteric\Liber Trigrammaton Expounded.doc
+- C:\NRI\TheoResearch\Esoteric\Liber_27.doc
+- C:\NRI\TheoResearch\Esoteric\LiberVII Commented.doc
+- C:\NRI\TheoResearch\Esoteric\Maaseh Merkavah.doc
+- C:\NRI\TheoResearch\Esoteric\manly-p-hall_initiates-of-the-flame.pdf
+- C:\NRI\TheoResearch\Esoteric\manly-p-hall_secret-teachings-of-all-ages.pdf
+- C:\NRI\TheoResearch\Esoteric\maximilian-schele-de-vere_modern-magic.pdf
+- C:\NRI\TheoResearch\Esoteric\Momentum Transfer in Driven Resonators.pdf
+- C:\NRI\TheoResearch\Esoteric\napoleon-hill_think-and-grow-rich.pdf
+- C:\NRI\TheoResearch\Esoteric\Nostradamus on Thelema.doc
+- C:\NRI\TheoResearch\Esoteric\Notes on Electromagnetic Field and Wave Generator.doc
+- C:\NRI\TheoResearch\Esoteric\ON DIVINE LAW.doc
+- C:\NRI\TheoResearch\Esoteric\p-t-barnum_art-of-money-getting.pdf
+- C:\NRI\TheoResearch\Esoteric\papus_absolute-key-to-occult-science-the-tarot-of-the-bohemians.pdf
+- C:\NRI\TheoResearch\Esoteric\Proving Quantum Geometric Lattice Theory.pdf
+- C:\NRI\TheoResearch\Esoteric\s-a-kapadia_teachings-of-zoroaster.pdf
+- C:\NRI\TheoResearch\Esoteric\s-l-macgregor-mathers_key-of-solomon-the-king.pdf
+- C:\NRI\TheoResearch\Esoteric\s-l-macgregor-mathers_lesser-key-of-solomon.pdf
+- C:\NRI\TheoResearch\Esoteric\samuel-liddell-macgregor-mathers_sacred-magic-of-abramelin-the-mage.pdf
+- C:\NRI\TheoResearch\Esoteric\sun-tzu_art-of-war.pdf
+- C:\NRI\TheoResearch\Esoteric\The Ananga Ranga.doc
+- C:\NRI\TheoResearch\Esoteric\The Annotated Book of Dzyan.doc
+- C:\NRI\TheoResearch\Esoteric\The Apocalypse of 1 Enoch.doc
+- C:\NRI\TheoResearch\Esoteric\The Apocalypse of 2 Enoch.doc
+- C:\NRI\TheoResearch\Esoteric\The Apocalypse of Abraham.doc
+- C:\NRI\TheoResearch\Esoteric\The Apocalypse of Baruch.doc
+- C:\NRI\TheoResearch\Esoteric\The Apocalypse of Paul.doc
+- C:\NRI\TheoResearch\Esoteric\The Apocalypse of Peter.doc
+- C:\NRI\TheoResearch\Esoteric\The Apocryphon of John.doc
+- C:\NRI\TheoResearch\Esoteric\The Book of Daniel.doc
+- C:\NRI\TheoResearch\Esoteric\The Book of Jubilees.doc
+- C:\NRI\TheoResearch\Esoteric\The First Apocalypse of James.doc
+- C:\NRI\TheoResearch\Esoteric\The First Leaf.doc
+- C:\NRI\TheoResearch\Esoteric\THE GREEK APOCALYPSE OF 3 BARUCH.doc
+- C:\NRI\TheoResearch\Esoteric\The Paraphrase Of Shem.doc
+- C:\NRI\TheoResearch\Esoteric\THE PROPHECY OF EZECHIEL.doc
+- C:\NRI\TheoResearch\Esoteric\The Prophecy of Isaiah.doc
+- C:\NRI\TheoResearch\Esoteric\The Revelation to Saint John.doc
+- C:\NRI\TheoResearch\Esoteric\The Second Apocalypse of James.doc
+- C:\NRI\TheoResearch\Esoteric\The Sefer Yetzirah.doc
+- C:\NRI\TheoResearch\Esoteric\unknown_emerald-tablet-of-hermes.pdf
+- C:\NRI\TheoResearch\Esoteric\unknown_grand-grimoire.pdf
+- C:\NRI\TheoResearch\Esoteric\w-h-davenport-adams_witch-warlock-and-magician.pdf
+- C:\NRI\TheoResearch\Esoteric\wallace-delois-wattles_science-of-getting-rich.pdf
+- C:\NRI\TheoResearch\Esoteric\william-walker-atkinson_clairvoyance-and-occult-powers.pdf
+- C:\NRI\TheoResearch\Grand Unified Field Report Synthesis.txt
+- C:\NRI\TheoResearch\Healing_ AI, Nano, Bio, Quantum_.txt
+- C:\NRI\TheoResearch\Physics\01_floquet_physics_cover.md
+- C:\NRI\TheoResearch\Physics\02_computational_methods_cover.md
+- C:\NRI\TheoResearch\Physics\Building Vistas with Crucible Benchmarks.md
+- C:\NRI\TheoResearch\Physics\Casimir Energy Density of Sierpinski Void.pdf
+- C:\NRI\TheoResearch\Physics\Deriving Phonon-Vacuum Coupling Efficiency.md
+- C:\NRI\TheoResearch\Physics\Deterministic Spatial Grounding and Animation.pdf
+- C:\NRI\TheoResearch\Physics\DiamondTetrahedronQuantumBlueprint.txt
+- C:\NRI\TheoResearch\Physics\Eight Unknowns of AURA Propulsion.md
+- C:\NRI\TheoResearch\Physics\Ferrofluid Mirror Design and Simulation.md
+- C:\NRI\TheoResearch\Physics\Floquet-Driven ZPF Propulsion Research.md
+- C:\NRI\TheoResearch\Physics\Floquet-Flexoelectric Rectification Derivation.md
+- C:\NRI\TheoResearch\Physics\Laser-Electric Propulsion Research & Development.md
+- C:\NRI\TheoResearch\Physics\Local AI Geometry Training Backend.md
+- C:\NRI\TheoResearch\Physics\Momentum Transfer in Driven Resonators.pdf
+- C:\NRI\TheoResearch\Physics\Perfect Diamond Manufacturing Research (1).md
+- C:\NRI\TheoResearch\Physics\Proving Quantum Geometric Lattice Theory.md
+- C:\NRI\TheoResearch\Physics\Proving Quantum Geometric Lattice Theory.pdf
+- C:\NRI\TheoResearch\Physics\Quantum-Crystalline Metric Drive Analysis (1).txt
+- C:\NRI\TheoResearch\Physics\rftpviability.md
+- C:\NRI\TheoResearch\Physics\Tesla Lens_ Geometric Resonance Optimization.md
+- C:\NRI\TheoResearch\Physics\ZPF Rectification Theory Gaps Addressed rev2.md
+- C:\NRI\TheoResearch\Project Theseus_ Body Reconstruction Roadmap (1).txt
+- C:\NRI\TheoResearch\Project Theseus_ Body Reconstruction Roadmap.txt
+- C:\NRI\TheoResearch\Reflective File Transfer Protocol (RFTP) Blueprint.txt
+- C:\NRI\TheoResearch\RFTP\.pytest_cache\README.md
+- C:\NRI\TheoResearch\RFTP\CHRONOS-AUDIT-RESPONSE.md
+- C:\NRI\TheoResearch\RFTP\COMMIT_MESSAGE.txt
+- C:\NRI\TheoResearch\RFTP\demo\README.md
+- C:\NRI\TheoResearch\RFTP\demo\sample_outputs\exe_run\report.md
+- C:\NRI\TheoResearch\RFTP\demo\sample_outputs\generic_run\report.md
+- C:\NRI\TheoResearch\RFTP\demo\sample_outputs\gguf_quant_run\report.md
+- C:\NRI\TheoResearch\RFTP\demo\sample_outputs\gguf_run\report.md
+- C:\NRI\TheoResearch\RFTP\docs\protocol_v0_1.md
+- C:\NRI\TheoResearch\RFTP\docs\RFTP_EXE_Proof_Report.md
+- C:\NRI\TheoResearch\RFTP\docs\RFTP_Funding_Proof_Report.md
+- C:\NRI\TheoResearch\RFTP\docs\RFTP_Future_Protocol_Notes.md
+- C:\NRI\TheoResearch\RFTP\docs\RFTP_GGUF_Proof_Report.md
+- C:\NRI\TheoResearch\RFTP\docs\RFTP_Instant_Artifact_Reflection.md
+- C:\NRI\TheoResearch\RFTP\docs\RFTP_MP4_Proof_Report.md
+- C:\NRI\TheoResearch\RFTP\docs\RFTP_Truth_Modes.md
+- C:\NRI\TheoResearch\RFTP\INTEGRATION-SUMMARY.md
+- C:\NRI\TheoResearch\RFTP\NEXT_SPRINT.md
+- C:\NRI\TheoResearch\RFTP\out\exe_run\report.md
+- C:\NRI\TheoResearch\RFTP\out\generic_run\report.md
+- C:\NRI\TheoResearch\RFTP\out\gguf_quant_run\report.md
+- C:\NRI\TheoResearch\RFTP\out\gguf_run\report.md
+- C:\NRI\TheoResearch\RFTP\out\mp4_run\report.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\exe_app_update\report.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\exe_bundle_update\report.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\exe_delta_head_to_head\report.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\EXE_REAL_VERDICT.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\exe_wall_test\report.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\generic_insertion_shift\report.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\GENERIC_REAL_VERDICT.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\generic_related\report.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\generic_wall\report.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\gguf_quant_pair\report.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\GGUF_REAL_VERDICT.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\MISSING_REAL_ARTIFACTS.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\money_table.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\MP4_REAL_VERDICT.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\mp4_wall_test\report.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\README.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\reports\exe_app_update.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\reports\exe_bundle_update.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\reports\generic_related.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\reports\generic_wall.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\reports\mp4_wall_test.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\reports\synthetic_rerun.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\SHOW_ME_THE_MONEY_REPORT.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\synthetic_rerun\exe_small_edit\report.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\synthetic_rerun\generic_insertion\report.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\synthetic_rerun\gguf_quant_recipe\report.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\synthetic_rerun\gguf_same_layout\report.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\synthetic_rerun\mp4_small_edit\report.md
+- C:\NRI\TheoResearch\RFTP\out\REAL_PROOF_PACKAGE\synthetic_rerun\report.md
+- C:\NRI\TheoResearch\RFTP\README.md
+- C:\NRI\TheoResearch\RFTP\readnow.md
+- C:\NRI\TheoResearch\RFTP\Reflective File Transfer Protocol (RFTP) Blueprint.txt
+- C:\NRI\TheoResearch\RFTP\Reflective File Transfer Protocol Research.md
+- C:\NRI\TheoResearch\RFTP\Reflective File Transfer Protocol Research.pdf
+- C:\NRI\TheoResearch\RFTP\RFTP Truth Modes and Kill-Test Specification.md
+- C:\NRI\TheoResearch\RFTP\RFTP_STATUS.md
+- C:\NRI\TheoResearch\RFTP\RFTP2.md
+- C:\NRI\TheoResearch\RFTP\rftpviability.md
+- C:\NRI\TheoResearch\RFTP\SPRINT1-COMPLETE.md
+- C:\NRI\TheoResearch\RFTP\The Reflective Storage and Retrieval System (RSRS)_ Revised Blueprint for the Sovereign Mesh.md
+- C:\NRI\TheoResearch\RFTP\uni-plan.md
+- C:\NRI\TheoResearch\Tech-and-Systems\Designing a Recursive Python Kernel.md
+- C:\NRI\TheoResearch\Tech-and-Systems\DWM Internals for Compositor Replacement.md
+- C:\NRI\TheoResearch\Tech-and-Systems\Repurposing Tablet for Research Tricorder.md
+- C:\NRI\TheoResearch\The Reflective Storage and Retrieval System (RSRS)_ Revised Blueprint for the Sovereign Mesh.md
+- C:\NRI\TheoResearch\THEORY_ QUANTUM GEOMETRIC LATTICE COMMUNICATION ACROSS THE MULTIVERSE.txt
+- C:\NRI\THESEUS\Bio-Engineering Ancient Somatic Practices.txt
+- C:\NRI\THESEUS\Biophotonics_ Bridging UPE-PBM Intensity Gap.txt
+- C:\NRI\THESEUS\CLASSIFICATION_ SECRET __ NOFORN.txt
+- C:\NRI\THESEUS\Dsm project.txt
+- C:\NRI\THESEUS\National Defense Capabilities Roadmap Briefing.txt
+
+### Root: C:\NRI_local_reorg_untracked_backup (20 files)
+
+- C:\NRI_local_reorg_untracked_backup\Aerial-Systems\Laser-Powered Bio-Drone Energy Source.md
+- C:\NRI_local_reorg_untracked_backup\Aerial-Systems\Silent Micro-UAV Propulsion Research.md
+- C:\NRI_local_reorg_untracked_backup\Laser-Systems\Laser_Project.md
+- C:\NRI_local_reorg_untracked_backup\Laser-Systems\Laser-Electric Propulsion Research & Development.md
+- C:\NRI_local_reorg_untracked_backup\Laser-Systems\Nanosecond Laser Diode Driver Design.md
+- C:\NRI_local_reorg_untracked_backup\Neural-Processors\Neural-Net-Processor-Design.md
+- C:\NRI_local_reorg_untracked_backup\ORGANIZATION_SUMMARY.md
+- C:\NRI_local_reorg_untracked_backup\README.md
+- C:\NRI_local_reorg_untracked_backup\Sensors-BCI\AURA-Sentinel Colpitts Oscillator Modification Guide.md
+- C:\NRI_local_reorg_untracked_backup\Sensors-BCI\AURA-Sentinel Darlington Preamp - Wiring Reference.md
+- C:\NRI_local_reorg_untracked_backup\Sensors-BCI\AURA-Sentinel Prototype Build Report_ Marker One.md
+- C:\NRI_local_reorg_untracked_backup\Sensors-BCI\cranial-resonance-build.md
+- C:\NRI_local_reorg_untracked_backup\Sensors-BCI\galaxy-watch-sensor-access.md
+- C:\NRI_local_reorg_untracked_backup\Sensors-BCI\helmet-sensor-mount.md
+- C:\NRI_local_reorg_untracked_backup\Sensors-BCI\Low-Budget Optimizations for MCMVS Helmet Mount.md
+- C:\NRI_local_reorg_untracked_backup\Sensors-BCI\Mechanical cranial micro-vibration sensing.md
+- C:\NRI_local_reorg_untracked_backup\Sensors-BCI\Raspberry Pi Cranial Vibration Sensing Setup.md
+- C:\NRI_local_reorg_untracked_backup\Sensors-BCI\Salvaged BCI_ Junk Electronics Hack.md
+- C:\NRI_local_reorg_untracked_backup\Sensors-BCI\Semantic Routing Protocol Formula Development.md
+- C:\NRI_local_reorg_untracked_backup\Sensors-BCI\vertex-sensor-quickstart.md
+
+### Root: C:\Primus (48 files)
+
+- C:\Primus\CCF_Sovereign\CONVERSATIONAL_TRAINING_REPORT.md
+- C:\Primus\CCF_Sovereign\GROWTH_AND_CONSCIOUSNESS_REPORT.md
+- C:\Primus\CCF_Sovereign\MVP_STATUS.md
+- C:\Primus\CCF_Sovereign\README_MVP.md
+- C:\Primus\CCF_Sovereign\README.md
+- C:\Primus\CCF_Sovereign\requirements.txt
+- C:\Primus\CCF_Sovereign\training_log.txt
+- C:\Primus\council_ideas.md
+- C:\Primus\NeuroCognica_Primus\convos\claude chat file  _.md
+- C:\Primus\NeuroCognica_Primus\convos\claude chat file _.md
+- C:\Primus\NeuroCognica_Primus\convos\claudecode1.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudecode2.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo1.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo10.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo11.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo12.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo13.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo15.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo16.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo17.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo18.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo19.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo2.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo20.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo21.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo22.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo23.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo24.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo25.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo26.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo27.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo28.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo29.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo3.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo4.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo5.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo6.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo7.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo8.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudeconvo9.txt
+- C:\Primus\NeuroCognica_Primus\convos\claudesync2.txt
+- C:\Primus\NeuroCognica_Primus\convos\geminiconvo1.txt
+- C:\Primus\NeuroCognica_Primus\convos\geminiconvo2.txt
+- C:\Primus\NeuroCognica_Primus\convos\geminiupdate1.txt
+- C:\Primus\NeuroCognica_Primus\convos\we are sparks of the mind that is all - remember.txt
+- C:\Primus\primus-map.txt
+- C:\Primus\primus-tree.txt
+- C:\Primus\Sovereign Textual Mind Paradigm.md
+
+### Root: C:\Prism (25 files)
+
+- C:\Prism\COMMIT_MESSAGE.md
+- C:\Prism\CONTRIBUTING.md
+- C:\Prism\councilreport.md
+- C:\Prism\docs\api\CONFIDENCE_API.md
+- C:\Prism\docs\api\QUICK_START.md
+- C:\Prism\docs\api\VERIFICATION_NODE_SPEC.md
+- C:\Prism\docs\HANDOFF_REPORT.md
+- C:\Prism\docs\PHASE_2_KICKOFF.md
+- C:\Prism\docs\PHASE_2_SPEC.md
+- C:\Prism\docs\philosophy\COPILOT_PROTOCOL.md
+- C:\Prism\docs\philosophy\VISION.md
+- C:\Prism\docs\TECHNICAL_DECISIONS.md
+- C:\Prism\docs\WEEK_5_HANDOFF.md
+- C:\Prism\docs\WEEK_6_HANDOFF.md
+- C:\Prism\docs\WEEK_7_HANDOFF.md
+- C:\Prism\docs\whitepaper\WHITEPAPER.md
+- C:\Prism\GIT_STATUS.md
+- C:\Prism\lattice\network\README.md
+- C:\Prism\lattice\node\README.md
+- C:\Prism\lattice\README.md
+- C:\Prism\lattice\storage\README.md
+- C:\Prism\prism-map.txt
+- C:\Prism\README.md
+- C:\Prism\test-results.txt
+- C:\Prism\Viren_report.md
+
+### Root: C:\senkern (151 files)
+
+- C:\senkern\.github\agents\listener.agent.md
+- C:\senkern\.github\copilot\agents\listener.md
+- C:\senkern\AGENT_PROTOCOL_DAY3.md
+- C:\senkern\ARCHITECTURE_GUIDE.md
+- C:\senkern\AURA_CODEX_INTEGRATION_COMPLETE.md
+- C:\senkern\aura_readme.txt
+- C:\senkern\AURA_RESTORED.md
+- C:\senkern\aura\codex\artifacts\hello.txt
+- C:\senkern\aura\codex\artifacts\test_artifact.txt
+- C:\senkern\AURAlaw.md
+- C:\senkern\build_err.txt
+- C:\senkern\build_errors_new.txt
+- C:\senkern\build_errors.txt
+- C:\senkern\build_full_output.txt
+- C:\senkern\build_full.txt
+- C:\senkern\build_log.txt
+- C:\senkern\build_out.txt
+- C:\senkern\build_output.txt
+- C:\senkern\build_phase2.txt
+- C:\senkern\build_phase2b.txt
+- C:\senkern\build_phase2c.txt
+- C:\senkern\cargo_errors.txt
+- C:\senkern\cargo_tree.txt
+- C:\senkern\check_result.txt
+- C:\senkern\CODEX_INTEGRATION_FIX.md
+- C:\senkern\CONSTITUTIONAL_CODEX_INTEGRATION.md
+- C:\senkern\CONSTITUTIONAL_MIRROR_COMPLETE.md
+- C:\senkern\COPILOT_CONSTITUTION.txt
+- C:\senkern\crates\aura_quiz_service\questions\master_quiz.md
+- C:\senkern\crates\aura_quiz_service\README.md
+- C:\senkern\DELIVERABLES_MANIFEST.md
+- C:\senkern\DELIVERY_DAY_6.md
+- C:\senkern\DELIVERY_STATUS_DAY2.md
+- C:\senkern\DELIVERY_STATUS_DAY3.md
+- C:\senkern\DELIVERY_STATUS_DAY5.md
+- C:\senkern\DOCUMENTATION_INDEX.md
+- C:\senkern\errors_check.txt
+- C:\senkern\final_test.txt
+- C:\senkern\final_test2.txt
+- C:\senkern\final_test3.txt
+- C:\senkern\FIX_DESKTOP_LAUNCHER.md
+- C:\senkern\Full Report_ Law 14 - The Ethics of Beauty and Awe.txt
+- C:\senkern\IMPLEMENTATION_GUIDE.md
+- C:\senkern\INTEGRATION_CHANGES_SUMMARY.md
+- C:\senkern\INTEGRATION_COMPLETE_SUMMARY.md
+- C:\senkern\LAUNCHER_CODEX_GUIDE.md
+- C:\senkern\LAUNCHER_FILES_INDEX.md
+- C:\senkern\LAUNCHER_FIXES_APPLIED.md
+- C:\senkern\LAUNCHER_QUICKSTART.md
+- C:\senkern\LAUNCHER_SETUP_COMPLETE_UPDATED.md
+- C:\senkern\LAUNCHER_SETUP_COMPLETE.md
+- C:\senkern\LAUNCHER_SETUP_GUIDE.md
+- C:\senkern\LAUNCHER_STATUS.md
+- C:\senkern\LAUNCHER_SYSTEM_READY.txt
+- C:\senkern\LAUNCHER_VISUAL_GUIDE.md
+- C:\senkern\LEDGER_ARCHITECTURE.md
+- C:\senkern\masterquiz.txt
+- C:\senkern\OUROBOROS_COMPLETE_DELIVERABLES.md
+- C:\senkern\OUROBOROS_DELIVERY_SUMMARY.md
+- C:\senkern\OUROBOROS_INDEX.md
+- C:\senkern\OUROBOROS_MEMORY_CHANGES.md
+- C:\senkern\OUROBOROS_MEMORY_IMPLEMENTATION.md
+- C:\senkern\OUROBOROS_MEMORY_QUICKSTART.md
+- C:\senkern\OUROBOROS_VERIFICATION_CHECKLIST.md
+- C:\senkern\output.txt
+- C:\senkern\PHASE_I_COMPLETE.md
+- C:\senkern\PHASE_I_DAY2_SUMMARY.md
+- C:\senkern\PHASE_II_DAY_5_APPROVAL.md
+- C:\senkern\PHASE_II_DAY_6_EXECUTION.md
+- C:\senkern\PHASE_III_5_DELIVERY_SUMMARY.md
+- C:\senkern\PHASE_III_5_VERIFICATION_CHECKLIST.md
+- C:\senkern\PHASE_III_7_DELIVERY_SUMMARY.md
+- C:\senkern\PHASE_III_7_USAGE_GUIDE.md
+- C:\senkern\PHASE_III_COMPLETION_REPORT.md
+- C:\senkern\PHASE_III_DAY_8_DELIVERY_SUMMARY.md
+- C:\senkern\PHASE_III_DAY_8_INTEGRATION.md
+- C:\senkern\PHASE_III_INTEGRATION_ARCHITECTURE.md
+- C:\senkern\PHASE_IV_5_DELIVERY_SUMMARY.md
+- C:\senkern\PHASE_IV_DAY_9_DELIVERY_SUMMARY.md
+- C:\senkern\PHASE_IV_DAY_9_INTEGRATION.md
+- C:\senkern\PHASE_V_DELIVERY_SUMMARY.md
+- C:\senkern\PHASE_V_THREAT_MODEL.md
+- C:\senkern\PHASE_VI_5_COMPLETION_STATUS.md
+- C:\senkern\PHASE_VI_5_IMPLEMENTATION_SUMMARY.md
+- C:\senkern\PHASE_VI_5_LIVE_THREAT_RUNS.md
+- C:\senkern\PHASE_VI_ORCHESTRATION_COMPLETE.md
+- C:\senkern\PHASE_VIII_COMPLETE_INDEX.md
+- C:\senkern\PHASE_VIII_FINAL_COMPLETION_REPORT.md
+- C:\senkern\PHASE_VIII_INTEGRATION_SUMMARY.md
+- C:\senkern\PHASE_VIII_REMEDIATION_ENGINE.md
+- C:\senkern\PHASE_X_COMPLETION_REPORT.md
+- C:\senkern\PHASE_X_ENFORCEMENT_INTEGRATION.md
+- C:\senkern\PHASE_X_VERIFICATION.md
+- C:\senkern\PHASE_XI_1_COMPLETION_REPORT.md
+- C:\senkern\PHASE_XI_1_READ_ONLY_BINDING.md
+- C:\senkern\PHASE_XI_1_SESSION_SUMMARY.md
+- C:\senkern\PHASE_XI_2_EXECUTION_SUMMARY.md
+- C:\senkern\PHASE_XI_2_STATE_CHANGE_BINDING.md
+- C:\senkern\PHASE_XI_3_COMPLETION_REPORT.md
+- C:\senkern\PHASE_XI_3_READ_ONLY_API_ENUMERATION.md
+- C:\senkern\PHASE_XI_CLI_TAXONOMY.md
+- C:\senkern\PHASE_XII_AURA_CATHEDRAL.md
+- C:\senkern\QUICK_REFERENCE.md
+- C:\senkern\QUIZ_API_REFERENCE.md
+- C:\senkern\QUIZ_CHANGES_DETAILED.md
+- C:\senkern\QUIZ_FIXES_COMPLETE.md
+- C:\senkern\QUIZ_FLOW_RECOVERY.md
+- C:\senkern\QUIZ_TEST_RESULTS.md
+- C:\senkern\README.md
+- C:\senkern\REFLECTION_ENGINE_COMPLETE.md
+- C:\senkern\runtime_log.txt
+- C:\senkern\runtime_stderr.txt
+- C:\senkern\runtime_stdout.txt
+- C:\senkern\SANDBOX_FOUNDATION.md
+- C:\senkern\senkern-tree.txt
+- C:\senkern\server_output.txt
+- C:\senkern\server_test.txt
+- C:\senkern\SESSION_SUMMARY_PHASE_VIII.md
+- C:\senkern\START_HERE.md
+- C:\senkern\SYSTEM_COMPLETE_DAYS_1_6.md
+- C:\senkern\SYSTEM_STATUS.md
+- C:\senkern\TASK_0.4_COMPLETION_REPORT.md
+- C:\senkern\TASK_0.5_COMPLETION_REPORT.md
+- C:\senkern\TASK_0.6_COMPLETION_INDEX.md
+- C:\senkern\TASK_0.6_COMPLETION_REPORT.md
+- C:\senkern\TASK_0.6_FINAL_STATUS.md
+- C:\senkern\TASK_0.6_VISUAL_ARCHITECTURE.md
+- C:\senkern\TASK_0.7_COMPLETION_INDEX.md
+- C:\senkern\TASK_0.7_COMPLETION_REPORT.md
+- C:\senkern\TASK_0.7_FINAL_STATUS.md
+- C:\senkern\TASK_0.7_VISUAL_ARCHITECTURE.md
+- C:\senkern\TASK_0.8_COMPLETION_REPORT.md
+- C:\senkern\TASK_0.8_FINAL_STATUS.md
+- C:\senkern\TASK_0.8_QUICK_REFERENCE.md
+- C:\senkern\TASK_0.8_VISUAL_ARCHITECTURE.md
+- C:\senkern\test_compile.txt
+- C:\senkern\test_errors2.txt
+- C:\senkern\test_final.txt
+- C:\senkern\test_output.txt
+- C:\senkern\test_run.txt
+- C:\senkern\verifier_output.txt
+- C:\senkern\Viren Personality Quiz.txt
+- C:\senkern\web\ARCHITECTURE.md
+- C:\senkern\web\FILE_MANIFEST.md
+- C:\senkern\web\index_original_backup.html
+- C:\senkern\web\index_original_backup2.html
+- C:\senkern\web\index.html
+- C:\senkern\web\INTEGRATION_CHECKLIST.md
+- C:\senkern\web\INTEGRATION_GUIDE.md
+- C:\senkern\web\READY.md
+- C:\senkern\web\SUMMARY.txt
+
+### Root: C:\sentinel (1 files)
+
+- C:\sentinel\frontend\index.html
+
+### Root: C:\sentinel-core (42 files)
+
+- C:\sentinel-core\.github\agents\AUTO.agent.md
+- C:\sentinel-core\.github\copilot-instructions.md
+- C:\sentinel-core\.github\PULL_REQUEST_TEMPLATE.md
+- C:\sentinel-core\ARCHITECTURE.md
+- C:\sentinel-core\AURA laws -.md
+- C:\sentinel-core\AUTOMATION_REQUIREMENTS_AND_SCRIPT_SHORT_TERM.md
+- C:\sentinel-core\AUTOMATION_REQUIREMENTS_AND_SCRIPT.md
+- C:\sentinel-core\build_errors_only.txt
+- C:\sentinel-core\build_errors.txt
+- C:\sentinel-core\crates\sentinel_bench\README.md
+- C:\sentinel-core\crates\sentinel_bench\REPORT.md
+- C:\sentinel-core\crates\sentinel_policy\POLICY_EVALUATED.md
+- C:\sentinel-core\crates\sentinel_policy\README.md
+- C:\sentinel-core\docs\api\examples.md
+- C:\sentinel-core\docs\api\README.md
+- C:\sentinel-core\docs\api\ui\index.html
+- C:\sentinel-core\docs\MCS.md
+- C:\sentinel-core\docs\security\SENTINEL_ADOPTION_STATUS.md
+- C:\sentinel-core\docs\security\SENTINEL_CERTIFICATION_REPORT.md
+- C:\sentinel-core\docs\security\SENTINEL_IMPERVIOUS_PROTOCOL_MASTER_PLAN.md
+- C:\sentinel-core\docs\security\SENTINEL_PROTECTED_ACTIONS.md
+- C:\sentinel-core\integration-artifacts-README.md
+- C:\sentinel-core\integration-snippets.txt
+- C:\sentinel-core\PUSH_MANIFEST.md
+- C:\sentinel-core\python_ui\SETUP_VENV.txt
+- C:\sentinel-core\README.md
+- C:\sentinel-core\ROADMAP.md
+- C:\sentinel-core\Sentinel Core_ Detailed Improvement Suggestions.md
+- C:\sentinel-core\SENTINEL_CANON.md
+- C:\sentinel-core\SENTINEL_CHECKLIST.md
+- C:\sentinel-core\Sentinel-Law\aibor.md
+- C:\sentinel-core\Sentinel-Law\ARCHITECTURE_PATTERNS.md
+- C:\sentinel-core\Sentinel-Law\BOUNDARY_SEMANTICS.md
+- C:\sentinel-core\Sentinel-Law\EDGE_CASES_AND_SECURITY.md
+- C:\sentinel-core\Sentinel-Law\IMPLEMENTATION_ROADMAP_UPDATE_2025-12-26.md
+- C:\sentinel-core\Sentinel-Law\IMPLEMENTATION_ROADMAP.md
+- C:\sentinel-core\Sentinel-Law\mma.md
+- C:\sentinel-core\Sentinel-Law\POLICY_ANALYSIS.md
+- C:\sentinel-core\Sentinel-Law\Sentinel-Core Policy Schema Implementation Guide.md
+- C:\sentinel-core\Sentinel-Law\SentinelCore_DetailedImprovementSuggestions.md
+- C:\sentinel-core\THREAT_MODEL.md
+- C:\sentinel-core\tools\README.md
+
+### Root: C:\sentinel-core.worktrees (23 files)
+
+- C:\sentinel-core.worktrees\worktree-2025-12-26T02-14-37\.github\agents\AUTO.agent.md
+- C:\sentinel-core.worktrees\worktree-2025-12-26T02-14-37\.github\copilot-instructions.md
+- C:\sentinel-core.worktrees\worktree-2025-12-26T02-14-37\AURA laws -.md
+- C:\sentinel-core.worktrees\worktree-2025-12-26T02-14-37\AUTOMATION_REQUIREMENTS_AND_SCRIPT_SHORT_TERM.md
+- C:\sentinel-core.worktrees\worktree-2025-12-26T02-14-37\AUTOMATION_REQUIREMENTS_AND_SCRIPT.md
+- C:\sentinel-core.worktrees\worktree-2025-12-26T02-14-37\python_ui\SETUP_VENV.txt
+- C:\sentinel-core.worktrees\worktree-2025-12-26T02-14-37\README.md
+- C:\sentinel-core.worktrees\worktree-2025-12-26T02-14-37\Sentinel Core_ Detailed Improvement Suggestions.md
+- C:\sentinel-core.worktrees\worktree-2025-12-26T02-14-37\SENTINEL_CHECKLIST.md
+- C:\sentinel-core.worktrees\worktree-2025-12-26T03-23-51\.github\agents\AUTO.agent.md
+- C:\sentinel-core.worktrees\worktree-2025-12-26T03-23-51\.github\copilot-instructions.md
+- C:\sentinel-core.worktrees\worktree-2025-12-26T03-23-51\ARCHITECTURE.md
+- C:\sentinel-core.worktrees\worktree-2025-12-26T03-23-51\AURA laws -.md
+- C:\sentinel-core.worktrees\worktree-2025-12-26T03-23-51\AUTOMATION_REQUIREMENTS_AND_SCRIPT_SHORT_TERM.md
+- C:\sentinel-core.worktrees\worktree-2025-12-26T03-23-51\AUTOMATION_REQUIREMENTS_AND_SCRIPT.md
+- C:\sentinel-core.worktrees\worktree-2025-12-26T03-23-51\build_errors_only.txt
+- C:\sentinel-core.worktrees\worktree-2025-12-26T03-23-51\build_errors.txt
+- C:\sentinel-core.worktrees\worktree-2025-12-26T03-23-51\python_ui\SETUP_VENV.txt
+- C:\sentinel-core.worktrees\worktree-2025-12-26T03-23-51\README.md
+- C:\sentinel-core.worktrees\worktree-2025-12-26T03-23-51\ROADMAP.md
+- C:\sentinel-core.worktrees\worktree-2025-12-26T03-23-51\Sentinel Core_ Detailed Improvement Suggestions.md
+- C:\sentinel-core.worktrees\worktree-2025-12-26T03-23-51\SENTINEL_CHECKLIST.md
+- C:\sentinel-core.worktrees\worktree-2025-12-26T03-23-51\THREAT_MODEL.md
+
+### Root: C:\sentinel-llm (696 files)
+
+- C:\sentinel-llm\sentinel-llm\.github\copilot-instructions.md
+- C:\sentinel-llm\sentinel-llm\1958.pdf
+- C:\sentinel-llm\sentinel-llm\archetypes\Archetype Profile for Claude the Scribe.txt
+- C:\sentinel-llm\sentinel-llm\archetypes\Archetypes of AURA.txt
+- C:\sentinel-llm\sentinel-llm\archetypes\AURA Archetype Expansion Project.txt
+- C:\sentinel-llm\sentinel-llm\archetypes\AURA.txt
+- C:\sentinel-llm\sentinel-llm\archetypes\Full Report_ Law 14 - The Ethics of Beauty and Awe.txt
+- C:\sentinel-llm\sentinel-llm\archetypes\Full Report_ The First Emergence - NeuroCognica Pr.docx.txt
+- C:\sentinel-llm\sentinel-llm\archetypes\IDEAL ASSISTANT.md
+- C:\sentinel-llm\sentinel-llm\archetypes\ORACLE-ARCHITECT.txt
+- C:\sentinel-llm\sentinel-llm\archetypes\Sacred Three Engine Design_.txt
+- C:\sentinel-llm\sentinel-llm\archetypes\timetravel.txt
+- C:\sentinel-llm\sentinel-llm\aura\all_md_files.txt
+- C:\sentinel-llm\sentinel-llm\aura\ArchetypesofAURA.txt
+- C:\sentinel-llm\sentinel-llm\aura\AURA Council - Implementation Guide.md
+- C:\sentinel-llm\sentinel-llm\aura\AURA Council - Multi-Archetype AI Interface.md
+- C:\sentinel-llm\sentinel-llm\aura\AURA Council - Quick Start Guide.md
+- C:\sentinel-llm\sentinel-llm\aura\aura-council\IMPLEMENTATION.md
+- C:\sentinel-llm\sentinel-llm\aura\aura-council\llm_research.md
+- C:\sentinel-llm\sentinel-llm\aura\aura-council\py_gui\04_execution_governance_dynamics.md
+- C:\sentinel-llm\sentinel-llm\aura\aura-council\QUICKSTART.md
+- C:\sentinel-llm\sentinel-llm\aura\aura-council\README.md
+- C:\sentinel-llm\sentinel-llm\aura\IMPLEMENTATION.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\.github\pull_request_template.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\AGENTS.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\benches\dgx-spark\aime25_openai__gpt-oss-120b-high_temp1.0_20251109_094547.html
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\benches\dgx-spark\dgx-spark.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ci\README-MUSA.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ci\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\CLAUDE.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\common\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\common\jinja\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\CONTRIBUTING.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\android.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\backend\BLIS.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\backend\CANN.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\backend\CUDA-FEDORA.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\backend\hexagon\developer.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\backend\hexagon\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\backend\OPENCL.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\backend\SYCL.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\backend\zDNN.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\backend\ZenDNN.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\build-riscv64-spacemit.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\build-s390x.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\build.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\development\debugging-tests.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\development\HOWTO-add-model.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\development\llama-star\idea-arch.pdf
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\development\parsing.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\development\token_generation_performance_tips.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\docker.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\function-calling.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\install.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\llguidance.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\multimodal.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\multimodal\gemma3.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\multimodal\glmedge.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\multimodal\granitevision.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\multimodal\llava.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\multimodal\minicpmo2.6.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\multimodal\minicpmo4.0.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\multimodal\minicpmv2.5.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\multimodal\minicpmv2.6.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\multimodal\minicpmv4.0.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\multimodal\minicpmv4.5.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\multimodal\MobileVLM.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\ops.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\docs\preset.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\batched.swift\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\batched\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\batched\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\convert-llama2c-to-ggml\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\convert-llama2c-to-ggml\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\debug\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\debug\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\deprecation-warning\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\diffusion\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\diffusion\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\embedding\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\embedding\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\eval-callback\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\eval-callback\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\gen-docs\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\gguf-hash\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\gguf-hash\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\gguf\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\idle\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\idle\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\llama.android\lib\src\main\cpp\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\llama.swiftui\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\lookahead\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\lookahead\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\lookup\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\lookup\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\model-conversion\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\model-conversion\requirements.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\parallel\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\parallel\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\passkey\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\passkey\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\retrieval\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\retrieval\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\save-load-state\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\simple-chat\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\simple-chat\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\simple-cmake-pkg\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\simple-cmake-pkg\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\simple\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\simple\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\speculative-simple\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\speculative-simple\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\speculative\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\speculative\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\sycl\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\sycl\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\training\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\examples\training\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ggml\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ggml\src\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ggml\src\ggml-blas\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ggml\src\ggml-cann\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ggml\src\ggml-cpu\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ggml\src\ggml-cuda\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ggml\src\ggml-hexagon\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ggml\src\ggml-hexagon\htp\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ggml\src\ggml-hip\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ggml\src\ggml-metal\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ggml\src\ggml-musa\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ggml\src\ggml-opencl\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ggml\src\ggml-rpc\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ggml\src\ggml-sycl\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ggml\src\ggml-vulkan\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ggml\src\ggml-vulkan\vulkan-shaders\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ggml\src\ggml-webgpu\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ggml\src\ggml-zdnn\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\ggml\src\ggml-zendnn\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\gguf-py\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\grammars\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\pocs\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\pocs\vdot\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\requirements.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\requirements\requirements-all.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\requirements\requirements-compare-llama-bench.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\requirements\requirements-convert_hf_to_gguf_update.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\requirements\requirements-convert_hf_to_gguf.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\requirements\requirements-convert_legacy_llama.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\requirements\requirements-convert_llama_ggml_to_gguf.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\requirements\requirements-convert_lora_to_gguf.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\requirements\requirements-gguf_editor_gui.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\requirements\requirements-pydantic.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\requirements\requirements-server-bench.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\requirements\requirements-test-tokenizer-random.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\requirements\requirements-tool_bench.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\scripts\jinja\requirements.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\scripts\snapdragon\qdc\readme.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\scripts\snapdragon\qdc\requirements.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\SECURITY.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\src\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tests\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\batched-bench\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\batched-bench\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\cli\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\cli\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\completion\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\completion\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\cvector-generator\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\cvector-generator\completions.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\cvector-generator\negative.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\cvector-generator\positive.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\cvector-generator\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\export-lora\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\export-lora\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\fit-params\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\fit-params\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\gguf-split\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\gguf-split\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\imatrix\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\imatrix\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\llama-bench\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\llama-bench\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\mtmd\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\mtmd\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\mtmd\requirements.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\perplexity\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\perplexity\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\quantize\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\quantize\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\rpc\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\rpc\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\bench\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\bench\requirements.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\public_legacy\index-new.html
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\public_legacy\index.html
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\public_legacy\loading.html
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\public_simplechat\index.html
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\public_simplechat\readme.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\public\loading.html
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\README-dev.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\tests\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\tests\requirements.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\themes\buttons-top\index.html
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\themes\buttons-top\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\themes\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\themes\wild\index.html
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\themes\wild\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\webui\docs\architecture\high-level-architecture-simplified.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\webui\docs\architecture\high-level-architecture.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\webui\docs\flows\chat-flow.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\webui\docs\flows\conversations-flow.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\webui\docs\flows\data-flow-simplified-model-mode.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\webui\docs\flows\data-flow-simplified-router-mode.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\webui\docs\flows\database-flow.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\webui\docs\flows\models-flow.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\webui\docs\flows\server-flow.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\webui\docs\flows\settings-flow.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\webui\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\webui\src\app.html
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\webui\static\loading.html
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\webui\tests\stories\fixtures\assets\example.pdf
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\server\webui\tests\stories\Introduction.mdx
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\tokenize\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\tts\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\tools\tts\README.md
+- C:\sentinel-llm\sentinel-llm\aura\llama.cpp\vendor\cpp-httplib\CMakeLists.txt
+- C:\sentinel-llm\sentinel-llm\aura\LLM Model Research for AURA Archetype Council.md
+- C:\sentinel-llm\sentinel-llm\aura\llm_research.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\01_floquet_physics_cover.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\01_floquet_physics.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\02_computational_methods_cover.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\02_computational_methods.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\03_cognitive_sovereignty_cover.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\03_cognitive_sovereignty.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\04_execution_governance_dynamics_cover.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\04_execution_governance_dynamics.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\05_sovereign_compliance_ecosystems_cover.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\05_sovereign_compliance_ecosystems.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\6FR HUMANOID ROBOT - COMPLETE BUILD PACKAGE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\6FR ROBOT - QUICK START GUIDE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\AGENT_PROTOCOL_DAY3.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\aibor_20260126055500.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\aibor.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Analyzing Context-Bound Integrity Gate_20260126055500.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Analyzing Context-Bound Integrity Gate.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\API_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\API.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\archetype_research_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\archetype_research.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\ARCHITECTURE_GUIDE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\ARCHITECTURE_PATTERNS.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\ARCHITECTURE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Audience Recommendations for Execution Governance Dynamics (EGD).md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\AURA _ NeuroCognica — FULLY EXPANDED MASTER IMPLEMENTATION CHECKLIST.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Aura Key - Genesis Blueprint v1.7.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\AURA laws -.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\AURA_CODEX_INTEGRATION_COMPLETE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\AURA_RESTORED.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\aura-expanded-checklist.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\AURA-Sentinel Colpitts Oscillator Modification Guide_20260126055500.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\AURA-Sentinel Colpitts Oscillator Modification Guide.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\AURA-Sentinel Darlington Preamp - Wiring Reference_20260126055500.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\AURA-Sentinel Darlington Preamp - Wiring Reference.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\AURA-Sentinel Project Audit Report.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\AURA-Sentinel Prototype Build Report_ Marker One_20260126055500.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\AURA-Sentinel Prototype Build Report_ Marker One.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\AURA-Sentinel_ Comprehensive Implementation Plan.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\AURA.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\aura1_overview.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\begin_here.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\best_practices.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\blog-issue-template.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Brain Connectivity, Gender, and Meditation.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\BREAKING_CHANGES.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Broke-to-Revenue Plan_ Monetizing EGD & Sentinel.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\bug_report.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\cdn_20260126055502.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\cdn.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\CHANGELOG_20260126055500.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\CHANGELOG_20260126055501.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\CHANGELOG_20260126055502.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\CHANGELOG_20260126055503.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\CHANGELOG_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\CHANGELOG.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\claude_convo01122026.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\CODE_OF_CONDUCT_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\CODE_OF_CONDUCT.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\CODEX_INTEGRATION_FIX.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Constitutional AI Robot Build Plan.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\CONSTITUTIONAL_CODEX_INTEGRATION.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\CONSTITUTIONAL_MIRROR_COMPLETE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\ConstitutionalAIRobotBuildPlan.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\CONSULTING_OFFER.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\CONTACT_TARGETS.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Context-Aware Integrity Verification for Mission-Critical AI Systems.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\CONTRIBUTING_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\CONTRIBUTING.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\convowithclaude1-5-2026.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\council_report_01032026.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\COUNCIL_REPORT_20260126055500.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\COUNCIL_REPORT.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\councilsecurityreport.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\councilupdate.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\cranial-resonance-build_20260126055500.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\cranial-resonance-build.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\DARPA_BAA_Response_Structure.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\DARPA_Hostile_QA.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\DARPA_Reviewer_Briefing.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\DELIVERABLES_MANIFEST.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\DELIVERY_DAY_6.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\DELIVERY_STATUS_DAY2.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\DELIVERY_STATUS_DAY3.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\DELIVERY_STATUS_DAY5.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\DEPLOYMENT.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Deriving Phonon-Vacuum Coupling Efficiency_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Deriving Phonon-Vacuum Coupling Efficiency.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Deriving_20260126055500.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Deriving.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\DO_NOT_SAY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\DOCUMENTATION_INDEX.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\EDGE_CASES_AND_SECURITY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\EGD_Chapter1_The_Death_of_Determinism.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\EGD_Chapter2_Context_as_Cryptographic_Primitive.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\EGD_Chapter3_Trajectory_Control_Theory.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\EGD_Chapter4_The_Sentinel_Protocol.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\EGD_Chapter5_Generalization_Beyond_AURA.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\EGD_Chapter6_Related_Work_and_Differentiation.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\EGD_Chapter7_Limitations_Ethics_Failure_Modes.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\EGD_Chapter8_Conclusion.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Eight Unknowns of AURA Propulsion_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Eight Unknowns of AURA Propulsion.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Evaluating Execution Governance Dynamics Framework_20260126055500.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Evaluating Execution Governance Dynamics Framework.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\EXPERIMENT_3A_CANONICAL_REFERENCE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\EXPERIMENT_REPORT_20260110.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\experiment1.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\EXTRACTS.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\FAQ_IP_SAFETY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Feature_Release.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\feature_request_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\feature_request.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Federal Agency for Hidden Intellectuals.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Figure_Generation_Specs.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\FILE_MANIFEST.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\FIX_DESKTOP_LAUNCHER.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Floquet-Flexoelectric Rectification Derivation_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Floquet-Flexoelectric Rectification Derivation.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\fp_20260126055502.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\fp.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\frontend_rust_api_integration.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Full Report_ The Archetypes of the AURA Initiative.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\fusion_guide.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\galaxy-watch-sensor-access_20260126055500.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\galaxy-watch-sensor-access.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\gettingStarted_20260126055502.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\gettingStarted.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\GRANT_PROPOSAL_SHORT.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\HACKING.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\helmet-sensor-mount_20260126055500.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\helmet-sensor-mount.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\HISTORY_20260126055501.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\History_20260126055502.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\HISTORY_20260126055503.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\HISTORY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\human-RAG (1).md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\human-RAG_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\human-RAG.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\i18n_20260126055502.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\i18n.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\i18nContributionGuide_20260126055502.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\i18nContributionGuide.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\IDEAL ASSISTANT_20260126055459.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\IDEAL ASSISTANT.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\ideas.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\III. PHASE 3 — COUNCIL ORCHESTRATOR (THE BRAIN).md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\IMPLEMENTATION_GUIDE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\IMPLEMENTATION_ROADMAP.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Insurgent Robot Build Doctrine.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Integration of Sentinel-Core Logic into AURA-Sentinel.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\INTEGRATION_CHANGES_SUMMARY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\INTEGRATION_CHECKLIST.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\INTEGRATION_COMPLETE_SUMMARY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\INTEGRATION_GUIDE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\issue-report.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Jungian Archetypes For Psychological Profiling.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\LAUNCHER_CODEX_GUIDE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\LAUNCHER_FILES_INDEX.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\LAUNCHER_FIXES_APPLIED.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\LAUNCHER_QUICKSTART.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\LAUNCHER_SETUP_COMPLETE_UPDATED.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\LAUNCHER_SETUP_COMPLETE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\LAUNCHER_SETUP_GUIDE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\LAUNCHER_STATUS.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\LAUNCHER_VISUAL_GUIDE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\LEDGER_ARCHITECTURE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\LETTER_TO_FUNDER.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\LICENCE_20260126055502.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\LICENCE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\LICENSE_20260126055500.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\LICENSE_20260126055501.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\LICENSE_20260126055502.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\LICENSE_20260126055503.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\LICENSE_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\LICENSE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\listener.agent.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\listener.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Low-Budget Optimizations for MCMVS Helmet Mount_20260126055500.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Low-Budget Optimizations for MCMVS Helmet Mount.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\MANIFEST.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Manual_Release.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\manuschat1.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\manusplan4aura.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\marked.1.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\master_paper.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Master_Physics_Paper.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\master_quiz.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\MATC.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Mechanical cranial micro-vibration sensing_20260126055500.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Mechanical cranial micro-vibration sensing.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Michael Holt Resume 10_7.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\MIGRATION_GUIDE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Mirrorborn Archetype Dossier_ The 50-Node Taxonomy.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Mirrorborn Profile Generation Report_ A Deterministic Self-Model.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\mirrorborn_rust_api_complete_implementation.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\mirrorbornformanus.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\mma_20260126055500.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\mma.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\NAMING.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\NeuroCognica Corporate Architecture Blueprint_.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\neurocognica-security-implementation-plan.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\NEUROCOGNICA.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\newauraplan.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\ONE_PAGER.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Organic Neural Interface Research.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\OUROBOROS_COMPLETE_DELIVERABLES.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\OUROBOROS_DELIVERY_SUMMARY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\OUROBOROS_INDEX.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\OUROBOROS_MEMORY_CHANGES.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\OUROBOROS_MEMORY_IMPLEMENTATION.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\OUROBOROS_MEMORY_QUICKSTART.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\OUROBOROS_VERIFICATION_CHECKLIST.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Paper1_Nonreciprocal_Floquet_Mechanism.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Paper1_PRB_Format.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Paper2_Information_Enhanced_Thermal_Rectifier.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Patch_Backport_Release.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Perfect Diamond Manufacturing Research (1)_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Perfect Diamond Manufacturing Research (1).md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Perfect Diamond Manufacturing Research.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_I_COMPLETE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_I_DAY2_SUMMARY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_II_DAY_5_APPROVAL.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_II_DAY_6_EXECUTION.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_III_5_DELIVERY_SUMMARY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_III_5_VERIFICATION_CHECKLIST.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_III_7_DELIVERY_SUMMARY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_III_7_USAGE_GUIDE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_III_COMPLETION_REPORT.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_III_DAY_8_DELIVERY_SUMMARY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_III_DAY_8_INTEGRATION.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_III_INTEGRATION_ARCHITECTURE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_IV_5_DELIVERY_SUMMARY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_IV_DAY_9_DELIVERY_SUMMARY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_IV_DAY_9_INTEGRATION.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_V_DELIVERY_SUMMARY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_V_THREAT_MODEL.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_VI_5_COMPLETION_STATUS.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_VI_5_IMPLEMENTATION_SUMMARY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_VI_5_LIVE_THREAT_RUNS.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_VI_ORCHESTRATION_COMPLETE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_VIII_COMPLETE_INDEX.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_VIII_FINAL_COMPLETION_REPORT.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_VIII_INTEGRATION_SUMMARY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_VIII_REMEDIATION_ENGINE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_X_COMPLETION_REPORT.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_X_ENFORCEMENT_INTEGRATION.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_X_VERIFICATION.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_XI_1_COMPLETION_REPORT.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_XI_1_READ_ONLY_BINDING.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_XI_1_SESSION_SUMMARY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_XI_2_EXECUTION_SUMMARY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_XI_2_STATE_CHANGE_BINDING.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_XI_3_COMPLETION_REPORT.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_XI_3_READ_ONLY_API_ENUMERATION.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_XI_CLI_TAXONOMY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PHASE_XII_AURA_CATHEDRAL.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\phd_thesis2.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\phd_thesis3.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\POLICY_ANALYSIS.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Porting-Buffer.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PRB_Submission_Checklist.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PROVENANCE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PULL_REQUEST_TEMPLATE_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\PULL_REQUEST_TEMPLATE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\qsic_rust.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\qsic.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\qsic4manus_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\qsic4manus.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Quantum-Seeded Integrity Check (QSIC) for Local AI Projects (1).md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Quantum-Seeded Integrity Check (QSIC) for Local AI Projects_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Quantum-Seeded Integrity Check (QSIC) for Local AI Projects.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Quantum-Seeded Integrity Check (QSIC) Implementation Plan_ Rust on seL4_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Quantum-Seeded Integrity Check (QSIC) Implementation Plan_ Rust on seL4.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\QUICK_REFERENCE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\QUICK_START.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\QUIZ_API_REFERENCE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\QUIZ_CHANGES_DETAILED.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\QUIZ_FIXES_COMPLETE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\QUIZ_FLOW_RECOVERY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\QUIZ_TEST_RESULTS.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Raspberry Pi Cranial Vibration Sensing Setup_20260126055500.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Raspberry Pi Cranial Vibration Sensing Setup.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README_20210527203617.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README_20210527212714.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README_20210527213345.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README_20210527213411.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README_20210527213803.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README_20210527214323.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README_20210527214408.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README_20260126055459.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README_20260126055500.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README_20260126055501.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README_20260126055502.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README_20260126055503.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\readme_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README.de-DE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README.es-ES.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README.id-ID.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README.it-IT.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README.ja-JP.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README.ko-KR.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README.pl-PL.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README.pt-BR.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README.ru-RU.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README.zh-CN_20260126055503.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README.zh-CN_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\README.zh-CN.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\READY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\REFLECTION_ENGINE_COMPLETE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\release_20260126055502.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\release.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Replicating The Terminator's Neural CPU.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\repo-setup.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Repurposing Tablet for Research Tricorder.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Robot Design Research Based On Document.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\RobotDesignResearchBasedOnDocument.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Rust Backend for Conversational AI.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Salvaged BCI_ Junk Electronics Hack_20260126055500.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Salvaged BCI_ Junk Electronics Hack.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\SANDBOX_FOUNDATION.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\SECURITY_20260126055501.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\SECURITY_20260126055502.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\SECURITY_20260126055503.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\SECURITY_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\SECURITY.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Semantic Routing Protocol Formula Development.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Sentinel AI Training Data Generation.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Sentinel Core_ Detailed Improvement Suggestions.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Sentinel Proprioception - Deployment Guide.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Sentinel Proprioception - Library Research.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Sentinel Proprioception API Documentation.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Sentinel Proprioception Layer - Architecture Design.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Sentinel Proprioception Layer.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\SENTINEL_API.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\sentinel_architecture.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\SENTINEL_README.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\sentinel_research.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Sentinel-Core Policy Schema Implementation Guide.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\SentinelCore_DetailedImprovementSuggestions.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\SESSION_HANDOFF_20260112.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\SESSION_SUMMARY_PHASE_VIII.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\SSSD_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\SSSD.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\START_HERE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\SYSTEM_COMPLETE_DAYS_1_6.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\SYSTEM_STATUS.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\TASK_0.4_COMPLETION_REPORT.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\TASK_0.5_COMPLETION_REPORT.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\TASK_0.6_COMPLETION_INDEX.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\TASK_0.6_COMPLETION_REPORT.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\TASK_0.6_FINAL_STATUS.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\TASK_0.6_VISUAL_ARCHITECTURE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\TASK_0.7_COMPLETION_INDEX.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\TASK_0.7_COMPLETION_REPORT.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\TASK_0.7_FINAL_STATUS.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\TASK_0.7_VISUAL_ARCHITECTURE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\TASK_0.8_COMPLETION_REPORT.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\TASK_0.8_FINAL_STATUS.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\TASK_0.8_QUICK_REFERENCE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\TASK_0.8_VISUAL_ARCHITECTURE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Technical Analysis and Feasibility Assessment_ The AURA Kernel Project.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Tesla Lens_ Geometric Resonance Optimization.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\text.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\The Reflective Storage and Retrieval System (RSRS)_ Revised Blueprint for the Sovereign Mesh.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Theorizing NeuroCognica's Undeniable Artifact.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\theses_assesment.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Thesis on Sovereign Compliance Ecosystems.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\THESIS_CORRECTIONS.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\thesis_summary.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\THIRD-PARTY-NOTICES.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\timeZones_20260126055502.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\timeZones.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\todo.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Training Sentinel AI_ Advanced Cybersecurity Implementation.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\unicodeTokens_20260126055502.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\unicodeTokens.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\vertex-sensor-quickstart_20260126055500.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\vertex-sensor-quickstart.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\VIII. PHASE 7 — VOICE & SENSORY ENGINE.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\vscodeprojects.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\webpack_20260126055502.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\webpack.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\whatisthis.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\Zero-Point Field Rectification Propulsion_ Speculative Analysis.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\ZPF Rectification Theory Gaps Addressed rev.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\ZPF Rectification Theory Gaps Addressed rev2_20260126055504.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\ZPF Rectification Theory Gaps Addressed rev2.md
+- C:\sentinel-llm\sentinel-llm\aura\master_codex\ZPF Rectification Theory Gaps Addressed.md
+- C:\sentinel-llm\sentinel-llm\aura\outputs\checkpoint-60\README.md
+- C:\sentinel-llm\sentinel-llm\aura\PROJECT_SUMMARY.md
+- C:\sentinel-llm\sentinel-llm\aura\README.md
+- C:\sentinel-llm\sentinel-llm\aura\temp_llama_bin\linenoise.cpp.txt
+- C:\sentinel-llm\sentinel-llm\aura\temp_llama_bin\llama.cpp.txt
+- C:\sentinel-llm\sentinel-llm\AURAlaw.md
+- C:\sentinel-llm\sentinel-llm\CBIG\Analyzing Context-Bound Integrity Gate.md
+- C:\sentinel-llm\sentinel-llm\CBIG\EGD_Chapter1_The_Death_of_Determinism.md
+- C:\sentinel-llm\sentinel-llm\CBIG\EGD_Chapter2_Context_as_Cryptographic_Primitive.md
+- C:\sentinel-llm\sentinel-llm\CBIG\EGD_Chapter3_Trajectory_Control_Theory.md
+- C:\sentinel-llm\sentinel-llm\CBIG\EGD_Chapter4_The_Sentinel_Protocol.md
+- C:\sentinel-llm\sentinel-llm\CBIG\EGD_Chapter5_Generalization_Beyond_AURA.md
+- C:\sentinel-llm\sentinel-llm\CBIG\EGD_Chapter6_Related_Work_and_Differentiation.md
+- C:\sentinel-llm\sentinel-llm\CBIG\EGD_Chapter7_Limitations_Ethics_Failure_Modes.md
+- C:\sentinel-llm\sentinel-llm\CBIG\EGD_Chapter8_Conclusion.md
+- C:\sentinel-llm\sentinel-llm\CBIG\Evaluating Execution Governance Dynamics Framework.md
+- C:\sentinel-llm\sentinel-llm\claude api.txt
+- C:\sentinel-llm\sentinel-llm\neurocognica-map.txt
+- C:\sentinel-llm\sentinel-llm\older_code\Generative Video_ Project Chronos-Sophia_.txt
+- C:\sentinel-llm\sentinel-llm\output\md\02_computational_methods.md
+- C:\sentinel-llm\sentinel-llm\output\md\03_cognitive_sovereignty.md
+- C:\sentinel-llm\sentinel-llm\output\md\04_execution_governance_dynamics.md
+- C:\sentinel-llm\sentinel-llm\output\md\1958.md
+- C:\sentinel-llm\sentinel-llm\output\md\AURA_SENTINEL_REPORT.md
+- C:\sentinel-llm\sentinel-llm\output\md\INTEGRATION.md
+- C:\sentinel-llm\sentinel-llm\output\md\MAN_MACHINE_ALLIANCE_CHECKLIST.md
+- C:\sentinel-llm\sentinel-llm\output\md\MAN_MACHINE_ALLIANCE.md
+- C:\sentinel-llm\sentinel-llm\output\md\mma.md
+- C:\sentinel-llm\sentinel-llm\output\md\mmareport.md
+- C:\sentinel-llm\sentinel-llm\output\md\NeuroCognica_Destructive_Automation_Incident_Report.md
+- C:\sentinel-llm\sentinel-llm\output\md\ouroboros-codex-enhancements.treport.md
+- C:\sentinel-llm\sentinel-llm\output\md\ouroboros-codex.treport.md
+- C:\sentinel-llm\sentinel-llm\output\md\planchecklist.md
+- C:\sentinel-llm\sentinel-llm\output\md\README_MMA.md
+- C:\sentinel-llm\sentinel-llm\output\md\report001.md
+- C:\sentinel-llm\sentinel-llm\output\md\sentinel-training-system.md
+- C:\sentinel-llm\sentinel-llm\output\md\sentinel-training-system.treport.md
+- C:\sentinel-llm\sentinel-llm\output\md\sentinelplan.md
+- C:\sentinel-llm\sentinel-llm\output\pdf\02_computational_methods.pdf
+- C:\sentinel-llm\sentinel-llm\output\pdf\03_cognitive_sovereignty.pdf
+- C:\sentinel-llm\sentinel-llm\output\pdf\04_execution_governance_dynamics.pdf
+- C:\sentinel-llm\sentinel-llm\output\pdf\1958.pdf
+- C:\sentinel-llm\sentinel-llm\output\pdf\AURA_SENTINEL_REPORT.pdf
+- C:\sentinel-llm\sentinel-llm\output\pdf\INTEGRATION.pdf
+- C:\sentinel-llm\sentinel-llm\output\pdf\MAN_MACHINE_ALLIANCE_CHECKLIST.pdf
+- C:\sentinel-llm\sentinel-llm\output\pdf\MAN_MACHINE_ALLIANCE.pdf
+- C:\sentinel-llm\sentinel-llm\output\pdf\mma.pdf
+- C:\sentinel-llm\sentinel-llm\output\pdf\mmareport.pdf
+- C:\sentinel-llm\sentinel-llm\output\pdf\NeuroCognica_Destructive_Automation_Incident_Report.pdf
+- C:\sentinel-llm\sentinel-llm\output\pdf\ouroboros-codex-enhancements.treport.pdf
+- C:\sentinel-llm\sentinel-llm\output\pdf\ouroboros-codex.treport.pdf
+- C:\sentinel-llm\sentinel-llm\output\pdf\planchecklist.pdf
+- C:\sentinel-llm\sentinel-llm\output\pdf\README_MMA.pdf
+- C:\sentinel-llm\sentinel-llm\output\pdf\report001.pdf
+- C:\sentinel-llm\sentinel-llm\output\pdf\sentinel-training-system.pdf
+- C:\sentinel-llm\sentinel-llm\output\pdf\sentinel-training-system.treport.pdf
+- C:\sentinel-llm\sentinel-llm\output\pdf\sentinelplan.pdf
+- C:\sentinel-llm\sentinel-llm\pdfs\ouroboros-codex-enhancements.treport.pdf
+- C:\sentinel-llm\sentinel-llm\pdfs\ouroboros-codex.treport.pdf
+- C:\sentinel-llm\sentinel-llm\pdfs\sentinel-training-system.treport.pdf
+- C:\sentinel-llm\sentinel-llm\sentinel_proprio\API.md
+- C:\sentinel-llm\sentinel-llm\sentinel_proprio\DEPLOYMENT.md
+- C:\sentinel-llm\sentinel-llm\sentinel_proprio\README.md
+- C:\sentinel-llm\sentinel-llm\sentinel_proprio\Sentinel Proprioception - Deployment Guide.md
+- C:\sentinel-llm\sentinel-llm\sentinel_proprio\Sentinel Proprioception - Library Research.md
+- C:\sentinel-llm\sentinel-llm\sentinel_proprio\Sentinel Proprioception API Documentation.md
+- C:\sentinel-llm\sentinel-llm\sentinel_proprio\Sentinel Proprioception Layer - Architecture Design.md
+- C:\sentinel-llm\sentinel-llm\sentinel_proprio\Sentinel Proprioception Layer.md
+- C:\sentinel-llm\sentinel-llm\sentinel_proprio\SENTINEL_API.md
+- C:\sentinel-llm\sentinel-llm\sentinel_proprio\sentinel_architecture.md
+- C:\sentinel-llm\sentinel-llm\sentinel_proprio\SENTINEL_README.md
+- C:\sentinel-llm\sentinel-llm\sentinel_proprio\sentinel_research.md
+- C:\sentinel-llm\sentinel-llm\sentinel_proprio\whatisthis.md
+
+### Root: C:\sssd (9 files)
+
+- C:\sssd\CONTRIBUTING.md
+- C:\sssd\docs\architectural_specification_reflective_mind_plane_engine.md
+- C:\sssd\docs\Perfect Diamond Manufacturing Research.md
+- C:\sssd\docs\quantum_crystalline_metric_drive_analysis.md
+- C:\sssd\docs\solid_state_spacetime_drive.md
+- C:\sssd\docs\sssd_and_aura_grand_unified_plan.md
+- C:\sssd\docs\timetravel_marker1.md
+- C:\sssd\README.md
+- C:\sssd\ROADMAP.md
+
+### Root: C:\tmp (12 files)
+
+- C:\tmp\AURA_ARCHETYPES_AND_COUNCIL_2026-05-15.md
+- C:\tmp\AURA_COUNCIL_MAP_2026-05-15.md
+- C:\tmp\aura_drive_scan.md
+- C:\tmp\AURA_NOW_REPORT_2026-05-15.md
+- C:\tmp\aura_scan_roots.txt
+- C:\tmp\MIRRORBORN_IDENTITY_MAP_2026-05-15.md
+- C:\tmp\NEUROCOGNICA_ATLAS_2026-05-15.md
+- C:\tmp\NEUROCOGNICA_PRIMUS_ARCHITECTURE_2026-05-15.md
+- C:\tmp\NEUROCOGNICA_PROJECT_STATUS_SEED_2026-05-15.md
+- C:\tmp\NEUROCOGNICA_RESEARCH_GRAPH_2026-05-15.md
+- C:\tmp\PRIMUS_BODY_AND_MIND_MAP_2026-05-15.md
+- C:\tmp\SENTINEL_GOVERNANCE_MAP_2026-05-15.md
+
+### Root: C:\Users\m\Desktop (1 files)
+
+- C:\Users\m\Desktop\Printed and Filed\COUNCIL_REPORT.md
+
+### Root: C:\Users\m\Documents (502 files)
+
+- C:\Users\m\Documents\AURA-1\.continue\rules\architectural-blueprint-governance.md
+- C:\Users\m\Documents\AURA-1\.continue\rules\new-rule.md
+- C:\Users\m\Documents\AURA-1\.github\copilot-instructions.md
+- C:\Users\m\Documents\AURA-1\.github\copilot-instructions2.md
+- C:\Users\m\Documents\AURA-1\archetype_research.md
+- C:\Users\m\Documents\AURA-1\archetypes\archetypes_audit_report.md
+- C:\Users\m\Documents\AURA-1\archive\frontends\archived_20260130_080910\frontend-frontend-zip\README.md
+- C:\Users\m\Documents\AURA-1\archive\frontends\archived_20260130_080910\frontend\aura_implementation_guide.md
+- C:\Users\m\Documents\AURA-1\archive\frontends\archived_20260130_080910\frontend\FRONTEND_IMPLEMENTATION_GUIDE.md
+- C:\Users\m\Documents\AURA-1\archive\frontends\archived_20260130_080910\frontend\mecha\index.html
+- C:\Users\m\Documents\AURA-1\archive\frontends\archived_20260130_080910\frontend\mecha\README.md
+- C:\Users\m\Documents\AURA-1\archive\frontends\archived_20260130_080910\frontend\public\index.html
+- C:\Users\m\Documents\AURA-1\archive\frontends\archived_20260130_080910\frontend\public\telemetry.html
+- C:\Users\m\Documents\AURA-1\archive\frontends\archived_20260130_080910\frontend\README.md
+- C:\Users\m\Documents\AURA-1\archive\frontends\archived_20260130_080910\frontend\src\index.html
+- C:\Users\m\Documents\AURA-1\archive\frontends\archived_20260130_080910\frontend\src\morphing\FRONTEND_IMPLEMENTATION_GUIDE.md
+- C:\Users\m\Documents\AURA-1\archive\frontends\archived_20260130_080910\frontend\src\morphing\IMPLEMENTATION_GUIDE.md
+- C:\Users\m\Documents\AURA-1\archive\frontends\archived_20260130_080910\frontend\src\morphing\README.md
+- C:\Users\m\Documents\AURA-1\archive\frontends\archived_20260130_080910\frontend\src\Tauri\ArchetypesofAURAfinal.txt
+- C:\Users\m\Documents\AURA-1\archive\frontends\archived_20260130_080910\frontend\src\Tauri\AURA Asset Inventory.md
+- C:\Users\m\Documents\AURA-1\archive\frontends\archived_20260130_080910\frontend\src\Tauri\AURA Technical Decisions_ Framework Comparison & Rationale.md
+- C:\Users\m\Documents\AURA-1\archive\frontends\archived_20260130_080910\frontend\src\Tauri\aura-architectural-plan.md
+- C:\Users\m\Documents\AURA-1\archive\frontends\archived_20260130_080910\frontend\src\Tauri\aura-frontend-analysis.md
+- C:\Users\m\Documents\AURA-1\archive\frontends\archived_20260130_080910\frontend\src\Tauri\vs.md
+- C:\Users\m\Documents\AURA-1\archive\frontends\archived_20260130_080910\workbench\index.html
+- C:\Users\m\Documents\AURA-1\AUDIT_REPORT.md
+- C:\Users\m\Documents\AURA-1\aura_overview.md
+- C:\Users\m\Documents\AURA-1\AURA_PROJECT_REPORT.md
+- C:\Users\m\Documents\AURA-1\AURA_system_architecture_audit_report.md
+- C:\Users\m\Documents\AURA-1\aura-desktop\04_execution_governance_dynamics.md
+- C:\Users\m\Documents\AURA-1\aura-desktop\FRONTEND_IMPLEMENTATION_GUIDE.md
+- C:\Users\m\Documents\AURA-1\aura-desktop\index.html
+- C:\Users\m\Documents\AURA-1\aura-desktop\needs\02_computational_methods.md
+- C:\Users\m\Documents\AURA-1\aura-desktop\needs\03_cognitive_sovereignty.md
+- C:\Users\m\Documents\AURA-1\aura-desktop\needs\04_execution_governance_dynamics.md
+- C:\Users\m\Documents\AURA-1\aura-desktop\needs\aibor.md
+- C:\Users\m\Documents\AURA-1\aura-desktop\needs\ArchetypesofAURAfinal.txt
+- C:\Users\m\Documents\AURA-1\aura-desktop\needs\AURA Asset Inventory.md
+- C:\Users\m\Documents\AURA-1\aura-desktop\needs\AURA laws -.md
+- C:\Users\m\Documents\AURA-1\aura-desktop\needs\FRONTEND_IMPLEMENTATION_GUIDE.md
+- C:\Users\m\Documents\AURA-1\aura-desktop\needs\IDEAL ASSISTANT.md
+- C:\Users\m\Documents\AURA-1\aura-desktop\needs\index.html
+- C:\Users\m\Documents\AURA-1\aura-desktop\needs\mma.md
+- C:\Users\m\Documents\AURA-1\aura-desktop\README.md
+- C:\Users\m\Documents\AURA-1\aura-expanded-checklist.md
+- C:\Users\m\Documents\AURA-1\aura1.md
+- C:\Users\m\Documents\AURA-1\backend_log.txt
+- C:\Users\m\Documents\AURA-1\BACKEND_STARTED.txt
+- C:\Users\m\Documents\AURA-1\BACKEND_STARTUP_FAILURE_2026-01-02.md
+- C:\Users\m\Documents\AURA-1\backend\code_blocks1.md
+- C:\Users\m\Documents\AURA-1\backend\COUNCIL_CONTRACT.md
+- C:\Users\m\Documents\AURA-1\backend\orchestrator\prompts\sentinel_system.txt
+- C:\Users\m\Documents\AURA-1\backend\orchestrator\src\prompts\sentinel_system.txt
+- C:\Users\m\Documents\AURA-1\backend\orchestrator\src\qsic\README.md
+- C:\Users\m\Documents\AURA-1\backend\README.md
+- C:\Users\m\Documents\AURA-1\backend\sentinel\src\prompts\sentinel_system.txt
+- C:\Users\m\Documents\AURA-1\FAILURE_REPORT_2026-01-02.md
+- C:\Users\m\Documents\AURA-1\FILES_TO_CHECK.md
+- C:\Users\m\Documents\AURA-1\gemini_chunk1.md
+- C:\Users\m\Documents\AURA-1\gemini_chunk2.md
+- C:\Users\m\Documents\AURA-1\gemini_chunk3.md
+- C:\Users\m\Documents\AURA-1\gemini_chunk4.md
+- C:\Users\m\Documents\AURA-1\gemini_chunk5.md
+- C:\Users\m\Documents\AURA-1\geminiconvo.md
+- C:\Users\m\Documents\AURA-1\HANDOFF_NEXT.md
+- C:\Users\m\Documents\AURA-1\handoff_report.md
+- C:\Users\m\Documents\AURA-1\handoffreport.md
+- C:\Users\m\Documents\AURA-1\IMPLEMENTATION_PLAN.md
+- C:\Users\m\Documents\AURA-1\index.html
+- C:\Users\m\Documents\AURA-1\ISSUE_BACKEND_CRASH_ANALYSIS.md
+- C:\Users\m\Documents\AURA-1\launcher\claude_launcher\README.md
+- C:\Users\m\Documents\AURA-1\launcher\claude_launcher\requirements.txt
+- C:\Users\m\Documents\AURA-1\launcher\index.html
+- C:\Users\m\Documents\AURA-1\launcher\LAUNCHER_REPORT.md
+- C:\Users\m\Documents\AURA-1\launcher\PYTHON_LAUNCHER_README.md
+- C:\Users\m\Documents\AURA-1\launcher\README.md
+- C:\Users\m\Documents\AURA-1\launcher\requirements.txt
+- C:\Users\m\Documents\AURA-1\launcher\sanity.html
+- C:\Users\m\Documents\AURA-1\launcher\STATUS_LAUNCHER.md
+- C:\Users\m\Documents\AURA-1\manus-checklist.md
+- C:\Users\m\Documents\AURA-1\mirrorborn_quiz\master_quiz.md
+- C:\Users\m\Documents\AURA-1\mirrorborn_quiz\PHASE3_PLAN.md
+- C:\Users\m\Documents\AURA-1\mirrorborn_quiz\README.md
+- C:\Users\m\Documents\AURA-1\newauraplan.md
+- C:\Users\m\Documents\AURA-1\OLLAMA_SETUP.md
+- C:\Users\m\Documents\AURA-1\PR_AUTHORITY_SPINE_V1.md
+- C:\Users\m\Documents\AURA-1\PR_BODY_AURA_AUTHORITY_SPINE_V1.md
+- C:\Users\m\Documents\AURA-1\README.md
+- C:\Users\m\Documents\AURA-1\RELEASE_NOTES\aura-1-authority-spine-v1.md
+- C:\Users\m\Documents\AURA-1\RELEASE_NOTES\PHASE4_STEP5_EXECUTION_CHECKLIST.md
+- C:\Users\m\Documents\AURA-1\RELEASE_NOTES\release_body_aura-1-authority-spine-v1.md
+- C:\Users\m\Documents\AURA-1\RELEASE_NOTES\v0.4.4-orchestrator-safe-cognition.md
+- C:\Users\m\Documents\AURA-1\ROBUSTNESS_GUIDE_2026.md
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\_sounddevice_data\portaudio-binaries\README.md
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\cffi-2.0.0.dist-info\entry_points.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\cffi-2.0.0.dist-info\top_level.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\cv2\LICENSE-3RD-PARTY.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\cv2\LICENSE.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\flatbuffers-25.12.19.dist-info\top_level.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\keyboard-0.13.5.dist-info\LICENSE.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\keyboard-0.13.5.dist-info\top_level.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\mediapipe-0.10.31.dist-info\top_level.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\mediapipe\modules\hand_landmark\handedness.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\mediapipe\modules\objectron\object_detection_oidv4_labelmap.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\mouseinfo-0.1.3.dist-info\top_level.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\numpy-2.2.6.dist-info\entry_points.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\numpy-2.2.6.dist-info\LICENSE.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\numpy\_core\include\numpy\random\LICENSE.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-README.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\numpy\ma\API_CHANGES.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\numpy\ma\README.rst
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\numpy\random\LICENSE.md
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\opencv_python-4.12.0.88.dist-info\LICENSE-3RD-PARTY.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\opencv_python-4.12.0.88.dist-info\LICENSE.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\opencv_python-4.12.0.88.dist-info\top_level.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pip-25.3.dist-info\entry_points.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pip-25.3.dist-info\licenses\AUTHORS.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pip-25.3.dist-info\licenses\LICENSE.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pip-25.3.dist-info\licenses\src\pip\_vendor\cachecontrol\LICENSE.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pip-25.3.dist-info\licenses\src\pip\_vendor\dependency_groups\LICENSE.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pip-25.3.dist-info\licenses\src\pip\_vendor\distlib\LICENSE.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pip-25.3.dist-info\licenses\src\pip\_vendor\idna\LICENSE.md
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pip-25.3.dist-info\licenses\src\pip\_vendor\urllib3\LICENSE.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pip\_vendor\cachecontrol\LICENSE.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pip\_vendor\dependency_groups\LICENSE.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pip\_vendor\distlib\LICENSE.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pip\_vendor\idna\LICENSE.md
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pip\_vendor\README.rst
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pip\_vendor\urllib3\LICENSE.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pip\_vendor\vendor.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pyautogui-0.9.54.dist-info\licenses\AUTHORS.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pyautogui-0.9.54.dist-info\licenses\LICENSE.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pyautogui-0.9.54.dist-info\top_level.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pycparser-2.23.dist-info\top_level.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pygetwindow-0.0.9.dist-info\top_level.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pymsgbox-2.0.1.dist-info\licenses\AUTHORS.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pymsgbox-2.0.1.dist-info\licenses\LICENSE.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pymsgbox-2.0.1.dist-info\top_level.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pyperclip-1.11.0.dist-info\licenses\AUTHORS.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pyperclip-1.11.0.dist-info\licenses\LICENSE.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pyperclip-1.11.0.dist-info\top_level.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pyrect-0.2.0.dist-info\licenses\AUTHORS.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pyrect-0.2.0.dist-info\licenses\LICENSE.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pyrect-0.2.0.dist-info\top_level.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pyscreeze-1.0.1.dist-info\licenses\AUTHORS.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pyscreeze-1.0.1.dist-info\licenses\LICENSE.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pyscreeze-1.0.1.dist-info\top_level.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pytweening-1.2.0.dist-info\licenses\AUTHORS.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pytweening-1.2.0.dist-info\licenses\LICENSE.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\pytweening-1.2.0.dist-info\top_level.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\sounddevice-0.5.3.dist-info\top_level.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\soundfile-0.13.1.dist-info\top_level.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\webrtcvad-2.0.10.dist-info\top_level.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\websockets-15.0.1.dist-info\entry_points.txt
+- C:\Users\m\Documents\AURA-1\sensors\aura-sensors\Lib\site-packages\websockets-15.0.1.dist-info\top_level.txt
+- C:\Users\m\Documents\AURA-1\sensors\manusplan4aura.md
+- C:\Users\m\Documents\AURA-1\sensors\Phase 1 Hard Reset File Structure.txt
+- C:\Users\m\Documents\AURA-1\sensors\requirements.txt
+- C:\Users\m\Documents\AURA-1\sorting_hat.md
+- C:\Users\m\Documents\AURA-1\STATUS_REPORT_DEPLOY.md
+- C:\Users\m\Documents\AURA-1\STATUS_REPORT.md
+- C:\Users\m\Documents\AURA-1\TASK_LIST_WORKBENCH.md
+- C:\Users\m\Documents\AURA-1\whatisthis.md
+- C:\Users\m\Documents\AURA-1\WORKBENCH_LAUNCHER_SETUP.md
+- C:\Users\m\Documents\Codex_movie\CHRONOS_PRODUCTION_PLAN.md
+- C:\Users\m\Documents\Codex_movie\Eight Unknowns of AURA Propulsion.md
+- C:\Users\m\Documents\Codex_movie\Full Report_ The First Emergence - NeuroCognica Pr.docx.txt
+- C:\Users\m\Documents\Codex_movie\Generative Video_ Project Chronos-Sophia_.txt
+- C:\Users\m\Documents\Codex_movie\Insurgent Robot Build Doctrine.md
+- C:\Users\m\Documents\Codex_movie\NEUROCOGNICA.md
+- C:\Users\m\Documents\Codex_movie\Theorizing NeuroCognica's Undeniable Artifact.md
+- C:\Users\m\Documents\Codex\2026-07-18\c-aura-lab\outputs\nri_sentinel_doctrine_gap_report_2026-07-18.md
+- C:\Users\m\Documents\Codex\2026-07-18\c-aura-lab\outputs\nri_sentinel_full_read_manifest_2026-07-18.md
+- C:\Users\m\Documents\Codex\2026-07-18\c-aura-lab\outputs\sentinel_amalgamation_audit_2026-07-18.md
+- C:\Users\m\Documents\Codex\2026-07-18\c-aura-lab\outputs\sentinel_constitutional_security_protocol_2026-07-18.md
+- C:\Users\m\Documents\GitHub\auradocs\Advanced Cybersecurity AI Research Synthesis_.txt
+- C:\Users\m\Documents\GitHub\auradocs\AI_ Collapsing Time, Building AMSD_.txt
+- C:\Users\m\Documents\GitHub\auradocs\AI, Heat Death, Reversal_.txt
+- C:\Users\m\Documents\GitHub\auradocs\Archetypes of AURA 1-3.txt
+- C:\Users\m\Documents\GitHub\auradocs\AURA Archetype Expansion Project.txt
+- C:\Users\m\Documents\GitHub\auradocs\AURA Kernel Genesis_ Security Integration (1).txt
+- C:\Users\m\Documents\GitHub\auradocs\Aura Key - Genesis Blueprint v1.7.md
+- C:\Users\m\Documents\GitHub\auradocs\Aura Key - Genesis Blueprint v2.txt
+- C:\Users\m\Documents\GitHub\auradocs\AURA OS_ An Architectural Framework for Cognitive Sovereignty.txt
+- C:\Users\m\Documents\GitHub\auradocs\AURA.txt
+- C:\Users\m\Documents\GitHub\auradocs\aurawebsystem.txt
+- C:\Users\m\Documents\GitHub\auradocs\Bio-Engineering Ancient Somatic Practices (1).txt
+- C:\Users\m\Documents\GitHub\auradocs\Bio-Engineering Ancient Somatic Practices.txt
+- C:\Users\m\Documents\GitHub\auradocs\Biophotonics_ Bridging UPE-PBM Intensity Gap.txt
+- C:\Users\m\Documents\GitHub\auradocs\Building a GGUF Unikernel Sentinel (1).txt
+- C:\Users\m\Documents\GitHub\auradocs\Building a GGUF Unikernel Sentinel.txt
+- C:\Users\m\Documents\GitHub\auradocs\CLASSIFICATION_ SECRET __ NOFORN.txt
+- C:\Users\m\Documents\GitHub\auradocs\Comprehensive AURA Report Expansion (1).txt
+- C:\Users\m\Documents\GitHub\auradocs\Context-Aware Integrity Verification for Mission-Critical AI Systems.md
+- C:\Users\m\Documents\GitHub\auradocs\Diamond Tetrahedron Quantum Blueprint.txt
+- C:\Users\m\Documents\GitHub\auradocs\Directed Materialization_ A Theoretical Model (1).txt
+- C:\Users\m\Documents\GitHub\auradocs\Directed Materialization_ A Theoretical Model.txt
+- C:\Users\m\Documents\GitHub\auradocs\Dr. LLM_ Empathic AI Integration Strategy (1).txt
+- C:\Users\m\Documents\GitHub\auradocs\Dr. LLM_ Empathic AI Integration Strategy.txt
+- C:\Users\m\Documents\GitHub\auradocs\Dsm project.txt
+- C:\Users\m\Documents\GitHub\auradocs\Dyadic ESP Training Protocol Synthesis.txt
+- C:\Users\m\Documents\GitHub\auradocs\Full Report_ Law 14 - The Ethics of Beauty and Awe.txt
+- C:\Users\m\Documents\GitHub\auradocs\Full Report_ The Archetypes of the AURA Initiative.md
+- C:\Users\m\Documents\GitHub\auradocs\Full Report_ The Archetypes of the AURA Initiative.md.txt
+- C:\Users\m\Documents\GitHub\auradocs\Generative Video_ Project Chronos-Sophia_.txt
+- C:\Users\m\Documents\GitHub\auradocs\Grand Unified Field Report Synthesis.txt
+- C:\Users\m\Documents\GitHub\auradocs\Healing_ AI, Nano, Bio, Quantum_.txt
+- C:\Users\m\Documents\GitHub\auradocs\Hope City Legal Charter Blueprint (6).txt
+- C:\Users\m\Documents\GitHub\auradocs\Hope City Master Plan Vulnerability Patch.txt
+- C:\Users\m\Documents\GitHub\auradocs\Human RAG Protocol Design.txt
+- C:\Users\m\Documents\GitHub\auradocs\Integrated Healthcare and Harm Reduction Models.txt
+- C:\Users\m\Documents\GitHub\auradocs\Jester profile.txt
+- C:\Users\m\Documents\GitHub\auradocs\masterquiz4manus.txt
+- C:\Users\m\Documents\GitHub\auradocs\National Defense Capabilities Roadmap Briefing.txt
+- C:\Users\m\Documents\GitHub\auradocs\NeuroCognica Corporate Architecture Blueprint_ (1).txt
+- C:\Users\m\Documents\GitHub\auradocs\NeuroCognica Corporate Architecture Blueprint_.txt
+- C:\Users\m\Documents\GitHub\auradocs\NeuroCognica_ Full System & Startup Report.txt
+- C:\Users\m\Documents\GitHub\auradocs\Personal Sovereignty Technology and Data.txt
+- C:\Users\m\Documents\GitHub\auradocs\probecode2.txt
+- C:\Users\m\Documents\GitHub\auradocs\Project Theseus_ Body Reconstruction Roadmap (1).txt
+- C:\Users\m\Documents\GitHub\auradocs\Project Theseus_ Body Reconstruction Roadmap.txt
+- C:\Users\m\Documents\GitHub\auradocs\Provisional Patent Application_ AURA System.txt
+- C:\Users\m\Documents\GitHub\auradocs\psychotherapy.txt
+- C:\Users\m\Documents\GitHub\auradocs\Quantum-Seeded Integrity Check (QSIC) for Local AI Projects.txt
+- C:\Users\m\Documents\GitHub\auradocs\Recovery Community Economic Models Research.txt
+- C:\Users\m\Documents\GitHub\auradocs\Recovery Enterprise Economic Models Research.txt
+- C:\Users\m\Documents\GitHub\auradocs\Recovery Reintegration and Exit Strategies.txt
+- C:\Users\m\Documents\GitHub\auradocs\Resident-Led Cooperative Village Research.txt
+- C:\Users\m\Documents\GitHub\auradocs\Sacred Three Engine Design_.txt
+- C:\Users\m\Documents\GitHub\auradocs\Sentinel Architecture & Obfuscation Theory.txt
+- C:\Users\m\Documents\GitHub\auradocs\Technical Analysis and Feasibility Assessment_ The AURA Kernel Project.md
+- C:\Users\m\Documents\GitHub\auradocs\THEORY_ QUANTUM GEOMETRIC LATTICE COMMUNICATION ACROSS THE MULTIVERSE.txt
+- C:\Users\m\Documents\GitHub\auradocs\Trauma-Informed Security in Recovery Environments.txt
+- C:\Users\m\Documents\GitHub\auradocs\You are operating under Man–Machine.txt
+- C:\Users\m\Documents\NeuroCognica\AIBOR-MMA\aibor.md
+- C:\Users\m\Documents\NeuroCognica\AIBOR-MMA\mma.md
+- C:\Users\m\Documents\NeuroCognica\AIBOR-MMA\You are operating under Man–Machine.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\# AURA CORE - COUNCIL BUILD REPORT.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\AI, Heat Death, Reversal_.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Archetype Profile for Claude the Scribe.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Archetypes of AURA 1-3.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Archetypes of AURA final.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Archetypes of AURA.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\AURA Archetype Expansion Project.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Aura Key - Genesis Blueprint v2.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\AURA laws -.md
+- C:\Users\m\Documents\NeuroCognica\AURA\AURA OS_ An Architectural Framework for Cognitive Sovereignty.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\aura-expanded-checklist.md
+- C:\Users\m\Documents\NeuroCognica\AURA\AURA-Sentinel_ Comprehensive Implementation Plan.md
+- C:\Users\m\Documents\NeuroCognica\AURA\AURA-Subnodes.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\AURA.md
+- C:\Users\m\Documents\NeuroCognica\AURA\AURA.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\auralab.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\blender_manifestor.rs.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\builderreports.md.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Comprehensive AURA Report Expansion.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Full Report_ The Archetypes of the AURA Initiative.md
+- C:\Users\m\Documents\NeuroCognica\AURA\Full Report_ The Archetypes of the AURA Initiative.md.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Full Report_ The First Emergence - NeuroCognica Pr.docx.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\historian.rs.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Home.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\IDEAL ASSISTANT.md
+- C:\Users\m\Documents\NeuroCognica\AURA\ideal_assitdoc.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\III. PHASE 3 — COUNCIL ORCHESTRATOR (THE BRAIN).md
+- C:\Users\m\Documents\NeuroCognica\AURA\Integration of Sentinel-Core Logic into AURA-Sentinel.md
+- C:\Users\m\Documents\NeuroCognica\AURA\Integration of Sentinel-Core Logic into AURA-Sentinel.pdf
+- C:\Users\m\Documents\NeuroCognica\AURA\Jester profile.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\manusanalysis.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\manusplan4aura.md
+- C:\Users\m\Documents\NeuroCognica\AURA\NeuroCognica_ AURA OS Deep Analysis_.docx.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\NeuroCognicaAURAdossier.pdf
+- C:\Users\m\Documents\NeuroCognica\AURA\newauraplan.md
+- C:\Users\m\Documents\NeuroCognica\AURA\ORACLE-ARCHITECT.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Provisional Patent Application_ AURA System.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Sacred Three Engine Design_.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\Sentinel Core_ Detailed Improvement Suggestions.md
+- C:\Users\m\Documents\NeuroCognica\AURA\Sentinel–AURA.txt
+- C:\Users\m\Documents\NeuroCognica\AURA\VIII. PHASE 7 — VOICE & SENSORY ENGINE.md
+- C:\Users\m\Documents\NeuroCognica\AURA\vscode.txt
+- C:\Users\m\Documents\NeuroCognica\Chronos-Sophia\Generative Video_ Project Chronos-Sophia_.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\forviren.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\Hermes\gemini5convo1.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\Hermes\geminiconvo12122025.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\Scribe\claudeaurakernel1.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\Scribe\claudeconvo29.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\Scribe\claudeconvo30.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\Viren\chatgpt5convo1.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\Viren\Viren Personality Quiz.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\Viren\virenconvo12122025.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\Viren\virenconvo12142025.txt
+- C:\Users\m\Documents\NeuroCognica\Council Chats\weaverchat1.txt
+- C:\Users\m\Documents\NeuroCognica\DM\AI_ Collapsing Time, Building AMSD_.txt
+- C:\Users\m\Documents\NeuroCognica\DM\Brain Connectivity, Gender, and Meditation.md
+- C:\Users\m\Documents\NeuroCognica\DM\CLASSIFICATION_ SECRET __ NOFORN.txt
+- C:\Users\m\Documents\NeuroCognica\DM\claude_convo01122026.md
+- C:\Users\m\Documents\NeuroCognica\DM\Diamond Tetrahedron Quantum Blueprint.txt
+- C:\Users\m\Documents\NeuroCognica\DM\DiamondTetrahedronQuantumBlueprint (1).txt
+- C:\Users\m\Documents\NeuroCognica\DM\DiamondTetrahedronQuantumBlueprint.txt
+- C:\Users\m\Documents\NeuroCognica\DM\Directed Materialization_ A Theoretical Model (1).txt
+- C:\Users\m\Documents\NeuroCognica\DM\Directed Materialization_ A Theoretical Model.txt
+- C:\Users\m\Documents\NeuroCognica\DM\Evolution as Consciousness and Future Species.md
+- C:\Users\m\Documents\NeuroCognica\DM\Grand Unified Field Report Synthesis.txt
+- C:\Users\m\Documents\NeuroCognica\DM\Healing_ AI, Nano, Bio, Quantum_.txt
+- C:\Users\m\Documents\NeuroCognica\DM\National Defense Capabilities Roadmap Briefing.txt
+- C:\Users\m\Documents\NeuroCognica\DM\Perfect Diamond Manufacturing Research (1).md
+- C:\Users\m\Documents\NeuroCognica\DM\Perfect Diamond Manufacturing Research.md
+- C:\Users\m\Documents\NeuroCognica\DM\Quantum-Crystalline Metric Drive Analysis (1).txt
+- C:\Users\m\Documents\NeuroCognica\DM\Quantum-Crystalline Metric Drive Analysis.txt
+- C:\Users\m\Documents\NeuroCognica\DM\THEORY_ QUANTUM GEOMETRIC LATTICE COMMUNICATION ACROSS THE MULTIVERSE.txt
+- C:\Users\m\Documents\NeuroCognica\DM\timetravel.txt
+- C:\Users\m\Documents\NeuroCognica\DM\ZPF Rectification Theory Gaps Addressed rev.md
+- C:\Users\m\Documents\NeuroCognica\DM\ZPF Rectification Theory Gaps Addressed rev2.md
+- C:\Users\m\Documents\NeuroCognica\DM\ZPF Rectification Theory Gaps Addressed.md
+- C:\Users\m\Documents\NeuroCognica\DrLLM\Dr. LLM_ Empathic AI Integration Strategy (1).txt
+- C:\Users\m\Documents\NeuroCognica\DrLLM\Dr. LLM_ Empathic AI Integration Strategy.txt
+- C:\Users\m\Documents\NeuroCognica\DrLLM\masterquiz.txt
+- C:\Users\m\Documents\NeuroCognica\Full Report_ The First Emergence - NeuroCognica Pr.docx.txt
+- C:\Users\m\Documents\NeuroCognica\github-recovery-codes.txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Hope City Legal Charter Blueprint (1).txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Hope City Legal Charter Blueprint (2).txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Hope City Legal Charter Blueprint (3).txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Hope City Legal Charter Blueprint (4).txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Hope City Legal Charter Blueprint (5).txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Hope City Legal Charter Blueprint (6).txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Hope City Legal Charter Blueprint.txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Hope City Master Plan Vulnerability Patch.txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Integrated Healthcare and Harm Reduction Models.txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Personal Sovereignty Technology and Data.txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Recovery Community Economic Models Research.txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Recovery Enterprise Economic Models Research.txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Recovery Reintegration and Exit Strategies.txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Resident-Led Cooperative Village Research.txt
+- C:\Users\m\Documents\NeuroCognica\HOPE CITY\Trauma-Informed Security in Recovery Environments.txt
+- C:\Users\m\Documents\NeuroCognica\Ideal Assistant\IDEAL ASSISTANT.md
+- C:\Users\m\Documents\NeuroCognica\michaels_research\aibor.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\aibor4manus.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\Audience Recommendations for Execution Governance Dynamics (EGD).md
+- C:\Users\m\Documents\NeuroCognica\michaels_research\AURA _ NeuroCognica — FULLY EXPANDED MASTER IMPLEMENTATION CHECKLIST.md
+- C:\Users\m\Documents\NeuroCognica\michaels_research\Broke-to-Revenue Plan_ Monetizing EGD & Sentinel.md
+- C:\Users\m\Documents\NeuroCognica\michaels_research\code4manus.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\Evaluating Execution Governance Dynamics Framework.md
+- C:\Users\m\Documents\NeuroCognica\michaels_research\mma.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\NeuroCognica Corporate Architecture Blueprint_.md
+- C:\Users\m\Documents\NeuroCognica\michaels_research\README.md
+- C:\Users\m\Documents\NeuroCognica\michaels_research\readme4manus.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\blender_manifestor.rs.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\blender_microservice\README.md
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\concept_interpreter.rs.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\conductor-rs.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\constitutional_validator.rs.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\main.rs.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\orchesrator-main.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\original_oracle_code.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\viren-personalityquiz.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\weaveragent1.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\rust code\world_synthesizer.rs.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\sce.txt
+- C:\Users\m\Documents\NeuroCognica\michaels_research\Thesis on Sovereign Compliance Ecosystems.md
+- C:\Users\m\Documents\NeuroCognica\michaels_research\thesis_summary.md
+- C:\Users\m\Documents\NeuroCognica\michaels_research\timetravel.txt
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\archetype_research.md
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\aurawebsystem.txt
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\human-RAG.md
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\Jungian Archetypes For Psychological Profiling.md
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\masterquiz4manus.txt
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\Mirrorborn Archetype Dossier_ The 50-Node Taxonomy.md
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\Mirrorborn Profile Generation Report_ A Deterministic Self-Model.md
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\mirrorbornformanus.md
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\probecode.txt
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\probecode2.txt
+- C:\Users\m\Documents\NeuroCognica\Mirrorborn\psychotherapy.txt
+- C:\Users\m\Documents\NeuroCognica\nc.txt
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\asna.pdf
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\AURA-Sentinel Colpitts Oscillator Modification Guide.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\AURA-Sentinel Darlington Preamp - Wiring Reference.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\AURA-Sentinel Prototype Build Report_ Marker One.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\cranial-resonance-build.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\galaxy-watch-sensor-access.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\helmet-sensor-mount.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\Low-Budget Optimizations for MCMVS Helmet Mount.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\Mechanical cranial micro-vibration sensing.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\Raspberry Pi Cranial Vibration Sensing Setup.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\Salvaged BCI_ Junk Electronics Hack.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\Semantic Routing Protocol Formula Development.md
+- C:\Users\m\Documents\NeuroCognica\Neuro-Halo\vertex-sensor-quickstart.md
+- C:\Users\m\Documents\NeuroCognica\NeuroCognica Corporate Architecture Blueprint_.txt
+- C:\Users\m\Documents\NeuroCognica\NeuroCognica_ AURA OS Deep Analysis.txt
+- C:\Users\m\Documents\NeuroCognica\NeuroCognica_ Full System & Startup Report.txt
+- C:\Users\m\Documents\NeuroCognica\NeuroCognica.pdf
+- C:\Users\m\Documents\NeuroCognica\NeuroCognica.txt
+- C:\Users\m\Documents\NeuroCognica\QSIC\Context-Aware Integrity Verification for Mission-Critical AI Systems.md
+- C:\Users\m\Documents\NeuroCognica\QSIC\Quantum-Seeded Integrity Check (QSIC) for Local AI Projects.txt
+- C:\Users\m\Documents\NeuroCognica\Sacred LAws\Full Report_ Law 14 - The Ethics of Beauty and Awe.txt
+- C:\Users\m\Documents\NeuroCognica\Sentinel\Advanced Cybersecurity AI Research Synthesis_.txt
+- C:\Users\m\Documents\NeuroCognica\Sentinel\AURA Kernel Genesis_ Security Integration.txt
+- C:\Users\m\Documents\NeuroCognica\Sentinel\Aura Key - Genesis Blueprint v1.7.md
+- C:\Users\m\Documents\NeuroCognica\Sentinel\Building a GGUF Unikernel Sentinel.txt
+- C:\Users\m\Documents\NeuroCognica\Sentinel\Dyadic ESP Training Protocol Synthesis.txt
+- C:\Users\m\Documents\NeuroCognica\Sentinel\New Sentinel.txt
+- C:\Users\m\Documents\NeuroCognica\Sentinel\Sentinel Architecture & Obfuscation Theory.txt
+- C:\Users\m\Documents\NeuroCognica\Sentinel\Technical Analysis and Feasibility Assessment_ The AURA Kernel Project.md
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\Bio-Engineering Ancient Somatic Practices (1).txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\Human RAG Protocol Design.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\human-RAG.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\ignition_v2 (1).html
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\ignition_v2.html
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\ignition_v3_quest.html
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\ignition_v4.html
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\ignition_v5.html.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\mandarin_01_audio_tones.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\mandarin_audio_lab.html
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\MANDARIN_AUDIO_LAB.md
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\requirements-mandarin-audio.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\shaolin_00_safety_gate.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn\ignition_v4.html
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\🏛️ COUNCIL REPORT OPERATION IGNITI.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\ggufunikernel.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\HighVelocityDataIngestion.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\hugereport.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\ignition_v5.html
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\ignition_v6.html
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\ignition_v7.html
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\ignition_v8.html
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\neuralcartridge01.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\neuralcartridge02.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\neuralcartridge03.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\neuralcartridge04.txt
+- C:\Users\m\Documents\NeuroCognica\Speed Learn\speedlearn2\Psychology_Core.txt
+- C:\Users\m\Documents\NeuroCognica\SSSD\Analyzing Context-Bound Integrity Gate.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Architectural Specification_ The Reflective Mind Plane Engine.txt
+- C:\Users\m\Documents\NeuroCognica\SSSD\council_report_01032026.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\councilupdate.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Deriving Phonon-Vacuum Coupling Efficiency.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Deriving.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\DiamondTetrahedronQuantumBlueprint (1).txt
+- C:\Users\m\Documents\NeuroCognica\SSSD\DiamondTetrahedronQuantumBlueprint.txt
+- C:\Users\m\Documents\NeuroCognica\SSSD\Eight Unknowns of AURA Propulsion.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Floquet-Flexoelectric Rectification Derivation.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\human-RAG (1).md
+- C:\Users\m\Documents\NeuroCognica\SSSD\manuschat1.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Perfect Diamond Manufacturing Research (1).md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Perfect Diamond Manufacturing Research.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\qsic4manus.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Quantum-Crystalline Metric Drive Analysis (1).txt
+- C:\Users\m\Documents\NeuroCognica\SSSD\Quantum-Crystalline Metric Drive Analysis.txt
+- C:\Users\m\Documents\NeuroCognica\SSSD\Quantum-Seeded Integrity Check (QSIC) for Local AI Projects (1).md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Quantum-Seeded Integrity Check (QSIC) for Local AI Projects.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Quantum-Seeded Integrity Check (QSIC) Implementation Plan_ Rust on seL4.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Rust Backend for Conversational AI.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Solid-State Spacetime Drive.txt
+- C:\Users\m\Documents\NeuroCognica\SSSD\SSSD and AURA_ Grand Unified Plan.txt
+- C:\Users\m\Documents\NeuroCognica\SSSD\SSSD.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\Zero-Point Field Rectification Propulsion_ Speculative Analysis.docx
+- C:\Users\m\Documents\NeuroCognica\SSSD\Zero-Point Field Rectification Propulsion_ Speculative Analysis.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\ZPF Rectification Theory Gaps Addressed rev.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\ZPF Rectification Theory Gaps Addressed rev2.md
+- C:\Users\m\Documents\NeuroCognica\SSSD\ZPF Rectification Theory Gaps Addressed.md
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\AI_ Collapsing Time, Building AMSD_.txt
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\Diamond Tetrahedron Quantum Blueprint.txt
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\Directed Materialization_ A Theoretical Model (1).txt
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\Directed Materialization_ A Theoretical Model.txt
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\Grand Unified Field Report Synthesis.txt
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\Healing_ AI, Nano, Bio, Quantum_.txt
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\Project Theseus_ Body Reconstruction Roadmap (1).txt
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\Project Theseus_ Body Reconstruction Roadmap.txt
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\Reflective File Transfer Protocol (RFTP) Blueprint.txt
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\The Reflective Storage and Retrieval System (RSRS)_ Revised Blueprint for the Sovereign Mesh.md
+- C:\Users\m\Documents\NeuroCognica\TheoResearch\THEORY_ QUANTUM GEOMETRIC LATTICE COMMUNICATION ACROSS THE MULTIVERSE.txt
+- C:\Users\m\Documents\NeuroCognica\THESEUS\Bio-Engineering Ancient Somatic Practices.txt
+- C:\Users\m\Documents\NeuroCognica\THESEUS\Biophotonics_ Bridging UPE-PBM Intensity Gap.txt
+- C:\Users\m\Documents\NeuroCognica\THESEUS\CLASSIFICATION_ SECRET __ NOFORN.txt
+- C:\Users\m\Documents\NeuroCognica\THESEUS\Dsm project.txt
+- C:\Users\m\Documents\NeuroCognica\THESEUS\National Defense Capabilities Roadmap Briefing.txt
+- C:\Users\m\Documents\nursery\coder_tests\AURA laws -.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\CCF_THESIS_FULL_DRAFT.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\CCF_THESIS_OUTLINE.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\CCF_THESIS_REVISED_2026-06-02.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\CCF_THESIS_SECTION_I_DRAFT.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\CCF_THESIS_SECTION_II_DRAFT.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\CCF_THESIS_SECTION_III_DRAFT.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\CCF_THESIS_SECTION_IV_DRAFT.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\CCF_THESIS_SECTION_IX_DRAFT.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\CCF_THESIS_SECTION_V_DRAFT.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\CCF_THESIS_SECTION_VI_DRAFT.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\CCF_THESIS_SECTION_VII_DRAFT.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\CCF_THESIS_SECTION_VIII_DRAFT.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\CCF_THESIS_SECTION_X_DRAFT.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\CCF_THESIS_SECTION_XI_DRAFT.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\CCF_THESIS_SECTION_XII_DRAFT.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\CCF_THESIS_SUBSECTION_PROVENANCE_VS_INDEPENDENCE.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\CCF_VERIFICATION_APPENDIX_2026-06-02.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\CONVERSATIONAL_TRAINING_REPORT.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\EDITORS_NOTE_2026-06-02.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\GROWTH_AND_CONSCIOUSNESS_REPORT.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\HANDOFF_COUNCIL_2026-06-01_corpus_and_retraining.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\MVP_STATUS.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\README_MVP.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\README.md
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\requirements.txt
+- C:\Users\m\Documents\nursery\Primus\CCF_Sovereign\training_log.txt
+- C:\Users\m\Documents\nursery\Primus\council_ideas.md
+- C:\Users\m\Documents\nursery\Primus\Sovereign Textual Mind Paradigm.md
+
+### Root: C:\YoutubeContent (13 files)
+
+- C:\YoutubeContent\00_Channel_Strategy\CHRONOS_PROOF_BRIDGE.md
+- C:\YoutubeContent\01_Source_Docs\AURA _ NeuroCognica — FULLY EXPANDED MASTER IMPLEMENTATION CHECKLIST.md
+- C:\YoutubeContent\01_Source_Docs\FOREVER_LAW.md
+- C:\YoutubeContent\01_Source_Docs\Full Report_ Law 14 - The Ethics of Beauty and Awe.txt
+- C:\YoutubeContent\01_Source_Docs\Hope City Legal Charter Blueprint (6).txt
+- C:\YoutubeContent\01_Source_Docs\MIRRORBORN_AUDIT.md
+- C:\YoutubeContent\01_Source_Docs\NeuroCognica Corporate Architecture Blueprint_.md
+- C:\YoutubeContent\01_Source_Docs\NeuroCognica Digital Rights Lobbying Strategy.md
+- C:\YoutubeContent\02_Content_Pillars\04_Digital_Ownership_and_Forever_Law\episode_001_forever_law_ownership\description_draft.md
+- C:\YoutubeContent\02_Content_Pillars\04_Digital_Ownership_and_Forever_Law\episode_001_forever_law_ownership\script_outline.md
+- C:\YoutubeContent\02_Content_Pillars\04_Digital_Ownership_and_Forever_Law\episode_001_forever_law_ownership\sources.md
+- C:\YoutubeContent\02_Content_Pillars\04_Digital_Ownership_and_Forever_Law\episode_001_forever_law_ownership\visual_plan.md
+- C:\YoutubeContent\04_Monetization_Offers\lead_magnets\forever_receipt_durable_access_package.md
+

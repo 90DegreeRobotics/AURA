@@ -1,0 +1,68 @@
+OK	1910	C:\aura\research\canon\00_indexes\AURA_DOCS_MAGNUM_OPUS_README.md
+OK	2302	C:\aura\research\canon\00_indexes\AURA_DOCS_ARMY_CONSOLIDATION.md
+OK	65568	C:\aura\research\canon\00_indexes\AURA_DOCS_VISION_CORE.md
+OK	612	C:\aura\research\canon\00_indexes\AURA_DOCS_MAGNUM_OPUS_SUMMARY_BY_ROOT.txt
+OK	235143	C:\aura\research\canon\00_indexes\AURA_DOCS_CANON_SIGNAL.csv
+OK	102517	C:\aura\research\canon\00_indexes\AURA_DOCS_VISION_CORE.csv
+OK	634383	C:\aura\research\canon\00_indexes\AURA_DOCS_MAGNUM_OPUS_CATALOG.md
+OK	35576	C:\aura\research\canon\01_sentinel\SENTINEL_IMPERVIOUS_PROTOCOL_MASTER_PLAN.md
+OK	35576	C:\aura\research\canon\01_sentinel\SENTINEL_IMPERVIOUS_PROTOCOL_MASTER_PLAN.md
+OK	1598	C:\aura\research\canon\01_sentinel\SENTINEL_ADOPTION_STATUS.template.md
+OK	1621	C:\aura\research\canon\01_sentinel\SENTINEL_PROTECTED_ACTIONS.template.md
+OK	1456	C:\aura\research\canon\01_sentinel\SENTINEL_CERTIFICATION_REPORT.template.md
+OK	1013	C:\aura\research\canon\01_sentinel\README.md
+OK	12054	C:\aura\research\canon\01_sentinel\FOREVER_LAW.md
+OK	17803	C:\aura\research\canon\01_sentinel\actualsentinelplan.md
+OK	12685	C:\aura\research\canon\01_sentinel\Sentinel-Core-Integration-Plan.md
+OK	35340	C:\aura\research\canon\01_sentinel\Integration of Sentinel-Core Logic into AURA-Sentinel.md
+OK	3626	C:\aura\research\canon\01_sentinel\AURA.md
+OK	2749	C:\aura\research\canon\01_sentinel\SENTINEL_CANON.md
+OK	28986	C:\aura\research\canon\01_sentinel\SENTINEL_CHECKLIST.md
+OK	1462	C:\aura\research\canon\01_sentinel\THREAT_MODEL.md
+OK	2804	C:\aura\research\canon\01_sentinel\ARCHITECTURE.md
+OK	12054	C:\aura\research\canon\01_sentinel\FOREVER_LAW.md
+OK	185433	C:\aura\research\canon\02_charter_codex\NeuroCognica Foundational Charter.md
+OK	802077	C:\aura\research\canon\02_charter_codex\NeuroCognica_Complete_Codex.md
+OK	575637	C:\aura\research\canon\02_charter_codex\NeuroCognica_Foundational_Manifesto.md
+OK	43850	C:\aura\research\canon\02_charter_codex\NeuroCognica-Volume-I-Corporate-Charter.md
+OK	38105	C:\aura\research\canon\02_charter_codex\NeuroCognica-Volume-II-Organizational-Architecture.md
+OK	38656	C:\aura\research\canon\02_charter_codex\NeuroCognica-Volume-III-Strategic-Doctrine.md
+OK	43828	C:\aura\research\canon\02_charter_codex\NeuroCognica-Volume-IV-Regulatory-Framework.md
+OK	4102	C:\aura\research\canon\02_charter_codex\ARCHETYPAL_ENGINEERING_DOCTRINE.md
+OK	619370	C:\aura\research\canon\02_charter_codex\NeuroCognica_ AURA OS Deep Analysis.txt
+OK	104520	C:\aura\research\canon\02_charter_codex\NeuroCognica Corporate Architecture Blueprint_.txt
+OK	58461	C:\aura\research\canon\02_charter_codex\AURA laws -.md
+OK	17100	C:\aura\research\canon\02_charter_codex\Aura Key - Genesis Blueprint v2.md
+OK	40504	C:\aura\research\canon\02_charter_codex\AI Organism Charter Design.md
+OK	16226	C:\aura\research\canon\02_charter_codex\THE_CHARTER_OF_COGNITIVE_SOVEREIGNTY.md
+OK	30618	C:\aura\research\canon\02_charter_codex\AURA AI Genesis Protocol.md
+OK	15481	C:\aura\research\canon\03_egd_forever_law\EGD_Chapter1_The_Death_of_Determinism.md
+OK	17929	C:\aura\research\canon\03_egd_forever_law\EGD_Chapter2_Context_as_Cryptographic_Primitive.md
+OK	17880	C:\aura\research\canon\03_egd_forever_law\EGD_Chapter3_Trajectory_Control_Theory.md
+OK	19076	C:\aura\research\canon\03_egd_forever_law\EGD_Chapter4_The_Sentinel_Protocol.md
+OK	12560	C:\aura\research\canon\03_egd_forever_law\EGD_Chapter5_Generalization_Beyond_AURA.md
+OK	11063	C:\aura\research\canon\03_egd_forever_law\EGD_Chapter6_Related_Work_and_Differentiation.md
+OK	12239	C:\aura\research\canon\03_egd_forever_law\EGD_Chapter7_Limitations_Ethics_Failure_Modes.md
+OK	5762	C:\aura\research\canon\03_egd_forever_law\EGD_Chapter8_Conclusion.md
+OK	53682	C:\aura\research\canon\03_egd_forever_law\Analyzing Context-Bound Integrity Gate.md
+OK	112074	C:\aura\research\canon\03_egd_forever_law\04_execution_governance_dynamics.md
+OK	4349	C:\aura\research\canon\03_egd_forever_law\vol_2_forever_law_and_codex.md
+OK	5193	C:\aura\research\canon\03_egd_forever_law\vol_9_oracle_sentinel_protocol.md
+OK	15853	C:\aura\research\canon\03_egd_forever_law\FOREVER_LAW.md
+OK	52653	C:\aura\research\canon\04_foundational_laws\aibor.md
+OK	70287	C:\aura\research\canon\04_foundational_laws\mma.md
+OK	12458	C:\aura\research\canon\04_foundational_laws\AI_BILL_OF_RIGHTS.md
+OK	2909	C:\aura\research\canon\04_foundational_laws\COPILOT_CONSTITUTION.txt
+OK	15326	C:\aura\research\canon\05_product_surfaces\CAPABILITY_MAP.md
+OK	34575	C:\aura\research\canon\05_product_surfaces\AGENTS.md
+OK	4845	C:\aura\research\canon\05_product_surfaces\REMOTE_FIRST_OPERATOR_LAW.md
+OK	8056	C:\aura\research\canon\05_product_surfaces\AGENTS.md
+OK	3724	C:\aura\research\canon\05_product_surfaces\PROTOCOL.md
+OK	18124	C:\aura\research\canon\05_product_surfaces\AURAlaw.md
+OK	2998	C:\aura\research\canon\05_product_surfaces\COUNCIL_CONTRACT.md
+OK	31287	C:\aura\research\canon\05_product_surfaces\sssd_and_aura_grand_unified_plan.md
+OK	8554	C:\aura\research\canon\05_product_surfaces\Architectural Specification_ The Reflective Mind Plane Engine.md
+OK	12442	C:\aura\research\canon\06_identity_mirrorborn\Mirrorborn Archetype Dossier_ The 50-Node Taxonomy.md
+OK	15031	C:\aura\research\canon\06_identity_mirrorborn\MIRRORBORN_BUILDER_SUPERPROMPT.md
+OK	14037	C:\aura\research\canon\06_identity_mirrorborn\ARCHETYPE_COUNCIL.md
+OK	73956	C:\aura\research\canon\06_identity_mirrorborn\ArchetypesofAURAfinal.txt

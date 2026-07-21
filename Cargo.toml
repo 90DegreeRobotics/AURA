@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/aura_runtime",
+    "crates/aura_cli",
+]
+
+[workspace.package]
+edition = "2021"
+license = "MIT"
+version = "0.1.0"
+
+[workspace.dependencies]
+sentinel_core = { path = "../sentinel-core/crates/sentinel_core" }
+chrono = { version = "0.4", features = ["serde"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+uuid = { version = "1", features = ["v4", "serde"] }
+thiserror = "1"

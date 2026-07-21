@@ -1,0 +1,10 @@
+/target/
+**/target/
+Cargo.lock
+*.pdb
+.DS_Store
+*.swp
+.idea/
+.vscode/
+preboot_journal/
+data/

@@ -1,0 +1,14 @@
+[package]
+name = "aura_cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Aura CLI — Sentinel-first status and deny-by-default runtime entry"
+
+[[bin]]
+name = "aura"
+path = "src/main.rs"
+
+[dependencies]
+aura_runtime = { path = "../aura_runtime" }
+serde_json = { workspace = true }
