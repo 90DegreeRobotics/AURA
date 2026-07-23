@@ -2,7 +2,7 @@
 
 **Product home:** `C:\aura`  
 **Document class:** Single binding plan — doctrine, failure archaeology, architecture-as-law, phased program  
-**Status:** IMPLEMENTING (Founder opened build 2026-07-20). L0 Sentinel-first runtime landed; first Bevy launcher slice live with startup fade/alive signal; not certified.
+**Status:** IMPLEMENTING (Founder opened build 2026-07-20). L0 Sentinel-first runtime landed; first Bevy launcher slice live with explicit UI camera, font ownership, and startup fade/alive signal; not certified.
 **Date:** 2026-07-20  
 **Owner:** NeuroCognica / 90 Degree Robotics  
 **Operator:** Michael Holt  
@@ -813,6 +813,7 @@ Each reading should produce: notes in Part XII revision log + edits to contradic
 | 2026-07-22 | **Launcher-first law:** Q4 closed. Bevy is the AURA front end; the product is a compiled Windows launcher from day one; local Rust/Python services sit behind it; CLI is developer-only; user-facing work must land at the launcher and carry version/upgrade truth. Founder owns visual screenshot acceptance. | Founder directive “MAKE THAT REPO LAW NOW” |
 | 2026-07-22 | **First launcher slice:** `crates/aura_launcher` Bevy app exposes version/build identity, Sentinel/boot status, decision ledger path, planned service readiness, and a button-driven boot-continue denial path through `aura_runtime`. This is live launcher spine, not chat/image/TTS/STT completion or certification. | First implementation pass |
 | 2026-07-23 | **Launcher startup signal:** `crates/aura_launcher` fades into the word AURA and shows a native Bevy `LAUNCHER ALIVE` indicator before deeper status lines settle. This is product-surface polish only; it does not certify broader organs. | Founder request: avoid black-screen launch ambiguity |
+| 2026-07-23 | **Launcher render correction:** Bevy UI now spawns an explicit `Camera2d` and every text entity uses a launcher-owned embedded font handle. This addresses the Founder screenshot where the release window opened as a black surface with no text. | Founder visual rejection: black screen / no text |
 
 ---
 

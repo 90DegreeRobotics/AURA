@@ -79,7 +79,9 @@ user Desktop, and in the Start Menu, and attempts the Public Desktop shortcut wh
 permissions allow it.
 
 The launcher opens with a native Bevy startup fade into `AURA` plus a truthful launcher-alive
-indicator while deeper runtime status lines settle.
+indicator while deeper runtime status lines settle. The launcher owns its UI camera and font
+handle explicitly so the installed release build is not a black surface waiting on implicit
+Bevy defaults.
 
 ## Developer smoke
 

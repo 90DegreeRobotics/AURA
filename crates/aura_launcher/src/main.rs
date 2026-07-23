@@ -14,6 +14,7 @@ use aura_runtime::{BootSupervisor, DecisionLog, SentinelMode};
 use bevy::{
     app::AppExit,
     prelude::*,
+    text::DEFAULT_FONT_DATA,
     window::{PrimaryWindow, WindowResolution},
 };
 
@@ -34,7 +35,16 @@ fn main() {
             }),
             ..default()
         }))
-        .add_systems(Startup, (maximize_primary_window, spawn_ui).chain())
+        .add_systems(
+            Startup,
+            (
+                maximize_primary_window,
+                spawn_launcher_camera,
+                install_launcher_font,
+                spawn_ui,
+            )
+                .chain(),
+        )
         .add_systems(
             Update,
             (
@@ -53,10 +63,18 @@ const TITLE_RGB: (f32, f32, f32) = (0.96, 0.94, 0.88);
 const SUBTITLE_RGB: (f32, f32, f32) = (0.56, 0.78, 0.86);
 const VERSION_RGB: (f32, f32, f32) = (0.70, 0.72, 0.70);
 const ALIVE_TEXT_RGB: (f32, f32, f32) = (0.68, 0.86, 0.88);
+const TITLE_START_ALPHA: f32 = 0.62;
+const SUBTITLE_START_ALPHA: f32 = 0.34;
+const ALIVE_TEXT_START_ALPHA: f32 = 0.68;
 
 #[derive(Resource, Default)]
 struct IntroClock {
     seconds: f32,
+}
+
+#[derive(Resource, Clone)]
+struct LauncherFont {
+    handle: Handle<Font>,
 }
 
 #[derive(Resource)]
@@ -187,13 +205,28 @@ struct AlivePulse {
     speed: f32,
 }
 
+#[derive(Component)]
+struct LauncherUiCamera;
+
 fn maximize_primary_window(mut windows: Query<&mut Window, With<PrimaryWindow>>) {
     if let Ok(mut window) = windows.single_mut() {
         window.set_maximized(true);
     }
 }
 
-fn spawn_ui(mut commands: Commands, runtime: Res<LauncherRuntime>) {
+fn spawn_launcher_camera(mut commands: Commands) {
+    commands.spawn((Camera2d, LauncherUiCamera));
+}
+
+fn install_launcher_font(mut commands: Commands, mut fonts: ResMut<Assets<Font>>) {
+    let font = Font::try_from_bytes(DEFAULT_FONT_DATA.to_vec())
+        .expect("Bevy built-in launcher font should always parse");
+    commands.insert_resource(LauncherFont {
+        handle: fonts.add(font),
+    });
+}
+
+fn spawn_ui(mut commands: Commands, runtime: Res<LauncherRuntime>, font: Res<LauncherFont>) {
     let snapshot = runtime.snapshot();
     commands
         .spawn((
@@ -211,13 +244,17 @@ fn spawn_ui(mut commands: Commands, runtime: Res<LauncherRuntime>) {
             BackgroundColor(Color::srgb(0.012, 0.014, 0.018)),
         ))
         .with_children(|root| {
-            spawn_header(root, &snapshot);
-            spawn_status_surface(root, &snapshot);
-            spawn_buttons(root);
+            spawn_header(root, &snapshot, &font);
+            spawn_status_surface(root, &snapshot, &font);
+            spawn_buttons(root, &font);
         });
 }
 
-fn spawn_header(parent: &mut ChildSpawnerCommands, snapshot: &LauncherSnapshot) {
+fn spawn_header(
+    parent: &mut ChildSpawnerCommands,
+    snapshot: &LauncherSnapshot,
+    font: &LauncherFont,
+) {
     parent
         .spawn((
             Node {
@@ -231,29 +268,20 @@ fn spawn_header(parent: &mut ChildSpawnerCommands, snapshot: &LauncherSnapshot) 
         .with_children(|header| {
             header.spawn((
                 Text::new("AURA"),
-                TextFont {
-                    font_size: 68.0,
-                    ..default()
-                },
-                TextColor(color_with_alpha(TITLE_RGB, 0.04)),
-                IntroFade::new(TITLE_RGB, 0.04, 1.0, 0.06, 1.18),
+                text_font(font, 68.0),
+                TextColor(color_with_alpha(TITLE_RGB, TITLE_START_ALPHA)),
+                title_intro_fade(),
             ));
             header.spawn((
                 Text::new("Archetypes Utilizing Reflective Architecture"),
-                TextFont {
-                    font_size: 21.0,
-                    ..default()
-                },
-                TextColor(color_with_alpha(SUBTITLE_RGB, 0.0)),
-                IntroFade::new(SUBTITLE_RGB, 0.0, 1.0, 0.64, 0.86),
+                text_font(font, 21.0),
+                TextColor(color_with_alpha(SUBTITLE_RGB, SUBTITLE_START_ALPHA)),
+                IntroFade::new(SUBTITLE_RGB, SUBTITLE_START_ALPHA, 1.0, 0.18, 0.78),
             ));
-            spawn_alive_indicator(header);
+            spawn_alive_indicator(header, font);
             header.spawn((
                 Text::new(snapshot.version_line.clone()),
-                TextFont {
-                    font_size: 15.0,
-                    ..default()
-                },
+                text_font(font, 15.0),
                 TextColor(color_with_alpha(VERSION_RGB, 0.0)),
                 IntroFade::new(VERSION_RGB, 0.0, 1.0, 0.98, 0.72),
                 SnapshotField::Version,
@@ -261,7 +289,7 @@ fn spawn_header(parent: &mut ChildSpawnerCommands, snapshot: &LauncherSnapshot) 
         });
 }
 
-fn spawn_alive_indicator(parent: &mut ChildSpawnerCommands) {
+fn spawn_alive_indicator(parent: &mut ChildSpawnerCommands, font: &LauncherFont) {
     parent
         .spawn((
             Node {
@@ -285,24 +313,25 @@ fn spawn_alive_indicator(parent: &mut ChildSpawnerCommands) {
                 AlivePulse {
                     low_rgb: (0.14, 0.48, 0.52),
                     high_rgb: (0.94, 0.64, 0.34),
-                    low_alpha: 0.30,
+                    low_alpha: 0.58,
                     high_alpha: 0.92,
                     speed: 4.6,
                 },
             ));
             alive.spawn((
                 Text::new("LAUNCHER ALIVE"),
-                TextFont {
-                    font_size: 13.0,
-                    ..default()
-                },
-                TextColor(color_with_alpha(ALIVE_TEXT_RGB, 0.0)),
-                IntroFade::new(ALIVE_TEXT_RGB, 0.0, 1.0, 0.42, 0.68),
+                text_font(font, 13.0),
+                TextColor(color_with_alpha(ALIVE_TEXT_RGB, ALIVE_TEXT_START_ALPHA)),
+                IntroFade::new(ALIVE_TEXT_RGB, ALIVE_TEXT_START_ALPHA, 1.0, 0.0, 0.52),
             ));
         });
 }
 
-fn spawn_status_surface(parent: &mut ChildSpawnerCommands, snapshot: &LauncherSnapshot) {
+fn spawn_status_surface(
+    parent: &mut ChildSpawnerCommands,
+    snapshot: &LauncherSnapshot,
+    font: &LauncherFont,
+) {
     parent
         .spawn((
             Node {
@@ -316,49 +345,68 @@ fn spawn_status_surface(parent: &mut ChildSpawnerCommands, snapshot: &LauncherSn
             BackgroundColor(Color::NONE),
         ))
         .with_children(|surface| {
-            spawn_status_line(surface, SnapshotField::Phase, &snapshot.phase_line, true);
+            spawn_status_line(
+                surface,
+                SnapshotField::Phase,
+                &snapshot.phase_line,
+                true,
+                font,
+            );
             spawn_status_line(
                 surface,
                 SnapshotField::Sentinel,
                 &snapshot.sentinel_line,
                 false,
+                font,
             );
-            spawn_status_line(surface, SnapshotField::Ledger, &snapshot.ledger_line, false);
+            spawn_status_line(
+                surface,
+                SnapshotField::Ledger,
+                &snapshot.ledger_line,
+                false,
+                font,
+            );
             spawn_status_line(
                 surface,
                 SnapshotField::DocumentDb,
                 &snapshot.document_db_line,
                 false,
+                font,
             );
             spawn_status_line(
                 surface,
                 SnapshotField::DocumentGate,
                 &snapshot.document_gate_line,
                 false,
+                font,
             );
             spawn_status_line(
                 surface,
                 SnapshotField::Effects,
                 &snapshot.effects_line,
                 false,
+                font,
             );
             spawn_status_line(
                 surface,
                 SnapshotField::Services,
                 &snapshot.services_line,
                 false,
+                font,
             );
             spawn_status_line(
                 surface,
                 SnapshotField::Message,
                 &snapshot.message_line,
                 false,
+                font,
             );
             spawn_status_line(
                 surface,
                 SnapshotField::LastEvent,
                 &snapshot.last_event_line,
                 false,
+                font,
             );
         });
 }
@@ -368,6 +416,7 @@ fn spawn_status_line(
     field: SnapshotField,
     text: &str,
     primary: bool,
+    font: &LauncherFont,
 ) {
     parent
         .spawn((
@@ -394,10 +443,7 @@ fn spawn_status_line(
         .with_children(|line| {
             line.spawn((
                 Text::new(text.to_owned()),
-                TextFont {
-                    font_size: if primary { 22.0 } else { 16.0 },
-                    ..default()
-                },
+                text_font(font, if primary { 22.0 } else { 16.0 }),
                 TextColor(if primary {
                     Color::srgb(0.96, 0.90, 0.72)
                 } else {
@@ -408,7 +454,7 @@ fn spawn_status_line(
         });
 }
 
-fn spawn_buttons(parent: &mut ChildSpawnerCommands) {
+fn spawn_buttons(parent: &mut ChildSpawnerCommands, font: &LauncherFont) {
     parent
         .spawn((
             Node {
@@ -421,13 +467,23 @@ fn spawn_buttons(parent: &mut ChildSpawnerCommands) {
             BackgroundColor(Color::NONE),
         ))
         .with_children(|bar| {
-            spawn_button(bar, LauncherButton::BootContinue, "ATTEMPT BOOT CONTINUE");
-            spawn_button(bar, LauncherButton::Refresh, "REFRESH STATUS");
-            spawn_button(bar, LauncherButton::Quit, "QUIT");
+            spawn_button(
+                bar,
+                LauncherButton::BootContinue,
+                "ATTEMPT BOOT CONTINUE",
+                font,
+            );
+            spawn_button(bar, LauncherButton::Refresh, "REFRESH STATUS", font);
+            spawn_button(bar, LauncherButton::Quit, "QUIT", font);
         });
 }
 
-fn spawn_button(parent: &mut ChildSpawnerCommands, action: LauncherButton, label: &str) {
+fn spawn_button(
+    parent: &mut ChildSpawnerCommands,
+    action: LauncherButton,
+    label: &str,
+    font: &LauncherFont,
+) {
     parent
         .spawn((
             Button,
@@ -450,10 +506,7 @@ fn spawn_button(parent: &mut ChildSpawnerCommands, action: LauncherButton, label
         .with_children(|button| {
             button.spawn((
                 Text::new(label.to_owned()),
-                TextFont {
-                    font_size: 15.0,
-                    ..default()
-                },
+                text_font(font, 15.0),
                 TextColor(Color::srgb(0.94, 0.94, 0.90)),
             ));
         });
@@ -574,6 +627,18 @@ fn color_with_alpha(rgb: (f32, f32, f32), alpha: f32) -> Color {
     Color::srgba(rgb.0, rgb.1, rgb.2, alpha)
 }
 
+fn text_font(font: &LauncherFont, font_size: f32) -> TextFont {
+    TextFont {
+        font: font.handle.clone(),
+        font_size,
+        ..default()
+    }
+}
+
+fn title_intro_fade() -> IntroFade {
+    IntroFade::new(TITLE_RGB, TITLE_START_ALPHA, 1.0, 0.0, 0.74)
+}
+
 fn fade_alpha(seconds: f32, delay: f32, duration: f32, start_alpha: f32, end_alpha: f32) -> f32 {
     if seconds <= delay {
         return start_alpha;
@@ -613,6 +678,13 @@ mod tests {
     }
 
     #[test]
+    fn title_fade_is_visible_on_first_frame() {
+        let fade = title_intro_fade();
+        assert!(fade.start_alpha >= 0.50);
+        assert_eq!(fade.delay, 0.0);
+    }
+
+    #[test]
     fn fade_reaches_target_after_duration() {
         let alpha = fade_alpha(2.0, 0.40, 1.0, 0.04, 1.0);
         assert!((alpha - 1.0).abs() < f32::EPSILON);
@@ -624,5 +696,10 @@ mod tests {
             let unit = pulse_unit(seconds, 4.6);
             assert!((0.0..=1.0).contains(&unit));
         }
+    }
+
+    #[test]
+    fn embedded_launcher_font_parses() {
+        assert!(Font::try_from_bytes(DEFAULT_FONT_DATA.to_vec()).is_ok());
     }
 }
