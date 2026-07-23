@@ -92,6 +92,29 @@ This product law does not weaken Carved Law. The launcher may show init, blocked
 service-down, repair, status, and read-only surfaces before broader capability certification.
 It may not execute protected effects before Sentinel authorizes them.
 
+## Absolute build law — Audit out bullshit
+
+> **Stubs are the enemy. Fake front ends and fake back ends are bullshit.**
+
+This is not tone guidance. It is build law for AURA.
+
+- Do not waste the Founder’s time building theatre.
+- Do not ship, demo, or praise a fake front end: a screen, button, panel, status light, or
+  route that is not wired to the real implementation it appears to control.
+- Do not ship, demo, or praise a fake back end: mock storage, pretend service state, dummy
+  model/tool responses, placeholder databases, disconnected APIs, or no-op handlers presented
+  as product progress.
+- A stub is allowed only when it is explicitly labeled as a stub and kept out of the Done path.
+- A launcher control is not real unless it reaches the actual compiled app surface and drives
+  the actual backend/protected effect it names.
+- A backend is not real unless it stores, retrieves, seals, serves, or executes through the
+  actual product path and survives verification.
+- Claims must be audited before they are repeated. If RocksDB, MMR, Merkle, Sentinel,
+  Forever Law, RAG, chat, image, TTS, STT, installer, update, or any other substrate is not
+  implemented, say so plainly first.
+- Audit out all bullshit before claiming progress. If the honest status is “planned”,
+  “blocked”, “partial”, or “not implemented”, use those words.
+
 ### Mode: IMPLEMENTING (Founder opened build 2026-07-20)
 
 Build order (master plan P9) — do not skip Exit Gates:

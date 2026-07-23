@@ -8,7 +8,7 @@
 
 # Aura — Agent Orientation
 
-**Last updated: 2026-07-22**
+**Last updated: 2026-07-23**
 
 **Home:** `C:\aura`
 **Canonical contributor law:** `AGENTS.md` (Chronos-parity SOP + Aura Carved Law)
@@ -48,6 +48,19 @@ Binding rules:
   tokens on decorative screenshot calls unless needed for a technical/layout proof.
 
 No launcher surface, no Done for product work.
+
+## Anti-theatre law
+
+Stubs are the enemy. Fake front ends and fake back ends are bullshit. Do not waste the
+Founder’s time building theatre.
+
+For AURA, a feature is not product progress unless the real compiled launcher surface is wired
+to the real backend/protected path it names. Mock-only storage, pretend service state, no-op
+buttons, placeholder databases, disconnected APIs, CLI-only proof, and fake status lights must
+be called out as stubs or removed from the Done claim. Audit out all bullshit before repeating
+or committing a readiness claim. If RocksDB, MMR, Merkle, Forever Law, RAG, chat, image, TTS,
+STT, installer/update, or any other substrate is not actually implemented, say that plainly
+first.
 
 ## Mode
 
@@ -95,6 +108,8 @@ CLI smoke is not the user path. Product completion requires the compiled Bevy la
    ENEMY.
 6. CLI-only is not product-complete.
 7. Docs in the same unit. Status labels honest.
+8. Audit out bullshit: no fake front ends, fake back ends, no-op buttons, placeholder
+   databases, or unwired status lights in the Done path.
 
 ## Chronos relationship
 

@@ -251,6 +251,7 @@ When revising this plan:
 | F10 | **Transplant fantasy** | `actualsentinelplan.md` “copy 9 crates into aura/src/rust” | Prefer **binding to** sentinel-core over forking its soul into Aura |
 | F11 | **Shadow / bypass culture** | Env flags, “allow without” | Forbidden in release; inventoring them is stop-ship |
 | F12 | **Wonder without restraint** | Demos that skip law | Law 14 never exempts Sentinel Law |
+| F13 | **Bullshit surfaces** — fake front ends, fake back ends, no-op buttons, placeholder databases, pretend service state | Repeated cross-repo product drift; Founder directive 2026-07-23 | Audit out all bullshit; stubs are the enemy; no Done unless the real launcher drives the real backend/protected path |
 
 ## 4.2 Contradiction register (must not be papered over)
 
@@ -305,6 +306,9 @@ Steal:
 - Reachability as definition of done
 - Handler-level deny tests for Sentinel-gated paths
 - Explicit “Sentinel first” even when rejecting bad request fields (deny/403 before info leak)
+- Anti-theatre discipline: fake front ends, fake back ends, no-op buttons, placeholder
+  databases, pretend service state, and unwired status lights are bullshit until the real path
+  is implemented and proven
 
 Do not steal blindly:
 
