@@ -33,6 +33,11 @@ try {
     $programs = [Environment]::GetFolderPath("Programs")
     $startDir = Join-Path $programs "NeuroCognica"
     New-Item -ItemType Directory -Force -Path $startDir | Out-Null
+    $requiredShortcuts = @(
+        (Join-Path $env:USERPROFILE "AURA.lnk"),
+        (Join-Path ([Environment]::GetFolderPath("DesktopDirectory")) "AURA.lnk"),
+        (Join-Path $startDir "AURA.lnk")
+    ) | Select-Object -Unique
 
     $shortcuts = @()
     foreach ($desktop in $desktopCandidates) {
@@ -47,14 +52,36 @@ try {
         try {
             $shortcut = $shell.CreateShortcut($path)
             $shortcut.TargetPath = $DistExe
+            $shortcut.Arguments = ""
             $shortcut.WorkingDirectory = $DistRoot
             $shortcut.IconLocation = "$DistIcon,0"
             $shortcut.Description = "AURA Sentinel-first desktop launcher"
             $shortcut.Save()
+
+            $saved = $shell.CreateShortcut($path)
+            if ($saved.TargetPath -ne $DistExe) {
+                throw "shortcut target stayed stale: $($saved.TargetPath)"
+            }
+            if (-not [string]::IsNullOrWhiteSpace($saved.Arguments)) {
+                throw "shortcut arguments stayed stale: $($saved.Arguments)"
+            }
+            if ($saved.WorkingDirectory -ne $DistRoot) {
+                throw "shortcut working directory stayed stale: $($saved.WorkingDirectory)"
+            }
+            if ($saved.IconLocation -ne "$DistIcon,0") {
+                throw "shortcut icon stayed stale: $($saved.IconLocation)"
+            }
+
             $createdShortcuts += $path
         }
         catch {
             Write-Warning "Could not save shortcut ${path}: $($_.Exception.Message)"
+        }
+    }
+
+    foreach ($path in $requiredShortcuts) {
+        if ($createdShortcuts -notcontains $path) {
+            throw "required AURA shortcut was not created correctly: $path"
         }
     }
 
