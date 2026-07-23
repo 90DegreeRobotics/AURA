@@ -9,3 +9,6 @@ description = "AURA Bevy Windows launcher"
 aura_runtime = { path = "../aura_runtime" }
 bevy = { version = "0.18.1" }
 serde_json = { workspace = true }
+
+[build-dependencies]
+winres = "0.1"
