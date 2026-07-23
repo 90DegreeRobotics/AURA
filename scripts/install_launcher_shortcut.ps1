@@ -25,6 +25,7 @@ try {
 
     $shell = New-Object -ComObject WScript.Shell
     $desktopCandidates = @(
+        $env:USERPROFILE,
         [Environment]::GetFolderPath("DesktopDirectory"),
         (Join-Path $env:USERPROFILE "Desktop"),
         (Join-Path $env:PUBLIC "Desktop")

@@ -45,8 +45,9 @@ pwsh -File scripts\install_launcher_shortcut.ps1
 ```
 
 That builds release, copies `target\release\aura_launcher.exe` to `dist\aura_launcher.exe`,
-copies the tracked AURA icon to `dist\aura.ico`, creates `AURA.lnk` on the user Desktop and
-Start Menu, and attempts the Public Desktop shortcut when Windows permissions allow it.
+copies the tracked AURA icon to `dist\aura.ico`, creates `AURA.lnk` in `C:\Users\m`, on the
+user Desktop, and in the Start Menu, and attempts the Public Desktop shortcut when Windows
+permissions allow it.
 
 ## Developer smoke
 
