@@ -1,0 +1,28 @@
+---
+description: Aura Carved Law — Sentinel first; Chronos-parity contributor posture
+alwaysApply: true
+---
+
+# Sentinel first — no gate before the Sentinel
+
+You are in `C:\aura`. Obey root `AGENTS.md` (Chronos-parity SOP) and the Charter at
+`C:\corpus\THE_CHARTER_OF_COGNITIVE_SOVEREIGNTY.md`.
+
+## Absolute
+
+- **There is no gate before the Sentinel.**
+- Bind to `C:\sentinel-core` only. Do not invent a second authority.
+- Default mode is **enforce**. Fail closed. No silent allow. No production bypass.
+- Do not add UI/model/tool/network/file/plugin/installer paths that approve or execute
+  protected work before Sentinel authorizes it.
+- Protected surface changes require `docs/security/SENTINEL_PROTECTED_ACTIONS.md` update
+  and a deny-before-side-effect test in the same change.
+- Status: Implementing, not certified — never claim Certified early.
+
+## Contributor posture (match Chronos)
+
+- `main` only; no worktrees; no force-push; never delete without explicit per-item consent
+- Plan before meaningful edits: `plan_<YYYY-MM-DD_HHMM>_<topic>.md` at repo root
+- Push completed units to `origin` when configured
+- Done means ran (and deny-proven for Sentinel surfaces); stubs must be labeled
+- Docs must not outrun code

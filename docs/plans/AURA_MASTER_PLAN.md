@@ -158,7 +158,8 @@ Aura is **not**:
 - A second Sentinel that can disagree with `sentinel-core`
 - A marketing demo that claims “protected” without handler-level proof
 - A Chronos clone (Chronos is a creative organ with its own capability map)
-- An Archetypes clone (Archetypes is a game surface that must *require* Chronos/Sentinel)
+- An Archetypes clone (AURA must absorb the working chat/image/TTS/STT/service-readiness
+  pattern, but it is its own Bevy Windows app under Sentinel, not a copy of Archetypes)
 - A Mecha / senkern / AURA-1 restart that keeps duplicate authority
 - Hardware OS work (Aura Key / KAVACH-1) until software law is real — Genesis Blueprint informs, it does not force USB-boot MVP on day one
 
@@ -173,7 +174,8 @@ These are **organs of the plan**, not a license to implement yet:
 5. **Forever Law memory** — append-only, tamper-evident becoming / plan / dreaming
 6. **Model mediation** — local inference only through authorize → broker
 7. **Tool mediation** — no direct tool path
-8. **Operator surface** — UI that can show blocked/init/deny without lying
+8. **Bevy Windows launcher / operator surface** — compiled desktop app that can show
+   blocked/init/deny/status without lying, and that receives every user-facing control
 9. **Certification harness** — prove Impervious before ship language
 
 ## 2.3 Product posture
@@ -280,8 +282,14 @@ When revising this plan:
 ### C5 — Council contract assumes Electron/React ASM vs Chronos Tk / other shells
 
 - `COUNCIL_CONTRACT.md` recommends Electron + React + Redux ASM.
-- Chronos proves another desktop stack; AURA-1 had authority spine in Rust/WS.
-- **Plan resolution:** **Authority semantics** (fail-closed council envelopes, `/ws/council` or equivalent as sole authority mutator) are binding. **UI toolkit is undecided** and must not be chosen under time pressure during plan-only phase. Open Question Q4.
+- Chronos proves another desktop stack; Archetypes proves a Bevy launcher can carry
+  ritual-feeling local UI, chat, image return, service readiness, local history, and visible
+  failure states; AURA-1 had authority spine in Rust/WS.
+- **Plan resolution (Founder decision 2026-07-22):** **Authority semantics** (fail-closed
+  council envelopes, `/ws/council` or equivalent as sole authority mutator) are binding.
+  **Bevy is the AURA front end.** The product is a compiled Windows launcher from day one.
+  Local Rust/Python backends may run as supervised local services behind it. CLI is
+  developer-only and cannot complete a user-facing feature. Q4 is closed.
 
 ### C6 — Nine Reshaped Laws / policies.json vs Impervious harm classes
 
@@ -473,7 +481,7 @@ Planned · Designing · Designing-blocked-on-question · Ready-to-build (Founder
 | P2.1 | v1 organ inclusion matrix (must / should / later / never-for-v1) | Table signed |
 | P2.2 | Non-goals freeze | Section 2.1 stable |
 | P2.3 | Operator journey (happy path + deny path + Sentinel-down path) | Narrative + diagrams |
-| P2.4 | UI toolkit decision deferred or decided **without code** | Q4 closure |
+| P2.4 | UI toolkit decision: Bevy Windows launcher; CLI developer-only | Q4 closed by Founder directive 2026-07-22 |
 | P2.5 | Data stores decision (ledger location, Sacred Three mapping) | Q3 closure |
 
 **Phase P2 Exit Gate**
@@ -568,22 +576,31 @@ Planned · Designing · Designing-blocked-on-question · Ready-to-build (Founder
 
 ## Phase P7 — Operator Surface Spec
 
-**Intent:** Specify UI truthfulness before pixels.
+**Intent:** Specify the launcher truth contract before pixels, then build through the compiled
+Bevy Windows app. AURA is not terminal-first. Every user-facing feature must land at the
+launcher surface.
 
 ### Stages
 
 | Stage | Work | Exit |
 | --- | --- | --- |
-| P7.1 | Single-shell rule | One Aura window/app concept |
+| P7.1 | Single-shell rule | One Aura Bevy Windows launcher |
 | P7.2 | States: init, ready, deny, Sentinel-down, emergency | Spec |
 | P7.3 | What may never be shown as healthy when it is not | Honesty rules |
-| P7.4 | Reference design process (learn from Chronos reckoning) | Process: images bind if provided |
-| P7.5 | Accessibility / gentle power UX notes | Requirements |
+| P7.4 | Archetypes chat pattern absorption | Local chat, image pipeline, readiness, history, TTS, STT |
+| P7.5 | Launcher controls for all operator actions | No CLI-only user features |
+| P7.6 | Version/build/update truth | Launcher displays version/build; upgrade path tracked |
+| P7.7 | Founder visual witness process | Founder screenshots decide visual acceptance |
+| P7.8 | Accessibility / gentle power UX notes | Requirements |
 
 **Phase P7 Exit Gate**
 
 - [ ] No dual-shell design  
 - [ ] Deny/init are designed states, not afterthoughts  
+- [ ] Bevy launcher is the only product front end
+- [ ] CLI remains developer harness only
+- [ ] Product work compiles or refreshes a Windows `.exe` / launcher surface
+- [ ] Version/build/update truth is visible or explicitly marked not yet implemented
 
 ---
 
@@ -627,10 +644,12 @@ Planned · Designing · Designing-blocked-on-question · Ready-to-build (Founder
 3. Ledgered memory writes  
 4. Council authority path  
 5. Broker-mediated model/tool  
-6. Operator shell  
+6. Bevy Windows launcher / operator shell
 7. Certify  
 
-**Still forbidden after build opens:** stubs in Sentinel path; shadow release; dual law; fake-green; unsigned “governed” calls.
+**Still forbidden after build opens:** stubs in Sentinel path; shadow release; dual law;
+fake-green; unsigned “governed” calls; CLI-only user features; source-only product work that
+does not refresh the launcher.
 
 ---
 
@@ -702,7 +721,7 @@ These stay **out of v1** unless Founder promotes them in a plan revision.
 | Q1 | Exact Aura v1 organ set (council? memory? model? UI?) | Prevents F1 scope thrash | Open |
 | Q2 | Process model: in-process Core vs localhost API vs separate service | Boot order & fail-closed semantics | Open |
 | Q3 | Ledger substrate for Aura Forever Law (Core ledger only vs Aura store + Core decisions) | Dual-truth risk | Open |
-| Q4 | Operator UI toolkit / single-shell choice | Prevents dual-shell (F3) | Open |
+| Q4 | Operator UI toolkit / single-shell choice | Prevents dual-shell (F3) | CLOSED 2026-07-22 — Bevy Windows launcher |
 | Q5 | Archetype cardinality for v1 (7 vs expanded) | Identity scope | Open |
 | Q6 | Sandbox technology for v1 broker | Security boundary | Open |
 | Q7 | Policy corpus v1: which of Nine + Impervious harm classes are mandatory day-one | Authority completeness | Open |
@@ -767,6 +786,7 @@ Each reading should produce: notes in Part XII revision log + edits to contradic
 | 2026-07-20 | **RFTP cross-exam:** Part XXVI — selective integrate (fail-closed intent, receipts, CAS); nest under Core; no stub-Sentinel second law | `C:\rftp` README/STATUS/reflect/proof package |
 | 2026-07-20 | **Chronos Unified Sentinel verified:** Part XXVII — `b302cc9` who+how + enforce default confirmed; C9 Chronos crate vs sentinel-core named; steal patterns, not fork law | `C:\chronos` commit + unified.rs + ADOPTION_STATUS |
 | 2026-07-20 | **Build opened:** L0 Aura runtime — `aura_runtime` + `aura_cli`; path-bind `sentinel_core`; deny-all default; enforce default; broker seal-or-refuse; 6 fail-closed tests green | Founder directive “you are clear to build” |
+| 2026-07-22 | **Launcher-first law:** Q4 closed. Bevy is the AURA front end; the product is a compiled Windows launcher from day one; local Rust/Python services sit behind it; CLI is developer-only; user-facing work must land at the launcher and carry version/upgrade truth. Founder owns visual screenshot acceptance. | Founder directive “MAKE THAT REPO LAW NOW” |
 
 ---
 
@@ -856,7 +876,8 @@ Out of scope for Core (side-channel, physical, quantum, compiler backdoors) rema
 
 From Core ARCHITECTURE:
 
-- Rust as Core truth; Python as UI/orchestration only (for Core itself — Aura UI toolkit still open, Q4)
+- Rust as Core truth; Bevy as AURA front end; Python as local service/orchestration layer
+  behind the launcher where useful
 - Append-only hash-chained ledger; state by replay
 - Canonical envelopes: actor_id, key_id, nonce, timestamp_utc, payload, signature
 - Ed25519; nonce consume-once
@@ -1227,7 +1248,7 @@ EGD’s warning: governance too costly will be disabled; governance too weak wil
 | AURA Core | The reflective architecture NeuroCognica exists to protect |
 | Aura (this repo) | Software home attempting to realize Sentinel-cored AURA Core on host first |
 | Digital mirror | Reflection / council dialogue — not extraction chatbot |
-| Mind Plane | Dialogic interface concept — UI toolkit undecided (Q4) |
+| Mind Plane | Dialogic interface concept implemented through the Bevy Windows launcher |
 
 **Tone constraint (Law 15):** Power with gentleness. Capability does not justify cruelty. Sentinel enforces boundaries; Jester challenges hubris. Wonder (Law 14) without restraint is how demos became failures.
 
