@@ -106,6 +106,18 @@ pub fn document_db_line(data_dir: &Path) -> String {
                 summary.print_count,
                 summary.forever_event_count
             );
+            if summary.mmr_synced {
+                line.push_str(&format!(
+                    " | MMR leaves: {} | MMR root: {}",
+                    summary.mmr_leaf_count,
+                    short_hash(&summary.mmr_root_hash)
+                ));
+            } else {
+                line.push_str(&format!(
+                    " | MMR unsynced: {} leaves for {} forever events",
+                    summary.mmr_leaf_count, summary.forever_event_count
+                ));
+            }
             if summary.legacy_jsonl_rows > 0 {
                 line.push_str(&format!(
                     " | legacy jsonl rows: {}",
@@ -122,7 +134,7 @@ pub fn document_db_line(data_dir: &Path) -> String {
 }
 
 pub fn document_gate_line() -> String {
-    "Document gate: frame-first + print-ready RocksDB/Forever store live; intake buttons enter Sentinel before read/write"
+    "Document gate: frame-first + print-ready RocksDB/Forever/MMR store live; intake buttons enter Sentinel before read/write"
         .to_owned()
 }
 
@@ -167,6 +179,10 @@ fn display_path(path: &Path) -> String {
     path.to_string_lossy().into_owned()
 }
 
+fn short_hash(hash: &str) -> &str {
+    hash.get(..32).unwrap_or(hash)
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -200,6 +216,7 @@ mod tests {
         assert_eq!(snapshot.phase_line, "Boot phase: initializing");
         assert!(snapshot.sentinel_line.contains("mode enforce"));
         assert!(snapshot.document_db_line.contains("Document DB:"));
+        assert!(snapshot.document_db_line.contains("MMR leaves:"));
         assert!(snapshot.document_gate_line.contains("frame-first"));
         assert!(snapshot.document_selection_line.contains("no source"));
         assert!(snapshot.document_action_line.contains("waiting"));

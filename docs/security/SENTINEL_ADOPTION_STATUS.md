@@ -22,8 +22,8 @@ Sentinel adoption status for this repository:
 | Routes / UI | Partial | Partial | Bevy launcher shows status, boot denial, and document intake denial; broader operator shell missing |
 | Model / tool calls | Broker ready | Yes (model.generate deny) | No live model adapter yet |
 | File / network / process | Broker ready | Partial | Mapped; no OS adapters yet |
-| Memory / Codex / Forever Law | Decision log + RocksDB document Forever chain foundation | Partial | Runtime decisions use real BLAKE3 hash records; framed document ingests write RocksDB BLAKE3 chain events; full Core ledger/MMR TBD |
-| Documents / RAG | Frame/store foundation + launcher intake controls | Yes (`aura_documents` unit + `fail_closed`) | Add File / Add Folder selection is live; Frame Selected enters `file.read_sensitive`; Ingest Selected enters `file.read_sensitive` then `memory.write`; stored frames include chunk records, branded print-ready HTML records, normalized text, and append-only RocksDB Forever events; deny-all refuses before source read or DB append; embeddings/retrieval not live |
+| Memory / Codex / Forever Law | Decision log + RocksDB document Forever/MMR foundation | Partial | Runtime decisions use real BLAKE3 hash records; framed document ingests write RocksDB BLAKE3 chain events plus replay-verifiable document MMR roots; full Core ledger authority TBD |
+| Documents / RAG | Frame/store foundation + launcher intake controls | Yes (`aura_documents` unit + `fail_closed`) | Add File / Add Folder selection is live; Frame Selected enters `file.read_sensitive`; Ingest Selected enters `file.read_sensitive` then `memory.write`; stored frames include chunk records, branded print-ready HTML records, normalized text, append-only RocksDB Forever events, and MMR leaf/event/peak records; deny-all refuses before source read or DB append; embeddings/retrieval not live |
 | Council / identity | Missing | Missing | |
 | Install / update | Missing | Missing | Shortcut installer exists; full installer/update/rollback lane missing |
 
@@ -36,7 +36,7 @@ Sentinel adoption status for this repository:
 - Default policy: **deny-all**
 - Deny-all paralysis (broker + boot): **proven in `crates/aura_runtime/tests/fail_closed.rs`**
 - Product surface: **first Bevy launcher slice live** (`crates/aura_launcher`)
-- Document foundation: **frame-first + print-ready RocksDB Forever store live** (`crates/aura_documents`); launcher intake selection and brokered frame/ingest denial live; authorized import/RAG retrieval not live; MMR/Merkle not live yet
+- Document foundation: **frame-first + print-ready RocksDB Forever/MMR store live** (`crates/aura_documents`); launcher intake selection and brokered frame/ingest denial live; authorized import/RAG retrieval not live
 - Desktop launcher: **shortcut script exists** (`scripts/install_launcher_shortcut.ps1`)
 - Shadow mode: explicit opt-down; **effects still blocked**
 - Bypass flags inventoried: none in L0 runtime

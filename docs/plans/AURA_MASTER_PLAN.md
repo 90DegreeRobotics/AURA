@@ -2,7 +2,7 @@
 
 **Product home:** `C:\aura`  
 **Document class:** Single binding plan — doctrine, failure archaeology, architecture-as-law, phased program  
-**Status:** IMPLEMENTING (Founder opened build 2026-07-20). L0 Sentinel-first runtime landed; first Bevy launcher slice live with explicit UI camera, font ownership, NeuroCognica/AURA brand assets, startup fade/alive signal, and brokered document intake controls; not certified.
+**Status:** IMPLEMENTING (Founder opened build 2026-07-20). L0 Sentinel-first runtime landed; first Bevy launcher slice live with explicit UI camera, font ownership, NeuroCognica/AURA brand assets, startup fade/alive signal, brokered document intake controls, and RocksDB document Forever/MMR storage; not certified.
 **Date:** 2026-07-20  
 **Owner:** NeuroCognica / 90 Degree Robotics  
 **Operator:** Michael Holt  
@@ -272,7 +272,7 @@ When revising this plan:
 
 - Forever Law docs mark Status OPERATIONAL (Dec 2025) in some lineage trees.
 - Impervious forbids claiming Impervious/complete without certification and handler proof.
-- **Plan resolution:** Treat Forever Law docs as **doctrine + prior implementation claims**, not as certified Aura state. Aura now has a document-ingest RocksDB/BLAKE3 chain proof, but full Aura Forever Law remains **Partial** until Core/Aura ledger authority and MMR/Merkle strategy are resolved.
+- **Plan resolution:** Treat Forever Law docs as **doctrine + prior implementation claims**, not as certified Aura state. Aura now has a document-ingest RocksDB/BLAKE3 chain plus document MMR proof, but full Aura Forever Law remains **Partial** until Core/Aura ledger authority is resolved across all consequential state.
 
 ### C4 — Genesis hardware Key vs software Aura home
 
@@ -430,11 +430,13 @@ Current implementation state:
   `assets\brand\neurocognica_logo_transparent.png` embedded as a data URI, AURA identity,
   title-block metadata, hashes, rights, and printable body formatting.
 - Each new ingest appends a `document.ingested` Forever record with sequence, previous hash,
-  payload hash, BLAKE3 record hash, frame ID, print ID, and chunk count in the same synced
-  RocksDB batch as the document records.
+  payload hash, BLAKE3 record hash, frame ID, print ID, chunk count, and document MMR leaf/root
+  binding in the same synced RocksDB batch as the document records.
+- The document store persists MMR leaf, event, and peak keys in RocksDB and verifies the root by
+  replaying all Forever records after reopen.
 - `crates\aura_launcher` displays the document DB path, framed document count, chunk count,
-  print document count, Forever event count, selected source path, and last document action
-  result.
+  print document count, Forever event count, MMR leaf/root state, selected source path, and last
+  document action result.
 - Launcher Add File / Add Folder controls are live path-selection controls only; they do not
   read document bytes or scan folders before authorization.
 - Launcher Frame Selected and Ingest Selected buttons are wired through the runtime broker.
@@ -445,7 +447,6 @@ What this does not yet claim:
 
 - No PDF/DOCX/OCR extraction yet.
 - No embeddings, vector index, reranker, retrieval API, or model-context injection yet.
-- No MMR/Merkle accumulator yet; document ingest currently has a BLAKE3 hash chain only.
 - No authorized import policy/consent lane yet. Corpus ingestion reads sensitive files and
   appends memory-like state, so actual import remains blocked until Sentinel authorization can
   allow the operator workflow without bypasses.

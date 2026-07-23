@@ -36,9 +36,10 @@ First live slice:
 - `crates\aura_documents` frames UTF-8 text documents with the required NeuroCognica metadata
   envelope, the tracked NeuroCognica logo embedded in a print-ready HTML artifact, BLAKE3
   source/text/metadata hashes, deterministic chunks, and a real RocksDB store under the AURA
-  data directory. Ingested documents get a synced append-only BLAKE3 Forever-chain event in
-  the same database batch. The launcher shows that store's path and counts and exposes Add
-  File / Add Folder / Frame Selected / Ingest Selected controls.
+  data directory. Ingested documents get a synced append-only BLAKE3 Forever-chain event plus
+  a RocksDB-backed document MMR leaf/root update in the same database batch. The launcher shows
+  that store's path, counts, and MMR state and exposes Add File / Add Folder / Frame Selected /
+  Ingest Selected controls.
 - Document frame/ingest buttons are real brokered controls: source reads enter
   `file.read_sensitive`, DB appends enter `memory.write`, and the current deny-all policy
   refuses before those side effects.
@@ -59,13 +60,13 @@ Live now:
 - Real RocksDB store at `%LOCALAPPDATA%\NeuroCognica\AURA\documents\documents.rocksdb` by
   default, or under `$env:AURA_DATA_DIR\documents\documents.rocksdb` when that override is set.
 - RocksDB stores frame records, chunk records, print records, normalized source text, index
-  keys, counters, and append-only `document.ingested` Forever records in one synced write
-  batch per new document.
+  keys, counters, append-only `document.ingested` Forever records, and MMR leaf/event/peak
+  records in one synced write batch per new document.
 - Print-ready HTML records use the real `assets\brand\neurocognica_logo_transparent.png`
   asset as an embedded data URI and include the AURA title block, source hashes, frame ID,
   rights, and printable body formatting.
-- BLAKE3 hash-chain proof is live for document ingest events. MMR/Merkle accumulator proof is
-  not live yet and must not be claimed.
+- BLAKE3 hash-chain proof is live for document ingest events, and each new ingest is bound to
+  a replay-verifiable RocksDB-backed MMR accumulator root.
 - Launcher document workbench with native Add File / Add Folder selection, visible selected
   source state, current DB path/counts, and Sentinel-mediated Frame Selected / Ingest Selected
   attempts. Under the current deny-all policy those attempts refuse before reading or appending.

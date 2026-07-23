@@ -6,6 +6,7 @@
 //! artifact, then storage.
 
 use std::{
+    collections::BTreeMap,
     fs,
     path::{Path, PathBuf},
 };
@@ -23,6 +24,7 @@ pub const PRINT_PAGE_PROFILE: &str = "us_letter_print_v1";
 pub const PRINT_LOGO_ASSET_NAME: &str = "neurocognica_logo_transparent.png";
 pub const DOCUMENT_STORE_SCHEMA_VERSION: &str = "neurocognica.document_store.rocksdb.v1";
 pub const DOCUMENT_FOREVER_SCHEMA_VERSION: &str = "neurocognica.document_forever_event.v1";
+pub const DOCUMENT_MMR_SCHEMA_VERSION: &str = "neurocognica.document_mmr.v1";
 pub const DOCUMENT_STORE_ENGINE: &str = "rocksdb";
 pub const DOCUMENT_ROCKSDB_DIR_NAME: &str = "documents.rocksdb";
 pub const DEFAULT_MAX_CHUNK_CHARS: usize = 1_600;
@@ -34,6 +36,9 @@ const CHUNK_COUNT_KEY: &[u8] = b"meta:chunk_count";
 const PRINT_COUNT_KEY: &[u8] = b"meta:print_count";
 const FOREVER_SEQUENCE_KEY: &[u8] = b"meta:forever_sequence";
 const FOREVER_TIP_KEY: &[u8] = b"meta:forever_tip_hash";
+const MMR_SCHEMA_KEY: &[u8] = b"meta:mmr_schema_version";
+const MMR_LEAF_COUNT_KEY: &[u8] = b"meta:mmr_leaf_count";
+const MMR_ROOT_KEY: &[u8] = b"meta:mmr_root_hash";
 
 const NEUROCOGNICA_LOGO_PNG: &[u8] =
     include_bytes!("../../../assets/brand/neurocognica_logo_transparent.png");
@@ -412,6 +417,16 @@ pub struct DocumentForeverRecord {
     pub payload_hash_blake3: String,
     pub previous_record_hash_blake3: String,
     pub record_hash_blake3: String,
+    #[serde(default)]
+    pub mmr_schema_version: String,
+    #[serde(default)]
+    pub mmr_leaf_index: u64,
+    #[serde(default)]
+    pub mmr_leaf_hash_blake3: String,
+    #[serde(default)]
+    pub mmr_root_hash_blake3: String,
+    #[serde(default)]
+    pub mmr_leaf_count: u64,
     pub recorded_at_utc: chrono::DateTime<Utc>,
     pub storage_engine: String,
 }
@@ -433,6 +448,9 @@ pub struct DocumentStoreSummary {
     pub print_count: usize,
     pub forever_event_count: u64,
     pub forever_tip_hash: String,
+    pub mmr_leaf_count: u64,
+    pub mmr_root_hash: String,
+    pub mmr_synced: bool,
     pub legacy_jsonl_rows: usize,
 }
 
@@ -475,6 +493,11 @@ impl DocumentStore {
     }
 
     pub fn summary(&self) -> DocumentResult<DocumentStoreSummary> {
+        let forever_event_count = self.read_counter(FOREVER_SEQUENCE_KEY)?;
+        let mmr_leaf_count = self.read_counter(MMR_LEAF_COUNT_KEY)?;
+        let mmr_root_hash = self
+            .read_string(MMR_ROOT_KEY)?
+            .unwrap_or_else(mmr_genesis_hash);
         Ok(DocumentStoreSummary {
             root: self.root.clone(),
             db_path: self.db_path.clone(),
@@ -482,10 +505,13 @@ impl DocumentStore {
             frame_count: self.read_counter(FRAME_COUNT_KEY)? as usize,
             chunk_count: self.read_counter(CHUNK_COUNT_KEY)? as usize,
             print_count: self.read_counter(PRINT_COUNT_KEY)? as usize,
-            forever_event_count: self.read_counter(FOREVER_SEQUENCE_KEY)?,
+            forever_event_count,
             forever_tip_hash: self
                 .read_string(FOREVER_TIP_KEY)?
                 .unwrap_or_else(genesis_hash),
+            mmr_leaf_count,
+            mmr_root_hash,
+            mmr_synced: mmr_leaf_count == forever_event_count,
             legacy_jsonl_rows: legacy_jsonl_rows(&self.root)?,
         })
     }
@@ -504,6 +530,9 @@ impl DocumentStore {
                 print_count: 0,
                 forever_event_count: 0,
                 forever_tip_hash: genesis_hash(),
+                mmr_leaf_count: 0,
+                mmr_root_hash: mmr_genesis_hash(),
+                mmr_synced: true,
                 legacy_jsonl_rows,
             });
         }
@@ -516,6 +545,9 @@ impl DocumentStore {
         let forever_event_count = read_counter_from_db(&db, FOREVER_SEQUENCE_KEY)?;
         let forever_tip_hash =
             read_string_from_db(&db, FOREVER_TIP_KEY)?.unwrap_or_else(genesis_hash);
+        let mmr_leaf_count = read_counter_from_db(&db, MMR_LEAF_COUNT_KEY)?;
+        let mmr_root_hash =
+            read_string_from_db(&db, MMR_ROOT_KEY)?.unwrap_or_else(mmr_genesis_hash);
 
         Ok(DocumentStoreSummary {
             root,
@@ -526,6 +558,9 @@ impl DocumentStore {
             print_count,
             forever_event_count,
             forever_tip_hash,
+            mmr_leaf_count,
+            mmr_root_hash,
+            mmr_synced: mmr_leaf_count == forever_event_count,
             legacy_jsonl_rows,
         })
     }
@@ -560,6 +595,12 @@ impl DocumentStore {
         let previous_record_hash = self
             .read_string(FOREVER_TIP_KEY)?
             .unwrap_or_else(genesis_hash);
+        let current_mmr_leaf_count = self.read_counter(MMR_LEAF_COUNT_KEY)?;
+        if current_mmr_leaf_count != current_sequence {
+            return Err(DocumentError::StoreCorruption(format!(
+                "document MMR leaf count {current_mmr_leaf_count} does not match forever sequence {current_sequence}"
+            )));
+        }
 
         let frame_json = serde_json::to_vec(&framed.frame)?;
         let print_json = serde_json::to_vec(&framed.print)?;
@@ -583,6 +624,15 @@ impl DocumentStore {
             &payload_hash_blake3,
             &previous_record_hash,
         )?;
+        let mut forever_record = forever_record;
+        let mmr_leaf_hash =
+            compute_mmr_leaf_hash(forever_sequence, &forever_record.record_hash_blake3)?;
+        let mmr_append = self.plan_mmr_append(current_mmr_leaf_count, &mmr_leaf_hash)?;
+        forever_record.mmr_schema_version = DOCUMENT_MMR_SCHEMA_VERSION.to_owned();
+        forever_record.mmr_leaf_index = mmr_append.leaf_index;
+        forever_record.mmr_leaf_hash_blake3 = mmr_append.leaf_hash.clone();
+        forever_record.mmr_root_hash_blake3 = mmr_append.root_hash.clone();
+        forever_record.mmr_leaf_count = mmr_append.leaf_count;
         let forever_json = serde_json::to_vec(&forever_record)?;
 
         let mut batch = WriteBatch::default();
@@ -647,6 +697,26 @@ impl DocumentStore {
             FOREVER_TIP_KEY,
             forever_record.record_hash_blake3.as_bytes(),
         );
+        batch.put(MMR_SCHEMA_KEY, DOCUMENT_MMR_SCHEMA_VERSION.as_bytes());
+        batch.put(
+            mmr_leaf_key(mmr_append.leaf_index),
+            mmr_append.leaf_hash.as_bytes(),
+        );
+        batch.put(
+            mmr_event_key(forever_sequence),
+            mmr_append.leaf_index.to_string().into_bytes(),
+        );
+        for height in &mmr_append.peak_deletes {
+            batch.delete(mmr_peak_key(*height));
+        }
+        for peak in &mmr_append.peak_puts {
+            batch.put(mmr_peak_key(peak.height), peak.hash.as_bytes());
+        }
+        batch.put(
+            MMR_LEAF_COUNT_KEY,
+            mmr_append.leaf_count.to_string().into_bytes(),
+        );
+        batch.put(MMR_ROOT_KEY, mmr_append.root_hash.as_bytes());
 
         self.write_synced(batch)?;
 
@@ -731,6 +801,136 @@ impl DocumentStore {
         })
     }
 
+    pub fn verify_mmr(&self) -> DocumentResult<DocumentMmrReport> {
+        let event_count = self.read_counter(FOREVER_SEQUENCE_KEY)?;
+        if event_count > 0 {
+            let schema = self.read_string(MMR_SCHEMA_KEY)?.ok_or_else(|| {
+                DocumentError::StoreCorruption(
+                    "document MMR schema is missing for non-empty store".to_owned(),
+                )
+            })?;
+            if schema != DOCUMENT_MMR_SCHEMA_VERSION {
+                return Err(DocumentError::StoreCorruption(format!(
+                    "unsupported document MMR schema {schema}"
+                )));
+            }
+        }
+
+        let mut peaks = BTreeMap::new();
+        let mut leaf_count = 0_u64;
+
+        for sequence in 1..=event_count {
+            let record: DocumentForeverRecord =
+                self.get_json(forever_key(sequence))?.ok_or_else(|| {
+                    DocumentError::StoreCorruption(format!(
+                        "missing forever record at sequence {sequence}"
+                    ))
+                })?;
+            if record.mmr_schema_version != DOCUMENT_MMR_SCHEMA_VERSION {
+                return Err(DocumentError::StoreCorruption(format!(
+                    "forever record {sequence} is not bound to document MMR schema"
+                )));
+            }
+            if record.sequence != sequence {
+                return Err(DocumentError::StoreCorruption(format!(
+                    "forever record sequence mismatch at {sequence}: found {}",
+                    record.sequence
+                )));
+            }
+            let expected_record_hash = compute_forever_record_hash(&record)?;
+            if record.record_hash_blake3 != expected_record_hash {
+                return Err(DocumentError::StoreCorruption(format!(
+                    "forever record {sequence} hash mismatch"
+                )));
+            }
+
+            let expected_leaf_index = sequence.checked_sub(1).ok_or_else(|| {
+                DocumentError::StoreCorruption("MMR sequence underflow".to_owned())
+            })?;
+            if record.mmr_leaf_index != expected_leaf_index {
+                return Err(DocumentError::StoreCorruption(format!(
+                    "MMR leaf index mismatch for sequence {sequence}"
+                )));
+            }
+            let expected_leaf_hash = compute_mmr_leaf_hash(sequence, &record.record_hash_blake3)?;
+            if record.mmr_leaf_hash_blake3 != expected_leaf_hash {
+                return Err(DocumentError::StoreCorruption(format!(
+                    "MMR leaf hash mismatch for sequence {sequence}"
+                )));
+            }
+            let stored_leaf_hash = self
+                .read_string(mmr_leaf_key(expected_leaf_index))?
+                .ok_or_else(|| {
+                    DocumentError::StoreCorruption(format!(
+                        "missing MMR leaf at index {expected_leaf_index}"
+                    ))
+                })?;
+            if stored_leaf_hash != expected_leaf_hash {
+                return Err(DocumentError::StoreCorruption(format!(
+                    "stored MMR leaf mismatch at index {expected_leaf_index}"
+                )));
+            }
+            let stored_leaf_index =
+                self.read_string(mmr_event_key(sequence))?.ok_or_else(|| {
+                    DocumentError::StoreCorruption(format!(
+                        "missing MMR event index for sequence {sequence}"
+                    ))
+                })?;
+            if parse_counter(&stored_leaf_index, "mmr event leaf index")? != expected_leaf_index {
+                return Err(DocumentError::StoreCorruption(format!(
+                    "MMR event index mismatch for sequence {sequence}"
+                )));
+            }
+
+            append_mmr_leaf_to_peaks(&mut peaks, &expected_leaf_hash)?;
+            leaf_count = leaf_count.checked_add(1).ok_or_else(|| {
+                DocumentError::StoreCorruption("MMR leaf count overflow".to_owned())
+            })?;
+            let expected_root = compute_mmr_root(leaf_count, &peaks)?;
+            if record.mmr_leaf_count != leaf_count {
+                return Err(DocumentError::StoreCorruption(format!(
+                    "MMR leaf count mismatch for sequence {sequence}"
+                )));
+            }
+            if record.mmr_root_hash_blake3 != expected_root {
+                return Err(DocumentError::StoreCorruption(format!(
+                    "MMR root mismatch for sequence {sequence}"
+                )));
+            }
+        }
+
+        let stored_leaf_count = self.read_counter(MMR_LEAF_COUNT_KEY)?;
+        if stored_leaf_count != leaf_count {
+            return Err(DocumentError::StoreCorruption(format!(
+                "stored MMR leaf count {stored_leaf_count} does not match replayed {leaf_count}"
+            )));
+        }
+
+        let expected_root = compute_mmr_root(leaf_count, &peaks)?;
+        let stored_root = self
+            .read_string(MMR_ROOT_KEY)?
+            .unwrap_or_else(mmr_genesis_hash);
+        if stored_root != expected_root {
+            return Err(DocumentError::StoreCorruption(
+                "stored MMR root does not match replay".to_owned(),
+            ));
+        }
+
+        let stored_peaks = self.read_mmr_peaks()?;
+        if stored_peaks != peaks {
+            return Err(DocumentError::StoreCorruption(
+                "stored MMR peaks do not match replay".to_owned(),
+            ));
+        }
+
+        Ok(DocumentMmrReport {
+            leaf_count,
+            root_hash: stored_root,
+            peak_count: peaks.len(),
+            verified: true,
+        })
+    }
+
     fn contains_frame(&self, frame_id: &str) -> DocumentResult<bool> {
         Ok(self.db.get(frame_key(frame_id))?.is_some())
     }
@@ -754,6 +954,7 @@ impl DocumentStore {
                     "unsupported document store schema {schema}"
                 )));
             }
+            self.ensure_mmr_schema()?;
             return Ok(());
         }
 
@@ -764,7 +965,79 @@ impl DocumentStore {
         batch.put(PRINT_COUNT_KEY, b"0");
         batch.put(FOREVER_SEQUENCE_KEY, b"0");
         batch.put(FOREVER_TIP_KEY, genesis_hash().as_bytes());
+        batch.put(MMR_SCHEMA_KEY, DOCUMENT_MMR_SCHEMA_VERSION.as_bytes());
+        batch.put(MMR_LEAF_COUNT_KEY, b"0");
+        batch.put(MMR_ROOT_KEY, mmr_genesis_hash().as_bytes());
         self.write_synced(batch)
+    }
+
+    fn ensure_mmr_schema(&self) -> DocumentResult<()> {
+        if let Some(schema) = self.read_string(MMR_SCHEMA_KEY)? {
+            if schema != DOCUMENT_MMR_SCHEMA_VERSION {
+                return Err(DocumentError::StoreCorruption(format!(
+                    "unsupported document MMR schema {schema}"
+                )));
+            }
+            return Ok(());
+        }
+
+        if self.read_counter(FOREVER_SEQUENCE_KEY)? > 0 {
+            return Ok(());
+        }
+
+        let mut batch = WriteBatch::default();
+        batch.put(MMR_SCHEMA_KEY, DOCUMENT_MMR_SCHEMA_VERSION.as_bytes());
+        batch.put(MMR_LEAF_COUNT_KEY, b"0");
+        batch.put(MMR_ROOT_KEY, mmr_genesis_hash().as_bytes());
+        self.write_synced(batch)
+    }
+
+    fn plan_mmr_append(&self, leaf_index: u64, leaf_hash: &str) -> DocumentResult<MmrAppendPlan> {
+        let mut peaks = self.read_mmr_peaks()?;
+        let mut peak_deletes = Vec::new();
+        let mut peak_puts = Vec::new();
+        let mut carry_hash = leaf_hash.to_owned();
+        let mut height = 0_u32;
+
+        while let Some(left_hash) = peaks.remove(&height) {
+            peak_deletes.push(height);
+            carry_hash = compute_mmr_parent_hash(height, &left_hash, &carry_hash)?;
+            height = height.checked_add(1).ok_or_else(|| {
+                DocumentError::StoreCorruption("MMR peak height overflow".to_owned())
+            })?;
+        }
+
+        peaks.insert(height, carry_hash.clone());
+        peak_puts.push(MmrPeak {
+            height,
+            hash: carry_hash,
+        });
+
+        let leaf_count = leaf_index
+            .checked_add(1)
+            .ok_or_else(|| DocumentError::StoreCorruption("MMR leaf count overflow".to_owned()))?;
+        let root_hash = compute_mmr_root(leaf_count, &peaks)?;
+
+        Ok(MmrAppendPlan {
+            leaf_index,
+            leaf_hash: leaf_hash.to_owned(),
+            leaf_count,
+            root_hash,
+            peak_deletes,
+            peak_puts,
+        })
+    }
+
+    fn read_mmr_peaks(&self) -> DocumentResult<BTreeMap<u32, String>> {
+        let leaf_count = self.read_counter(MMR_LEAF_COUNT_KEY)?;
+        let max_height = u64::BITS - leaf_count.leading_zeros();
+        let mut peaks = BTreeMap::new();
+        for height in 0..=max_height {
+            if let Some(hash) = self.read_string(mmr_peak_key(height))? {
+                peaks.insert(height, hash);
+            }
+        }
+        Ok(peaks)
     }
 
     fn read_counter<K: AsRef<[u8]>>(&self, key: K) -> DocumentResult<u64> {
@@ -799,6 +1072,30 @@ pub struct ForeverChainReport {
     pub event_count: u64,
     pub tip_hash: String,
     pub verified: bool,
+}
+
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub struct DocumentMmrReport {
+    pub leaf_count: u64,
+    pub root_hash: String,
+    pub peak_count: usize,
+    pub verified: bool,
+}
+
+#[derive(Debug, Clone, PartialEq, Eq)]
+struct MmrPeak {
+    height: u32,
+    hash: String,
+}
+
+#[derive(Debug, Clone, PartialEq, Eq)]
+struct MmrAppendPlan {
+    leaf_index: u64,
+    leaf_hash: String,
+    leaf_count: u64,
+    root_hash: String,
+    peak_deletes: Vec<u32>,
+    peak_puts: Vec<MmrPeak>,
 }
 
 #[derive(Debug, Serialize)]
@@ -858,6 +1155,35 @@ struct DocumentForeverRecordSeal<'a> {
     storage_engine: &'a str,
 }
 
+#[derive(Debug, Serialize)]
+struct DocumentMmrLeafSeal<'a> {
+    schema_version: &'a str,
+    leaf_kind: &'a str,
+    sequence: u64,
+    record_hash_blake3: &'a str,
+}
+
+#[derive(Debug, Serialize)]
+struct DocumentMmrParentSeal<'a> {
+    schema_version: &'a str,
+    child_height: u32,
+    left_hash_blake3: &'a str,
+    right_hash_blake3: &'a str,
+}
+
+#[derive(Debug, Serialize)]
+struct DocumentMmrRootSeal<'a> {
+    schema_version: &'a str,
+    leaf_count: u64,
+    peaks: Vec<DocumentMmrPeakSeal<'a>>,
+}
+
+#[derive(Debug, Serialize)]
+struct DocumentMmrPeakSeal<'a> {
+    height: u32,
+    hash_blake3: &'a str,
+}
+
 fn build_forever_record(
     sequence: u64,
     frame_id: &str,
@@ -901,6 +1227,11 @@ fn build_forever_record(
         payload_hash_blake3: payload_hash_blake3.to_owned(),
         previous_record_hash_blake3: previous_record_hash_blake3.to_owned(),
         record_hash_blake3,
+        mmr_schema_version: String::new(),
+        mmr_leaf_index: 0,
+        mmr_leaf_hash_blake3: String::new(),
+        mmr_root_hash_blake3: String::new(),
+        mmr_leaf_count: 0,
         recorded_at_utc,
         storage_engine: DOCUMENT_STORE_ENGINE.to_owned(),
     })
@@ -920,6 +1251,66 @@ fn compute_forever_record_hash(record: &DocumentForeverRecord) -> DocumentResult
         previous_record_hash_blake3: &record.previous_record_hash_blake3,
         recorded_at_utc: record.recorded_at_utc,
         storage_engine: &record.storage_engine,
+    };
+    Ok(blake3_with_prefix(&serde_json::to_vec(&seal)?))
+}
+
+fn compute_mmr_leaf_hash(sequence: u64, record_hash_blake3: &str) -> DocumentResult<String> {
+    let seal = DocumentMmrLeafSeal {
+        schema_version: DOCUMENT_MMR_SCHEMA_VERSION,
+        leaf_kind: "document_forever_record",
+        sequence,
+        record_hash_blake3,
+    };
+    Ok(blake3_with_prefix(&serde_json::to_vec(&seal)?))
+}
+
+fn compute_mmr_parent_hash(
+    child_height: u32,
+    left_hash_blake3: &str,
+    right_hash_blake3: &str,
+) -> DocumentResult<String> {
+    let seal = DocumentMmrParentSeal {
+        schema_version: DOCUMENT_MMR_SCHEMA_VERSION,
+        child_height,
+        left_hash_blake3,
+        right_hash_blake3,
+    };
+    Ok(blake3_with_prefix(&serde_json::to_vec(&seal)?))
+}
+
+fn append_mmr_leaf_to_peaks(
+    peaks: &mut BTreeMap<u32, String>,
+    leaf_hash: &str,
+) -> DocumentResult<()> {
+    let mut carry_hash = leaf_hash.to_owned();
+    let mut height = 0_u32;
+    while let Some(left_hash) = peaks.remove(&height) {
+        carry_hash = compute_mmr_parent_hash(height, &left_hash, &carry_hash)?;
+        height = height
+            .checked_add(1)
+            .ok_or_else(|| DocumentError::StoreCorruption("MMR peak height overflow".to_owned()))?;
+    }
+    peaks.insert(height, carry_hash);
+    Ok(())
+}
+
+fn compute_mmr_root(leaf_count: u64, peaks: &BTreeMap<u32, String>) -> DocumentResult<String> {
+    if leaf_count == 0 {
+        return Ok(mmr_genesis_hash());
+    }
+    let peak_seals = peaks
+        .iter()
+        .rev()
+        .map(|(height, hash)| DocumentMmrPeakSeal {
+            height: *height,
+            hash_blake3: hash.as_str(),
+        })
+        .collect();
+    let seal = DocumentMmrRootSeal {
+        schema_version: DOCUMENT_MMR_SCHEMA_VERSION,
+        leaf_count,
+        peaks: peak_seals,
     };
     Ok(blake3_with_prefix(&serde_json::to_vec(&seal)?))
 }
@@ -990,6 +1381,18 @@ fn forever_key(sequence: u64) -> Vec<u8> {
 
 fn forever_by_frame_key(frame_id: &str) -> Vec<u8> {
     format!("forever_by_frame:{frame_id}").into_bytes()
+}
+
+fn mmr_leaf_key(leaf_index: u64) -> Vec<u8> {
+    format!("mmr:leaf:{leaf_index:020}").into_bytes()
+}
+
+fn mmr_event_key(sequence: u64) -> Vec<u8> {
+    format!("mmr:event:{sequence:020}").into_bytes()
+}
+
+fn mmr_peak_key(height: u32) -> Vec<u8> {
+    format!("mmr:peak:{height:03}").into_bytes()
 }
 
 fn legacy_jsonl_rows(root: &Path) -> DocumentResult<usize> {
@@ -1514,6 +1917,10 @@ fn genesis_hash() -> String {
     blake3_with_prefix(b"neurocognica.aura.document_forever.genesis.v1")
 }
 
+fn mmr_genesis_hash() -> String {
+    blake3_with_prefix(b"neurocognica.aura.document_mmr.genesis.v1")
+}
+
 fn frames_path(root: &Path) -> PathBuf {
     root.join("document_frames.jsonl")
 }
@@ -1624,6 +2031,9 @@ mod tests {
         assert_eq!(summary.print_count, 1);
         assert_eq!(summary.forever_event_count, 1);
         assert!(summary.forever_tip_hash.starts_with("blake3:"));
+        assert_eq!(summary.mmr_leaf_count, 1);
+        assert!(summary.mmr_root_hash.starts_with("blake3:"));
+        assert!(summary.mmr_synced);
         assert_eq!(summary.store_engine, DOCUMENT_STORE_ENGINE);
         assert!(summary.db_path.ends_with(DOCUMENT_ROCKSDB_DIR_NAME));
     }
@@ -1667,6 +2077,8 @@ mod tests {
         assert_eq!(summary.chunk_count, framed.chunks.len());
         assert_eq!(summary.print_count, 1);
         assert_eq!(summary.forever_event_count, 1);
+        assert_eq!(summary.mmr_leaf_count, 1);
+        assert!(summary.mmr_synced);
 
         let stored_frame = store
             .frame_record(&framed.frame.frame_id)
@@ -1679,11 +2091,23 @@ mod tests {
         let report = store
             .verify_forever_chain()
             .expect("forever chain verifies");
+        let mmr_report = store.verify_mmr().expect("document MMR verifies");
+        let forever = store
+            .forever_record_for_frame(&framed.frame.frame_id)
+            .expect("forever lookup")
+            .expect("forever record");
         assert_eq!(stored_frame, framed.frame);
         assert_eq!(stored_print.print_id, framed.print.print_id);
         assert!(stored_print.html.contains("data:image/png;base64,"));
         assert!(stored_print.html.contains("PROJECT:"));
         assert!(report.verified);
+        assert!(mmr_report.verified);
+        assert_eq!(mmr_report.leaf_count, 1);
+        assert_eq!(mmr_report.root_hash, forever.mmr_root_hash_blake3);
+        assert_eq!(forever.mmr_schema_version, DOCUMENT_MMR_SCHEMA_VERSION);
+        assert_eq!(forever.mmr_leaf_index, 0);
+        assert_eq!(forever.mmr_leaf_count, 1);
+        assert!(forever.mmr_leaf_hash_blake3.starts_with("blake3:"));
     }
 
     #[test]
@@ -1736,15 +2160,107 @@ mod tests {
             .expect("forever lookup")
             .expect("forever record");
         let report = reopened.verify_forever_chain().expect("chain verifies");
+        let mmr_report = reopened.verify_mmr().expect("MMR verifies");
 
         assert_eq!(summary.frame_count, 1);
         assert_eq!(summary.chunk_count, chunks);
         assert_eq!(summary.print_count, 1);
         assert_eq!(summary.forever_event_count, 1);
+        assert_eq!(summary.mmr_leaf_count, 1);
+        assert!(summary.mmr_synced);
         assert_eq!(stored_frame.frame_id, frame_id);
         assert_eq!(stored_print.print_id, print_id);
         assert_eq!(forever.record_hash_blake3, first_record_hash);
         assert_eq!(report.tip_hash, first_record_hash);
+        assert_eq!(mmr_report.leaf_count, 1);
+        assert_eq!(mmr_report.root_hash, summary.mmr_root_hash);
+    }
+
+    #[test]
+    fn document_mmr_replays_multiple_ingests_after_reopen() {
+        let root = temp_root("mmr-replay");
+        let first_source = write_temp_doc(
+            "mmr-one",
+            "md",
+            "# First\n\nAURA commits the first framed document into the accumulator.\n",
+        );
+        let second_source = write_temp_doc(
+            "mmr-two",
+            "txt",
+            "A second framed document must merge with the first MMR leaf into a peak.\n",
+        );
+        let first_frame_id;
+        let second_frame_id;
+        {
+            let store = DocumentStore::open(&root).expect("store opens");
+            let first = store
+                .ingest_text_path(
+                    &first_source,
+                    test_metadata("NC-DOC-AURA-MMR-001"),
+                    FramerConfig::default(),
+                )
+                .expect("first document stores");
+            let second = store
+                .ingest_text_path(
+                    &second_source,
+                    test_metadata("NC-DOC-AURA-MMR-002"),
+                    FramerConfig::default(),
+                )
+                .expect("second document stores");
+            let IngestOutcome::Stored {
+                frame_id: stored_first,
+                forever_sequence: first_sequence,
+                ..
+            } = first
+            else {
+                panic!("first ingest should store");
+            };
+            let IngestOutcome::Stored {
+                frame_id: stored_second,
+                forever_sequence: second_sequence,
+                ..
+            } = second
+            else {
+                panic!("second ingest should store");
+            };
+            assert_eq!(first_sequence, 1);
+            assert_eq!(second_sequence, 2);
+            first_frame_id = stored_first;
+            second_frame_id = stored_second;
+            let live_report = store.verify_mmr().expect("live MMR verifies");
+            assert_eq!(live_report.leaf_count, 2);
+            assert_eq!(live_report.peak_count, 1);
+        }
+
+        let reopened = DocumentStore::open(&root).expect("store reopens");
+        let summary = reopened.summary().expect("summary");
+        let first_record = reopened
+            .forever_record_for_frame(&first_frame_id)
+            .expect("first forever lookup")
+            .expect("first forever record");
+        let second_record = reopened
+            .forever_record_for_frame(&second_frame_id)
+            .expect("second forever lookup")
+            .expect("second forever record");
+        let chain_report = reopened.verify_forever_chain().expect("chain verifies");
+        let mmr_report = reopened.verify_mmr().expect("MMR verifies");
+
+        assert_eq!(summary.forever_event_count, 2);
+        assert_eq!(summary.mmr_leaf_count, 2);
+        assert!(summary.mmr_synced);
+        assert_eq!(chain_report.event_count, 2);
+        assert_eq!(mmr_report.leaf_count, 2);
+        assert_eq!(mmr_report.peak_count, 1);
+        assert_eq!(mmr_report.root_hash, summary.mmr_root_hash);
+        assert_eq!(first_record.mmr_leaf_index, 0);
+        assert_eq!(first_record.mmr_leaf_count, 1);
+        assert_eq!(second_record.mmr_leaf_index, 1);
+        assert_eq!(second_record.mmr_leaf_count, 2);
+        assert_eq!(second_record.mmr_root_hash_blake3, summary.mmr_root_hash);
+        assert_ne!(
+            first_record.mmr_root_hash_blake3,
+            second_record.mmr_root_hash_blake3
+        );
     }
 
     #[test]
