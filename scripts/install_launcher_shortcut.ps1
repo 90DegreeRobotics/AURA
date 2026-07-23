@@ -10,6 +10,9 @@ $TargetExe = Join-Path $RepoRoot "target\$Configuration\aura_launcher.exe"
 $DistExe = Join-Path $DistRoot "aura_launcher.exe"
 $IconSource = Join-Path $RepoRoot "assets\icon\aura.ico"
 $DistIcon = Join-Path $DistRoot "aura.ico"
+$BrandSource = Join-Path $RepoRoot "assets\brand"
+$DistAssetsRoot = Join-Path $DistRoot "assets"
+$DistBrand = Join-Path $DistAssetsRoot "brand"
 
 Push-Location $RepoRoot
 try {
@@ -20,8 +23,10 @@ try {
     }
 
     New-Item -ItemType Directory -Force -Path $DistRoot | Out-Null
+    New-Item -ItemType Directory -Force -Path $DistAssetsRoot | Out-Null
     Copy-Item -LiteralPath $TargetExe -Destination $DistExe -Force
     Copy-Item -LiteralPath $IconSource -Destination $DistIcon -Force
+    Copy-Item -LiteralPath $BrandSource -Destination $DistAssetsRoot -Recurse -Force
 
     $shell = New-Object -ComObject WScript.Shell
     $desktopCandidates = @(
@@ -55,7 +60,7 @@ try {
             $shortcut.Arguments = ""
             $shortcut.WorkingDirectory = $DistRoot
             $shortcut.IconLocation = "$DistIcon,0"
-            $shortcut.Description = "AURA Sentinel-first desktop launcher"
+            $shortcut.Description = "AURA desktop launcher"
             $shortcut.Save()
 
             $saved = $shell.CreateShortcut($path)
@@ -89,6 +94,8 @@ try {
     Write-Host "  $DistExe"
     Write-Host "Icon:"
     Write-Host "  $DistIcon"
+    Write-Host "Brand assets:"
+    Write-Host "  $DistBrand"
     Write-Host "Shortcuts:"
     foreach ($path in $createdShortcuts) {
         Write-Host "  $path"

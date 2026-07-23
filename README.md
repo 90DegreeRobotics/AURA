@@ -25,8 +25,10 @@ Until then, versioning/update support is planned, not shipped.
 First live slice:
 
 - `crates\aura_launcher` is the compiled Bevy launcher.
-- The launcher shows AURA version/build identity, Sentinel/boot status, decision ledger path,
-  document database status, and planned local service readiness.
+- The launcher shows the NeuroCognica logo, AURA identity, the full
+  `Archetypes - Utilizing - Reflective - Architecture` acronym, version/build identity,
+  Sentinel/boot status, decision ledger path, document database status, and planned local
+  service readiness.
 - On launch, the header fades into the word AURA and shows a small `LAUNCHER ALIVE`
   signal so startup never reads as a blank black screen.
 - The launcher button for boot continuation goes through `aura_runtime` and refuses under the
@@ -74,14 +76,14 @@ pwsh -File scripts\install_launcher_shortcut.ps1
 ```
 
 That builds release, copies `target\release\aura_launcher.exe` to `dist\aura_launcher.exe`,
-copies the tracked AURA icon to `dist\aura.ico`, creates `AURA.lnk` in `C:\Users\m`, on the
-user Desktop, and in the Start Menu, and attempts the Public Desktop shortcut when Windows
-permissions allow it.
+copies the tracked AURA icon to `dist\aura.ico`, copies `assets\brand` to
+`dist\assets\brand`, creates `AURA.lnk` in `C:\Users\m`, on the user Desktop, and in the
+Start Menu, and attempts the Public Desktop shortcut when Windows permissions allow it.
 
 The launcher opens with a native Bevy startup fade into `AURA` plus a truthful launcher-alive
-indicator while deeper runtime status lines settle. The launcher owns its UI camera and font
-handle explicitly so the installed release build is not a black surface waiting on implicit
-Bevy defaults.
+indicator while deeper runtime status lines settle. The launcher owns its UI camera, font
+handle, and brand-image asset path explicitly so the installed release build is not a black
+surface waiting on implicit Bevy defaults.
 
 ## Developer smoke
 
@@ -103,6 +105,9 @@ C:\aura\
   crates\aura_documents\ # NeuroCognica document frame + local JSONL store foundation
   crates\aura_cli\       # developer harness only, not the product surface
   crates\aura_launcher\  # Bevy Windows launcher / product shell
+  assets\                # tracked AURA icon + brand assets used by launcher/install helper
+  NC LOGOS\              # Founder-provided NeuroCognica source logo variants
+  aura\                  # Founder-provided AURA/archetype source art
   scripts\               # build/install helpers for launcher shortcut
   docs\plans\            # master plan
   docs\security\         # Impervious adoption pack

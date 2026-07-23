@@ -27,7 +27,7 @@ fn main() {
         .insert_resource(LauncherRuntime::start())
         .add_plugins(DefaultPlugins.set(WindowPlugin {
             primary_window: Some(Window {
-                title: "AURA — Sentinel Boot".to_owned(),
+                title: WINDOW_TITLE.to_owned(),
                 name: Some("aura.launcher".to_owned()),
                 resolution: WindowResolution::new(1240, 760),
                 resizable: true,
@@ -59,10 +59,14 @@ fn main() {
         .run();
 }
 
+const WINDOW_TITLE: &str = "AURA - Archetypes - Utilizing - Reflective - Architecture";
+const BRAND_LOGO_ASSET: &str = "brand/neurocognica_logo_large.png";
+const AURA_ACRONYM: &str = "Archetypes - Utilizing - Reflective - Architecture";
 const TITLE_RGB: (f32, f32, f32) = (0.96, 0.94, 0.88);
 const SUBTITLE_RGB: (f32, f32, f32) = (0.56, 0.78, 0.86);
 const VERSION_RGB: (f32, f32, f32) = (0.70, 0.72, 0.70);
 const ALIVE_TEXT_RGB: (f32, f32, f32) = (0.68, 0.86, 0.88);
+const NEUROCOGNICA_RGB: (f32, f32, f32) = (0.93, 0.68, 0.32);
 const TITLE_START_ALPHA: f32 = 0.62;
 const SUBTITLE_START_ALPHA: f32 = 0.34;
 const ALIVE_TEXT_START_ALPHA: f32 = 0.68;
@@ -226,8 +230,14 @@ fn install_launcher_font(mut commands: Commands, mut fonts: ResMut<Assets<Font>>
     });
 }
 
-fn spawn_ui(mut commands: Commands, runtime: Res<LauncherRuntime>, font: Res<LauncherFont>) {
+fn spawn_ui(
+    mut commands: Commands,
+    runtime: Res<LauncherRuntime>,
+    font: Res<LauncherFont>,
+    asset_server: Res<AssetServer>,
+) {
     let snapshot = runtime.snapshot();
+    let brand_logo = asset_server.load(BRAND_LOGO_ASSET);
     commands
         .spawn((
             Node {
@@ -244,7 +254,7 @@ fn spawn_ui(mut commands: Commands, runtime: Res<LauncherRuntime>, font: Res<Lau
             BackgroundColor(Color::srgb(0.012, 0.014, 0.018)),
         ))
         .with_children(|root| {
-            spawn_header(root, &snapshot, &font);
+            spawn_header(root, &snapshot, &font, brand_logo);
             spawn_status_surface(root, &snapshot, &font);
             spawn_buttons(root, &font);
         });
@@ -254,38 +264,71 @@ fn spawn_header(
     parent: &mut ChildSpawnerCommands,
     snapshot: &LauncherSnapshot,
     font: &LauncherFont,
+    brand_logo: Handle<Image>,
 ) {
     parent
         .spawn((
             Node {
                 width: Val::Percent(100.0),
-                flex_direction: FlexDirection::Column,
-                row_gap: Val::Px(8.0),
+                min_height: Val::Px(222.0),
+                flex_direction: FlexDirection::Row,
+                align_items: AlignItems::Center,
+                column_gap: Val::Px(30.0),
+                flex_wrap: FlexWrap::Wrap,
                 ..default()
             },
             BackgroundColor(Color::NONE),
         ))
         .with_children(|header| {
             header.spawn((
-                Text::new("AURA"),
-                text_font(font, 68.0),
-                TextColor(color_with_alpha(TITLE_RGB, TITLE_START_ALPHA)),
-                title_intro_fade(),
+                Node {
+                    width: Val::Px(220.0),
+                    height: Val::Px(220.0),
+                    flex_shrink: 0.0,
+                    ..default()
+                },
+                ImageNode::new(brand_logo),
             ));
-            header.spawn((
-                Text::new("Archetypes Utilizing Reflective Architecture"),
-                text_font(font, 21.0),
-                TextColor(color_with_alpha(SUBTITLE_RGB, SUBTITLE_START_ALPHA)),
-                IntroFade::new(SUBTITLE_RGB, SUBTITLE_START_ALPHA, 1.0, 0.18, 0.78),
-            ));
-            spawn_alive_indicator(header, font);
-            header.spawn((
-                Text::new(snapshot.version_line.clone()),
-                text_font(font, 15.0),
-                TextColor(color_with_alpha(VERSION_RGB, 0.0)),
-                IntroFade::new(VERSION_RGB, 0.0, 1.0, 0.98, 0.72),
-                SnapshotField::Version,
-            ));
+            header
+                .spawn((
+                    Node {
+                        flex_direction: FlexDirection::Column,
+                        justify_content: JustifyContent::Center,
+                        row_gap: Val::Px(8.0),
+                        flex_grow: 1.0,
+                        min_width: Val::Px(640.0),
+                        ..default()
+                    },
+                    BackgroundColor(Color::NONE),
+                ))
+                .with_children(|identity| {
+                    identity.spawn((
+                        Text::new("NeuroCognica"),
+                        text_font(font, 24.0),
+                        TextColor(color_with_alpha(NEUROCOGNICA_RGB, SUBTITLE_START_ALPHA)),
+                        IntroFade::new(NEUROCOGNICA_RGB, SUBTITLE_START_ALPHA, 1.0, 0.08, 0.54),
+                    ));
+                    identity.spawn((
+                        Text::new("AURA"),
+                        text_font(font, 76.0),
+                        TextColor(color_with_alpha(TITLE_RGB, TITLE_START_ALPHA)),
+                        title_intro_fade(),
+                    ));
+                    identity.spawn((
+                        Text::new(AURA_ACRONYM),
+                        text_font(font, 24.0),
+                        TextColor(color_with_alpha(SUBTITLE_RGB, SUBTITLE_START_ALPHA)),
+                        IntroFade::new(SUBTITLE_RGB, SUBTITLE_START_ALPHA, 1.0, 0.18, 0.78),
+                    ));
+                    spawn_alive_indicator(identity, font);
+                    identity.spawn((
+                        Text::new(snapshot.version_line.clone()),
+                        text_font(font, 15.0),
+                        TextColor(color_with_alpha(VERSION_RGB, 0.0)),
+                        IntroFade::new(VERSION_RGB, 0.0, 1.0, 0.98, 0.72),
+                        SnapshotField::Version,
+                    ));
+                });
         });
 }
 
@@ -682,6 +725,22 @@ mod tests {
         let fade = title_intro_fade();
         assert!(fade.start_alpha >= 0.50);
         assert_eq!(fade.delay, 0.0);
+    }
+
+    #[test]
+    fn acronym_stays_expanded_and_hyphenated() {
+        assert_eq!(
+            AURA_ACRONYM,
+            "Archetypes - Utilizing - Reflective - Architecture"
+        );
+        assert!(WINDOW_TITLE.contains(AURA_ACRONYM));
+    }
+
+    #[test]
+    fn brand_logo_path_is_asset_relative() {
+        assert_eq!(BRAND_LOGO_ASSET, "brand/neurocognica_logo_large.png");
+        assert!(!BRAND_LOGO_ASSET.contains(':'));
+        assert!(!BRAND_LOGO_ASSET.starts_with('\\'));
     }
 
     #[test]
