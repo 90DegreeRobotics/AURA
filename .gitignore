@@ -1,6 +1,6 @@
 /target/
 **/target/
-Cargo.lock
+/dist/
 *.pdb
 .DS_Store
 *.swp

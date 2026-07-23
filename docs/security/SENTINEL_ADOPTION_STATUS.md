@@ -11,20 +11,20 @@ Sentinel adoption status for this repository:
 - Certification report path: `docs/security/SENTINEL_CERTIFICATION_REPORT.md`
 - Last certification command: _(none yet)_
 - Last certification result: _(none yet)_
-- Open stop-ship findings: incomplete surface coverage; no signed policies; no full deny-all paralysis across future UI/tools; not release-certified
+- Open stop-ship findings: incomplete surface coverage; no signed policies; no full deny-all paralysis across future UI/tools; chat/image/TTS/STT not wired; installer/update not shipped; not release-certified
 
 ## Adoption Summary
 
 | Surface | Mediated by Sentinel | Handler deny test | Notes |
 | --- | --- | --- | --- |
-| Boot / preboot | Yes (L0) | Yes (`fail_closed`) | Default deny-all; boot-continue → `effect.execute` |
+| Boot / preboot | Yes (L0) | Yes (`fail_closed`) | Default deny-all; boot-continue → `effect.execute`; exposed by launcher button |
 | Action broker | Yes | Yes | Side effect only after `authorizes_effect()` |
-| Routes / UI | Missing | Missing | No operator shell yet |
+| Routes / UI | Partial | Partial | Bevy launcher shows status and boot denial; broader operator shell missing |
 | Model / tool calls | Broker ready | Yes (model.generate deny) | No live model adapter yet |
 | File / network / process | Broker ready | Partial | Mapped; no OS adapters yet |
 | Memory / Codex / Forever Law | Decision log only | Partial | Local decision jsonl; Core ledger TBD |
 | Council / identity | Missing | Missing | |
-| Install / update | Missing | Missing | |
+| Install / update | Missing | Missing | Shortcut installer exists; full installer/update/rollback lane missing |
 
 ## Current Status
 
@@ -34,8 +34,11 @@ Sentinel adoption status for this repository:
 - Runtime enforce mode: **default enforce**
 - Default policy: **deny-all**
 - Deny-all paralysis (broker + boot): **proven in `crates/aura_runtime/tests/fail_closed.rs`**
+- Product surface: **first Bevy launcher slice live** (`crates/aura_launcher`)
+- Desktop launcher: **shortcut script exists** (`scripts/install_launcher_shortcut.ps1`)
 - Shadow mode: explicit opt-down; **effects still blocked**
 - Bypass flags inventoried: none in L0 runtime
+- Local services: chat/image/TTS/STT **not wired yet**
 - Master plan: `docs/plans/AURA_MASTER_PLAN.md`
 
 ## Notes

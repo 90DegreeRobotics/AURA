@@ -2,7 +2,7 @@
 
 **Product home:** `C:\aura`  
 **Document class:** Single binding plan — doctrine, failure archaeology, architecture-as-law, phased program  
-**Status:** IMPLEMENTING (Founder opened build 2026-07-20). L0 Sentinel-first runtime landed; not certified.  
+**Status:** IMPLEMENTING (Founder opened build 2026-07-20). L0 Sentinel-first runtime landed; first Bevy launcher slice live; not certified.
 **Date:** 2026-07-20  
 **Owner:** NeuroCognica / 90 Degree Robotics  
 **Operator:** Michael Holt  
@@ -787,6 +787,7 @@ Each reading should produce: notes in Part XII revision log + edits to contradic
 | 2026-07-20 | **Chronos Unified Sentinel verified:** Part XXVII — `b302cc9` who+how + enforce default confirmed; C9 Chronos crate vs sentinel-core named; steal patterns, not fork law | `C:\chronos` commit + unified.rs + ADOPTION_STATUS |
 | 2026-07-20 | **Build opened:** L0 Aura runtime — `aura_runtime` + `aura_cli`; path-bind `sentinel_core`; deny-all default; enforce default; broker seal-or-refuse; 6 fail-closed tests green | Founder directive “you are clear to build” |
 | 2026-07-22 | **Launcher-first law:** Q4 closed. Bevy is the AURA front end; the product is a compiled Windows launcher from day one; local Rust/Python services sit behind it; CLI is developer-only; user-facing work must land at the launcher and carry version/upgrade truth. Founder owns visual screenshot acceptance. | Founder directive “MAKE THAT REPO LAW NOW” |
+| 2026-07-22 | **First launcher slice:** `crates/aura_launcher` Bevy app exposes version/build identity, Sentinel/boot status, decision ledger path, planned service readiness, and a button-driven boot-continue denial path through `aura_runtime`. This is live launcher spine, not chat/image/TTS/STT completion or certification. | First implementation pass |
 
 ---
 

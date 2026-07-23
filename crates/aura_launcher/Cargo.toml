@@ -1,0 +1,11 @@
+[package]
+name = "aura_launcher"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "AURA Bevy Windows launcher"
+
+[dependencies]
+aura_runtime = { path = "../aura_runtime" }
+bevy = { version = "0.18.1" }
+serde_json = { workspace = true }

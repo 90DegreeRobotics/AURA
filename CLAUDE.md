@@ -8,7 +8,7 @@
 
 # Aura — Agent Orientation
 
-**Last updated: 2026-07-21**
+**Last updated: 2026-07-22**
 
 **Home:** `C:\aura`
 **Canonical contributor law:** `AGENTS.md` (Chronos-parity SOP + Aura Carved Law)
@@ -52,8 +52,9 @@ No launcher surface, no Done for product work.
 ## Mode
 
 **IMPLEMENTING** (Founder opened build 2026-07-20). L0 Sentinel-first runtime landed. Not
-certified. The Bevy launcher starts now as blocked/init/status surface, but protected effects
-cannot execute before Sentinel mediation. Do not claim Certified.
+certified. The first Bevy launcher slice is live as a blocked/init/status surface with a
+button-driven boot-continue denial path. Protected effects cannot execute before Sentinel
+mediation. Do not claim Certified.
 
 Build order (P9): boot/client → protected handlers + deny tests → ledgered memory → council →
 broker model/tool → Bevy Windows launcher/operator shell → certify.
@@ -64,7 +65,7 @@ broker model/tool → Bevy Windows launcher/operator shell → certify.
 | --- | --- |
 | Runtime | `crates/aura_runtime/` — boot, Sentinel client, broker, decision log |
 | Developer CLI | `crates/aura_cli/` — harness only; not the product surface |
-| Launcher | Planned Bevy Windows `.exe`; all user-facing controls must land here |
+| Launcher | `crates/aura_launcher/` — Bevy Windows `.exe`; all user-facing controls must land here |
 | Backends | Local supervised Rust/Python services behind the launcher |
 | Fail-closed proofs | `crates/aura_runtime/tests/fail_closed.rs` |
 | Adoption status | `docs/security/SENTINEL_ADOPTION_STATUS.md` |
@@ -76,11 +77,13 @@ broker model/tool → Bevy Windows launcher/operator shell → certify.
 ```pwsh
 cd C:\aura
 cargo test --workspace
+cargo run -p aura_launcher
 cargo run -p aura_cli -- status
 cargo run -p aura_cli -- boot-continue   # expected: refused under deny-all
+pwsh -File scripts\install_launcher_shortcut.ps1
 ```
 
-This smoke is not the user path. Product completion requires the compiled Bevy launcher.
+CLI smoke is not the user path. Product completion requires the compiled Bevy launcher.
 
 ## Key rules (short)
 

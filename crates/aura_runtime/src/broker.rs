@@ -1,14 +1,12 @@
 //! Action broker — sole executor after Sentinel authorizes.
 
-use std::sync::Arc;
 use std::sync::atomic::{AtomicU64, Ordering};
+use std::sync::Arc;
 
 use serde_json::Value;
 use uuid::Uuid;
 
-use crate::{
-    AuraAction, AuraError, AuraResult, AuraSentinelClient, build_guard_request,
-};
+use crate::{build_guard_request, AuraAction, AuraError, AuraResult, AuraSentinelClient};
 
 pub struct EffectRequest {
     pub action: AuraAction,

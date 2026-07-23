@@ -4,8 +4,8 @@
 //! append fails.
 
 use chrono::{DateTime, Utc};
-use serde::{Deserialize, Serialize};
 use sentinel_core::SentinelGuardDecision;
+use serde::{Deserialize, Serialize};
 use std::fs::{File, OpenOptions};
 use std::io::Write;
 use std::path::{Path, PathBuf};
@@ -48,15 +48,13 @@ impl DecisionLog {
     pub fn open(path: impl Into<PathBuf>) -> AuraResult<Self> {
         let path = path.into();
         if let Some(parent) = path.parent() {
-            std::fs::create_dir_all(parent).map_err(|e| {
-                AuraError::LedgerFailed(format!("create decision log dir: {e}"))
-            })?;
+            std::fs::create_dir_all(parent)
+                .map_err(|e| AuraError::LedgerFailed(format!("create decision log dir: {e}")))?;
         }
         // Touch file so absence is not silent.
         if !path.exists() {
-            File::create(&path).map_err(|e| {
-                AuraError::LedgerFailed(format!("create decision log: {e}"))
-            })?;
+            File::create(&path)
+                .map_err(|e| AuraError::LedgerFailed(format!("create decision log: {e}")))?;
         }
         Ok(Self {
             path,
@@ -83,9 +81,10 @@ impl DecisionLog {
             .lock()
             .map_err(|_| AuraError::LedgerFailed("decision log mutex poisoned".into()))?;
 
-        let seq = state.seq.checked_add(1).ok_or_else(|| {
-            AuraError::LedgerFailed("decision log sequence overflow".into())
-        })?;
+        let seq = state
+            .seq
+            .checked_add(1)
+            .ok_or_else(|| AuraError::LedgerFailed("decision log sequence overflow".into()))?;
         let recorded_at_utc = Utc::now();
         let class = format!("{:?}", decision.class);
         let prev_hash = state.tip_hash.clone();
@@ -117,9 +116,8 @@ impl DecisionLog {
             record_hash: record_hash.clone(),
         };
 
-        let line = serde_json::to_string(&record).map_err(|e| {
-            AuraError::LedgerFailed(format!("serialize decision: {e}"))
-        })?;
+        let line = serde_json::to_string(&record)
+            .map_err(|e| AuraError::LedgerFailed(format!("serialize decision: {e}")))?;
 
         let mut file = OpenOptions::new()
             .create(true)

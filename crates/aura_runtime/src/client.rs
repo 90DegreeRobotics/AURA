@@ -92,10 +92,7 @@ impl AuraSentinelClient {
     /// Authorize a protected action. Always consults Core. Always seals.
     /// Seal failure ⇒ error (fail closed). Shadow mode never returns an
     /// authorizing decision to the broker (effects stay blocked).
-    pub fn authorize(
-        &self,
-        request: &SentinelGuardRequest,
-    ) -> AuraResult<SentinelGuardDecision> {
+    pub fn authorize(&self, request: &SentinelGuardRequest) -> AuraResult<SentinelGuardDecision> {
         if !self.ready {
             return Err(AuraError::SentinelNotReady(
                 "Sentinel client marked not ready",

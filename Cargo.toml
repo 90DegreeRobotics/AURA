@@ -3,6 +3,7 @@ resolver = "2"
 members = [
     "crates/aura_runtime",
     "crates/aura_cli",
+    "crates/aura_launcher",
 ]
 
 [workspace.package]

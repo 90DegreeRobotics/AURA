@@ -1,7 +1,7 @@
 //! Handler-level proof that Aura fails closed before side effects.
 
-use std::sync::Arc;
 use std::sync::atomic::{AtomicBool, AtomicU64, Ordering};
+use std::sync::Arc;
 
 use sentinel_core::{GuardPolicy, GuardRule};
 use uuid::Uuid;
@@ -32,7 +32,9 @@ fn default_boot_is_initializing_under_enforce_deny_all() {
 fn deny_all_blocks_boot_continue_and_executes_no_effect() {
     let mut boot = BootSupervisor::start_enforce(temp_log("boot-deny"));
     let before = boot.broker().effects_executed();
-    let err = boot.try_continue_boot().expect_err("deny-all must refuse boot");
+    let err = boot
+        .try_continue_boot()
+        .expect_err("deny-all must refuse boot");
     assert!(
         matches!(err, aura_runtime::AuraError::Denied(_)),
         "expected Denied, got {err:?}"

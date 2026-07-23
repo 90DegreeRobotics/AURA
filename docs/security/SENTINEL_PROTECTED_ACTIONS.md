@@ -1,7 +1,10 @@
 # Sentinel Protected Actions — Aura
 
-Inventory of protected actions for Aura. Unlisted protected surfaces are stop-ship findings.  
-**Status:** Planned (paper). Runtime not Implementing. Canonical Core IDs live in `C:\sentinel-core\docs\security\SENTINEL_PROTECTED_ACTIONS.md`. Full census reasoning: `docs/plans/AURA_MASTER_PLAN.md` Part XVIII.
+Inventory of protected actions for Aura. Unlisted protected surfaces are stop-ship findings.
+**Status:** Implementing L0 runtime + first launcher slice. Full v1 census remains blocked on
+Q1 organ freeze. Canonical Core IDs live in
+`C:\sentinel-core\docs\security\SENTINEL_PROTECTED_ACTIONS.md`. Full census reasoning:
+`docs/plans/AURA_MASTER_PLAN.md` Part XVIII.
 
 ## Inventory Rules
 
@@ -14,7 +17,7 @@ Inventory of protected actions for Aura. Unlisted protected surfaces are stop-sh
 
 | Action ID | Prefer Core ID | Surface | Caller | Mediation point | Side effect if allowed | Deny test | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `aura.boot.continue` | TBD (propose to Core) | Boot | Runtime | Sentinel ready gate | Enters app work mode | Sentinel down ⇒ remain init | Planned |
+| `aura.boot.continue` | TBD (propose to Core) | Boot / launcher | Runtime / Bevy launcher | Sentinel ready gate via `aura_runtime` broker | Enters app work mode | `deny_all_blocks_boot_continue_and_executes_no_effect` | Implementing |
 | `aura.council.append` | TBD / typed `effect.execute` | Council | UI / API | Sentinel authorize | Persists council envelope | Deny ⇒ no persist | Planned |
 | `aura.council.replay` | TBD / `file.read_sensitive` | Council | UI / API | Sentinel authorize | Reads sealed history | Deny ⇒ no read | Planned |
 | `aura.memory.write` | `memory.write` | Memory | Runtime | Sentinel authorize | Appends Forever-Law event | Deny or seal-fail ⇒ no write | Planned |
@@ -52,7 +55,8 @@ Inventory of protected actions for Aura. Unlisted protected surfaces are stop-sh
 | Surface | Location | Justification |
 | --- | --- | --- |
 | Safe health | Planned `/health` | Read-only health, no sensitive disclosure |
-| Sentinel initializing UI | Shell | Display-only blocked/init state |
+| Launcher status refresh | `crates/aura_launcher` | Display-only runtime status refresh |
+| Sentinel initializing UI | `crates/aura_launcher` | Display-only blocked/init state |
 | Deny / lockdown chrome | Shell | Display-only |
 | Emergency stop | OS / hardware | Independent safety brake; never an approval path |
 | Preboot journal | Local | Minimal journal that cannot approve work |

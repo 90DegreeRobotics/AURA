@@ -4,7 +4,7 @@ use chrono::Utc;
 use sentinel_core::SentinelGuardRequest;
 use uuid::Uuid;
 
-use crate::{AURA_ACTOR_CLASS, AURA_SUBJECT_SYSTEM, AuraError, AuraResult};
+use crate::{AuraError, AuraResult, AURA_ACTOR_CLASS, AURA_SUBJECT_SYSTEM};
 
 /// Aura-facing action vocabulary. Each variant maps to a Core registry ID.
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
@@ -80,9 +80,8 @@ pub fn build_guard_request(
 
     let resource = resource.unwrap_or_else(|| action.default_resource());
     let nonce = Uuid::new_v4();
-    let envelope_digest = format!(
-        "sha256:aura:{action:?}:{resource}:{actor_id}:{nonce}:{payload_hash}"
-    );
+    let envelope_digest =
+        format!("sha256:aura:{action:?}:{resource}:{actor_id}:{nonce}:{payload_hash}");
 
     Ok(SentinelGuardRequest {
         envelope_version: "sentinel.guard.v1".to_string(),
