@@ -22,6 +22,7 @@ use model::{decision_log_path, default_data_dir, LauncherSnapshot};
 fn main() {
     App::new()
         .insert_resource(ClearColor(Color::srgb(0.012, 0.014, 0.018)))
+        .insert_resource(IntroClock::default())
         .insert_resource(LauncherRuntime::start())
         .add_plugins(DefaultPlugins.set(WindowPlugin {
             primary_window: Some(Window {
@@ -34,8 +35,28 @@ fn main() {
             ..default()
         }))
         .add_systems(Startup, (maximize_primary_window, spawn_ui).chain())
-        .add_systems(Update, (handle_buttons, refresh_snapshot_texts).chain())
+        .add_systems(
+            Update,
+            (
+                advance_intro_clock,
+                animate_intro_texts,
+                animate_alive_indicator,
+                handle_buttons,
+                refresh_snapshot_texts,
+            )
+                .chain(),
+        )
         .run();
+}
+
+const TITLE_RGB: (f32, f32, f32) = (0.96, 0.94, 0.88);
+const SUBTITLE_RGB: (f32, f32, f32) = (0.56, 0.78, 0.86);
+const VERSION_RGB: (f32, f32, f32) = (0.70, 0.72, 0.70);
+const ALIVE_TEXT_RGB: (f32, f32, f32) = (0.68, 0.86, 0.88);
+
+#[derive(Resource, Default)]
+struct IntroClock {
+    seconds: f32,
 }
 
 #[derive(Resource)]
@@ -130,6 +151,42 @@ enum LauncherButton {
     Quit,
 }
 
+#[derive(Component, Clone, Copy)]
+struct IntroFade {
+    rgb: (f32, f32, f32),
+    start_alpha: f32,
+    end_alpha: f32,
+    delay: f32,
+    duration: f32,
+}
+
+impl IntroFade {
+    fn new(
+        rgb: (f32, f32, f32),
+        start_alpha: f32,
+        end_alpha: f32,
+        delay: f32,
+        duration: f32,
+    ) -> Self {
+        Self {
+            rgb,
+            start_alpha,
+            end_alpha,
+            delay,
+            duration,
+        }
+    }
+}
+
+#[derive(Component, Clone, Copy)]
+struct AlivePulse {
+    low_rgb: (f32, f32, f32),
+    high_rgb: (f32, f32, f32),
+    low_alpha: f32,
+    high_alpha: f32,
+    speed: f32,
+}
+
 fn maximize_primary_window(mut windows: Query<&mut Window, With<PrimaryWindow>>) {
     if let Ok(mut window) = windows.single_mut() {
         window.set_maximized(true);
@@ -178,7 +235,8 @@ fn spawn_header(parent: &mut ChildSpawnerCommands, snapshot: &LauncherSnapshot) 
                     font_size: 68.0,
                     ..default()
                 },
-                TextColor(Color::srgb(0.96, 0.94, 0.88)),
+                TextColor(color_with_alpha(TITLE_RGB, 0.04)),
+                IntroFade::new(TITLE_RGB, 0.04, 1.0, 0.06, 1.18),
             ));
             header.spawn((
                 Text::new("Archetypes Utilizing Reflective Architecture"),
@@ -186,16 +244,60 @@ fn spawn_header(parent: &mut ChildSpawnerCommands, snapshot: &LauncherSnapshot) 
                     font_size: 21.0,
                     ..default()
                 },
-                TextColor(Color::srgb(0.56, 0.78, 0.86)),
+                TextColor(color_with_alpha(SUBTITLE_RGB, 0.0)),
+                IntroFade::new(SUBTITLE_RGB, 0.0, 1.0, 0.64, 0.86),
             ));
+            spawn_alive_indicator(header);
             header.spawn((
                 Text::new(snapshot.version_line.clone()),
                 TextFont {
                     font_size: 15.0,
                     ..default()
                 },
-                TextColor(Color::srgb(0.70, 0.72, 0.70)),
+                TextColor(color_with_alpha(VERSION_RGB, 0.0)),
+                IntroFade::new(VERSION_RGB, 0.0, 1.0, 0.98, 0.72),
                 SnapshotField::Version,
+            ));
+        });
+}
+
+fn spawn_alive_indicator(parent: &mut ChildSpawnerCommands) {
+    parent
+        .spawn((
+            Node {
+                width: Val::Percent(100.0),
+                flex_direction: FlexDirection::Row,
+                align_items: AlignItems::Center,
+                column_gap: Val::Px(10.0),
+                margin: UiRect::top(Val::Px(4.0)),
+                ..default()
+            },
+            BackgroundColor(Color::NONE),
+        ))
+        .with_children(|alive| {
+            alive.spawn((
+                Node {
+                    width: Val::Px(48.0),
+                    height: Val::Px(4.0),
+                    ..default()
+                },
+                BackgroundColor(Color::srgba(0.18, 0.58, 0.62, 0.32)),
+                AlivePulse {
+                    low_rgb: (0.14, 0.48, 0.52),
+                    high_rgb: (0.94, 0.64, 0.34),
+                    low_alpha: 0.30,
+                    high_alpha: 0.92,
+                    speed: 4.6,
+                },
+            ));
+            alive.spawn((
+                Text::new("LAUNCHER ALIVE"),
+                TextFont {
+                    font_size: 13.0,
+                    ..default()
+                },
+                TextColor(color_with_alpha(ALIVE_TEXT_RGB, 0.0)),
+                IntroFade::new(ALIVE_TEXT_RGB, 0.0, 1.0, 0.42, 0.68),
             ));
         });
 }
@@ -410,6 +512,37 @@ fn refresh_snapshot_texts(
     }
 }
 
+fn advance_intro_clock(time: Res<Time>, mut clock: ResMut<IntroClock>) {
+    clock.seconds += time.delta_secs();
+}
+
+fn animate_intro_texts(clock: Res<IntroClock>, mut texts: Query<(&IntroFade, &mut TextColor)>) {
+    for (fade, mut color) in &mut texts {
+        color.0 = color_with_alpha(
+            fade.rgb,
+            fade_alpha(
+                clock.seconds,
+                fade.delay,
+                fade.duration,
+                fade.start_alpha,
+                fade.end_alpha,
+            ),
+        );
+    }
+}
+
+fn animate_alive_indicator(
+    clock: Res<IntroClock>,
+    mut indicators: Query<(&AlivePulse, &mut BackgroundColor)>,
+) {
+    for (pulse, mut color) in &mut indicators {
+        let unit = pulse_unit(clock.seconds, pulse.speed);
+        let rgb = lerp_rgb(pulse.low_rgb, pulse.high_rgb, unit);
+        let alpha = lerp(pulse.low_alpha, pulse.high_alpha, unit);
+        color.0 = Color::srgba(rgb.0, rgb.1, rgb.2, alpha);
+    }
+}
+
 fn button_color(action: LauncherButton, interaction: Interaction) -> Color {
     let base = match action {
         LauncherButton::BootContinue => (0.17, 0.09, 0.06),
@@ -435,4 +568,61 @@ fn button_border(action: LauncherButton, interaction: Interaction) -> Color {
         Interaction::None => 0.62,
     };
     Color::srgba(color.0, color.1, color.2, alpha)
+}
+
+fn color_with_alpha(rgb: (f32, f32, f32), alpha: f32) -> Color {
+    Color::srgba(rgb.0, rgb.1, rgb.2, alpha)
+}
+
+fn fade_alpha(seconds: f32, delay: f32, duration: f32, start_alpha: f32, end_alpha: f32) -> f32 {
+    if seconds <= delay {
+        return start_alpha;
+    }
+    if duration <= f32::EPSILON {
+        return end_alpha;
+    }
+    let progress = ((seconds - delay) / duration).clamp(0.0, 1.0);
+    let eased = progress * progress * (3.0 - 2.0 * progress);
+    lerp(start_alpha, end_alpha, eased)
+}
+
+fn pulse_unit(seconds: f32, speed: f32) -> f32 {
+    ((seconds * speed).sin() + 1.0) * 0.5
+}
+
+fn lerp(start: f32, end: f32, unit: f32) -> f32 {
+    start + (end - start) * unit
+}
+
+fn lerp_rgb(start: (f32, f32, f32), end: (f32, f32, f32), unit: f32) -> (f32, f32, f32) {
+    (
+        lerp(start.0, end.0, unit),
+        lerp(start.1, end.1, unit),
+        lerp(start.2, end.2, unit),
+    )
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn fade_waits_until_delay() {
+        let alpha = fade_alpha(0.10, 0.40, 1.0, 0.04, 1.0);
+        assert!((alpha - 0.04).abs() < f32::EPSILON);
+    }
+
+    #[test]
+    fn fade_reaches_target_after_duration() {
+        let alpha = fade_alpha(2.0, 0.40, 1.0, 0.04, 1.0);
+        assert!((alpha - 1.0).abs() < f32::EPSILON);
+    }
+
+    #[test]
+    fn pulse_unit_stays_visible_range() {
+        for seconds in [0.0_f32, 0.35, 0.90, 1.75, 3.20] {
+            let unit = pulse_unit(seconds, 4.6);
+            assert!((0.0..=1.0).contains(&unit));
+        }
+    }
 }

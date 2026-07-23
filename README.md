@@ -27,6 +27,8 @@ First live slice:
 - `crates\aura_launcher` is the compiled Bevy launcher.
 - The launcher shows AURA version/build identity, Sentinel/boot status, decision ledger path,
   document database status, and planned local service readiness.
+- On launch, the header fades into the word AURA and shows a small `LAUNCHER ALIVE`
+  signal so startup never reads as a blank black screen.
 - The launcher button for boot continuation goes through `aura_runtime` and refuses under the
   current deny-all policy before side effects.
 - `crates\aura_documents` frames UTF-8 text documents with the required NeuroCognica metadata
@@ -75,6 +77,9 @@ That builds release, copies `target\release\aura_launcher.exe` to `dist\aura_lau
 copies the tracked AURA icon to `dist\aura.ico`, creates `AURA.lnk` in `C:\Users\m`, on the
 user Desktop, and in the Start Menu, and attempts the Public Desktop shortcut when Windows
 permissions allow it.
+
+The launcher opens with a native Bevy startup fade into `AURA` plus a truthful launcher-alive
+indicator while deeper runtime status lines settle.
 
 ## Developer smoke
 

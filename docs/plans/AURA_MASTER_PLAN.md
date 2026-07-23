@@ -2,7 +2,7 @@
 
 **Product home:** `C:\aura`  
 **Document class:** Single binding plan — doctrine, failure archaeology, architecture-as-law, phased program  
-**Status:** IMPLEMENTING (Founder opened build 2026-07-20). L0 Sentinel-first runtime landed; first Bevy launcher slice live; not certified.
+**Status:** IMPLEMENTING (Founder opened build 2026-07-20). L0 Sentinel-first runtime landed; first Bevy launcher slice live with startup fade/alive signal; not certified.
 **Date:** 2026-07-20  
 **Owner:** NeuroCognica / 90 Degree Robotics  
 **Operator:** Michael Holt  
@@ -812,6 +812,7 @@ Each reading should produce: notes in Part XII revision log + edits to contradic
 | 2026-07-23 | **Self-contained runtime correction:** removed sibling `sentinel_core` path dependency; internalized minimal deterministic L0 guard so AURA builds as its own Windows executable | Founder correction: AURA must not require sibling project linkage |
 | 2026-07-22 | **Launcher-first law:** Q4 closed. Bevy is the AURA front end; the product is a compiled Windows launcher from day one; local Rust/Python services sit behind it; CLI is developer-only; user-facing work must land at the launcher and carry version/upgrade truth. Founder owns visual screenshot acceptance. | Founder directive “MAKE THAT REPO LAW NOW” |
 | 2026-07-22 | **First launcher slice:** `crates/aura_launcher` Bevy app exposes version/build identity, Sentinel/boot status, decision ledger path, planned service readiness, and a button-driven boot-continue denial path through `aura_runtime`. This is live launcher spine, not chat/image/TTS/STT completion or certification. | First implementation pass |
+| 2026-07-23 | **Launcher startup signal:** `crates/aura_launcher` fades into the word AURA and shows a native Bevy `LAUNCHER ALIVE` indicator before deeper status lines settle. This is product-surface polish only; it does not certify broader organs. | Founder request: avoid black-screen launch ambiguity |
 
 ---
 
