@@ -70,6 +70,60 @@ fn deny_all_paralyzes_model_generate_before_side_effect() {
 }
 
 #[test]
+fn deny_all_blocks_document_frame_before_source_read() {
+    let log = temp_log("document-frame-deny");
+    let client = Arc::new(AuraSentinelClient::new_deny_all(SentinelMode::Enforce, log));
+    let broker = ActionBroker::new(Arc::clone(&client));
+    let read_attempted = Arc::new(AtomicBool::new(false));
+    let read_attempted2 = Arc::clone(&read_attempted);
+
+    let err = broker
+        .execute(EffectRequest {
+            action: AuraAction::DocumentFrame,
+            resource: Some("aura://documents/source/unit-test.md".into()),
+            actor_id: Uuid::new_v4(),
+            declared_intent: "frame selected NeuroCognica document".into(),
+            payload_hash: "sha256:test-document-frame".into(),
+            side_effect: Box::new(move || {
+                read_attempted2.store(true, Ordering::SeqCst);
+                Ok(serde_json::json!({"frame_id": "should-not-exist"}))
+            }),
+        })
+        .expect_err("deny-all must block document source read");
+
+    assert!(matches!(err, aura_runtime::AuraError::Denied(_)));
+    assert!(!read_attempted.load(Ordering::SeqCst));
+    assert_eq!(broker.effects_executed(), 0);
+}
+
+#[test]
+fn deny_all_blocks_document_ingest_before_store_append() {
+    let log = temp_log("document-ingest-deny");
+    let client = Arc::new(AuraSentinelClient::new_deny_all(SentinelMode::Enforce, log));
+    let broker = ActionBroker::new(Arc::clone(&client));
+    let write_attempted = Arc::new(AtomicBool::new(false));
+    let write_attempted2 = Arc::clone(&write_attempted);
+
+    let err = broker
+        .execute(EffectRequest {
+            action: AuraAction::DocumentIngest,
+            resource: Some("aura://documents/store/unit-test.md".into()),
+            actor_id: Uuid::new_v4(),
+            declared_intent: "ingest framed document into AURA document store".into(),
+            payload_hash: "sha256:test-document-ingest".into(),
+            side_effect: Box::new(move || {
+                write_attempted2.store(true, Ordering::SeqCst);
+                Ok(serde_json::json!({"stored": true}))
+            }),
+        })
+        .expect_err("deny-all must block document store append");
+
+    assert!(matches!(err, aura_runtime::AuraError::Denied(_)));
+    assert!(!write_attempted.load(Ordering::SeqCst));
+    assert_eq!(broker.effects_executed(), 0);
+}
+
+#[test]
 fn shadow_mode_never_executes_even_with_allow_policy() {
     let log = temp_log("shadow");
     let policy = GuardPolicy::explicit(

@@ -14,6 +14,8 @@ pub enum AuraAction {
     EffectExecute,
     ModelGenerate,
     ToolInvoke,
+    DocumentFrame,
+    DocumentIngest,
     MemoryWrite,
     FileWrite,
     NetworkEgress,
@@ -27,6 +29,8 @@ impl AuraAction {
             Self::BootContinue | Self::EffectExecute => "effect.execute",
             Self::ModelGenerate => "model.generate",
             Self::ToolInvoke => "tool.invoke",
+            Self::DocumentFrame => "file.read_sensitive",
+            Self::DocumentIngest => "memory.write",
             Self::MemoryWrite => "memory.write",
             Self::FileWrite => "file.write",
             Self::NetworkEgress => "network.egress",
@@ -40,6 +44,8 @@ impl AuraAction {
             Self::EffectExecute => "aura://effect",
             Self::ModelGenerate => "aura://model",
             Self::ToolInvoke => "aura://tool",
+            Self::DocumentFrame => "aura://documents/source",
+            Self::DocumentIngest => "aura://documents/store",
             Self::MemoryWrite => "aura://memory",
             Self::FileWrite => "aura://file",
             Self::NetworkEgress => "aura://network",
@@ -50,7 +56,11 @@ impl AuraAction {
     pub fn irreversible(self) -> bool {
         matches!(
             self,
-            Self::MemoryWrite | Self::FileWrite | Self::ProcessSpawn | Self::NetworkEgress
+            Self::DocumentIngest
+                | Self::MemoryWrite
+                | Self::FileWrite
+                | Self::ProcessSpawn
+                | Self::NetworkEgress
         )
     }
 

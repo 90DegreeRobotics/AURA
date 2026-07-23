@@ -8,15 +8,27 @@
 
 mod model;
 
-use std::sync::Arc;
+use std::{
+    path::{Path, PathBuf},
+    process::Command,
+    sync::{Arc, Mutex},
+};
 
-use aura_runtime::{BootSupervisor, DecisionLog, SentinelMode};
+use aura_documents::{
+    default_document_dir, frame_text_document, DocumentError, DocumentKind, DocumentStore,
+    FramedDocument, FramerConfig, IngestOutcome, NeurocognicaFrameMetadata,
+};
+use aura_runtime::{
+    AuraAction, AuraError, BootSupervisor, DecisionLog, EffectRequest, SentinelMode,
+};
 use bevy::{
     app::AppExit,
     prelude::*,
     text::DEFAULT_FONT_DATA,
     window::{PrimaryWindow, WindowResolution},
 };
+use chrono::Utc;
+use serde_json::json;
 
 use model::{decision_log_path, default_data_dir, LauncherSnapshot};
 
@@ -70,6 +82,9 @@ const NEUROCOGNICA_RGB: (f32, f32, f32) = (0.93, 0.68, 0.32);
 const TITLE_START_ALPHA: f32 = 0.62;
 const SUBTITLE_START_ALPHA: f32 = 0.34;
 const ALIVE_TEXT_START_ALPHA: f32 = 0.68;
+const DOCUMENT_EXTENSIONS: &[&str] = &[
+    "md", "markdown", "txt", "text", "json", "jsonl", "csv", "tsv", "toml", "yaml", "yml",
+];
 
 #[derive(Resource, Default)]
 struct IntroClock {
@@ -86,6 +101,7 @@ struct LauncherRuntime {
     boot: Option<BootSupervisor>,
     data_dir: std::path::PathBuf,
     ledger_path: std::path::PathBuf,
+    document_intake: DocumentIntakeState,
     boot_attempts: u64,
     last_event: String,
 }
@@ -101,6 +117,7 @@ impl LauncherRuntime {
                     boot: Some(boot),
                     data_dir,
                     ledger_path,
+                    document_intake: DocumentIntakeState::default(),
                     boot_attempts: 0,
                     last_event: "launcher started; work mode remains gated".to_owned(),
                 }
@@ -109,6 +126,7 @@ impl LauncherRuntime {
                 boot: None,
                 data_dir,
                 ledger_path,
+                document_intake: DocumentIntakeState::default(),
                 boot_attempts: 0,
                 last_event: format!("runtime refused to start: {error}"),
             },
@@ -123,6 +141,8 @@ impl LauncherRuntime {
                 &self.ledger_path,
                 boot.broker().effects_executed(),
                 self.boot_attempts,
+                &self.document_intake.selection_line(),
+                &self.document_intake.action_line(),
                 &self.last_event,
             ),
             None => LauncherSnapshot::fatal(&self.ledger_path, &self.last_event),
@@ -150,6 +170,359 @@ impl LauncherRuntime {
             }
         }
     }
+
+    fn select_document_file(&mut self) {
+        match rfd::FileDialog::new()
+            .set_title("Select AURA document")
+            .add_filter("AURA text documents", DOCUMENT_EXTENSIONS)
+            .pick_file()
+        {
+            Some(path) => {
+                self.document_intake.select_file(path);
+                self.last_event = self.document_intake.action_line();
+            }
+            None => {
+                self.document_intake.last_event =
+                    "Document action: file selection canceled".to_owned();
+                self.last_event = self.document_intake.action_line();
+            }
+        }
+    }
+
+    fn select_document_folder(&mut self) {
+        match rfd::FileDialog::new()
+            .set_title("Select AURA document folder")
+            .pick_folder()
+        {
+            Some(path) => {
+                self.document_intake.select_folder(path);
+                self.last_event = self.document_intake.action_line();
+            }
+            None => {
+                self.document_intake.last_event =
+                    "Document action: folder selection canceled".to_owned();
+                self.last_event = self.document_intake.action_line();
+            }
+        }
+    }
+
+    fn clear_document_selection(&mut self) {
+        self.document_intake = DocumentIntakeState::default();
+        self.last_event = "document intake selection cleared".to_owned();
+    }
+
+    fn attempt_document_frame(&mut self) {
+        let Some(selection) = self.document_intake.selected.clone() else {
+            self.set_document_event("Document action: frame refused; no source selected");
+            return;
+        };
+        if !selection.is_supported_file() {
+            self.set_document_event(selection.unsupported_action_message("frame"));
+            return;
+        }
+        let Some(boot) = self.boot.as_ref() else {
+            self.set_document_event("Document action: frame refused; runtime unavailable");
+            return;
+        };
+
+        let path = selection.path.clone();
+        let metadata = metadata_for_source(&path);
+        let resource = document_source_resource(&path);
+        let payload_hash = request_payload_hash("document-frame", &path);
+        let actor_id = boot.actor_id();
+
+        match boot.broker().execute(EffectRequest {
+            action: AuraAction::DocumentFrame,
+            resource: Some(resource),
+            actor_id,
+            declared_intent: "frame selected NeuroCognica document before RAG storage".into(),
+            payload_hash,
+            side_effect: Box::new(move || {
+                let framed = frame_text_document(&path, metadata, FramerConfig::default())
+                    .map_err(document_error)?;
+                Ok(json!({
+                    "frame_id": framed.frame.frame_id,
+                    "chunks": framed.chunks.len(),
+                    "source": framed.frame.source_name,
+                }))
+            }),
+        }) {
+            Ok(outcome) => {
+                let frame_id = outcome
+                    .result
+                    .get("frame_id")
+                    .and_then(|value| value.as_str())
+                    .unwrap_or("unknown-frame");
+                let chunks = outcome
+                    .result
+                    .get("chunks")
+                    .and_then(|value| value.as_u64())
+                    .unwrap_or(0);
+                self.set_document_event(format!(
+                    "Document action: frame authorized | {frame_id} | chunks {chunks}"
+                ));
+            }
+            Err(error) => {
+                self.set_document_event(format!("Document action: frame refused: {error}"));
+            }
+        }
+    }
+
+    fn attempt_document_ingest(&mut self) {
+        let Some(selection) = self.document_intake.selected.clone() else {
+            self.set_document_event("Document action: ingest refused; no source selected");
+            return;
+        };
+        if !selection.is_supported_file() {
+            self.set_document_event(selection.unsupported_action_message("ingest"));
+            return;
+        }
+        let Some(boot) = self.boot.as_ref() else {
+            self.set_document_event("Document action: ingest refused; runtime unavailable");
+            return;
+        };
+
+        let framed_slot: Arc<Mutex<Option<FramedDocument>>> = Arc::new(Mutex::new(None));
+        let frame_slot = Arc::clone(&framed_slot);
+        let frame_path = selection.path.clone();
+        let metadata = metadata_for_source(&frame_path);
+        let actor_id = boot.actor_id();
+
+        let frame_result = boot.broker().execute(EffectRequest {
+            action: AuraAction::DocumentFrame,
+            resource: Some(document_source_resource(&frame_path)),
+            actor_id,
+            declared_intent: "frame selected document before authorized ingest".into(),
+            payload_hash: request_payload_hash("document-ingest-frame", &frame_path),
+            side_effect: Box::new(move || {
+                let framed = frame_text_document(&frame_path, metadata, FramerConfig::default())
+                    .map_err(document_error)?;
+                let frame_id = framed.frame.frame_id.clone();
+                let chunks = framed.chunks.len();
+                *frame_slot.lock().map_err(|_| {
+                    AuraError::InvalidRequest("document frame lock poisoned".into())
+                })? = Some(framed);
+                Ok(json!({
+                    "frame_id": frame_id,
+                    "chunks": chunks,
+                }))
+            }),
+        });
+
+        if let Err(error) = frame_result {
+            self.set_document_event(format!(
+                "Document action: ingest refused at source gate: {error}"
+            ));
+            return;
+        }
+
+        let framed = match framed_slot.lock() {
+            Ok(mut guard) => guard.take(),
+            Err(_) => {
+                self.set_document_event("Document action: ingest refused; frame lock poisoned");
+                return;
+            }
+        };
+        let Some(framed) = framed else {
+            self.set_document_event("Document action: ingest refused; no framed payload");
+            return;
+        };
+
+        let frame_id = framed.frame.frame_id.clone();
+        let frame_id_for_result = frame_id.clone();
+        let source_name = framed.frame.source_name.clone();
+        let chunks = framed.chunks.len();
+        let data_dir = self.data_dir.clone();
+        let store_resource = document_store_resource(&source_name);
+        let ingest_payload_hash =
+            request_payload_hash("document-ingest-store", Path::new(&frame_id));
+
+        match boot.broker().execute(EffectRequest {
+            action: AuraAction::DocumentIngest,
+            resource: Some(store_resource),
+            actor_id,
+            declared_intent: "ingest framed document into the AURA document database".into(),
+            payload_hash: ingest_payload_hash,
+            side_effect: Box::new(move || {
+                let store =
+                    DocumentStore::open(default_document_dir(&data_dir)).map_err(document_error)?;
+                let outcome = store
+                    .ingest_framed_document(&framed)
+                    .map_err(document_error)?;
+                Ok(json!({
+                    "outcome": ingest_outcome_label(&outcome),
+                    "frame_id": frame_id_for_result,
+                    "chunks": chunks,
+                }))
+            }),
+        }) {
+            Ok(outcome) => {
+                let label = outcome
+                    .result
+                    .get("outcome")
+                    .and_then(|value| value.as_str())
+                    .unwrap_or("stored");
+                self.set_document_event(format!(
+                    "Document action: ingest authorized | {label} | {frame_id} | chunks {chunks}"
+                ));
+            }
+            Err(error) => {
+                self.set_document_event(format!(
+                    "Document action: ingest refused at store gate after frame: {error}"
+                ));
+            }
+        }
+    }
+
+    fn attempt_open_document_db(&mut self) {
+        let Some(boot) = self.boot.as_ref() else {
+            self.set_document_event("Document action: open DB refused; runtime unavailable");
+            return;
+        };
+        let db_dir = default_document_dir(&self.data_dir);
+        let display = db_dir.to_string_lossy().into_owned();
+        match boot.broker().execute(EffectRequest {
+            action: AuraAction::ProcessSpawn,
+            resource: Some("aura://documents/db-folder".into()),
+            actor_id: boot.actor_id(),
+            declared_intent: "open AURA document database folder in Explorer".into(),
+            payload_hash: request_payload_hash("document-open-db-folder", &db_dir),
+            side_effect: Box::new(move || {
+                Command::new("explorer")
+                    .arg(&db_dir)
+                    .spawn()
+                    .map_err(|error| {
+                        AuraError::InvalidRequest(format!("explorer failed: {error}"))
+                    })?;
+                Ok(json!({"opened": display}))
+            }),
+        }) {
+            Ok(outcome) => {
+                let opened = outcome
+                    .result
+                    .get("opened")
+                    .and_then(|value| value.as_str())
+                    .unwrap_or("document DB");
+                self.set_document_event(format!("Document action: opened {opened}"));
+            }
+            Err(error) => {
+                self.set_document_event(format!("Document action: open DB refused: {error}"));
+            }
+        }
+    }
+
+    fn set_document_event(&mut self, event: impl Into<String>) {
+        self.document_intake.last_event = event.into();
+        self.last_event = self.document_intake.action_line();
+    }
+}
+
+#[derive(Debug, Clone)]
+struct DocumentIntakeState {
+    selected: Option<DocumentSourceSelection>,
+    last_event: String,
+}
+
+impl Default for DocumentIntakeState {
+    fn default() -> Self {
+        Self {
+            selected: None,
+            last_event: "Document action: waiting for source selection".to_owned(),
+        }
+    }
+}
+
+impl DocumentIntakeState {
+    fn select_file(&mut self, path: PathBuf) {
+        let supported_kind = DocumentKind::from_path(&path);
+        let selection = DocumentSourceSelection {
+            path,
+            source_type: DocumentSourceType::File,
+            supported_kind,
+        };
+        self.last_event = if let Some(kind) = supported_kind {
+            format!(
+                "Document action: file queued for Sentinel-gated frame | {}",
+                document_kind_label(kind)
+            )
+        } else {
+            "Document action: file queued but unsupported by v0.1 text intake".to_owned()
+        };
+        self.selected = Some(selection);
+    }
+
+    fn select_folder(&mut self, path: PathBuf) {
+        self.selected = Some(DocumentSourceSelection {
+            path,
+            source_type: DocumentSourceType::Folder,
+            supported_kind: None,
+        });
+        self.last_event =
+            "Document action: folder queued; recursive scan is protected and not live yet"
+                .to_owned();
+    }
+
+    fn selection_line(&self) -> String {
+        match &self.selected {
+            Some(selection) => selection.selection_line(),
+            None => "Document intake: no source selected".to_owned(),
+        }
+    }
+
+    fn action_line(&self) -> String {
+        self.last_event.clone()
+    }
+}
+
+#[derive(Debug, Clone)]
+struct DocumentSourceSelection {
+    path: PathBuf,
+    source_type: DocumentSourceType,
+    supported_kind: Option<DocumentKind>,
+}
+
+impl DocumentSourceSelection {
+    fn is_supported_file(&self) -> bool {
+        matches!(self.source_type, DocumentSourceType::File) && self.supported_kind.is_some()
+    }
+
+    fn selection_line(&self) -> String {
+        match self.source_type {
+            DocumentSourceType::File => match self.supported_kind {
+                Some(kind) => format!(
+                    "Document intake: file queued | {} | {}",
+                    document_kind_label(kind),
+                    display_path(&self.path)
+                ),
+                None => format!(
+                    "Document intake: unsupported file queued | {}",
+                    display_path(&self.path)
+                ),
+            },
+            DocumentSourceType::Folder => format!(
+                "Document intake: folder queued | scan protected/not live | {}",
+                display_path(&self.path)
+            ),
+        }
+    }
+
+    fn unsupported_action_message(&self, action: &str) -> String {
+        match self.source_type {
+            DocumentSourceType::Folder => format!(
+                "Document action: {action} refused; folder scan/import is not live in this build"
+            ),
+            DocumentSourceType::File => format!(
+                "Document action: {action} refused; unsupported source extension for {}",
+                display_path(&self.path)
+            ),
+        }
+    }
+}
+
+#[derive(Debug, Clone, Copy)]
+enum DocumentSourceType {
+    File,
+    Folder,
 }
 
 #[derive(Component, Clone, Copy)]
@@ -160,6 +533,8 @@ enum SnapshotField {
     Ledger,
     DocumentDb,
     DocumentGate,
+    DocumentSelection,
+    DocumentAction,
     Effects,
     Services,
     Message,
@@ -170,6 +545,12 @@ enum SnapshotField {
 enum LauncherButton {
     Refresh,
     BootContinue,
+    AddDocumentFile,
+    AddDocumentFolder,
+    FrameDocument,
+    IngestDocument,
+    OpenDocumentDb,
+    ClearDocumentSelection,
     Quit,
 }
 
@@ -425,6 +806,20 @@ fn spawn_status_surface(
             );
             spawn_status_line(
                 surface,
+                SnapshotField::DocumentSelection,
+                &snapshot.document_selection_line,
+                false,
+                font,
+            );
+            spawn_status_line(
+                surface,
+                SnapshotField::DocumentAction,
+                &snapshot.document_action_line,
+                false,
+                font,
+            );
+            spawn_status_line(
+                surface,
                 SnapshotField::Effects,
                 &snapshot.effects_line,
                 false,
@@ -510,6 +905,12 @@ fn spawn_buttons(parent: &mut ChildSpawnerCommands, font: &LauncherFont) {
             BackgroundColor(Color::NONE),
         ))
         .with_children(|bar| {
+            spawn_button(bar, LauncherButton::AddDocumentFile, "ADD FILE", font);
+            spawn_button(bar, LauncherButton::AddDocumentFolder, "ADD FOLDER", font);
+            spawn_button(bar, LauncherButton::FrameDocument, "FRAME SELECTED", font);
+            spawn_button(bar, LauncherButton::IngestDocument, "INGEST SELECTED", font);
+            spawn_button(bar, LauncherButton::OpenDocumentDb, "OPEN DB FOLDER", font);
+            spawn_button(bar, LauncherButton::ClearDocumentSelection, "CLEAR", font);
             spawn_button(
                 bar,
                 LauncherButton::BootContinue,
@@ -532,9 +933,15 @@ fn spawn_button(
             Button,
             Node {
                 width: Val::Px(match action {
-                    LauncherButton::BootContinue => 286.0,
-                    LauncherButton::Refresh => 194.0,
-                    LauncherButton::Quit => 110.0,
+                    LauncherButton::AddDocumentFile => 118.0,
+                    LauncherButton::AddDocumentFolder => 136.0,
+                    LauncherButton::FrameDocument => 176.0,
+                    LauncherButton::IngestDocument => 184.0,
+                    LauncherButton::OpenDocumentDb => 176.0,
+                    LauncherButton::ClearDocumentSelection => 96.0,
+                    LauncherButton::BootContinue => 250.0,
+                    LauncherButton::Refresh => 176.0,
+                    LauncherButton::Quit => 94.0,
                 }),
                 height: Val::Px(48.0),
                 justify_content: JustifyContent::Center,
@@ -577,6 +984,12 @@ fn handle_buttons(
         match action {
             LauncherButton::Refresh => runtime.refresh(),
             LauncherButton::BootContinue => runtime.attempt_boot_continue(),
+            LauncherButton::AddDocumentFile => runtime.select_document_file(),
+            LauncherButton::AddDocumentFolder => runtime.select_document_folder(),
+            LauncherButton::FrameDocument => runtime.attempt_document_frame(),
+            LauncherButton::IngestDocument => runtime.attempt_document_ingest(),
+            LauncherButton::OpenDocumentDb => runtime.attempt_open_document_db(),
+            LauncherButton::ClearDocumentSelection => runtime.clear_document_selection(),
             LauncherButton::Quit => {
                 app_exit.write(AppExit::Success);
             }
@@ -600,6 +1013,8 @@ fn refresh_snapshot_texts(
             SnapshotField::Ledger => snapshot.ledger_line.clone(),
             SnapshotField::DocumentDb => snapshot.document_db_line.clone(),
             SnapshotField::DocumentGate => snapshot.document_gate_line.clone(),
+            SnapshotField::DocumentSelection => snapshot.document_selection_line.clone(),
+            SnapshotField::DocumentAction => snapshot.document_action_line.clone(),
             SnapshotField::Effects => snapshot.effects_line.clone(),
             SnapshotField::Services => snapshot.services_line.clone(),
             SnapshotField::Message => snapshot.message_line.clone(),
@@ -641,6 +1056,12 @@ fn animate_alive_indicator(
 
 fn button_color(action: LauncherButton, interaction: Interaction) -> Color {
     let base = match action {
+        LauncherButton::AddDocumentFile => (0.06, 0.13, 0.13),
+        LauncherButton::AddDocumentFolder => (0.06, 0.13, 0.13),
+        LauncherButton::FrameDocument => (0.13, 0.10, 0.05),
+        LauncherButton::IngestDocument => (0.15, 0.08, 0.05),
+        LauncherButton::OpenDocumentDb => (0.05, 0.10, 0.14),
+        LauncherButton::ClearDocumentSelection => (0.08, 0.08, 0.07),
         LauncherButton::BootContinue => (0.17, 0.09, 0.06),
         LauncherButton::Refresh => (0.04, 0.11, 0.15),
         LauncherButton::Quit => (0.08, 0.04, 0.04),
@@ -654,6 +1075,12 @@ fn button_color(action: LauncherButton, interaction: Interaction) -> Color {
 
 fn button_border(action: LauncherButton, interaction: Interaction) -> Color {
     let color = match action {
+        LauncherButton::AddDocumentFile => (0.36, 0.80, 0.78),
+        LauncherButton::AddDocumentFolder => (0.36, 0.80, 0.78),
+        LauncherButton::FrameDocument => (0.90, 0.68, 0.34),
+        LauncherButton::IngestDocument => (0.92, 0.50, 0.32),
+        LauncherButton::OpenDocumentDb => (0.42, 0.72, 0.92),
+        LauncherButton::ClearDocumentSelection => (0.62, 0.62, 0.56),
         LauncherButton::BootContinue => (0.95, 0.64, 0.34),
         LauncherButton::Refresh => (0.35, 0.76, 0.86),
         LauncherButton::Quit => (0.82, 0.36, 0.32),
@@ -664,6 +1091,135 @@ fn button_border(action: LauncherButton, interaction: Interaction) -> Color {
         Interaction::None => 0.62,
     };
     Color::srgba(color.0, color.1, color.2, alpha)
+}
+
+fn metadata_for_source(path: &Path) -> NeurocognicaFrameMetadata {
+    NeurocognicaFrameMetadata::new(
+        "AURA RAG Foundation",
+        source_title(path),
+        serialized_id_for_source(path),
+        "MICHAEL HOLT",
+        Utc::now().format("%Y-%m-%d").to_string(),
+        "A.0",
+        "PROPRIETARY & CONFIDENTIAL",
+    )
+}
+
+fn source_title(path: &Path) -> String {
+    path.file_stem()
+        .or_else(|| path.file_name())
+        .map(|name| {
+            name.to_string_lossy()
+                .replace(['_', '-'], " ")
+                .trim()
+                .to_owned()
+        })
+        .filter(|value| !value.is_empty())
+        .unwrap_or_else(|| "AURA Document".to_owned())
+}
+
+fn serialized_id_for_source(path: &Path) -> String {
+    let stem = path
+        .file_stem()
+        .or_else(|| path.file_name())
+        .map(|name| name.to_string_lossy())
+        .unwrap_or_else(|| "selected-source".into());
+    let segment = safe_identifier_segment(&stem);
+    format!("NC-AURA-DOC-{segment}")
+}
+
+fn safe_identifier_segment(raw: &str) -> String {
+    let mut out = raw
+        .chars()
+        .filter_map(|ch| {
+            if ch.is_ascii_alphanumeric() {
+                Some(ch.to_ascii_uppercase())
+            } else if ch.is_whitespace() || matches!(ch, '-' | '_') {
+                Some('-')
+            } else {
+                None
+            }
+        })
+        .collect::<String>();
+    while out.contains("--") {
+        out = out.replace("--", "-");
+    }
+    let out = out.trim_matches('-');
+    if out.is_empty() {
+        "SELECTED-SOURCE".to_owned()
+    } else {
+        out.chars().take(40).collect()
+    }
+}
+
+fn document_source_resource(path: &Path) -> String {
+    let name = path
+        .file_name()
+        .map(|name| name.to_string_lossy())
+        .unwrap_or_else(|| "selected-source".into());
+    format!("aura://documents/source/{}", safe_resource_segment(&name))
+}
+
+fn document_store_resource(source_name: &str) -> String {
+    format!(
+        "aura://documents/store/{}",
+        safe_resource_segment(source_name)
+    )
+}
+
+fn safe_resource_segment(raw: &str) -> String {
+    let segment = raw
+        .chars()
+        .filter_map(|ch| {
+            if ch.is_ascii_alphanumeric() {
+                Some(ch.to_ascii_lowercase())
+            } else if matches!(ch, '.' | '-' | '_') {
+                Some(ch)
+            } else if ch.is_whitespace() {
+                Some('-')
+            } else {
+                None
+            }
+        })
+        .collect::<String>();
+    if segment.is_empty() {
+        "selected-source".to_owned()
+    } else {
+        segment.chars().take(96).collect()
+    }
+}
+
+fn request_payload_hash(action: &str, path: &Path) -> String {
+    let payload = format!("{action}|{}", path.to_string_lossy());
+    format!("blake3:{}", blake3::hash(payload.as_bytes()).to_hex())
+}
+
+fn document_error(error: DocumentError) -> AuraError {
+    AuraError::InvalidRequest(format!("document intake failed: {error}"))
+}
+
+fn ingest_outcome_label(outcome: &IngestOutcome) -> &'static str {
+    match outcome {
+        IngestOutcome::Stored { .. } => "stored",
+        IngestOutcome::AlreadyExists { .. } => "already exists",
+    }
+}
+
+fn document_kind_label(kind: DocumentKind) -> &'static str {
+    match kind {
+        DocumentKind::Markdown => "Markdown",
+        DocumentKind::PlainText => "Text",
+        DocumentKind::Json => "JSON",
+        DocumentKind::JsonLines => "JSONL",
+        DocumentKind::Csv => "CSV",
+        DocumentKind::Tsv => "TSV",
+        DocumentKind::Toml => "TOML",
+        DocumentKind::Yaml => "YAML",
+    }
+}
+
+fn display_path(path: &Path) -> String {
+    path.to_string_lossy().into_owned()
 }
 
 fn color_with_alpha(rgb: (f32, f32, f32), alpha: f32) -> Color {
@@ -741,6 +1297,23 @@ mod tests {
         assert_eq!(BRAND_LOGO_ASSET, "brand/neurocognica_logo_large.png");
         assert!(!BRAND_LOGO_ASSET.contains(':'));
         assert!(!BRAND_LOGO_ASSET.starts_with('\\'));
+    }
+
+    #[test]
+    fn document_serialized_id_uses_neurocognica_prefix() {
+        let id = serialized_id_for_source(Path::new(r"C:\docs\My AURA Plan.md"));
+        assert!(id.starts_with("NC-AURA-DOC-"));
+        assert!(id
+            .chars()
+            .all(|ch| { ch.is_ascii_uppercase() || ch.is_ascii_digit() || ch == '-' }));
+    }
+
+    #[test]
+    fn document_resources_are_aura_uris() {
+        let source = document_source_resource(Path::new(r"C:\docs\My AURA Plan.md"));
+        let store = document_store_resource("My AURA Plan.md");
+        assert_eq!(source, "aura://documents/source/my-aura-plan.md");
+        assert_eq!(store, "aura://documents/store/my-aura-plan.md");
     }
 
     #[test]

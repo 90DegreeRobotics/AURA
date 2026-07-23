@@ -27,15 +27,19 @@ First live slice:
 - `crates\aura_launcher` is the compiled Bevy launcher.
 - The launcher shows the NeuroCognica logo, AURA identity, the full
   `Archetypes - Utilizing - Reflective - Architecture` acronym, version/build identity,
-  Sentinel/boot status, decision ledger path, document database status, and planned local
-  service readiness.
+  Sentinel/boot status, decision ledger path, document database status, document intake
+  controls, and planned local service readiness.
 - On launch, the header fades into the word AURA and shows a small `LAUNCHER ALIVE`
   signal so startup never reads as a blank black screen.
 - The launcher button for boot continuation goes through `aura_runtime` and refuses under the
   current deny-all policy before side effects.
 - `crates\aura_documents` frames UTF-8 text documents with the required NeuroCognica metadata
   envelope, BLAKE3 source/text/metadata hashes, deterministic chunks, and an idempotent local
-  JSONL store under the AURA data directory. The launcher shows that store's path and counts.
+  JSONL store under the AURA data directory. The launcher shows that store's path and counts
+  and exposes Add File / Add Folder / Frame Selected / Ingest Selected controls.
+- Document frame/ingest buttons are real brokered controls: source reads enter
+  `file.read_sensitive`, DB appends enter `memory.write`, and the current deny-all policy
+  refuses before those side effects.
 - Chat, image generation, TTS, STT, embeddings/retrieval, operator corpus import, memory
   workbench, installer/update, and certification are not shipped yet.
 
@@ -51,15 +55,17 @@ Live now:
 - UTF-8 text intake for Markdown, text, JSON/JSONL, CSV/TSV, TOML, and YAML.
 - `document_frames.jsonl` and `document_chunks.jsonl` under `%LOCALAPPDATA%\NeuroCognica\AURA\documents`
   by default, or under `$env:AURA_DATA_DIR\documents` when that override is set.
-- Read-only launcher status for document DB path, framed document count, and chunk count.
+- Launcher document workbench with native Add File / Add Folder selection, visible selected
+  source state, current DB path/counts, and Sentinel-mediated Frame Selected / Ingest Selected
+  attempts. Under the current deny-all policy those attempts refuse before reading or appending.
 
 Not live yet:
 
-- PDF/DOCX extraction, OCR, embeddings, vector search, retrieval ranking, and Bevy "add document"
-  controls.
+- Authorized operator import policy/consent, recursive folder scanning, PDF/DOCX extraction,
+  OCR, embeddings, vector search, and retrieval ranking.
 - Mass import of NeuroCognica canon into the product database. That workflow is a protected
   sensitive-file-read plus memory-write surface and must be Sentinel-authorized before it becomes
-  an operator button.
+  an executing operator button.
 
 ## Launcher
 
@@ -122,6 +128,7 @@ No Sentinel, no ship.
 
 ## Status
 
-**Implementing, not certified.** First Bevy launcher slice and document frame/store foundation
-are live; broader AURA organs remain planned or blocked behind Sentinel proof. See
+**Implementing, not certified.** First Bevy launcher slice, document frame/store foundation,
+and Sentinel-mediated document intake controls are live; broader AURA organs remain planned or
+blocked behind Sentinel proof. See
 `docs/security/SENTINEL_ADOPTION_STATUS.md`.

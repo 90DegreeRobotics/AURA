@@ -2,7 +2,7 @@
 
 **Product home:** `C:\aura`  
 **Document class:** Single binding plan — doctrine, failure archaeology, architecture-as-law, phased program  
-**Status:** IMPLEMENTING (Founder opened build 2026-07-20). L0 Sentinel-first runtime landed; first Bevy launcher slice live with explicit UI camera, font ownership, NeuroCognica/AURA brand assets, and startup fade/alive signal; not certified.
+**Status:** IMPLEMENTING (Founder opened build 2026-07-20). L0 Sentinel-first runtime landed; first Bevy launcher slice live with explicit UI camera, font ownership, NeuroCognica/AURA brand assets, startup fade/alive signal, and brokered document intake controls; not certified.
 **Date:** 2026-07-20  
 **Owner:** NeuroCognica / 90 Degree Robotics  
 **Operator:** Michael Holt  
@@ -419,14 +419,21 @@ Current implementation state:
   YAML.
 - Each framed document records BLAKE3 source/text/metadata hashes, a deterministic `ncdf-*`
   frame ID, chunk hashes, and frame/chunk JSONL rows under the AURA data directory.
-- `crates/aura_launcher` displays the document DB path, framed document count, and chunk count.
+- `crates\aura_launcher` displays the document DB path, framed document count, chunk count,
+  selected source path, and last document action result.
+- Launcher Add File / Add Folder controls are live path-selection controls only; they do not
+  read document bytes or scan folders before authorization.
+- Launcher Frame Selected and Ingest Selected buttons are wired through the runtime broker.
+  Frame enters `file.read_sensitive`; ingest frames first, then enters `memory.write` before
+  store append. Current deny-all policy refuses before read/write.
 
 What this does not yet claim:
 
 - No PDF/DOCX/OCR extraction yet.
 - No embeddings, vector index, reranker, retrieval API, or model-context injection yet.
-- No mass import button yet. Corpus ingestion reads sensitive files and appends memory-like state,
-  so the operator workflow must go through Sentinel authorization before it is product-live.
+- No authorized import policy/consent lane yet. Corpus ingestion reads sensitive files and
+  appends memory-like state, so actual import remains blocked until Sentinel authorization can
+  allow the operator workflow without bypasses.
 
 ## 5.6 Inner / Outer Loop (Gemini Protocol) — deferred design target
 
@@ -815,6 +822,7 @@ Each reading should produce: notes in Part XII revision log + edits to contradic
 | 2026-07-23 | **Launcher startup signal:** `crates/aura_launcher` fades into the word AURA and shows a native Bevy `LAUNCHER ALIVE` indicator before deeper status lines settle. This is product-surface polish only; it does not certify broader organs. | Founder request: avoid black-screen launch ambiguity |
 | 2026-07-23 | **Launcher render correction:** Bevy UI now spawns an explicit `Camera2d` and every text entity uses a launcher-owned embedded font handle. This addresses the Founder screenshot where the release window opened as a black surface with no text. | Founder visual rejection: black screen / no text |
 | 2026-07-23 | **Brand asset landing:** Founder-provided `NC LOGOS/` and `aura/` source asset folders are integrated. `assets/icon/aura.ico` is regenerated from the NeuroCognica mark, `assets/brand` carries launcher-ready lockups, and the first Bevy screen displays the NeuroCognica logo, `AURA`, and `Archetypes - Utilizing - Reflective - Architecture`. | Founder directive: taskbar/desktop icon and launcher identity must carry NeuroCognica + AURA visibly |
+| 2026-07-23 | **Document intake workbench:** Bevy launcher now exposes Add File / Add Folder / Frame Selected / Ingest Selected / Open DB Folder controls. Path selection is live; protected frame/read, ingest/write, and Explorer spawn attempts enter the broker and deny under current default policy before side effects. | Next brick after visual identity: frame-first AURA document database |
 
 ---
 

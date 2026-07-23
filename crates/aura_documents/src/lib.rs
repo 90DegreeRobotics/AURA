@@ -280,10 +280,14 @@ impl DocumentStore {
         config: FramerConfig,
     ) -> DocumentResult<IngestOutcome> {
         let framed = frame_text_document(source_path, metadata, config)?;
+        self.ingest_framed_document(&framed)
+    }
+
+    pub fn ingest_framed_document(&self, framed: &FramedDocument) -> DocumentResult<IngestOutcome> {
         if self.contains_frame(&framed.frame.frame_id)? {
             let chunks_present = self.count_chunks_for_frame(&framed.frame.frame_id)?;
             return Ok(IngestOutcome::AlreadyExists {
-                frame_id: framed.frame.frame_id,
+                frame_id: framed.frame.frame_id.clone(),
                 chunks_present,
             });
         }
@@ -294,7 +298,7 @@ impl DocumentStore {
         }
 
         Ok(IngestOutcome::Stored {
-            frame_id: framed.frame.frame_id,
+            frame_id: framed.frame.frame_id.clone(),
             chunks_written: framed.chunks.len(),
         })
     }
@@ -612,6 +616,38 @@ mod tests {
         );
         assert_eq!(summary.frame_count, 1);
         assert_eq!(summary.chunk_count, chunks_written);
+    }
+
+    #[test]
+    fn store_can_ingest_an_already_framed_document() {
+        let root = temp_root("store-framed");
+        let source = write_temp_doc(
+            "store-framed",
+            "md",
+            "AURA frames first, then stores only after the memory-write gate authorizes.\n",
+        );
+        let framed = frame_text_document(
+            &source,
+            test_metadata("NC-DOC-AURA-004"),
+            FramerConfig::default(),
+        )
+        .expect("document frames");
+        let store = DocumentStore::open(root).expect("store opens");
+
+        let outcome = store
+            .ingest_framed_document(&framed)
+            .expect("framed document stores");
+        let summary = store.summary().expect("summary");
+
+        assert_eq!(
+            outcome,
+            IngestOutcome::Stored {
+                frame_id: framed.frame.frame_id.clone(),
+                chunks_written: framed.chunks.len()
+            }
+        );
+        assert_eq!(summary.frame_count, 1);
+        assert_eq!(summary.chunk_count, framed.chunks.len());
     }
 
     #[test]

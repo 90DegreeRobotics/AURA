@@ -14,6 +14,8 @@ pub struct LauncherSnapshot {
     pub ledger_line: String,
     pub document_db_line: String,
     pub document_gate_line: String,
+    pub document_selection_line: String,
+    pub document_action_line: String,
     pub effects_line: String,
     pub services_line: String,
     pub message_line: String,
@@ -27,6 +29,8 @@ impl LauncherSnapshot {
         ledger_path: &Path,
         effects_executed: u64,
         boot_attempts: u64,
+        document_selection_line: &str,
+        document_action_line: &str,
         last_event: &str,
     ) -> Self {
         Self {
@@ -41,6 +45,8 @@ impl LauncherSnapshot {
             ledger_line: format!("Decision ledger: {}", display_path(ledger_path)),
             document_db_line: document_db_line(data_dir),
             document_gate_line: document_gate_line(),
+            document_selection_line: document_selection_line.to_owned(),
+            document_action_line: document_action_line.to_owned(),
             effects_line: format!(
                 "Effects executed: {effects_executed} | boot attempts: {boot_attempts}"
             ),
@@ -61,6 +67,8 @@ impl LauncherSnapshot {
             ledger_line: format!("Decision ledger: {}", display_path(ledger_path)),
             document_db_line: document_db_line(data_dir),
             document_gate_line: document_gate_line(),
+            document_selection_line: "Document intake: unavailable until runtime starts".to_owned(),
+            document_action_line: "Document action: blocked before work mode".to_owned(),
             effects_line: "Effects executed: 0 | boot attempts: 0".to_owned(),
             services_line:
                 "Local services: chat / image / TTS / STT planned, not live in this build"
@@ -102,7 +110,7 @@ pub fn document_db_line(data_dir: &Path) -> String {
 }
 
 pub fn document_gate_line() -> String {
-    "Document gate: NeuroCognica frame-first store live; embeddings/retrieval/import UI planned"
+    "Document gate: frame-first store live; intake buttons enter Sentinel before read/write"
         .to_owned()
 }
 
@@ -172,6 +180,8 @@ mod tests {
             Path::new(r"C:\AuraData\decisions.jsonl"),
             0,
             1,
+            "Document intake: no source selected",
+            "Document action: waiting for source",
             "boot refused",
         );
         assert!(snapshot.version_line.starts_with("AURA v"));
@@ -179,6 +189,8 @@ mod tests {
         assert!(snapshot.sentinel_line.contains("mode enforce"));
         assert!(snapshot.document_db_line.contains("Document DB:"));
         assert!(snapshot.document_gate_line.contains("frame-first"));
+        assert!(snapshot.document_selection_line.contains("no source"));
+        assert!(snapshot.document_action_line.contains("waiting"));
         assert!(snapshot.effects_line.contains("boot attempts: 1"));
         assert!(snapshot.last_event_line.contains("boot refused"));
     }
