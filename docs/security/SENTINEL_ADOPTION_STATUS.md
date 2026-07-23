@@ -22,7 +22,8 @@ Sentinel adoption status for this repository:
 | Routes / UI | Partial | Partial | Bevy launcher shows status and boot denial; broader operator shell missing |
 | Model / tool calls | Broker ready | Yes (model.generate deny) | No live model adapter yet |
 | File / network / process | Broker ready | Partial | Mapped; no OS adapters yet |
-| Memory / Codex / Forever Law | Decision log only | Partial | Local decision jsonl; Core ledger TBD |
+| Memory / Codex / Forever Law | Decision log + document store foundation | Partial | Local decision jsonl; framed document JSONL store; Core ledger TBD |
+| Documents / RAG | Frame/store foundation only | Yes (unit), UI auth missing | `aura_documents` frames text and stores JSONL; launcher status is read-only; embeddings/retrieval/import controls not live |
 | Council / identity | Missing | Missing | |
 | Install / update | Missing | Missing | Shortcut installer exists; full installer/update/rollback lane missing |
 
@@ -35,6 +36,7 @@ Sentinel adoption status for this repository:
 - Default policy: **deny-all**
 - Deny-all paralysis (broker + boot): **proven in `crates/aura_runtime/tests/fail_closed.rs`**
 - Product surface: **first Bevy launcher slice live** (`crates/aura_launcher`)
+- Document foundation: **frame-first local store live** (`crates/aura_documents`); read-only launcher status live; operator import/RAG retrieval not live
 - Desktop launcher: **shortcut script exists** (`scripts/install_launcher_shortcut.ps1`)
 - Shadow mode: explicit opt-down; **effects still blocked**
 - Bypass flags inventoried: none in L0 runtime

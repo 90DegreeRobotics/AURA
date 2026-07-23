@@ -41,6 +41,7 @@ fn main() {
 #[derive(Resource)]
 struct LauncherRuntime {
     boot: Option<BootSupervisor>,
+    data_dir: std::path::PathBuf,
     ledger_path: std::path::PathBuf,
     boot_attempts: u64,
     last_event: String,
@@ -55,6 +56,7 @@ impl LauncherRuntime {
                 let boot = BootSupervisor::start(SentinelMode::Enforce, Arc::new(log));
                 Self {
                     boot: Some(boot),
+                    data_dir,
                     ledger_path,
                     boot_attempts: 0,
                     last_event: "launcher started; work mode remains gated".to_owned(),
@@ -62,6 +64,7 @@ impl LauncherRuntime {
             }
             Err(error) => Self {
                 boot: None,
+                data_dir,
                 ledger_path,
                 boot_attempts: 0,
                 last_event: format!("runtime refused to start: {error}"),
@@ -73,6 +76,7 @@ impl LauncherRuntime {
         match &self.boot {
             Some(boot) => LauncherSnapshot::from_runtime(
                 &boot.status(),
+                &self.data_dir,
                 &self.ledger_path,
                 boot.broker().effects_executed(),
                 self.boot_attempts,
@@ -111,6 +115,8 @@ enum SnapshotField {
     Phase,
     Sentinel,
     Ledger,
+    DocumentDb,
+    DocumentGate,
     Effects,
     Services,
     Message,
@@ -141,8 +147,8 @@ fn spawn_ui(mut commands: Commands, runtime: Res<LauncherRuntime>) {
                 width: Val::Percent(100.0),
                 height: Val::Percent(100.0),
                 flex_direction: FlexDirection::Column,
-                padding: UiRect::axes(Val::Px(54.0), Val::Px(42.0)),
-                row_gap: Val::Px(26.0),
+                padding: UiRect::axes(Val::Px(50.0), Val::Px(34.0)),
+                row_gap: Val::Px(20.0),
                 ..default()
             },
             BackgroundColor(Color::srgb(0.012, 0.014, 0.018)),
@@ -202,7 +208,7 @@ fn spawn_status_surface(parent: &mut ChildSpawnerCommands, snapshot: &LauncherSn
                 flex_grow: 1.0,
                 flex_direction: FlexDirection::Column,
                 justify_content: JustifyContent::Center,
-                row_gap: Val::Px(14.0),
+                row_gap: Val::Px(10.0),
                 ..default()
             },
             BackgroundColor(Color::NONE),
@@ -216,6 +222,18 @@ fn spawn_status_surface(parent: &mut ChildSpawnerCommands, snapshot: &LauncherSn
                 false,
             );
             spawn_status_line(surface, SnapshotField::Ledger, &snapshot.ledger_line, false);
+            spawn_status_line(
+                surface,
+                SnapshotField::DocumentDb,
+                &snapshot.document_db_line,
+                false,
+            );
+            spawn_status_line(
+                surface,
+                SnapshotField::DocumentGate,
+                &snapshot.document_gate_line,
+                false,
+            );
             spawn_status_line(
                 surface,
                 SnapshotField::Effects,
@@ -253,7 +271,7 @@ fn spawn_status_line(
         .spawn((
             Node {
                 width: Val::Percent(100.0),
-                min_height: Val::Px(if primary { 62.0 } else { 46.0 }),
+                min_height: Val::Px(if primary { 56.0 } else { 40.0 }),
                 justify_content: JustifyContent::FlexStart,
                 align_items: AlignItems::Center,
                 padding: UiRect::axes(Val::Px(18.0), Val::Px(0.0)),
@@ -275,7 +293,7 @@ fn spawn_status_line(
             line.spawn((
                 Text::new(text.to_owned()),
                 TextFont {
-                    font_size: if primary { 24.0 } else { 17.0 },
+                    font_size: if primary { 22.0 } else { 16.0 },
                     ..default()
                 },
                 TextColor(if primary {
@@ -382,6 +400,8 @@ fn refresh_snapshot_texts(
             SnapshotField::Phase => snapshot.phase_line.clone(),
             SnapshotField::Sentinel => snapshot.sentinel_line.clone(),
             SnapshotField::Ledger => snapshot.ledger_line.clone(),
+            SnapshotField::DocumentDb => snapshot.document_db_line.clone(),
+            SnapshotField::DocumentGate => snapshot.document_gate_line.clone(),
             SnapshotField::Effects => snapshot.effects_line.clone(),
             SnapshotField::Services => snapshot.services_line.clone(),
             SnapshotField::Message => snapshot.message_line.clone(),

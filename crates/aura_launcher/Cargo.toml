@@ -6,6 +6,7 @@ license.workspace = true
 description = "AURA Bevy Windows launcher"
 
 [dependencies]
+aura_documents = { path = "../aura_documents" }
 aura_runtime = { path = "../aura_runtime" }
 bevy = { version = "0.18.1" }
 serde_json = { workspace = true }

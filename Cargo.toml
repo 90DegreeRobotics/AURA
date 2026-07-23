@@ -2,6 +2,7 @@
 resolver = "2"
 members = [
     "crates/aura_runtime",
+    "crates/aura_documents",
     "crates/aura_cli",
     "crates/aura_launcher",
 ]
@@ -13,6 +14,7 @@ version = "0.1.0"
 
 [workspace.dependencies]
 sentinel_core = { path = "../sentinel-core/crates/sentinel_core" }
+blake3 = "1"
 chrono = { version = "0.4", features = ["serde"] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"

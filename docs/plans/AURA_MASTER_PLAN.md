@@ -405,6 +405,29 @@ From Forever Law:
 
 Aura must not invent a fourth mutable “truth” store that bypasses Becoming for consequential acts.
 
+### 5.5.1 NeuroCognica document framer / RAG intake
+
+The existing `C:\AURA-Lab\Doc_Framer\nc-framer.py` is not a RAG system. Its binding import is
+the official NeuroCognica frame shape: organization, project, title, serialized ID, engineer,
+date, revision, year, rights. Aura's document database must preserve that intake law before any
+document becomes retrievable memory.
+
+Current implementation state:
+
+- `crates/aura_documents` is live as the first document-framer foundation.
+- Supported sources are UTF-8 text formats only: Markdown, text, JSON/JSONL, CSV/TSV, TOML,
+  YAML.
+- Each framed document records BLAKE3 source/text/metadata hashes, a deterministic `ncdf-*`
+  frame ID, chunk hashes, and frame/chunk JSONL rows under the AURA data directory.
+- `crates/aura_launcher` displays the document DB path, framed document count, and chunk count.
+
+What this does not yet claim:
+
+- No PDF/DOCX/OCR extraction yet.
+- No embeddings, vector index, reranker, retrieval API, or model-context injection yet.
+- No mass import button yet. Corpus ingestion reads sensitive files and appends memory-like state,
+  so the operator workflow must go through Sentinel authorization before it is product-live.
+
 ## 5.6 Inner / Outer Loop (Gemini Protocol) — deferred design target
 
 Genesis’s Inner Loop (offline citadel) and Outer Loop (sandboxed, amnesiac, destroyed bridge) is a **sovereignty pattern** for later phases. Planning note: Outer Loop is itself a nest of protected actions (network, download, scan, selective write). Do not implement WAN bridges before Inner Loop authorize/ledger is real.

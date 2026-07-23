@@ -23,6 +23,9 @@ Q1 organ freeze. Canonical Core IDs live in
 | `aura.memory.write` | `memory.write` | Memory | Runtime | Sentinel authorize | Appends Forever-Law event | Deny or seal-fail ⇒ no write | Planned |
 | `aura.memory.delete` | `memory.delete` | Memory | Runtime | Sentinel authorize | Removes/tombstones memory | Deny ⇒ no delete | Planned |
 | `aura.memory.export` | `artifact.export` (confirm) | Memory | UI / API | Sentinel authorize | Exports sealed corpus | Deny ⇒ no export | Planned |
+| `aura.document.frame` | `file.read_sensitive` | Documents / RAG | UI / broker | Sentinel authorize before reading user-selected source | Reads and normalizes source text for framing | Deny ⇒ no source read | Core frame engine live; operator path planned |
+| `aura.document.ingest` | `memory.write` + `artifact.register` (confirm) | Documents / RAG | UI / broker | Sentinel authorize before store append | Writes framed document + chunks to AURA DB | Deny or seal-fail ⇒ no DB append | Core store live; operator path planned |
+| `aura.document.query` | `memory.read_sensitive` (confirm) | Documents / RAG | UI / model mediation | Sentinel authorize before retrieval over private corpus | Retrieves chunks for model context | Deny ⇒ no retrieval | Planned |
 | `aura.profile.read` | confirm with Core | Identity | UI / API | Sentinel authorize | Reveals Mirrorborn profile | Deny ⇒ no reveal | Planned |
 | `aura.profile.write` | `profile.generate` | Identity | UI / API | Sentinel authorize | Mutates identity model | Deny ⇒ no write | Planned |
 | `aura.identity.key.*` | `identity.key.*` | Identity | Runtime | Sentinel authorize | Trust root change | Deny ⇒ no key op | Planned |
@@ -56,6 +59,7 @@ Q1 organ freeze. Canonical Core IDs live in
 | --- | --- | --- |
 | Safe health | Planned `/health` | Read-only health, no sensitive disclosure |
 | Launcher status refresh | `crates/aura_launcher` | Display-only runtime status refresh |
+| Document DB status refresh | `crates/aura_launcher` | Display-only path/count summary; no document source read and no DB append |
 | Sentinel initializing UI | `crates/aura_launcher` | Display-only blocked/init state |
 | Deny / lockdown chrome | Shell | Display-only |
 | Emergency stop | OS / hardware | Independent safety brake; never an approval path |

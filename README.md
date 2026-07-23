@@ -24,11 +24,36 @@ First live slice:
 
 - `crates\aura_launcher` is the compiled Bevy launcher.
 - The launcher shows AURA version/build identity, Sentinel/boot status, decision ledger path,
-  and planned local service readiness.
+  document database status, and planned local service readiness.
 - The launcher button for boot continuation goes through `aura_runtime` and refuses under the
   current deny-all policy before side effects.
-- Chat, image generation, TTS, STT, memory workbench, installer/update, and certification are
-  not shipped yet.
+- `crates\aura_documents` frames UTF-8 text documents with the required NeuroCognica metadata
+  envelope, BLAKE3 source/text/metadata hashes, deterministic chunks, and an idempotent local
+  JSONL store under the AURA data directory. The launcher shows that store's path and counts.
+- Chat, image generation, TTS, STT, embeddings/retrieval, operator corpus import, memory
+  workbench, installer/update, and certification are not shipped yet.
+
+## Document Framer
+
+All documents that enter the future AURA RAG database must pass through the NeuroCognica
+document frame first. This Rust layer preserves the official metadata shape from
+`C:\AURA-Lab\Doc_Framer\nc-framer.py` (`project`, `title`, serialized ID, engineer, date,
+revision, rights) and adds deterministic hashes and chunks before storage.
+
+Live now:
+
+- UTF-8 text intake for Markdown, text, JSON/JSONL, CSV/TSV, TOML, and YAML.
+- `document_frames.jsonl` and `document_chunks.jsonl` under `%LOCALAPPDATA%\NeuroCognica\AURA\documents`
+  by default, or under `$env:AURA_DATA_DIR\documents` when that override is set.
+- Read-only launcher status for document DB path, framed document count, and chunk count.
+
+Not live yet:
+
+- PDF/DOCX extraction, OCR, embeddings, vector search, retrieval ranking, and Bevy "add document"
+  controls.
+- Mass import of NeuroCognica canon into the product database. That workflow is a protected
+  sensitive-file-read plus memory-write surface and must be Sentinel-authorized before it becomes
+  an operator button.
 
 ## Launcher
 
@@ -66,6 +91,7 @@ feature until the compiled launcher exposes the control.
 ```
 C:\aura\
   crates\aura_runtime\   # boot + Sentinel client + broker + decision log
+  crates\aura_documents\ # NeuroCognica document frame + local JSONL store foundation
   crates\aura_cli\       # developer harness only, not the product surface
   crates\aura_launcher\  # Bevy Windows launcher / product shell
   scripts\               # build/install helpers for launcher shortcut
@@ -82,5 +108,6 @@ No Sentinel, no ship.
 
 ## Status
 
-**Implementing, not certified.** First Bevy launcher slice is live; broader AURA organs remain
-planned or blocked behind Sentinel proof. See `docs/security/SENTINEL_ADOPTION_STATUS.md`.
+**Implementing, not certified.** First Bevy launcher slice and document frame/store foundation
+are live; broader AURA organs remain planned or blocked behind Sentinel proof. See
+`docs/security/SENTINEL_ADOPTION_STATUS.md`.
