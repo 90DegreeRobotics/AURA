@@ -9,6 +9,7 @@ description = "AURA NeuroCognica document framing and local RAG store foundation
 base64 = { workspace = true }
 blake3 = { workspace = true }
 chrono = { workspace = true }
+rocksdb = { workspace = true }
 serde = { workspace = true }
 serde_json = { workspace = true }
 thiserror = { workspace = true }

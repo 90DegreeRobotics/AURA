@@ -6,13 +6,13 @@
 //! artifact, then storage.
 
 use std::{
-    fs::{self, File, OpenOptions},
-    io::{BufRead, BufReader, Write},
+    fs,
     path::{Path, PathBuf},
 };
 
 use base64::{engine::general_purpose::STANDARD as BASE64, Engine as _};
 use chrono::{Datelike, Utc};
+use rocksdb::{Options, WriteBatch, WriteOptions, DB};
 use serde::{Deserialize, Serialize};
 
 pub const FRAME_SCHEMA_VERSION: &str = "neurocognica.document_frame.v1";
@@ -21,8 +21,19 @@ pub const PRINT_SCHEMA_VERSION: &str = "neurocognica.document_print.v1";
 pub const PRINT_FORMAT_HTML: &str = "html";
 pub const PRINT_PAGE_PROFILE: &str = "us_letter_print_v1";
 pub const PRINT_LOGO_ASSET_NAME: &str = "neurocognica_logo_transparent.png";
+pub const DOCUMENT_STORE_SCHEMA_VERSION: &str = "neurocognica.document_store.rocksdb.v1";
+pub const DOCUMENT_FOREVER_SCHEMA_VERSION: &str = "neurocognica.document_forever_event.v1";
+pub const DOCUMENT_STORE_ENGINE: &str = "rocksdb";
+pub const DOCUMENT_ROCKSDB_DIR_NAME: &str = "documents.rocksdb";
 pub const DEFAULT_MAX_CHUNK_CHARS: usize = 1_600;
 pub const DEFAULT_CHUNK_OVERLAP_CHARS: usize = 160;
+
+const STORE_SCHEMA_KEY: &[u8] = b"meta:store_schema_version";
+const FRAME_COUNT_KEY: &[u8] = b"meta:frame_count";
+const CHUNK_COUNT_KEY: &[u8] = b"meta:chunk_count";
+const PRINT_COUNT_KEY: &[u8] = b"meta:print_count";
+const FOREVER_SEQUENCE_KEY: &[u8] = b"meta:forever_sequence";
+const FOREVER_TIP_KEY: &[u8] = b"meta:forever_tip_hash";
 
 const NEUROCOGNICA_LOGO_PNG: &[u8] =
     include_bytes!("../../../assets/brand/neurocognica_logo_transparent.png");
@@ -190,8 +201,12 @@ pub enum DocumentError {
     InvalidConfig(String),
     #[error("document store already has a different record for frame {0}")]
     StoreCollision(String),
+    #[error("document store corruption: {0}")]
+    StoreCorruption(String),
     #[error(transparent)]
     Io(#[from] std::io::Error),
+    #[error(transparent)]
+    RocksDb(#[from] rocksdb::Error),
     #[error(transparent)]
     Json(#[from] serde_json::Error),
 }
@@ -384,20 +399,41 @@ pub struct FramedDocument {
     pub normalized_text: String,
 }
 
-#[derive(Debug, Clone, PartialEq, Eq)]
+#[derive(Debug, Clone, Serialize, Deserialize, PartialEq, Eq)]
+pub struct DocumentForeverRecord {
+    pub schema_version: String,
+    pub sequence: u64,
+    pub event_id: String,
+    pub event_kind: String,
+    pub aggregate_id: String,
+    pub frame_id: String,
+    pub print_id: String,
+    pub chunk_count: usize,
+    pub payload_hash_blake3: String,
+    pub previous_record_hash_blake3: String,
+    pub record_hash_blake3: String,
+    pub recorded_at_utc: chrono::DateTime<Utc>,
+    pub storage_engine: String,
+}
+
+#[derive(Debug)]
 pub struct DocumentStore {
     root: PathBuf,
+    db_path: PathBuf,
+    db: DB,
 }
 
 #[derive(Debug, Clone, PartialEq, Eq)]
 pub struct DocumentStoreSummary {
     pub root: PathBuf,
-    pub frames_path: PathBuf,
-    pub chunks_path: PathBuf,
-    pub prints_path: PathBuf,
+    pub db_path: PathBuf,
+    pub store_engine: String,
     pub frame_count: usize,
     pub chunk_count: usize,
     pub print_count: usize,
+    pub forever_event_count: u64,
+    pub forever_tip_hash: String,
+    pub legacy_jsonl_rows: usize,
 }
 
 #[derive(Debug, Clone, PartialEq, Eq)]
@@ -406,11 +442,14 @@ pub enum IngestOutcome {
         frame_id: String,
         print_id: String,
         chunks_written: usize,
+        forever_sequence: u64,
+        forever_record_hash: String,
     },
     AlreadyExists {
         frame_id: String,
         chunks_present: usize,
         print_present: bool,
+        forever_present: bool,
     },
 }
 
@@ -418,42 +457,76 @@ impl DocumentStore {
     pub fn open(root: impl Into<PathBuf>) -> DocumentResult<Self> {
         let root = root.into();
         fs::create_dir_all(&root)?;
-        Ok(Self { root })
+        let db_path = rocksdb_path(&root);
+        let mut options = rocksdb_options();
+        options.create_if_missing(true);
+        let db = DB::open(&options, &db_path)?;
+        let store = Self { root, db_path, db };
+        store.ensure_schema()?;
+        Ok(store)
     }
 
     pub fn root(&self) -> &Path {
         &self.root
     }
 
-    pub fn frames_path(&self) -> PathBuf {
-        frames_path(&self.root)
-    }
-
-    pub fn chunks_path(&self) -> PathBuf {
-        chunks_path(&self.root)
-    }
-
-    pub fn prints_path(&self) -> PathBuf {
-        prints_path(&self.root)
+    pub fn db_path(&self) -> &Path {
+        &self.db_path
     }
 
     pub fn summary(&self) -> DocumentResult<DocumentStoreSummary> {
-        Self::summary_at(&self.root)
+        Ok(DocumentStoreSummary {
+            root: self.root.clone(),
+            db_path: self.db_path.clone(),
+            store_engine: DOCUMENT_STORE_ENGINE.to_owned(),
+            frame_count: self.read_counter(FRAME_COUNT_KEY)? as usize,
+            chunk_count: self.read_counter(CHUNK_COUNT_KEY)? as usize,
+            print_count: self.read_counter(PRINT_COUNT_KEY)? as usize,
+            forever_event_count: self.read_counter(FOREVER_SEQUENCE_KEY)?,
+            forever_tip_hash: self
+                .read_string(FOREVER_TIP_KEY)?
+                .unwrap_or_else(genesis_hash),
+            legacy_jsonl_rows: legacy_jsonl_rows(&self.root)?,
+        })
     }
 
     pub fn summary_at(root: impl Into<PathBuf>) -> DocumentResult<DocumentStoreSummary> {
         let root = root.into();
-        let frames_path = frames_path(&root);
-        let chunks_path = chunks_path(&root);
-        let prints_path = prints_path(&root);
+        let db_path = rocksdb_path(&root);
+        let legacy_jsonl_rows = legacy_jsonl_rows(&root)?;
+        if !db_path.exists() {
+            return Ok(DocumentStoreSummary {
+                root,
+                db_path,
+                store_engine: DOCUMENT_STORE_ENGINE.to_owned(),
+                frame_count: 0,
+                chunk_count: 0,
+                print_count: 0,
+                forever_event_count: 0,
+                forever_tip_hash: genesis_hash(),
+                legacy_jsonl_rows,
+            });
+        }
+
+        let options = rocksdb_options();
+        let db = DB::open_for_read_only(&options, &db_path, false)?;
+        let frame_count = read_counter_from_db(&db, FRAME_COUNT_KEY)? as usize;
+        let chunk_count = read_counter_from_db(&db, CHUNK_COUNT_KEY)? as usize;
+        let print_count = read_counter_from_db(&db, PRINT_COUNT_KEY)? as usize;
+        let forever_event_count = read_counter_from_db(&db, FOREVER_SEQUENCE_KEY)?;
+        let forever_tip_hash =
+            read_string_from_db(&db, FOREVER_TIP_KEY)?.unwrap_or_else(genesis_hash);
+
         Ok(DocumentStoreSummary {
             root,
-            frame_count: count_lines_if_exists(&frames_path)?,
-            chunk_count: count_lines_if_exists(&chunks_path)?,
-            print_count: count_lines_if_exists(&prints_path)?,
-            frames_path,
-            chunks_path,
-            prints_path,
+            db_path,
+            store_engine: DOCUMENT_STORE_ENGINE.to_owned(),
+            frame_count,
+            chunk_count,
+            print_count,
+            forever_event_count,
+            forever_tip_hash,
+            legacy_jsonl_rows,
         })
     }
 
@@ -470,87 +543,469 @@ impl DocumentStore {
     pub fn ingest_framed_document(&self, framed: &FramedDocument) -> DocumentResult<IngestOutcome> {
         if self.contains_frame(&framed.frame.frame_id)? {
             let chunks_present = self.count_chunks_for_frame(&framed.frame.frame_id)?;
-            let mut print_present = self.contains_print(&framed.frame.frame_id)?;
-            if !print_present {
-                append_json_line(&self.prints_path(), &framed.print)?;
-                print_present = true;
-            }
+            let print_present = self.contains_print(&framed.frame.frame_id)?;
+            let forever_present = self.contains_forever_event(&framed.frame.frame_id)?;
             return Ok(IngestOutcome::AlreadyExists {
                 frame_id: framed.frame.frame_id.clone(),
                 chunks_present,
                 print_present,
+                forever_present,
             });
         }
 
-        append_json_line(&self.frames_path(), &framed.frame)?;
-        for chunk in &framed.chunks {
-            append_json_line(&self.chunks_path(), chunk)?;
+        let current_frame_count = self.read_counter(FRAME_COUNT_KEY)?;
+        let current_chunk_count = self.read_counter(CHUNK_COUNT_KEY)?;
+        let current_print_count = self.read_counter(PRINT_COUNT_KEY)?;
+        let current_sequence = self.read_counter(FOREVER_SEQUENCE_KEY)?;
+        let previous_record_hash = self
+            .read_string(FOREVER_TIP_KEY)?
+            .unwrap_or_else(genesis_hash);
+
+        let frame_json = serde_json::to_vec(&framed.frame)?;
+        let print_json = serde_json::to_vec(&framed.print)?;
+        let chunk_json = framed
+            .chunks
+            .iter()
+            .map(serde_json::to_vec)
+            .collect::<Result<Vec<_>, _>>()?;
+        let payload =
+            DocumentForeverPayload::from_parts(framed, &frame_json, &chunk_json, &print_json);
+        let payload_json = serde_json::to_vec(&payload)?;
+        let payload_hash_blake3 = blake3_with_prefix(&payload_json);
+        let forever_sequence = current_sequence.checked_add(1).ok_or_else(|| {
+            DocumentError::StoreCorruption("forever sequence overflow".to_owned())
+        })?;
+        let forever_record = build_forever_record(
+            forever_sequence,
+            &framed.frame.frame_id,
+            &framed.print.print_id,
+            framed.chunks.len(),
+            &payload_hash_blake3,
+            &previous_record_hash,
+        )?;
+        let forever_json = serde_json::to_vec(&forever_record)?;
+
+        let mut batch = WriteBatch::default();
+        batch.put(frame_key(&framed.frame.frame_id), frame_json);
+        batch.put(
+            source_text_key(&framed.frame.frame_id),
+            framed.normalized_text.as_bytes(),
+        );
+        batch.put(
+            chunk_count_key(&framed.frame.frame_id),
+            framed.chunks.len().to_string().into_bytes(),
+        );
+        for (chunk, chunk_bytes) in framed.chunks.iter().zip(chunk_json) {
+            batch.put(
+                chunk_key(&framed.frame.frame_id, chunk.chunk_index),
+                chunk_bytes,
+            );
+            batch.put(
+                chunk_id_key(&chunk.chunk_id),
+                framed.frame.frame_id.as_bytes(),
+            );
         }
-        append_json_line(&self.prints_path(), &framed.print)?;
+        batch.put(print_key(&framed.print.print_id), print_json);
+        batch.put(
+            print_by_frame_key(&framed.frame.frame_id),
+            framed.print.print_id.as_bytes(),
+        );
+        batch.put(forever_key(forever_sequence), forever_json);
+        batch.put(
+            forever_by_frame_key(&framed.frame.frame_id),
+            forever_sequence.to_string().into_bytes(),
+        );
+        batch.put(
+            FRAME_COUNT_KEY,
+            current_frame_count
+                .checked_add(1)
+                .ok_or_else(|| DocumentError::StoreCorruption("frame count overflow".to_owned()))?
+                .to_string()
+                .into_bytes(),
+        );
+        batch.put(
+            CHUNK_COUNT_KEY,
+            current_chunk_count
+                .checked_add(framed.chunks.len() as u64)
+                .ok_or_else(|| DocumentError::StoreCorruption("chunk count overflow".to_owned()))?
+                .to_string()
+                .into_bytes(),
+        );
+        batch.put(
+            PRINT_COUNT_KEY,
+            current_print_count
+                .checked_add(1)
+                .ok_or_else(|| DocumentError::StoreCorruption("print count overflow".to_owned()))?
+                .to_string()
+                .into_bytes(),
+        );
+        batch.put(
+            FOREVER_SEQUENCE_KEY,
+            forever_sequence.to_string().into_bytes(),
+        );
+        batch.put(
+            FOREVER_TIP_KEY,
+            forever_record.record_hash_blake3.as_bytes(),
+        );
+
+        self.write_synced(batch)?;
 
         Ok(IngestOutcome::Stored {
             frame_id: framed.frame.frame_id.clone(),
             print_id: framed.print.print_id.clone(),
             chunks_written: framed.chunks.len(),
+            forever_sequence,
+            forever_record_hash: forever_record.record_hash_blake3,
+        })
+    }
+
+    pub fn frame_record(&self, frame_id: &str) -> DocumentResult<Option<DocumentFrameRecord>> {
+        self.get_json(frame_key(frame_id))
+    }
+
+    pub fn print_record_for_frame(
+        &self,
+        frame_id: &str,
+    ) -> DocumentResult<Option<DocumentPrintRecord>> {
+        let Some(print_id) = self.read_string(&print_by_frame_key(frame_id))? else {
+            return Ok(None);
+        };
+        self.get_json(print_key(&print_id))
+    }
+
+    pub fn forever_record_for_frame(
+        &self,
+        frame_id: &str,
+    ) -> DocumentResult<Option<DocumentForeverRecord>> {
+        let Some(sequence) = self.read_string(&forever_by_frame_key(frame_id))? else {
+            return Ok(None);
+        };
+        let sequence = parse_counter(&sequence, "forever_by_frame")?;
+        self.get_json(forever_key(sequence))
+    }
+
+    pub fn verify_forever_chain(&self) -> DocumentResult<ForeverChainReport> {
+        let event_count = self.read_counter(FOREVER_SEQUENCE_KEY)?;
+        let mut expected_previous = genesis_hash();
+
+        for sequence in 1..=event_count {
+            let record: DocumentForeverRecord =
+                self.get_json(forever_key(sequence))?.ok_or_else(|| {
+                    DocumentError::StoreCorruption(format!(
+                        "missing forever record at sequence {sequence}"
+                    ))
+                })?;
+            if record.sequence != sequence {
+                return Err(DocumentError::StoreCorruption(format!(
+                    "forever record sequence mismatch at {sequence}: found {}",
+                    record.sequence
+                )));
+            }
+            if record.previous_record_hash_blake3 != expected_previous {
+                return Err(DocumentError::StoreCorruption(format!(
+                    "forever record {sequence} previous hash mismatch"
+                )));
+            }
+            let expected_hash = compute_forever_record_hash(&record)?;
+            if record.record_hash_blake3 != expected_hash {
+                return Err(DocumentError::StoreCorruption(format!(
+                    "forever record {sequence} hash mismatch"
+                )));
+            }
+            expected_previous = record.record_hash_blake3;
+        }
+
+        let tip_hash = self
+            .read_string(FOREVER_TIP_KEY)?
+            .unwrap_or_else(genesis_hash);
+        if tip_hash != expected_previous {
+            return Err(DocumentError::StoreCorruption(
+                "forever tip does not match verified chain".to_owned(),
+            ));
+        }
+
+        Ok(ForeverChainReport {
+            event_count,
+            tip_hash,
+            verified: true,
         })
     }
 
     fn contains_frame(&self, frame_id: &str) -> DocumentResult<bool> {
-        let path = self.frames_path();
-        if !path.exists() {
-            return Ok(false);
-        }
-
-        for line in BufReader::new(File::open(path)?).lines() {
-            let line = line?;
-            if line.trim().is_empty() {
-                continue;
-            }
-            let frame: DocumentFrameRecord = serde_json::from_str(&line)?;
-            if frame.frame_id == frame_id {
-                return Ok(true);
-            }
-        }
-        Ok(false)
+        Ok(self.db.get(frame_key(frame_id))?.is_some())
     }
 
     fn count_chunks_for_frame(&self, frame_id: &str) -> DocumentResult<usize> {
-        let path = self.chunks_path();
-        if !path.exists() {
-            return Ok(0);
-        }
-
-        let mut count = 0;
-        for line in BufReader::new(File::open(path)?).lines() {
-            let line = line?;
-            if line.trim().is_empty() {
-                continue;
-            }
-            let chunk: DocumentChunkRecord = serde_json::from_str(&line)?;
-            if chunk.frame_id == frame_id {
-                count += 1;
-            }
-        }
-        Ok(count)
+        Ok(self.read_counter(&chunk_count_key(frame_id))? as usize)
     }
 
     fn contains_print(&self, frame_id: &str) -> DocumentResult<bool> {
-        let path = self.prints_path();
-        if !path.exists() {
-            return Ok(false);
+        Ok(self.db.get(print_by_frame_key(frame_id))?.is_some())
+    }
+
+    fn contains_forever_event(&self, frame_id: &str) -> DocumentResult<bool> {
+        Ok(self.db.get(forever_by_frame_key(frame_id))?.is_some())
+    }
+
+    fn ensure_schema(&self) -> DocumentResult<()> {
+        if let Some(schema) = self.read_string(STORE_SCHEMA_KEY)? {
+            if schema != DOCUMENT_STORE_SCHEMA_VERSION {
+                return Err(DocumentError::StoreCorruption(format!(
+                    "unsupported document store schema {schema}"
+                )));
+            }
+            return Ok(());
         }
 
-        for line in BufReader::new(File::open(path)?).lines() {
-            let line = line?;
-            if line.trim().is_empty() {
-                continue;
-            }
-            let print: DocumentPrintRecord = serde_json::from_str(&line)?;
-            if print.frame_id == frame_id {
-                return Ok(true);
-            }
+        let mut batch = WriteBatch::default();
+        batch.put(STORE_SCHEMA_KEY, DOCUMENT_STORE_SCHEMA_VERSION.as_bytes());
+        batch.put(FRAME_COUNT_KEY, b"0");
+        batch.put(CHUNK_COUNT_KEY, b"0");
+        batch.put(PRINT_COUNT_KEY, b"0");
+        batch.put(FOREVER_SEQUENCE_KEY, b"0");
+        batch.put(FOREVER_TIP_KEY, genesis_hash().as_bytes());
+        self.write_synced(batch)
+    }
+
+    fn read_counter<K: AsRef<[u8]>>(&self, key: K) -> DocumentResult<u64> {
+        read_counter_from_db(&self.db, key)
+    }
+
+    fn read_string<K: AsRef<[u8]>>(&self, key: K) -> DocumentResult<Option<String>> {
+        read_string_from_db(&self.db, key)
+    }
+
+    fn get_json<T: for<'de> Deserialize<'de>, K: AsRef<[u8]>>(
+        &self,
+        key: K,
+    ) -> DocumentResult<Option<T>> {
+        let Some(bytes) = self.db.get(key)? else {
+            return Ok(None);
+        };
+        Ok(Some(serde_json::from_slice(&bytes)?))
+    }
+
+    fn write_synced(&self, batch: WriteBatch) -> DocumentResult<()> {
+        let mut options = WriteOptions::default();
+        options.set_sync(true);
+        self.db.write_opt(batch, &options)?;
+        self.db.flush()?;
+        Ok(())
+    }
+}
+
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub struct ForeverChainReport {
+    pub event_count: u64,
+    pub tip_hash: String,
+    pub verified: bool,
+}
+
+#[derive(Debug, Serialize)]
+struct DocumentForeverPayload {
+    frame_id: String,
+    print_id: String,
+    source_hash_blake3: String,
+    text_hash_blake3: String,
+    metadata_hash_blake3: String,
+    print_html_hash_blake3: String,
+    frame_json_hash_blake3: String,
+    print_json_hash_blake3: String,
+    chunk_record_hashes_blake3: Vec<String>,
+    normalized_text_hash_blake3: String,
+    chunk_count: usize,
+}
+
+impl DocumentForeverPayload {
+    fn from_parts(
+        framed: &FramedDocument,
+        frame_json: &[u8],
+        chunk_json: &[Vec<u8>],
+        print_json: &[u8],
+    ) -> Self {
+        Self {
+            frame_id: framed.frame.frame_id.clone(),
+            print_id: framed.print.print_id.clone(),
+            source_hash_blake3: framed.frame.source_hash_blake3.clone(),
+            text_hash_blake3: framed.frame.text_hash_blake3.clone(),
+            metadata_hash_blake3: framed.frame.metadata_hash_blake3.clone(),
+            print_html_hash_blake3: framed.print.html_hash_blake3.clone(),
+            frame_json_hash_blake3: blake3_with_prefix(frame_json),
+            print_json_hash_blake3: blake3_with_prefix(print_json),
+            chunk_record_hashes_blake3: chunk_json
+                .iter()
+                .map(|chunk| blake3_with_prefix(chunk))
+                .collect(),
+            normalized_text_hash_blake3: blake3_with_prefix(framed.normalized_text.as_bytes()),
+            chunk_count: framed.chunks.len(),
         }
-        Ok(false)
+    }
+}
+
+#[derive(Debug, Serialize)]
+struct DocumentForeverRecordSeal<'a> {
+    schema_version: &'a str,
+    sequence: u64,
+    event_id: &'a str,
+    event_kind: &'a str,
+    aggregate_id: &'a str,
+    frame_id: &'a str,
+    print_id: &'a str,
+    chunk_count: usize,
+    payload_hash_blake3: &'a str,
+    previous_record_hash_blake3: &'a str,
+    recorded_at_utc: chrono::DateTime<Utc>,
+    storage_engine: &'a str,
+}
+
+fn build_forever_record(
+    sequence: u64,
+    frame_id: &str,
+    print_id: &str,
+    chunk_count: usize,
+    payload_hash_blake3: &str,
+    previous_record_hash_blake3: &str,
+) -> DocumentResult<DocumentForeverRecord> {
+    let recorded_at_utc = Utc::now();
+    let event_kind = "document.ingested";
+    let aggregate_id = frame_id;
+    let event_id_seed =
+        format!("{sequence}:{event_kind}:{frame_id}:{print_id}:{payload_hash_blake3}");
+    let event_id_hash = blake3_hex(event_id_seed.as_bytes());
+    let event_id = format!("ncfv-{}", &event_id_hash[..24]);
+    let seal = DocumentForeverRecordSeal {
+        schema_version: DOCUMENT_FOREVER_SCHEMA_VERSION,
+        sequence,
+        event_id: &event_id,
+        event_kind,
+        aggregate_id,
+        frame_id,
+        print_id,
+        chunk_count,
+        payload_hash_blake3,
+        previous_record_hash_blake3,
+        recorded_at_utc,
+        storage_engine: DOCUMENT_STORE_ENGINE,
+    };
+    let record_hash_blake3 = blake3_with_prefix(&serde_json::to_vec(&seal)?);
+
+    Ok(DocumentForeverRecord {
+        schema_version: DOCUMENT_FOREVER_SCHEMA_VERSION.to_owned(),
+        sequence,
+        event_id,
+        event_kind: event_kind.to_owned(),
+        aggregate_id: aggregate_id.to_owned(),
+        frame_id: frame_id.to_owned(),
+        print_id: print_id.to_owned(),
+        chunk_count,
+        payload_hash_blake3: payload_hash_blake3.to_owned(),
+        previous_record_hash_blake3: previous_record_hash_blake3.to_owned(),
+        record_hash_blake3,
+        recorded_at_utc,
+        storage_engine: DOCUMENT_STORE_ENGINE.to_owned(),
+    })
+}
+
+fn compute_forever_record_hash(record: &DocumentForeverRecord) -> DocumentResult<String> {
+    let seal = DocumentForeverRecordSeal {
+        schema_version: &record.schema_version,
+        sequence: record.sequence,
+        event_id: &record.event_id,
+        event_kind: &record.event_kind,
+        aggregate_id: &record.aggregate_id,
+        frame_id: &record.frame_id,
+        print_id: &record.print_id,
+        chunk_count: record.chunk_count,
+        payload_hash_blake3: &record.payload_hash_blake3,
+        previous_record_hash_blake3: &record.previous_record_hash_blake3,
+        recorded_at_utc: record.recorded_at_utc,
+        storage_engine: &record.storage_engine,
+    };
+    Ok(blake3_with_prefix(&serde_json::to_vec(&seal)?))
+}
+
+fn rocksdb_options() -> Options {
+    let mut options = Options::default();
+    options.create_if_missing(false);
+    options
+}
+
+fn rocksdb_path(root: &Path) -> PathBuf {
+    root.join(DOCUMENT_ROCKSDB_DIR_NAME)
+}
+
+fn read_counter_from_db<K: AsRef<[u8]>>(db: &DB, key: K) -> DocumentResult<u64> {
+    let Some(value) = read_string_from_db(db, key)? else {
+        return Ok(0);
+    };
+    parse_counter(&value, "counter")
+}
+
+fn read_string_from_db<K: AsRef<[u8]>>(db: &DB, key: K) -> DocumentResult<Option<String>> {
+    let Some(value) = db.get(key)? else {
+        return Ok(None);
+    };
+    String::from_utf8(value)
+        .map(Some)
+        .map_err(|error| DocumentError::StoreCorruption(format!("invalid utf-8 value: {error}")))
+}
+
+fn parse_counter(value: &str, label: &str) -> DocumentResult<u64> {
+    value.parse::<u64>().map_err(|error| {
+        DocumentError::StoreCorruption(format!("invalid {label} counter {value}: {error}"))
+    })
+}
+
+fn frame_key(frame_id: &str) -> Vec<u8> {
+    format!("frame:{frame_id}").into_bytes()
+}
+
+fn source_text_key(frame_id: &str) -> Vec<u8> {
+    format!("source_text:{frame_id}").into_bytes()
+}
+
+fn chunk_count_key(frame_id: &str) -> Vec<u8> {
+    format!("chunk_count:{frame_id}").into_bytes()
+}
+
+fn chunk_key(frame_id: &str, chunk_index: usize) -> Vec<u8> {
+    format!("chunk:{frame_id}:{chunk_index:08}").into_bytes()
+}
+
+fn chunk_id_key(chunk_id: &str) -> Vec<u8> {
+    format!("chunk_id:{chunk_id}").into_bytes()
+}
+
+fn print_key(print_id: &str) -> Vec<u8> {
+    format!("print:{print_id}").into_bytes()
+}
+
+fn print_by_frame_key(frame_id: &str) -> Vec<u8> {
+    format!("print_by_frame:{frame_id}").into_bytes()
+}
+
+fn forever_key(sequence: u64) -> Vec<u8> {
+    format!("forever:{sequence:020}").into_bytes()
+}
+
+fn forever_by_frame_key(frame_id: &str) -> Vec<u8> {
+    format!("forever_by_frame:{frame_id}").into_bytes()
+}
+
+fn legacy_jsonl_rows(root: &Path) -> DocumentResult<usize> {
+    Ok(count_jsonl_rows_if_exists(&frames_path(root))?
+        + count_jsonl_rows_if_exists(&chunks_path(root))?
+        + count_jsonl_rows_if_exists(&prints_path(root))?)
+}
+
+fn count_jsonl_rows_if_exists(path: &Path) -> DocumentResult<usize> {
+    match fs::read_to_string(path) {
+        Ok(contents) => Ok(contents
+            .lines()
+            .filter(|line| !line.trim().is_empty())
+            .count()),
+        Err(error) if error.kind() == std::io::ErrorKind::NotFound => Ok(0),
+        Err(error) => Err(error.into()),
     }
 }
 
@@ -1051,6 +1506,14 @@ fn blake3_hex(bytes: &[u8]) -> String {
     blake3::hash(bytes).to_hex().to_string()
 }
 
+fn blake3_with_prefix(bytes: &[u8]) -> String {
+    format!("blake3:{}", blake3_hex(bytes))
+}
+
+fn genesis_hash() -> String {
+    blake3_with_prefix(b"neurocognica.aura.document_forever.genesis.v1")
+}
+
 fn frames_path(root: &Path) -> PathBuf {
     root.join("document_frames.jsonl")
 }
@@ -1061,30 +1524,6 @@ fn chunks_path(root: &Path) -> PathBuf {
 
 fn prints_path(root: &Path) -> PathBuf {
     root.join("document_prints.jsonl")
-}
-
-fn append_json_line<T: Serialize>(path: &Path, value: &T) -> DocumentResult<()> {
-    if let Some(parent) = path.parent() {
-        fs::create_dir_all(parent)?;
-    }
-    let mut file = OpenOptions::new().create(true).append(true).open(path)?;
-    serde_json::to_writer(&mut file, value)?;
-    file.write_all(b"\n")?;
-    file.flush()?;
-    Ok(())
-}
-
-fn count_lines_if_exists(path: &Path) -> DocumentResult<usize> {
-    if !path.exists() {
-        return Ok(0);
-    }
-    let mut count = 0;
-    for line in BufReader::new(File::open(path)?).lines() {
-        if !line?.trim().is_empty() {
-            count += 1;
-        }
-    }
-    Ok(count)
 }
 
 #[cfg(test)]
@@ -1162,22 +1601,31 @@ mod tests {
         let IngestOutcome::Stored {
             frame_id,
             chunks_written,
+            forever_sequence,
+            forever_record_hash,
             ..
         } = first
         else {
             panic!("first ingest should store");
         };
+        assert_eq!(forever_sequence, 1);
+        assert!(forever_record_hash.starts_with("blake3:"));
         assert_eq!(
             second,
             IngestOutcome::AlreadyExists {
                 frame_id,
                 chunks_present: chunks_written,
-                print_present: true
+                print_present: true,
+                forever_present: true
             }
         );
         assert_eq!(summary.frame_count, 1);
         assert_eq!(summary.chunk_count, chunks_written);
         assert_eq!(summary.print_count, 1);
+        assert_eq!(summary.forever_event_count, 1);
+        assert!(summary.forever_tip_hash.starts_with("blake3:"));
+        assert_eq!(summary.store_engine, DOCUMENT_STORE_ENGINE);
+        assert!(summary.db_path.ends_with(DOCUMENT_ROCKSDB_DIR_NAME));
     }
 
     #[test]
@@ -1206,17 +1654,97 @@ mod tests {
             IngestOutcome::Stored {
                 frame_id: framed.frame.frame_id.clone(),
                 print_id: framed.print.print_id.clone(),
-                chunks_written: framed.chunks.len()
+                chunks_written: framed.chunks.len(),
+                forever_sequence: 1,
+                forever_record_hash: store
+                    .forever_record_for_frame(&framed.frame.frame_id)
+                    .expect("forever lookup")
+                    .expect("forever record")
+                    .record_hash_blake3
             }
         );
         assert_eq!(summary.frame_count, 1);
         assert_eq!(summary.chunk_count, framed.chunks.len());
         assert_eq!(summary.print_count, 1);
+        assert_eq!(summary.forever_event_count, 1);
 
-        let print_rows = fs::read_to_string(store.prints_path()).expect("print rows");
-        assert!(print_rows.contains(&framed.print.print_id));
-        assert!(print_rows.contains("data:image/png;base64,"));
-        assert!(print_rows.contains("PROJECT:"));
+        let stored_frame = store
+            .frame_record(&framed.frame.frame_id)
+            .expect("frame lookup")
+            .expect("stored frame");
+        let stored_print = store
+            .print_record_for_frame(&framed.frame.frame_id)
+            .expect("print lookup")
+            .expect("stored print");
+        let report = store
+            .verify_forever_chain()
+            .expect("forever chain verifies");
+        assert_eq!(stored_frame, framed.frame);
+        assert_eq!(stored_print.print_id, framed.print.print_id);
+        assert!(stored_print.html.contains("data:image/png;base64,"));
+        assert!(stored_print.html.contains("PROJECT:"));
+        assert!(report.verified);
+    }
+
+    #[test]
+    fn rocksdb_store_persists_records_after_reopen() {
+        let root = temp_root("rocksdb-persist");
+        let source = write_temp_doc(
+            "rocksdb-persist",
+            "md",
+            "# Persistence\n\nAURA must remember the framed document after the process lets go of the database handle.\n",
+        );
+        let framed = frame_text_document(
+            &source,
+            test_metadata("NC-DOC-AURA-005"),
+            FramerConfig::default(),
+        )
+        .expect("document frames");
+        let frame_id = framed.frame.frame_id.clone();
+        let print_id = framed.print.print_id.clone();
+        let chunks = framed.chunks.len();
+        let first_record_hash = {
+            let store = DocumentStore::open(&root).expect("store opens");
+            let outcome = store
+                .ingest_framed_document(&framed)
+                .expect("framed document stores");
+            assert!(store.db_path().exists());
+            let IngestOutcome::Stored {
+                forever_record_hash,
+                forever_sequence,
+                ..
+            } = outcome
+            else {
+                panic!("first ingest should store");
+            };
+            assert_eq!(forever_sequence, 1);
+            forever_record_hash
+        };
+
+        let reopened = DocumentStore::open(&root).expect("store reopens");
+        let summary = reopened.summary().expect("summary");
+        let stored_frame = reopened
+            .frame_record(&frame_id)
+            .expect("frame lookup")
+            .expect("stored frame");
+        let stored_print = reopened
+            .print_record_for_frame(&frame_id)
+            .expect("print lookup")
+            .expect("stored print");
+        let forever = reopened
+            .forever_record_for_frame(&frame_id)
+            .expect("forever lookup")
+            .expect("forever record");
+        let report = reopened.verify_forever_chain().expect("chain verifies");
+
+        assert_eq!(summary.frame_count, 1);
+        assert_eq!(summary.chunk_count, chunks);
+        assert_eq!(summary.print_count, 1);
+        assert_eq!(summary.forever_event_count, 1);
+        assert_eq!(stored_frame.frame_id, frame_id);
+        assert_eq!(stored_print.print_id, print_id);
+        assert_eq!(forever.record_hash_blake3, first_record_hash);
+        assert_eq!(report.tip_hash, first_record_hash);
     }
 
     #[test]

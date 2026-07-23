@@ -35,8 +35,9 @@ First live slice:
   current deny-all policy before side effects.
 - `crates\aura_documents` frames UTF-8 text documents with the required NeuroCognica metadata
   envelope, the tracked NeuroCognica logo embedded in a print-ready HTML artifact, BLAKE3
-  source/text/metadata hashes, deterministic chunks, and an idempotent local JSONL store under
-  the AURA data directory. The launcher shows that store's path and counts and exposes Add
+  source/text/metadata hashes, deterministic chunks, and a real RocksDB store under the AURA
+  data directory. Ingested documents get a synced append-only BLAKE3 Forever-chain event in
+  the same database batch. The launcher shows that store's path and counts and exposes Add
   File / Add Folder / Frame Selected / Ingest Selected controls.
 - Document frame/ingest buttons are real brokered controls: source reads enter
   `file.read_sensitive`, DB appends enter `memory.write`, and the current deny-all policy
@@ -50,17 +51,21 @@ All documents that enter the future AURA RAG database must pass through the Neur
 document frame first. This Rust layer preserves the official metadata shape from
 `C:\AURA-Lab\Doc_Framer\nc-framer.py` (`project`, `title`, serialized ID, engineer, date,
 revision, rights), upgrades it with the tracked NeuroCognica logo, and stores deterministic
-hashes, chunks, and a print-ready HTML artifact before storage.
+hashes, chunks, a print-ready HTML artifact, and a Forever-chain ingest event before storage.
 
 Live now:
 
 - UTF-8 text intake for Markdown, text, JSON/JSONL, CSV/TSV, TOML, and YAML.
-- `document_frames.jsonl`, `document_chunks.jsonl`, and `document_prints.jsonl` under
-  `%LOCALAPPDATA%\NeuroCognica\AURA\documents` by default, or under
-  `$env:AURA_DATA_DIR\documents` when that override is set.
+- Real RocksDB store at `%LOCALAPPDATA%\NeuroCognica\AURA\documents\documents.rocksdb` by
+  default, or under `$env:AURA_DATA_DIR\documents\documents.rocksdb` when that override is set.
+- RocksDB stores frame records, chunk records, print records, normalized source text, index
+  keys, counters, and append-only `document.ingested` Forever records in one synced write
+  batch per new document.
 - Print-ready HTML records use the real `assets\brand\neurocognica_logo_transparent.png`
   asset as an embedded data URI and include the AURA title block, source hashes, frame ID,
   rights, and printable body formatting.
+- BLAKE3 hash-chain proof is live for document ingest events. MMR/Merkle accumulator proof is
+  not live yet and must not be claimed.
 - Launcher document workbench with native Add File / Add Folder selection, visible selected
   source state, current DB path/counts, and Sentinel-mediated Frame Selected / Ingest Selected
   attempts. Under the current deny-all policy those attempts refuse before reading or appending.
@@ -114,7 +119,7 @@ feature until the compiled launcher exposes the control.
 ```
 C:\aura\
   crates\aura_runtime\   # boot + Sentinel client + broker + decision log
-  crates\aura_documents\ # NeuroCognica document frame + local JSONL store foundation
+  crates\aura_documents\ # NeuroCognica document frame + RocksDB Forever store foundation
   crates\aura_cli\       # developer harness only, not the product surface
   crates\aura_launcher\  # Bevy Windows launcher / product shell
   assets\                # tracked AURA icon + brand assets used by launcher/install helper

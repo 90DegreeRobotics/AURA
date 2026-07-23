@@ -272,7 +272,7 @@ When revising this plan:
 
 - Forever Law docs mark Status OPERATIONAL (Dec 2025) in some lineage trees.
 - Impervious forbids claiming Impervious/complete without certification and handler proof.
-- **Plan resolution:** Treat Forever Law docs as **doctrine + prior implementation claims**, not as certified Aura state. Aura Forever Law is **Planned** until Aura’s own ledger proofs exist.
+- **Plan resolution:** Treat Forever Law docs as **doctrine + prior implementation claims**, not as certified Aura state. Aura now has a document-ingest RocksDB/BLAKE3 chain proof, but full Aura Forever Law remains **Partial** until Core/Aura ledger authority and MMR/Merkle strategy are resolved.
 
 ### C4 — Genesis hardware Key vs software Aura home
 
@@ -424,12 +424,17 @@ Current implementation state:
 - Supported sources are UTF-8 text formats only: Markdown, text, JSON/JSONL, CSV/TSV, TOML,
   YAML.
 - Each framed document records BLAKE3 source/text/metadata hashes, a deterministic `ncdf-*`
-  frame ID, chunk hashes, and frame/chunk/print JSONL rows under the AURA data directory.
-- Each frame includes a `ncdp-*` print record in `document_prints.jsonl`: branded HTML with
+  frame ID, chunk hashes, normalized text, and RocksDB records under
+  `documents\documents.rocksdb` in the AURA data directory.
+- Each frame includes a `ncdp-*` print record in RocksDB: branded HTML with
   `assets\brand\neurocognica_logo_transparent.png` embedded as a data URI, AURA identity,
   title-block metadata, hashes, rights, and printable body formatting.
+- Each new ingest appends a `document.ingested` Forever record with sequence, previous hash,
+  payload hash, BLAKE3 record hash, frame ID, print ID, and chunk count in the same synced
+  RocksDB batch as the document records.
 - `crates\aura_launcher` displays the document DB path, framed document count, chunk count,
-  print document count, selected source path, and last document action result.
+  print document count, Forever event count, selected source path, and last document action
+  result.
 - Launcher Add File / Add Folder controls are live path-selection controls only; they do not
   read document bytes or scan folders before authorization.
 - Launcher Frame Selected and Ingest Selected buttons are wired through the runtime broker.
@@ -440,6 +445,7 @@ What this does not yet claim:
 
 - No PDF/DOCX/OCR extraction yet.
 - No embeddings, vector index, reranker, retrieval API, or model-context injection yet.
+- No MMR/Merkle accumulator yet; document ingest currently has a BLAKE3 hash chain only.
 - No authorized import policy/consent lane yet. Corpus ingestion reads sensitive files and
   appends memory-like state, so actual import remains blocked until Sentinel authorization can
   allow the operator workflow without bypasses.

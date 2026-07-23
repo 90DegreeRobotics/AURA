@@ -368,6 +368,8 @@ impl LauncherRuntime {
                     "frame_id": frame_id_for_result,
                     "print_id": print_id_for_result,
                     "chunks": chunks,
+                    "forever_sequence": ingest_outcome_forever_sequence(&outcome),
+                    "forever_record_hash": ingest_outcome_forever_hash(&outcome),
                 }))
             }),
         }) {
@@ -377,8 +379,15 @@ impl LauncherRuntime {
                     .get("outcome")
                     .and_then(|value| value.as_str())
                     .unwrap_or("stored");
+                let forever_sequence = outcome
+                    .result
+                    .get("forever_sequence")
+                    .and_then(|value| value.as_u64());
+                let forever = forever_sequence
+                    .map(|sequence| format!("forever seq {sequence}"))
+                    .unwrap_or_else(|| "forever existing".to_owned());
                 self.set_document_event(format!(
-                    "Document action: ingest authorized | {label} | {frame_id} | print {print_id} | chunks {chunks}"
+                    "Document action: ingest authorized | {label} | {frame_id} | print {print_id} | chunks {chunks} | {forever}"
                 ));
             }
             Err(error) => {
@@ -1217,6 +1226,25 @@ fn ingest_outcome_label(outcome: &IngestOutcome) -> &'static str {
     match outcome {
         IngestOutcome::Stored { .. } => "stored",
         IngestOutcome::AlreadyExists { .. } => "already exists",
+    }
+}
+
+fn ingest_outcome_forever_sequence(outcome: &IngestOutcome) -> Option<u64> {
+    match outcome {
+        IngestOutcome::Stored {
+            forever_sequence, ..
+        } => Some(*forever_sequence),
+        IngestOutcome::AlreadyExists { .. } => None,
+    }
+}
+
+fn ingest_outcome_forever_hash(outcome: &IngestOutcome) -> Option<&str> {
+    match outcome {
+        IngestOutcome::Stored {
+            forever_record_hash,
+            ..
+        } => Some(forever_record_hash.as_str()),
+        IngestOutcome::AlreadyExists { .. } => None,
     }
 }
 

@@ -96,13 +96,24 @@ pub fn decision_log_path(data_dir: &Path) -> PathBuf {
 pub fn document_db_line(data_dir: &Path) -> String {
     let document_dir = default_document_dir(data_dir);
     match DocumentStore::summary_at(&document_dir) {
-        Ok(summary) => format!(
-            "Document DB: {} | framed docs: {} | chunks: {} | print docs: {}",
-            display_path(&summary.root),
-            summary.frame_count,
-            summary.chunk_count,
-            summary.print_count
-        ),
+        Ok(summary) => {
+            let mut line = format!(
+                "Document DB: {} | {} live | docs: {} | chunks: {} | print docs: {} | forever events: {}",
+                display_path(&summary.db_path),
+                summary.store_engine,
+                summary.frame_count,
+                summary.chunk_count,
+                summary.print_count,
+                summary.forever_event_count
+            );
+            if summary.legacy_jsonl_rows > 0 {
+                line.push_str(&format!(
+                    " | legacy jsonl rows: {}",
+                    summary.legacy_jsonl_rows
+                ));
+            }
+            line
+        }
         Err(error) => format!(
             "Document DB: {} | unreadable: {error}",
             display_path(&document_dir)
@@ -111,7 +122,7 @@ pub fn document_db_line(data_dir: &Path) -> String {
 }
 
 pub fn document_gate_line() -> String {
-    "Document gate: frame-first + print-ready store live; intake buttons enter Sentinel before read/write"
+    "Document gate: frame-first + print-ready RocksDB/Forever store live; intake buttons enter Sentinel before read/write"
         .to_owned()
 }
 

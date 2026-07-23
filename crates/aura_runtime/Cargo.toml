@@ -6,6 +6,7 @@ license.workspace = true
 description = "Aura L0 runtime: boot supervisor, Sentinel client, action broker"
 
 [dependencies]
+blake3 = { workspace = true }
 chrono = { workspace = true }
 serde = { workspace = true }
 serde_json = { workspace = true }
