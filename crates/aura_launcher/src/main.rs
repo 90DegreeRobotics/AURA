@@ -240,10 +240,15 @@ impl LauncherRuntime {
             side_effect: Box::new(move || {
                 let framed = frame_text_document(&path, metadata, FramerConfig::default())
                     .map_err(document_error)?;
+                let frame_id = framed.frame.frame_id.clone();
+                let print_id = framed.print.print_id.clone();
+                let chunks = framed.chunks.len();
+                let source = framed.frame.source_name.clone();
                 Ok(json!({
-                    "frame_id": framed.frame.frame_id,
-                    "chunks": framed.chunks.len(),
-                    "source": framed.frame.source_name,
+                    "frame_id": frame_id,
+                    "print_id": print_id,
+                    "chunks": chunks,
+                    "source": source,
                 }))
             }),
         }) {
@@ -258,8 +263,13 @@ impl LauncherRuntime {
                     .get("chunks")
                     .and_then(|value| value.as_u64())
                     .unwrap_or(0);
+                let print_id = outcome
+                    .result
+                    .get("print_id")
+                    .and_then(|value| value.as_str())
+                    .unwrap_or("unknown-print");
                 self.set_document_event(format!(
-                    "Document action: frame authorized | {frame_id} | chunks {chunks}"
+                    "Document action: frame authorized | {frame_id} | print {print_id} | chunks {chunks}"
                 ));
             }
             Err(error) => {
@@ -298,12 +308,14 @@ impl LauncherRuntime {
                 let framed = frame_text_document(&frame_path, metadata, FramerConfig::default())
                     .map_err(document_error)?;
                 let frame_id = framed.frame.frame_id.clone();
+                let print_id = framed.print.print_id.clone();
                 let chunks = framed.chunks.len();
                 *frame_slot.lock().map_err(|_| {
                     AuraError::InvalidRequest("document frame lock poisoned".into())
                 })? = Some(framed);
                 Ok(json!({
                     "frame_id": frame_id,
+                    "print_id": print_id,
                     "chunks": chunks,
                 }))
             }),
@@ -330,6 +342,8 @@ impl LauncherRuntime {
 
         let frame_id = framed.frame.frame_id.clone();
         let frame_id_for_result = frame_id.clone();
+        let print_id = framed.print.print_id.clone();
+        let print_id_for_result = print_id.clone();
         let source_name = framed.frame.source_name.clone();
         let chunks = framed.chunks.len();
         let data_dir = self.data_dir.clone();
@@ -352,6 +366,7 @@ impl LauncherRuntime {
                 Ok(json!({
                     "outcome": ingest_outcome_label(&outcome),
                     "frame_id": frame_id_for_result,
+                    "print_id": print_id_for_result,
                     "chunks": chunks,
                 }))
             }),
@@ -363,7 +378,7 @@ impl LauncherRuntime {
                     .and_then(|value| value.as_str())
                     .unwrap_or("stored");
                 self.set_document_event(format!(
-                    "Document action: ingest authorized | {label} | {frame_id} | chunks {chunks}"
+                    "Document action: ingest authorized | {label} | {frame_id} | print {print_id} | chunks {chunks}"
                 ));
             }
             Err(error) => {

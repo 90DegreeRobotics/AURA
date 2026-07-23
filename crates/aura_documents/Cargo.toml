@@ -6,6 +6,7 @@ license.workspace = true
 description = "AURA NeuroCognica document framing and local RAG store foundation"
 
 [dependencies]
+base64 = { workspace = true }
 blake3 = { workspace = true }
 chrono = { workspace = true }
 serde = { workspace = true }

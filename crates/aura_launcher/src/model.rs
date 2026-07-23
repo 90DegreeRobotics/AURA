@@ -97,10 +97,11 @@ pub fn document_db_line(data_dir: &Path) -> String {
     let document_dir = default_document_dir(data_dir);
     match DocumentStore::summary_at(&document_dir) {
         Ok(summary) => format!(
-            "Document DB: {} | framed docs: {} | chunks: {}",
+            "Document DB: {} | framed docs: {} | chunks: {} | print docs: {}",
             display_path(&summary.root),
             summary.frame_count,
-            summary.chunk_count
+            summary.chunk_count,
+            summary.print_count
         ),
         Err(error) => format!(
             "Document DB: {} | unreadable: {error}",
@@ -110,7 +111,7 @@ pub fn document_db_line(data_dir: &Path) -> String {
 }
 
 pub fn document_gate_line() -> String {
-    "Document gate: frame-first store live; intake buttons enter Sentinel before read/write"
+    "Document gate: frame-first + print-ready store live; intake buttons enter Sentinel before read/write"
         .to_owned()
 }
 

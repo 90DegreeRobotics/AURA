@@ -409,8 +409,10 @@ Aura must not invent a fourth mutable “truth” store that bypasses Becoming f
 
 The existing `C:\AURA-Lab\Doc_Framer\nc-framer.py` is not a RAG system. Its binding import is
 the official NeuroCognica frame shape: organization, project, title, serialized ID, engineer,
-date, revision, year, rights. Aura's document database must preserve that intake law before any
-document becomes retrievable memory.
+date, revision, year, rights, and a visible engineering title block. Aura's document database
+must preserve that intake law before any document becomes retrievable memory, and every
+accepted document must carry a print-ready branded artifact with the real tracked
+NeuroCognica logo.
 
 Current implementation state:
 
@@ -418,9 +420,12 @@ Current implementation state:
 - Supported sources are UTF-8 text formats only: Markdown, text, JSON/JSONL, CSV/TSV, TOML,
   YAML.
 - Each framed document records BLAKE3 source/text/metadata hashes, a deterministic `ncdf-*`
-  frame ID, chunk hashes, and frame/chunk JSONL rows under the AURA data directory.
+  frame ID, chunk hashes, and frame/chunk/print JSONL rows under the AURA data directory.
+- Each frame includes a `ncdp-*` print record in `document_prints.jsonl`: branded HTML with
+  `assets\brand\neurocognica_logo_transparent.png` embedded as a data URI, AURA identity,
+  title-block metadata, hashes, rights, and printable body formatting.
 - `crates\aura_launcher` displays the document DB path, framed document count, chunk count,
-  selected source path, and last document action result.
+  print document count, selected source path, and last document action result.
 - Launcher Add File / Add Folder controls are live path-selection controls only; they do not
   read document bytes or scan folders before authorization.
 - Launcher Frame Selected and Ingest Selected buttons are wired through the runtime broker.

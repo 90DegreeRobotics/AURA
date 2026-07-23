@@ -34,9 +34,10 @@ First live slice:
 - The launcher button for boot continuation goes through `aura_runtime` and refuses under the
   current deny-all policy before side effects.
 - `crates\aura_documents` frames UTF-8 text documents with the required NeuroCognica metadata
-  envelope, BLAKE3 source/text/metadata hashes, deterministic chunks, and an idempotent local
-  JSONL store under the AURA data directory. The launcher shows that store's path and counts
-  and exposes Add File / Add Folder / Frame Selected / Ingest Selected controls.
+  envelope, the tracked NeuroCognica logo embedded in a print-ready HTML artifact, BLAKE3
+  source/text/metadata hashes, deterministic chunks, and an idempotent local JSONL store under
+  the AURA data directory. The launcher shows that store's path and counts and exposes Add
+  File / Add Folder / Frame Selected / Ingest Selected controls.
 - Document frame/ingest buttons are real brokered controls: source reads enter
   `file.read_sensitive`, DB appends enter `memory.write`, and the current deny-all policy
   refuses before those side effects.
@@ -48,13 +49,18 @@ First live slice:
 All documents that enter the future AURA RAG database must pass through the NeuroCognica
 document frame first. This Rust layer preserves the official metadata shape from
 `C:\AURA-Lab\Doc_Framer\nc-framer.py` (`project`, `title`, serialized ID, engineer, date,
-revision, rights) and adds deterministic hashes and chunks before storage.
+revision, rights), upgrades it with the tracked NeuroCognica logo, and stores deterministic
+hashes, chunks, and a print-ready HTML artifact before storage.
 
 Live now:
 
 - UTF-8 text intake for Markdown, text, JSON/JSONL, CSV/TSV, TOML, and YAML.
-- `document_frames.jsonl` and `document_chunks.jsonl` under `%LOCALAPPDATA%\NeuroCognica\AURA\documents`
-  by default, or under `$env:AURA_DATA_DIR\documents` when that override is set.
+- `document_frames.jsonl`, `document_chunks.jsonl`, and `document_prints.jsonl` under
+  `%LOCALAPPDATA%\NeuroCognica\AURA\documents` by default, or under
+  `$env:AURA_DATA_DIR\documents` when that override is set.
+- Print-ready HTML records use the real `assets\brand\neurocognica_logo_transparent.png`
+  asset as an embedded data URI and include the AURA title block, source hashes, frame ID,
+  rights, and printable body formatting.
 - Launcher document workbench with native Add File / Add Folder selection, visible selected
   source state, current DB path/counts, and Sentinel-mediated Frame Selected / Ingest Selected
   attempts. Under the current deny-all policy those attempts refuse before reading or appending.
