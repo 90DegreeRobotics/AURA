@@ -1,10 +1,9 @@
-//! Map Aura intent onto Sentinel Core protected-action IDs.
+//! Map Aura intent onto protected-action IDs.
 
 use chrono::Utc;
-use sentinel_core::SentinelGuardRequest;
 use uuid::Uuid;
 
-use crate::{AuraError, AuraResult, AURA_ACTOR_CLASS, AURA_SUBJECT_SYSTEM};
+use crate::{AuraError, AuraResult, SentinelGuardRequest, AURA_ACTOR_CLASS, AURA_SUBJECT_SYSTEM};
 
 /// Aura-facing action vocabulary. Each variant maps to a Core registry ID.
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]

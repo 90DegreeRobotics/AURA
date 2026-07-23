@@ -9,7 +9,7 @@
 
 **Local research copies:** `C:\aura\research\canon\`  
 **Upstream doctrine vault:** `C:\NRI`  
-**New Sentinel implementation lane:** `C:\sentinel-core`  
+**Sentinel posture:** self-contained AURA L0 guard now; external Sentinel doctrine/certification references remain upstream context  
 
 ---
 
@@ -167,7 +167,7 @@ Aura is **not**:
 
 These are **organs of the plan**, not a license to implement yet:
 
-1. **Sentinel Core binding** — root authority (new Sentinel at `C:\sentinel-core`)
+1. **Sentinel L0 guard** — packaged inside AURA, fail-closed, Core-compatible vocabulary
 2. **Action Broker** — sole executor after allow
 3. **Council** — archetype parliament with typed authority envelopes
 4. **Identity / Mirrorborn** — self-model under consent and Sentinel
@@ -808,7 +808,8 @@ Each reading should produce: notes in Part XII revision log + edits to contradic
 | 2026-07-20 | **Full book absorption:** Part XXV — Architectura Mentis Nervosae read (Standard I–XI, charter spine, Complete Codex, AURA OS analysis, RLCF, survival council, founder pitch doctrine); contradiction register expanded; Chronos-first vs Aura-reserve staging hardened | Entire `C:\Architectura Mentis Nervosae` corpus as inventoried |
 | 2026-07-20 | **RFTP cross-exam:** Part XXVI — selective integrate (fail-closed intent, receipts, CAS); nest under Core; no stub-Sentinel second law | `C:\rftp` README/STATUS/reflect/proof package |
 | 2026-07-20 | **Chronos Unified Sentinel verified:** Part XXVII — `b302cc9` who+how + enforce default confirmed; C9 Chronos crate vs sentinel-core named; steal patterns, not fork law | `C:\chronos` commit + unified.rs + ADOPTION_STATUS |
-| 2026-07-20 | **Build opened:** L0 Aura runtime — `aura_runtime` + `aura_cli`; path-bind `sentinel_core`; deny-all default; enforce default; broker seal-or-refuse; 6 fail-closed tests green | Founder directive “you are clear to build” |
+| 2026-07-20 | **Build opened:** L0 Aura runtime — `aura_runtime` + `aura_cli`; deny-all default; enforce default; broker seal-or-refuse; 6 fail-closed tests green | Founder directive “you are clear to build” |
+| 2026-07-23 | **Self-contained runtime correction:** removed sibling `sentinel_core` path dependency; internalized minimal deterministic L0 guard so AURA builds as its own Windows executable | Founder correction: AURA must not require sibling project linkage |
 | 2026-07-22 | **Launcher-first law:** Q4 closed. Bevy is the AURA front end; the product is a compiled Windows launcher from day one; local Rust/Python services sit behind it; CLI is developer-only; user-facing work must land at the launcher and carry version/upgrade truth. Founder owns visual screenshot acceptance. | Founder directive “MAKE THAT REPO LAW NOW” |
 | 2026-07-22 | **First launcher slice:** `crates/aura_launcher` Bevy app exposes version/build identity, Sentinel/boot status, decision ledger path, planned service readiness, and a button-driven boot-continue denial path through `aura_runtime`. This is live launcher spine, not chat/image/TTS/STT completion or certification. | First implementation pass |
 

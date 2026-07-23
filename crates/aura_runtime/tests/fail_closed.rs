@@ -3,12 +3,11 @@
 use std::sync::atomic::{AtomicBool, AtomicU64, Ordering};
 use std::sync::Arc;
 
-use sentinel_core::{GuardPolicy, GuardRule};
 use uuid::Uuid;
 
 use aura_runtime::{
     ActionBroker, AuraAction, AuraSentinelClient, BootPhase, BootSupervisor, DecisionLog,
-    EffectRequest, SentinelMode,
+    EffectRequest, GuardPolicy, GuardRule, SentinelMode,
 };
 
 fn temp_log(name: &str) -> Arc<DecisionLog> {

@@ -1,19 +1,15 @@
 //! Sentinel client — the only decision gateway Aura may use.
 //!
-//! Binds to `sentinel_core::DeterministicSentinelGuard`. Default mode is
-//! **enforce**. Shadow is an explicit opt-down and never authorizes effects
-//! for broker execution in this crate (shadow may observe, but broker still
-//! refuses unless `authorizes_effect()` — and we force deny-all unless enforce
-//! path with an authorizing decision).
+//! Uses AURA's self-contained deterministic L0 guard. Default mode is **enforce**.
+//! Shadow is an explicit opt-down and never authorizes effects for broker execution
+//! in this crate.
 
 use std::sync::Arc;
 
-use sentinel_core::{
-    DeterministicSentinelGuard, GuardPolicy, SentinelGuard, SentinelGuardDecision,
-    SentinelGuardRequest,
+use crate::{
+    AuraError, AuraResult, DecisionLog, DeterministicSentinelGuard, GuardPolicy, SentinelGuard,
+    SentinelGuardDecision, SentinelGuardRequest,
 };
-
-use crate::{AuraError, AuraResult, DecisionLog};
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum SentinelMode {

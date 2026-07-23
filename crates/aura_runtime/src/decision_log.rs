@@ -4,7 +4,6 @@
 //! append fails.
 
 use chrono::{DateTime, Utc};
-use sentinel_core::SentinelGuardDecision;
 use serde::{Deserialize, Serialize};
 use std::fs::{File, OpenOptions};
 use std::io::Write;
@@ -12,7 +11,7 @@ use std::path::{Path, PathBuf};
 use std::sync::Mutex;
 use uuid::Uuid;
 
-use crate::{AuraError, AuraResult};
+use crate::{AuraError, AuraResult, SentinelGuardDecision};
 
 #[derive(Debug, Clone, Serialize, Deserialize, PartialEq, Eq)]
 pub struct DecisionRecord {

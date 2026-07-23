@@ -13,7 +13,7 @@
 **Home:** `C:\aura`
 **Canonical contributor law:** `AGENTS.md` (Chronos-parity SOP + Aura Carved Law)
 **Binding plan:** `docs/plans/AURA_MASTER_PLAN.md`
-**Sentinel bind:** `C:\sentinel-core` (path dep `sentinel_core`)
+**Sentinel runtime:** self-contained L0 guard in `crates\aura_runtime`; no sibling path deps
 **Product surface:** Bevy Windows launcher first. CLI is developer-only.
 
 ## Absolute law
@@ -26,8 +26,8 @@ effects still do not execute under deny-all in this runtime. No production bypas
 stubs in the protection path. Emergency stop is never blocked by Sentinel and is not an
 alternate approval path.
 
-Do **not** fork Chronos `chronos_sentinel` into Aura as a second authority. Absorb patterns;
-bind to Core.
+Do **not** add sibling project path dependencies for authority code. Absorb proven patterns and
+keep the AURA executable self-contained.
 
 ## Launcher-first product law
 
@@ -99,5 +99,6 @@ CLI smoke is not the user path. Product completion requires the compiled Bevy la
 ## Chronos relationship
 
 Chronos (`C:\chronos`) proved unified who+how, enforce-default, seal-or-refuse on its Director
-routes. That is design reference for Aura. Aura’s job remains: **bind to Core, absorb the
-pattern, refuse a third competing Sentinel.** See master plan Part on Chronos lessons.
+routes. That is design reference for Aura. Aura’s job is to keep the same enforcement posture in
+its own packaged runtime while preserving compatibility with future certification work. See the
+master plan Part on Chronos lessons.

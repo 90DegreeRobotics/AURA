@@ -31,7 +31,7 @@ Sentinel adoption status for this repository:
 
 - Overall status: **Implementing, not certified**
 - Founder build authorization: **2026-07-20** (“you are clear to build”)
-- Sentinel SDK / bind: **path dependency on `C:\sentinel-core\crates\sentinel_core`**
+- Sentinel runtime: **self-contained L0 guard in `crates\aura_runtime`; no sibling path dependency**
 - Runtime enforce mode: **default enforce**
 - Default policy: **deny-all**
 - Deny-all paralysis (broker + boot): **proven in `crates/aura_runtime/tests/fail_closed.rs`**
@@ -45,6 +45,7 @@ Sentinel adoption status for this repository:
 
 ## Notes
 
-- Aura binds to the **new Sentinel** at `C:\sentinel-core`. No second law.
+- Aura's current guard is packaged inside the AURA runtime. External Sentinel trees remain
+  reference/certification sources, not required build inputs.
 - Carved Law: There is no gate before the Sentinel.
 - Chronos `UnifiedSentinel` patterns are design reference only — not forked into Aura.

@@ -2,8 +2,8 @@
 
 Inventory of protected actions for Aura. Unlisted protected surfaces are stop-ship findings.
 **Status:** Implementing L0 runtime + first launcher slice. Full v1 census remains blocked on
-Q1 organ freeze. Canonical Core IDs live in
-`C:\sentinel-core\docs\security\SENTINEL_PROTECTED_ACTIONS.md`. Full census reasoning:
+Q1 organ freeze. AURA keeps a local protected-action vocabulary compatible with the broader
+Sentinel registry. Full census reasoning:
 `docs/plans/AURA_MASTER_PLAN.md` Part XVIII.
 
 ## Inventory Rules

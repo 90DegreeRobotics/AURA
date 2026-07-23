@@ -6,7 +6,9 @@
 **Contributor law:** `AGENTS.md` (Chronos-parity SOP) · orientation: `CLAUDE.md`
 **Product law:** Bevy Windows launcher first. CLI is developer-only.
 
-Aura binds to **`C:\sentinel-core`**. Default policy is deny-all. Default mode is enforce. No work mode without authorized boot-continue. Sentinel works the same: enforce first, fail closed, no second authority.
+Aura is self-contained: the current L0 Sentinel guard lives inside `crates\aura_runtime`.
+Default policy is deny-all. Default mode is enforce. No work mode without authorized
+boot-continue. Sentinel works the same: enforce first, fail closed, no second authority.
 
 ## Product Surface
 

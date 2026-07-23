@@ -24,9 +24,10 @@ never subordinated to convenience, UI, or “MVP first.”
 > **There is no gate before the Sentinel.**
 
 Sentinel must work the same here as the Chronos posture that matters for Aura: **enforce by
-default**, fail closed, evidence before effect, no silent allow. Aura binds to the **new
-Sentinel** at `C:\sentinel-core` (path dep `sentinel_core`). Chronos `UnifiedSentinel` is
-design reference only — do not fork a second authority into Aura.
+default**, fail closed, evidence before effect, no silent allow. Aura must build as a
+self-contained Windows app: the current L0 guard lives inside `crates\aura_runtime`, with
+Core-compatible action vocabulary and deny/allow semantics. External Sentinel projects are
+reference/certification sources, not compile-time dependencies.
 
 - Do not add UI, model, tool, network, file, plugin, installer, or broker paths that can
   approve or execute protected work **before** Sentinel authorizes it.
@@ -451,8 +452,10 @@ sweeping. This is absolute:
 
 ## 13. Sentinel / Carved Law enforcement notes (Aura)
 
-- Bind to `C:\sentinel-core` only. No second Sentinel crate authority in this product.
-- L0 runtime: boot supervisor + action broker + decision log under `crates/aura_runtime/`.
+- AURA must be self-contained for Windows install/build. Do not add path dependencies on sibling
+  NeuroCognica projects.
+- L0 runtime: local Sentinel guard + boot supervisor + action broker + decision log under
+  `crates/aura_runtime/`.
 - Deny-all paralysis and fail-closed proofs live in `crates/aura_runtime/tests/fail_closed.rs`.
 - Chronos patterns (unified who+how, enforce default, seal-or-refuse) are absorbed as design
   reference — they do not dissolve Core and do not authorize a pre-Sentinel product path.
